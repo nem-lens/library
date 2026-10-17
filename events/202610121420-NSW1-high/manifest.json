@@ -1,0 +1,3822 @@
+{
+  "format": 1,
+  "generator": "nem-monitor 0.1.0",
+  "event_id": "202610121420-NSW1-high",
+  "region": "NSW1",
+  "window_start": "2026-10-12T12:20:00+10:00",
+  "window_end": "2026-10-12T16:35:00+10:00",
+  "intervals_expected": 52,
+  "intervals_found": 52,
+  "created_at": "2026-10-17T04:24:14Z",
+  "updated_at": "2026-10-17T04:36:41Z",
+  "sources": [
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121220_0000000542477939.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121220_0000000542477939.zip",
+      "sha256": "a2ada5420487499aa1baddaee1220e4795a86e71cc64c2a9a3499630c063c3b4",
+      "bytes": 23301,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121225_0000000542478690.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121225_0000000542478690.zip",
+      "sha256": "c082a4dfc9d114e60e0d3d2c4b604756bd6207341ce4f62424f65d712a468891",
+      "bytes": 23228,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121230_0000000542479205.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121230_0000000542479205.zip",
+      "sha256": "7578b6a8acd06c5c0975ffd8db6ede82b3649ae4b4092f63df00c46d3c483796",
+      "bytes": 23256,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121235_0000000542479780.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121235_0000000542479780.zip",
+      "sha256": "bd74e99415efd2b933c94eb2f7942852c245d9c6f1d062dc5e2ea7ed6208ab6c",
+      "bytes": 23127,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121240_0000000542480367.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121240_0000000542480367.zip",
+      "sha256": "c5e8f1f379d42e2057a1892c5ff3a9423099d3a235e47f52b28d8ce363c79441",
+      "bytes": 23214,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121245_0000000542480999.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121245_0000000542480999.zip",
+      "sha256": "44fd45f8fc071bc3eb5a0ac986d0c8654940721af74199210d14125d28dbce4a",
+      "bytes": 23110,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121250_0000000542481544.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121250_0000000542481544.zip",
+      "sha256": "8924e50f2097987ef243925a4e45b89bc2f3484c01ede2bc66f2672bfba81578",
+      "bytes": 23137,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121255_0000000542482356.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121255_0000000542482356.zip",
+      "sha256": "6497cd85bf12444e6fcf7eb16ace0707e0e84ebfd5d36d2c61f4122688e07ab6",
+      "bytes": 23331,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121300_0000000542482850.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121300_0000000542482850.zip",
+      "sha256": "a6ca5984d50199c5818e0f179240cb746a9cfba8d9bb97d866b04edfc85104f0",
+      "bytes": 23103,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121305_0000000542483551.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121305_0000000542483551.zip",
+      "sha256": "245bb3d4c18de0191a4732c60507d6111a644beb7d1297d763afb23afa86b308",
+      "bytes": 22667,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121310_0000000542484206.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121310_0000000542484206.zip",
+      "sha256": "2c198bf7f81ddc3c90294ea3fb45c992231f4ac95b557ff7230701737a923593",
+      "bytes": 23063,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121315_0000000542484780.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121315_0000000542484780.zip",
+      "sha256": "ef6baefdfdef3e6262927cfc8c99f9f311735038fb61c2b6eca6a843dedd7fd1",
+      "bytes": 23122,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121320_0000000542485409.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121320_0000000542485409.zip",
+      "sha256": "133497f5f9a847c93f23f369bf52464a7304a8d71c746884c04f1e26b87e0b95",
+      "bytes": 23186,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121325_0000000542486176.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121325_0000000542486176.zip",
+      "sha256": "f9d91ec8199232f631d9442a746ad69dbd8d070535d28c4894e65325ec9d47dc",
+      "bytes": 23096,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121330_0000000542486688.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121330_0000000542486688.zip",
+      "sha256": "1f2ce53824d9589ac562a8416bbf38e40465aa711f587a55882ca3d7ecf67f85",
+      "bytes": 23281,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121335_0000000542487339.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121335_0000000542487339.zip",
+      "sha256": "88fe5414926c1171bb495175251c7f0b0433e306eda4d5dfaa34603e49664db5",
+      "bytes": 23022,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121340_0000000542487901.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121340_0000000542487901.zip",
+      "sha256": "1d2a375001d02710d3a45c1156c03f80d096d4c8f4b6c6c46c361c19e2e75117",
+      "bytes": 23220,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121345_0000000542488469.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121345_0000000542488469.zip",
+      "sha256": "1e89e21ab6540cef318aed549d24cd8ba3adb0b58516de8f783215360a1a49e9",
+      "bytes": 23113,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121350_0000000542489010.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121350_0000000542489010.zip",
+      "sha256": "a9c921c9fb623d61c0d4087f009d4833044c79f0d113a053bbdf9aabb3f4dd61",
+      "bytes": 23183,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121355_0000000542489808.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121355_0000000542489808.zip",
+      "sha256": "6c1db8887034482df74efed67720d084f46cde930eb54bb3c6a4ad34e333a9ff",
+      "bytes": 23130,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121400_0000000542490301.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121400_0000000542490301.zip",
+      "sha256": "a770d95ee2523141e646d4485530571499530833de7b1f3352b007e3ba4738f3",
+      "bytes": 23086,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121405_0000000542490918.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121405_0000000542490918.zip",
+      "sha256": "2103b1b368d7c7641c3514400bbe32d71e43c8a871e7441f0dd802ee32bef539",
+      "bytes": 23101,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121410_0000000542491721.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121410_0000000542491721.zip",
+      "sha256": "8580d297d0f34d608deab16617e897b74d4cf93952176702616b6ef74265f6ea",
+      "bytes": 23162,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121415_0000000542492360.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121415_0000000542492360.zip",
+      "sha256": "97622bfe547eedce6edb0ed124491f29413acf649e7d62641010eff0f5811c02",
+      "bytes": 23167,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121420_0000000542492912.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121420_0000000542492912.zip",
+      "sha256": "81b4e07d252e4cf89cdbec16f4fcf87d614e16b657dbfeb1f3fbffbf5fdea263",
+      "bytes": 23144,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121425_0000000542493645.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121425_0000000542493645.zip",
+      "sha256": "1903ddc6b445bde327daac2027e2234c7072cdb21070ad38426d1583738e054c",
+      "bytes": 23081,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121430_0000000542494181.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121430_0000000542494181.zip",
+      "sha256": "2642e45a63f094250522320cabb2a1c616bf07d8a117aa363c1b863b9c60c703",
+      "bytes": 22869,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121435_0000000542494790.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121435_0000000542494790.zip",
+      "sha256": "faf065868d0ea6862153fc32fd4990ced19ebe65feed8de7a719b37a124d6712",
+      "bytes": 23015,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121440_0000000542495399.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121440_0000000542495399.zip",
+      "sha256": "922e2fba5788ee7e9c0001a85e06935df4a54ac7eeec30cdd5d08bd775e40c3a",
+      "bytes": 22902,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121445_0000000542496014.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121445_0000000542496014.zip",
+      "sha256": "264f9c53ca46de5619860742cd4c537c49379007ddb2cee4005a10f9660404f5",
+      "bytes": 22927,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121450_0000000542496560.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121450_0000000542496560.zip",
+      "sha256": "3e98eea207e50b8a76ae6f3349c7618cef018a2174fe5f10cbabbd1ccaad79de",
+      "bytes": 22992,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121455_0000000542497340.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121455_0000000542497340.zip",
+      "sha256": "505d1506c7c5137421c942d4e3df692960ea371005f4ab1625c9e73babda0dfa",
+      "bytes": 23026,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121500_0000000542497807.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121500_0000000542497807.zip",
+      "sha256": "e703521566f68071366e2ba903d5c16408f0913c2288f898cd90c606a2881f1d",
+      "bytes": 23116,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121505_0000000542498543.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121505_0000000542498543.zip",
+      "sha256": "913368a2c68091a723900721482cac7a8e4fce27ee0622ffef7bda877b77eb3b",
+      "bytes": 23161,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121510_0000000542499158.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121510_0000000542499158.zip",
+      "sha256": "a9d7194edc6afb48874a8dd6b9b380b8b537f6186c1954ce66d26b18f1e81e95",
+      "bytes": 23217,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121515_0000000542499852.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121515_0000000542499852.zip",
+      "sha256": "9e18f6f7d7dcbdcc315dd970308b40ae0153f5dff363a6267e426393f4793772",
+      "bytes": 23134,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121520_0000000542500460.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121520_0000000542500460.zip",
+      "sha256": "9f455a31514b5af585ad8830aa80e707b6656d9409d9a39715751688a9ea9654",
+      "bytes": 23101,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121525_0000000542501211.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121525_0000000542501211.zip",
+      "sha256": "7a22f1edad7a162762651c3f6bcd5b1bfb26d4b616df33f2fe71c85075c33d27",
+      "bytes": 23352,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121530_0000000542501690.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121530_0000000542501690.zip",
+      "sha256": "0659549649c0776c1f5b569518cc0b24bd533b6fcc224b53742e93a71e6a5d7a",
+      "bytes": 23329,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121535_0000000542502376.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121535_0000000542502376.zip",
+      "sha256": "8ba30bf3eb839c6332184a1552d00c58e43e018d4c81e27a2f52fa01227cfead",
+      "bytes": 23321,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121540_0000000542502937.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121540_0000000542502937.zip",
+      "sha256": "f8d16140e435ed92067461d0716bec7279d07f36590bad18f949f3d6bb53a878",
+      "bytes": 23393,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121545_0000000542503557.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121545_0000000542503557.zip",
+      "sha256": "041e44a7aa7115db9141ebe01f702cf94823b6db812c46f3f7854914a4808165",
+      "bytes": 23378,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121550_0000000542504095.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121550_0000000542504095.zip",
+      "sha256": "cd4b1e507171fe967f32ca239f10199a0d44ccd60934ae915cb1a9f9c4c52d2d",
+      "bytes": 23330,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121555_0000000542504874.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121555_0000000542504874.zip",
+      "sha256": "84746f8996cc7feb35f2fc9633fd1d6d76cc0be7174ef744892bf91ab8f68f5d",
+      "bytes": 23241,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121600_0000000542505431.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121600_0000000542505431.zip",
+      "sha256": "1dd642117bd49ca83df69f3e1b81ba3809cf08f811e492d321f7cfd6062662a8",
+      "bytes": 23323,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121605_0000000542506217.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121605_0000000542506217.zip",
+      "sha256": "2096635ec3849f4b0e00ccfa301964f6461f24f0469444cba04d1b622b221341",
+      "bytes": 23285,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121610_0000000542506841.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121610_0000000542506841.zip",
+      "sha256": "94cfc24ee4c57906af96a3264041d2f84a6e83a988923fc6f25b996fc69dea92",
+      "bytes": 22085,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121615_0000000542507457.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121615_0000000542507457.zip",
+      "sha256": "fea4f86340e8cd60616f3c212c370ab02cfa494aa9b2e22508e41dadf507a305",
+      "bytes": 22086,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121620_0000000542508008.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121620_0000000542508008.zip",
+      "sha256": "10b7c459f44f411b690151db6898211b91ebeac73b10dd311b03848d2fd02242",
+      "bytes": 22061,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121625_0000000542508768.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121625_0000000542508768.zip",
+      "sha256": "8f586555e7634b0b6d221d33e35410abecbee9a079052f7baeb873a37ae28878",
+      "bytes": 22088,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121630_0000000542509307.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121630_0000000542509307.zip",
+      "sha256": "5608bb40e4bcf82847dc9e29b17452b8b1a8000d7184f86dc4bdcac7e8894d30",
+      "bytes": 22274,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_DISPATCHIS_202610121635_0000000542509919.zip",
+      "url": "https://nemweb.com.au/Reports/Current/DispatchIS_Reports/PUBLIC_DISPATCHIS_202610121635_0000000542509919.zip",
+      "sha256": "d1dae05856f58df4eada28812edf79580b4d75f86f2ac75acde22d02179f5659",
+      "bytes": 22065,
+      "role": "dispatchis"
+    },
+    {
+      "file": "PUBLIC_NEXT_DAY_DISPATCH_20261012_0000000542594175.zip",
+      "url": "https://nemweb.com.au/Reports/Current/Next_Day_Dispatch/PUBLIC_NEXT_DAY_DISPATCH_20261012_0000000542594175.zip",
+      "sha256": "67101e13a01cc099c1c2745ac8053edca9f1afc7d66226a1670d438cd15cdd9a",
+      "bytes": 8646700,
+      "role": "Next_Day_Dispatch"
+    },
+    {
+      "file": "PUBLIC_NEXT_DAY_OFFER_ENERGY_SPARSE_20261012_0000000542598404.zip",
+      "url": "https://nemweb.com.au/Reports/Current/Next_Day_Offer_Energy_SPARSE/PUBLIC_NEXT_DAY_OFFER_ENERGY_SPARSE_20261012_0000000542598404.zip",
+      "sha256": "f3396263e56032d370261e2f60c92c4429a17cc3404457ef3c957345223dfdaa",
+      "bytes": 9059410,
+      "role": "Next_Day_Offer_Energy_SPARSE"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202411010000.CSV",
+      "url": "",
+      "sha256": "93c9a9b509dfaa00b152b2cb9b89ad1f3e0f7a234e7f0dd407fd4cc655fc811d",
+      "bytes": 2042607,
+      "role": "mmsdm:2024_11"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202411010000.CSV",
+      "url": "",
+      "sha256": "341191484c7f1cd76adbb5a6b19e5b0a9858f862b7e061db4b5592e489e04c1b",
+      "bytes": 13635457,
+      "role": "mmsdm:2024_11"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202411010000.CSV",
+      "url": "",
+      "sha256": "5523b0e27623a3b7c86c9c14f9b643c15da72ccda56ab1cf932ca94af7c5d7d9",
+      "bytes": 584990,
+      "role": "mmsdm:2024_11"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202411010000.CSV",
+      "url": "",
+      "sha256": "16f2a3fcdd62292a3686d73d15a53659c4b3c1ce98a45394703f2a2bca60b7c9",
+      "bytes": 5871,
+      "role": "mmsdm:2024_11"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202412010000.CSV",
+      "url": "",
+      "sha256": "2de457b818d037da738fd2f02566d42c443cf54bd489e0ac054ee21437076bf2",
+      "bytes": 1807926,
+      "role": "mmsdm:2024_12"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202412010000.CSV",
+      "url": "",
+      "sha256": "3df20551515f53665d4654ce1776a0adece923a07c1b5399200ac17bdea11c37",
+      "bytes": 8636609,
+      "role": "mmsdm:2024_12"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202412010000.CSV",
+      "url": "",
+      "sha256": "ccd29b6338bdc520c6e0a32fa0ab4ddd635c1381306e17622bcd86499dfc66d4",
+      "bytes": 339943,
+      "role": "mmsdm:2024_12"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202412010000.CSV",
+      "url": "",
+      "sha256": "2f013a2d5256afdde189e4815e2b5bf271dd64c91d904d0ea21ad6f87d62738f",
+      "bytes": 17212,
+      "role": "mmsdm:2024_12"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202503010000.CSV",
+      "url": "",
+      "sha256": "478ff1ad96baa7e61870cabc295bba801324b91f0cac117abe7f225d70b03635",
+      "bytes": 1763204,
+      "role": "mmsdm:2025_03"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202503010000.CSV",
+      "url": "",
+      "sha256": "7744fa08d7dec7aff60af9a715172858af9e4598637a026b0e108135f1b5a147",
+      "bytes": 11912895,
+      "role": "mmsdm:2025_03"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202503010000.CSV",
+      "url": "",
+      "sha256": "00927b3c4d0affaa05eec302fef0ca06326218670c95f25411b7a90a3e31deb6",
+      "bytes": 419071,
+      "role": "mmsdm:2025_03"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202503010000.CSV",
+      "url": "",
+      "sha256": "a835b635a9bbbab7f1977e3bb70911c8c65af112e00ea4b992a4916b1fb93530",
+      "bytes": 4353,
+      "role": "mmsdm:2025_03"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202511010000.CSV",
+      "url": "",
+      "sha256": "0486d1245f721d963a2c9572b111f9f50f5b5caa361a312b96509ca81dcc62ff",
+      "bytes": 1443185,
+      "role": "mmsdm:2025_11"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202511010000.CSV",
+      "url": "",
+      "sha256": "a15f60f21c735bfe48e9167a320f7a2731f897266ef6f73a5b0feabfe0737a3f",
+      "bytes": 9547657,
+      "role": "mmsdm:2025_11"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202511010000.CSV",
+      "url": "",
+      "sha256": "adeb3305b549d0e97bab68e6d00478f3b9a8fd013a9c6b40341bc1c5e012492b",
+      "bytes": 540462,
+      "role": "mmsdm:2025_11"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202511010000.CSV",
+      "url": "",
+      "sha256": "8f69b473e1f3b868f7834404f5e96c1b16d8f745f903048c15bc33be7820d2e0",
+      "bytes": 30982,
+      "role": "mmsdm:2025_11"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202512010000.CSV",
+      "url": "",
+      "sha256": "48cc043706e8d95506a3b1023d7a8557853d43658672bf36a11234f03c68efaa",
+      "bytes": 2037989,
+      "role": "mmsdm:2025_12"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202512010000.CSV",
+      "url": "",
+      "sha256": "ae63d69f2eba1644f4d81d7b5bd8a395a11bf281c70f26eb1817b2477625e836",
+      "bytes": 13402493,
+      "role": "mmsdm:2025_12"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202512010000.CSV",
+      "url": "",
+      "sha256": "5fbac496c8b91fd99e27ce1db4a7ce948cc38e28d0c5f52455c2d2e7ba7bf455",
+      "bytes": 632661,
+      "role": "mmsdm:2025_12"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202512010000.CSV",
+      "url": "",
+      "sha256": "99041bb5a63d377f4e338d1a10dbbb04a0d76a92b8acc204d89b1c6137a429b1",
+      "bytes": 19069,
+      "role": "mmsdm:2025_12"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202602010000.CSV",
+      "url": "",
+      "sha256": "172c46fd4cb2af3060076c4d839ea85546e5554ab9938d4872dadcdbf65da202",
+      "bytes": 1607185,
+      "role": "mmsdm:2026_02"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202602010000.CSV",
+      "url": "",
+      "sha256": "693fcec984c8b2abe237754f8e42aecaf53aa05f956e62be954afcb0ef0eee30",
+      "bytes": 11161692,
+      "role": "mmsdm:2026_02"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202602010000.CSV",
+      "url": "",
+      "sha256": "96852f4fe2346f97260d3cbdfc6415ca9d2ab647c732eaee8de96202f5d13aab",
+      "bytes": 383457,
+      "role": "mmsdm:2026_02"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202602010000.CSV",
+      "url": "",
+      "sha256": "cf4ce91a04f4135889057c8a0f49a8a35390ecf717c278b9a8ba11da897809a2",
+      "bytes": 38043,
+      "role": "mmsdm:2026_02"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202606010000.CSV",
+      "url": "",
+      "sha256": "16038021a7d16d66a8d522ff800badae8480fc1114a6797e6a49ad7cf53d969f",
+      "bytes": 2031260,
+      "role": "mmsdm:2026_06"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202606010000.CSV",
+      "url": "",
+      "sha256": "2a3c9adc4a55db2e2e6d1f07c2e9f9248c873fdd23154c48413a7e15480d4654",
+      "bytes": 17382958,
+      "role": "mmsdm:2026_06"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202606010000.CSV",
+      "url": "",
+      "sha256": "8f28592b194e92bf17ecb35ebbe3322a25e2c77f12d09e6c1965fbbb1055ab94",
+      "bytes": 556768,
+      "role": "mmsdm:2026_06"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202606010000.CSV",
+      "url": "",
+      "sha256": "756d72d888db4dfa5128df7ee26c796ed6e796a1ac81c9ae4cbf60680c364da7",
+      "bytes": 2748,
+      "role": "mmsdm:2026_06"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202607010000.CSV",
+      "url": "",
+      "sha256": "0e925f4daefa8873572d0d9f3473f27db2d81a2b84b67971129a7d284f33fdf7",
+      "bytes": 1954340,
+      "role": "mmsdm:2026_07"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202607010000.CSV",
+      "url": "",
+      "sha256": "b670eddc63affa5cf59a0af6740b215fb9d1b594b1cd56cebb1a2850afd36503",
+      "bytes": 12135701,
+      "role": "mmsdm:2026_07"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202607010000.CSV",
+      "url": "",
+      "sha256": "7237e751387473bb3915e0f8eab0639c1d85fd53b9a03657f6fb2ad061703367",
+      "bytes": 564203,
+      "role": "mmsdm:2026_07"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202607010000.CSV",
+      "url": "",
+      "sha256": "2060261fb4e77fb9f422b905ab94dd5fa20a36a151564f0226e8ef68cefaefc7",
+      "bytes": 5383,
+      "role": "mmsdm:2026_07"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202609010000.CSV",
+      "url": "",
+      "sha256": "43220fe6351c31c1bd78ec789981ec1965319631f719b5194386d478c638722c",
+      "bytes": 2329670,
+      "role": "mmsdm:2026_09"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202609010000.CSV",
+      "url": "",
+      "sha256": "c702a8ed387c32bab8a589a416f6b0fba9d5f957229d5f48b380435c4d1f7597",
+      "bytes": 12765414,
+      "role": "mmsdm:2026_09"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202609010000.CSV",
+      "url": "",
+      "sha256": "6e56807ecd567b4a851369ce325d3a0ba33778c3ab9dcb8352f23a6053f4c45b",
+      "bytes": 627316,
+      "role": "mmsdm:2026_09"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202609010000.CSV",
+      "url": "",
+      "sha256": "a4a8fd81bde5ead3f08435e8fc9c840c2120584be04438d489b92552934bf0fb",
+      "bytes": 11405,
+      "role": "mmsdm:2026_09"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#DUDETAILSUMMARY#FILE01#202609010000.CSV",
+      "url": "",
+      "sha256": "bc1209be7330b0cba8c3bdaa92baf2f1adcfa23de59dc42226591c51e6ef3e19",
+      "bytes": 5086774,
+      "role": "mmsdm:2026_09"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "dispatch_price.parquet",
+      "table": "DISPATCH_PRICE",
+      "rows": 260,
+      "sha256": "60c9c2b30a0066e80aaf1a9f6d2d98b1c317c740b279125a76e4b4c5bbb68cb3"
+    },
+    {
+      "file": "dispatch_regionsum.parquet",
+      "table": "DISPATCH_REGIONSUM",
+      "rows": 260,
+      "sha256": "8038eb790d741dade9ea45aebe7e31da743d83322bdf4885ceaee14309d04a97"
+    },
+    {
+      "file": "dispatch_constraint.parquet",
+      "table": "DISPATCH_CONSTRAINT",
+      "rows": 60266,
+      "sha256": "2c6adab1f796ff0aa83772569ae5234dc69e0ff6b636526276b84cdaa59464b8"
+    },
+    {
+      "file": "dispatch_interconnectorres.parquet",
+      "table": "DISPATCH_INTERCONNECTORRES",
+      "rows": 364,
+      "sha256": "21718bd795a35022d01d6bf89394918233e0807ddb84c9e3266fc9ed4d65616d"
+    },
+    {
+      "file": "unit_dispatch.parquet",
+      "table": "DISPATCH_UNIT_SOLUTION",
+      "rows": 29796,
+      "sha256": "3e926102516c5a29647c7974a05a9f9ebba2244fc1c4ce5b0d1a09251a46d0d2"
+    },
+    {
+      "file": "offer_trk.parquet",
+      "table": "DISPATCH_OFFERTRK",
+      "rows": 109772,
+      "sha256": "d8474536ddc06ae24f2f8cd27f95bd01952dcd85b293fd5e05eb2e0f134530c4"
+    },
+    {
+      "file": "bids_dayoffer.parquet",
+      "table": "BIDS_BIDDAYOFFER",
+      "rows": 44171,
+      "sha256": "c11b647938263ed0055032212b8d4f93106eae750d3e018104f53c897b746ecb"
+    },
+    {
+      "file": "bids_offerperiod.parquet",
+      "table": "BIDS_BIDOFFERPERIOD_SPARSE",
+      "rows": 327129,
+      "sha256": "da8f8a92dcf0ea605c58116f77a00014dff56a89ad0295b01744e1836c93210d"
+    },
+    {
+      "file": "static_gencondata.parquet",
+      "table": "GENCONDATA_NULL",
+      "rows": 580,
+      "sha256": "cef8a562944b93a7f726420ef50379931cf55228c6d5ab42e35cdf3aab4940ef"
+    },
+    {
+      "file": "static_spdconnectionpointconstraint.parquet",
+      "table": "SPDCPC_NULL",
+      "rows": 17165,
+      "sha256": "f2fc3ab483a9abff8fbd32f601ebe388392077a551c19b5d3e1dfec9aca11ea4"
+    },
+    {
+      "file": "static_spdinterconnectorconstraint.parquet",
+      "table": "SPDICC_NULL",
+      "rows": 924,
+      "sha256": "e5b255e70ebf29d1699b778c04ead3ac0e571443dffa9204dc176a7a9d7fdf9e"
+    },
+    {
+      "file": "static_spdregionconstraint.parquet",
+      "table": "SPDRC_NULL",
+      "rows": 69,
+      "sha256": "c49ee9c05860b9c21884d6efeb5b990b90ecb1016fb63c6c19137ba4c4aa5ae5"
+    },
+    {
+      "file": "static_dudetailsummary.parquet",
+      "table": "PARTICIPANT_REGISTRATION_DUDETAILSUMMARY",
+      "rows": 573,
+      "sha256": "3ad03ef99ed94f752721b85cb95b61466ff8086b4e1b66116810fe1fc9f6c8c6"
+    }
+  ],
+  "next_day": {
+    "status": "added",
+    "trading_days": [
+      "2026-10-12"
+    ],
+    "note": ""
+  },
+  "notes": "",
+  "static_data": {
+    "months": [
+      "2012_07",
+      "2013_07",
+      "2013_08",
+      "2013_11",
+      "2014_01",
+      "2014_05",
+      "2014_09",
+      "2014_10",
+      "2015_08",
+      "2015_12",
+      "2016_03",
+      "2017_07",
+      "2017_10",
+      "2018_04",
+      "2018_05",
+      "2018_08",
+      "2019_01",
+      "2019_05",
+      "2019_07",
+      "2019_11",
+      "2020_04",
+      "2020_07",
+      "2020_10",
+      "2020_12",
+      "2021_01",
+      "2021_02",
+      "2021_05",
+      "2021_11",
+      "2022_01",
+      "2022_02",
+      "2022_03",
+      "2022_06",
+      "2022_07",
+      "2022_08",
+      "2022_09",
+      "2022_10",
+      "2022_12",
+      "2023_03",
+      "2023_04",
+      "2023_05",
+      "2023_06",
+      "2023_07",
+      "2023_08",
+      "2023_09",
+      "2023_10",
+      "2023_11",
+      "2024_03",
+      "2024_06",
+      "2024_07",
+      "2024_08",
+      "2024_09",
+      "2024_10",
+      "2024_11",
+      "2024_12",
+      "2025_01",
+      "2025_02",
+      "2025_03",
+      "2025_04",
+      "2025_05",
+      "2025_06",
+      "2025_08",
+      "2025_10",
+      "2025_11",
+      "2025_12",
+      "2026_01",
+      "2026_02",
+      "2026_03",
+      "2026_04",
+      "2026_05",
+      "2026_06",
+      "2026_07",
+      "2026_08",
+      "2026_09",
+      "2026_10"
+    ],
+    "invoked_versions": 1180,
+    "equations_found": 580,
+    "missing_equations": [
+      {
+        "constraint_id": "#R037183_009_RAMP_F",
+        "effective_date": "2026-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "#R037183_009_RAMP_V",
+        "effective_date": "2026-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "C_N_QUORNP_019_L_H",
+        "effective_date": "2026-01-29T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "C_N_QUORNP_080_G_H",
+        "effective_date": "2026-01-29T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_LS",
+        "effective_date": "2018-04-13T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_NCAN",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_NCWEST",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_NNTH",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_NSYD",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_QCEN",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_QCIND",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_QFNQ",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_QNTH",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_QROSS",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_QSTHE",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_QSTHW",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_Q_BCCP",
+        "effective_date": "2015-12-16T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_Q_BCRG",
+        "effective_date": "2015-12-16T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_Q_CLST",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_Q_CLWU",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_Q_LCCP",
+        "effective_date": "2015-12-16T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_Q_RGLC",
+        "effective_date": "2017-10-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_Q_TAMR",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_Q_TAMR2",
+        "effective_date": "2017-10-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_SADL",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_SNTH",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_SRIV",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_SSE",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_SWNSW",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_TNTH",
+        "effective_date": "2024-07-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_TNWEST",
+        "effective_date": "2024-07-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_TWCST",
+        "effective_date": "2024-07-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_T_FASH1",
+        "effective_date": "2016-03-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_T_GOCS1",
+        "effective_date": "2016-03-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_T_HAGT1",
+        "effective_date": "2016-03-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_T_PMHA1",
+        "effective_date": "2016-03-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_T_PMHA3",
+        "effective_date": "2016-03-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_T_SHGT",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_T_SHPM",
+        "effective_date": "2016-03-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_T_TATU",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_T_WALE",
+        "effective_date": "2016-03-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_VIC_RW",
+        "effective_date": "2026-10-06T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_VIC_SG",
+        "effective_date": "2024-07-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_VMEL",
+        "effective_date": "2024-07-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_V_BABE",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_PDID_1",
+        "effective_date": "2018-04-13T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_PV_NSW",
+        "effective_date": "2022-09-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_PV_QLDCEN",
+        "effective_date": "2022-09-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_PV_QLDNORTH",
+        "effective_date": "2022-09-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_PV_QLDSOUTH",
+        "effective_date": "2022-09-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_PV_SA",
+        "effective_date": "2022-09-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_PV_TASNORTH",
+        "effective_date": "2022-09-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_PV_TASSOUTH",
+        "effective_date": "2022-09-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_PV_VIC",
+        "effective_date": "2022-09-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_TE_967_1",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATA_MMS_ALERT1",
+        "effective_date": "2026-08-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_BU_PST_ANG",
+        "effective_date": "2026-10-02T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_BU_PST_PANG",
+        "effective_date": "2026-10-02T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_N_ARTW",
+        "effective_date": "2024-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_N_AVMN",
+        "effective_date": "2024-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_N_BYCR",
+        "effective_date": "2024-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_N_BYSW",
+        "effective_date": "2024-03-13T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_N_CNYS",
+        "effective_date": "2024-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_N_DTMN",
+        "effective_date": "2024-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_N_LDTW",
+        "effective_date": "2024-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_N_LTMS",
+        "effective_date": "2024-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_N_MNYS",
+        "effective_date": "2024-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_N_MSUT",
+        "effective_date": "2024-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_N_TWUL",
+        "effective_date": "2024-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_V_BABE_5M",
+        "effective_date": "2024-07-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_V_BAML",
+        "effective_date": "2014-05-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_V_BAML_5M",
+        "effective_date": "2024-07-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_V_DDMB",
+        "effective_date": "2014-05-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_V_DDMS",
+        "effective_date": "2019-01-29T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_V_DDSM",
+        "effective_date": "2014-05-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_V_EPTT",
+        "effective_date": "2024-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_V_MLGT1",
+        "effective_date": "2024-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_V_MLGT2",
+        "effective_date": "2024-10-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_V_ROYP",
+        "effective_date": "2014-05-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_INFO_BUPS_TEAM",
+        "effective_date": "2026-10-02T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_INFO_NSW_INER",
+        "effective_date": "2024-07-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_INFO_QLD_INER",
+        "effective_date": "2024-07-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_INFO_SA_INER",
+        "effective_date": "2024-07-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_INFO_SA_SYNCON",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_INFO_TAS_INER",
+        "effective_date": "2024-07-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_INFO_TNTH_INER",
+        "effective_date": "2024-07-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_INFO_VIC_INER",
+        "effective_date": "2024-07-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_MLNK_RAT_LIM",
+        "effective_date": "2026-05-13T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_N>>NIL_85_86_S",
+        "effective_date": "2025-08-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_N>>NIL_86_85_S",
+        "effective_date": "2025-08-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_N_MSL_BESS_CHG",
+        "effective_date": "2026-08-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_Q>>MITUM",
+        "effective_date": "2025-05-29T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_Q>WOCY_1",
+        "effective_date": "2026-01-08T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "DSNAP_Q>WOGP",
+        "effective_date": "2025-05-29T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_Q_BKSP838",
+        "effective_date": "2022-07-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_Q_MSL_BESS_CHG",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_RACOMIL_GEN",
+        "effective_date": "2025-04-29T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_SVML",
+        "effective_date": "2023-04-26T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_S_MSL_BESS_CHG",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_TABMILL2_GEN",
+        "effective_date": "2025-04-29T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_V_MSL_BESS_CHG",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "D_I+BIP_ML2_L1",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "D_I+NIL_MG2_R1",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "D_T+NIL_BB_TG_R1",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "D_T+NIL_MG_R1",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "D_T+NIL_ML_L1",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "D_T+NIL_ML_RECL_L1",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "D_T+NIL_TL_L1_DS",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "D_T+NIL_WF_TG_R1",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+BIP_ML_L1",
+        "effective_date": "2024-09-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+BIP_ML_L5",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+BIP_ML_L6",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+BIP_ML_L60",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+GFT_TG_R1",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+GFT_TG_R5",
+        "effective_date": "2026-03-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+GFT_TG_R6",
+        "effective_date": "2026-03-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+GFT_TG_R60",
+        "effective_date": "2026-03-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+LREG_0210",
+        "effective_date": "2022-08-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+MREH_TG_R1",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+MREH_TG_R5",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+MREH_TG_R6",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+MREH_TG_R60",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_APD_TL_L1",
+        "effective_date": "2024-09-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_APD_TL_L5",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_APD_TL_L6",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_APD_TL_L60",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_LDBES_TL_L1",
+        "effective_date": "2026-03-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_LDBES_TL_L5",
+        "effective_date": "2026-03-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_LDBES_TL_L6",
+        "effective_date": "2026-03-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_LDBES_TL_L60",
+        "effective_date": "2026-03-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_MG_R1",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_MG_R5",
+        "effective_date": "2022-08-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_MG_R6",
+        "effective_date": "2022-08-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_MG_R60",
+        "effective_date": "2022-08-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_MREH_TL_L1",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_MREH_TL_L5",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_MREH_TL_L6",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+NIL_MREH_TL_L60",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+RREG_0220",
+        "effective_date": "2022-08-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+TTS_TG_R1",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+TTS_TG_R5",
+        "effective_date": "2022-08-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+TTS_TG_R6",
+        "effective_date": "2022-08-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_I+TTS_TG_R60",
+        "effective_date": "2022-08-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++APD_TL_L1",
+        "effective_date": "2024-09-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++APD_TL_L5",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++APD_TL_L6",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++APD_TL_L60",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++BIP_ML_L1",
+        "effective_date": "2024-09-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++BIP_ML_L5",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++BIP_ML_L6",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++BIP_ML_L60",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++GFT_TG_R1",
+        "effective_date": "2025-10-28T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "F_MAIN++GFT_TG_R5",
+        "effective_date": "2026-03-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++GFT_TG_R6",
+        "effective_date": "2026-03-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++GFT_TG_R60",
+        "effective_date": "2026-03-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++LDBES_TL_L1",
+        "effective_date": "2026-03-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++LDBES_TL_L5",
+        "effective_date": "2026-03-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++LDBES_TL_L6",
+        "effective_date": "2026-03-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++LDBES_TL_L60",
+        "effective_date": "2026-03-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++LREG_0210",
+        "effective_date": "2019-05-16T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++MREH_TG_R1",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++MREH_TG_R5",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++MREH_TG_R6",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++MREH_TG_R60",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++MREH_TL_L1",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++MREH_TL_L5",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++MREH_TL_L6",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++MREH_TL_L60",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_BL_L5",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_BL_L6",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_BL_L60",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_BL_R5",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_BL_R6",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_BL_R60",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_MG_R1",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_MG_R5",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_MG_R6",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_MG_R60",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++RREG_0220",
+        "effective_date": "2019-05-16T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++TTS_TG_R1",
+        "effective_date": "2025-10-28T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "F_MAIN++TTS_TG_R5",
+        "effective_date": "2020-12-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++TTS_TG_R6",
+        "effective_date": "2020-12-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++TTS_TG_R60",
+        "effective_date": "2020-12-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+APD_TL_L1",
+        "effective_date": "2024-09-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+APD_TL_L5",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+APD_TL_L6",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+APD_TL_L60",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+BIP_ML_L1",
+        "effective_date": "2024-09-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+BIP_ML_L5",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+BIP_ML_L6",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+BIP_ML_L60",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+GFT_TG_R1",
+        "effective_date": "2025-10-28T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+GFT_TG_R5",
+        "effective_date": "2026-03-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+GFT_TG_R6",
+        "effective_date": "2026-03-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+GFT_TG_R60",
+        "effective_date": "2026-03-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+LDBES_TL_L1",
+        "effective_date": "2026-03-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+LDBES_TL_L5",
+        "effective_date": "2026-03-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+LDBES_TL_L6",
+        "effective_date": "2026-03-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+LDBES_TL_L60",
+        "effective_date": "2026-03-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+LREG_0210",
+        "effective_date": "2019-05-16T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+MREH_TG_R1",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+MREH_TG_R5",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+MREH_TG_R6",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+MREH_TG_R60",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+MREH_TL_L1",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+MREH_TL_L5",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+MREH_TL_L6",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+MREH_TL_L60",
+        "effective_date": "2025-10-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+NIL_BL_L1",
+        "effective_date": "2024-09-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+NIL_BL_R1",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+NIL_MG_R1",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+NIL_MG_R5",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+NIL_MG_R6",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+NIL_MG_R60",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+RREG_0220",
+        "effective_date": "2019-05-16T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+TTS_TG_R1",
+        "effective_date": "2025-10-28T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+TTS_TG_R5",
+        "effective_date": "2020-12-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+TTS_TG_R6",
+        "effective_date": "2020-12-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+TTS_TG_R60",
+        "effective_date": "2020-12-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_NVS++86_L5",
+        "effective_date": "2023-03-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_NVS++86_L6",
+        "effective_date": "2023-03-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_NVS++86_L60",
+        "effective_date": "2023-03-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_NVS++86_R5",
+        "effective_date": "2026-04-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_NVS++86_R6",
+        "effective_date": "2026-04-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_NVS++86_R60",
+        "effective_date": "2026-04-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_NVS+86_L5",
+        "effective_date": "2023-03-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_NVS+86_L6",
+        "effective_date": "2023-03-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_NVS+86_L60",
+        "effective_date": "2023-03-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_NVS+86_R5",
+        "effective_date": "2026-04-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_NVS+86_R6",
+        "effective_date": "2026-04-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_NVS+86_R60",
+        "effective_date": "2026-04-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_Q++86_L5",
+        "effective_date": "2026-04-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_Q++86_L6",
+        "effective_date": "2026-04-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_Q++86_L60",
+        "effective_date": "2026-04-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_Q++86_R5",
+        "effective_date": "2023-03-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_Q++86_R6",
+        "effective_date": "2023-03-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_Q++86_R60",
+        "effective_date": "2023-03-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_Q++NIL_R1",
+        "effective_date": "2026-01-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_Q++NIL_R5",
+        "effective_date": "2026-01-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_Q++NIL_R6",
+        "effective_date": "2026-01-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_Q++NIL_R60",
+        "effective_date": "2026-01-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_STHN++86_L5",
+        "effective_date": "2023-03-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_STHN++86_L6",
+        "effective_date": "2023-08-22T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_STHN++86_L60",
+        "effective_date": "2023-03-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_STHN++86_R5",
+        "effective_date": "2026-04-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_STHN++86_R6",
+        "effective_date": "2026-04-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_STHN++86_R60",
+        "effective_date": "2026-04-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++GTTE_TL_L5",
+        "effective_date": "2023-09-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++GTTE_TL_L6",
+        "effective_date": "2023-09-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++GTTE_TL_L60",
+        "effective_date": "2023-09-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_BB_TG_R5",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_BB_TG_R6",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_BB_TG_R60",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_BLSPS_L5",
+        "effective_date": "2023-09-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_BLSPS_L6",
+        "effective_date": "2023-09-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_BLSPS_L60",
+        "effective_date": "2023-09-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_BLSPS_R5",
+        "effective_date": "2023-09-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_BLSPS_R6",
+        "effective_date": "2023-09-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_BLSPS_R60",
+        "effective_date": "2023-09-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_CHWF_TG_R6",
+        "effective_date": "2025-06-23T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_GHWF_TG_R6",
+        "effective_date": "2025-06-23T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_MG_R5",
+        "effective_date": "2023-09-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_MG_R6",
+        "effective_date": "2023-09-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_MG_R60",
+        "effective_date": "2023-09-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_ML_L5",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_ML_L6",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_ML_L60",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_ML_RECL_L5",
+        "effective_date": "2025-01-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_ML_RECL_L6",
+        "effective_date": "2025-01-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_ML_RECL_L60",
+        "effective_date": "2025-01-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_MRWF_TG_R6",
+        "effective_date": "2025-06-23T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_TL_L5_DS",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_TL_L60_DS",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_TL_L6_DS",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_WF_TG_R5",
+        "effective_date": "2023-09-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_WF_TG_R60",
+        "effective_date": "2023-09-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T++NIL_WNWF_TG_R6",
+        "effective_date": "2025-06-23T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+GTTE_TL_L5",
+        "effective_date": "2023-09-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+GTTE_TL_L6",
+        "effective_date": "2023-09-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+GTTE_TL_L60",
+        "effective_date": "2023-09-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+LREG_0050",
+        "effective_date": "2023-04-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_BB_TG_R5",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_BB_TG_R6",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_BB_TG_R60",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_CHWF_TG_R6",
+        "effective_date": "2025-06-23T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_FCSPS_R5",
+        "effective_date": "2025-05-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_FCSPS_R6",
+        "effective_date": "2025-05-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_FCSPS_R60",
+        "effective_date": "2025-05-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_GHWF_TG_R6",
+        "effective_date": "2025-06-23T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_MG_R5",
+        "effective_date": "2023-09-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_MG_R6",
+        "effective_date": "2023-09-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_MG_R60",
+        "effective_date": "2023-09-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_ML_L5",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_ML_L6",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_ML_L60",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_ML_RECL_L5",
+        "effective_date": "2025-01-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_ML_RECL_L6",
+        "effective_date": "2025-01-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_ML_RECL_L60",
+        "effective_date": "2025-01-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_MRWF_TG_R6",
+        "effective_date": "2025-06-23T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_TL_L5_DS",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_TL_L60_DS",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_TL_L6_DS",
+        "effective_date": "2024-07-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_WF_TG_R5",
+        "effective_date": "2023-09-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_WF_TG_R60",
+        "effective_date": "2023-09-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+NIL_WNWF_TG_R6",
+        "effective_date": "2025-06-23T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T+RREG_0050",
+        "effective_date": "2023-04-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_TASCAP_LREG_0210",
+        "effective_date": "2019-05-16T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_TASCAP_RREG_0220",
+        "effective_date": "2019-05-16T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_T_NIL_MINP_R6",
+        "effective_date": "2026-05-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N::Q_ARTW_KC",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N::Q_ARTW_TNT",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N::Q_DM_SVC_TNT",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N::Q_DM_TW_SVC_KC",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N::Q_DM_TW_SVC_LDMU",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N::Q_DM_TW_SVC_LDTW",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N::Q_NIL_KC",
+        "effective_date": "2023-05-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N::Q_NIL_LDMU",
+        "effective_date": "2023-05-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N::Q_NIL_LDTW",
+        "effective_date": "2023-05-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N::Q_NIL_TNT",
+        "effective_date": "2023-04-28T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N::Q_TW_SVC_TNT",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>7M_949_72",
+        "effective_date": "2026-10-02T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>7M_94T_72",
+        "effective_date": "2026-10-02T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>7M_94X_72",
+        "effective_date": "2026-10-02T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>7M_998_72",
+        "effective_date": "2026-10-02T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>7M_944_72",
+        "effective_date": "2026-10-02T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>86_85_NIL_N",
+        "effective_date": "2026-10-12T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>86_85_NIL_S",
+        "effective_date": "2026-10-12T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>86_8U_NIL_N",
+        "effective_date": "2023-11-13T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>86_8U_NIL_N",
+        "effective_date": "2026-10-12T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>86_8U_NIL_S",
+        "effective_date": "2023-11-13T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>86_8U_NIL_S",
+        "effective_date": "2026-10-12T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>86_8U_QGEN_N",
+        "effective_date": "2023-11-13T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>86_8U_QGEN_N",
+        "effective_date": "2026-10-12T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>NIL_23_22",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>>NIL_23_25",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>>NIL_85_86_S",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>NIL_86_85_N",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>NIL_86_85_S",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>NIL_86_8U_S",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>NIL_86_N",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>NIL_86_NIL_S",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>NIL_8E_8C_S",
+        "effective_date": "2023-10-24T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>NIL_8U_86_S",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>V_X3_65_66",
+        "effective_date": "2026-10-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>>V_X3_66_65",
+        "effective_date": "2026-10-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>N-NIL_TE_LOAD",
+        "effective_date": "2023-05-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_75_WOTX_72",
+        "effective_date": "2026-05-28T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_8J_8C",
+        "effective_date": "2023-05-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_901",
+        "effective_date": "2024-03-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_945_947",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_947_94T",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_94B",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_94K_1",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_94M",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_94T",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_94T_72",
+        "effective_date": "2026-08-10T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_94T_7J",
+        "effective_date": "2026-03-31T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_94T_947",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_96C_87",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_973",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_977_976",
+        "effective_date": "2025-02-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_997/1_3G",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_997/2_3G",
+        "effective_date": "2026-05-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_997/2_99A",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_997_99A",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_998",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_998_18",
+        "effective_date": "2026-04-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_999",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_999_9GL",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_999_S",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_99U",
+        "effective_date": "2023-05-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_9GL",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_9GM",
+        "effective_date": "2026-05-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_9J5/1",
+        "effective_date": "2023-05-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_9J5/2",
+        "effective_date": "2023-05-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_9J6",
+        "effective_date": "2023-05-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_9ML",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_9R1",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_9R4",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_9R4_62",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_9R4_99A",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_9R4_9R3",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_9R5",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_9R5_9R6",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_9R5_9R6_N",
+        "effective_date": "2026-05-29T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_9R6",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_9R6_991",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_9R6_9R5",
+        "effective_date": "2026-03-06T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_9R6_9R5_N",
+        "effective_date": "2026-05-29T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_9U9_9U8",
+        "effective_date": "2023-05-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_CLDP",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_LSDU",
+        "effective_date": "2023-05-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_MBDU",
+        "effective_date": "2023-05-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "N>NIL_PKTX_LV",
+        "effective_date": "2026-03-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_X2",
+        "effective_date": "2024-09-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>NIL_YSTX_LV",
+        "effective_date": "2026-05-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N>Q-NIL_757_758",
+        "effective_date": "2023-05-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "NQTE_ROC",
+        "effective_date": "2023-05-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "NQ_330",
+        "effective_date": "2026-05-15T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "NQ_950_DYN_TEST",
+        "effective_date": "2025-10-02T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "NQ_950_TEST",
+        "effective_date": "2025-10-02T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "NS_150_DYN_TEST",
+        "effective_date": "2026-10-06T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "NS_150_TEST",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^N_SOWS_72",
+        "effective_date": "2026-10-02T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^N_SOWS_7J",
+        "effective_date": "2026-10-02T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^Q_ARTW_1",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^^Q_ARTW_B1",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^^Q_ARTW_B2",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^^Q_ARTW_B3",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^^Q_ARTW_B4",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^^Q_ARTW_B5",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^^Q_ARTW_B6",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^^Q_DM_TW_SVC_A",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^^Q_DM_TW_SVC_B",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^^Q_DM_TW_SVC_B1",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^^Q_DM_TW_SVC_B2",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^^Q_DM_TW_SVC_B3",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^^Q_DM_TW_SVC_B4",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^^Q_DM_TW_SVC_B5",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N^^Q_DM_TW_SVC_B6",
+        "effective_date": "2023-04-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_MBTE1_A",
+        "effective_date": "2018-05-03T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_MBTE1_B",
+        "effective_date": "2013-11-25T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_NEWENSF1+2_110-INV",
+        "effective_date": "2023-10-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_NIL_TE_A",
+        "effective_date": "2012-07-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_NIL_TE_B",
+        "effective_date": "2012-07-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_QPSFB_G_4INV",
+        "effective_date": "2026-08-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_QPSFB_L_4INV",
+        "effective_date": "2026-08-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_STR_NESF1+2_110_I",
+        "effective_date": "2024-10-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_STR_QPSFB_4_I",
+        "effective_date": "2026-08-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_STR_STUBSF_77_I",
+        "effective_date": "2026-08-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_STR_WRWSF_30_I",
+        "effective_date": "2021-02-23T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_STUBSF_77INV",
+        "effective_date": "2026-08-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_V_HV1700_OSC_AUTO",
+        "effective_date": "2013-07-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_WR_30_WT-INV",
+        "effective_date": "2026-08-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q:N_960",
+        "effective_date": "2020-04-02T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q>N-NIL_8L_8M",
+        "effective_date": "2026-10-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q>NIL_757_758_ECS",
+        "effective_date": "2022-06-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q>NIL_DRLCLB_NIL",
+        "effective_date": "2023-07-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q>NIL_MRTA_A",
+        "effective_date": "2019-01-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q>NIL_MRTA_B",
+        "effective_date": "2019-01-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q>NIL_MRTA_C",
+        "effective_date": "2019-01-11T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q>NIL_MUTE_757",
+        "effective_date": "2022-06-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q>NIL_MUTE_758",
+        "effective_date": "2022-06-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q>NIL_MUTX_MUTX",
+        "effective_date": "2024-10-17T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q>NIL_TV66",
+        "effective_date": "2018-08-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q>NIL_YLMR",
+        "effective_date": "2020-04-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "QNI_NORTH_330_DYN",
+        "effective_date": "2026-05-15T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "QNI_SOUTH_500_DYN",
+        "effective_date": "2023-10-10T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "QNI_SOUTH_890_DYN",
+        "effective_date": "2026-05-15T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "QNTE_ROC",
+        "effective_date": "2020-07-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "QN_1400_DYN_TEST",
+        "effective_date": "2024-07-26T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "QN_1400_TEST",
+        "effective_date": "2024-07-26T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "QN_500",
+        "effective_date": "2014-01-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "QN_890",
+        "effective_date": "2026-05-15T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q^CN_FDR-060",
+        "effective_date": "2021-05-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q^CN_GT-090",
+        "effective_date": "2021-05-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q^NIL_CN_FDR",
+        "effective_date": "2021-05-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q^NIL_CN_GT",
+        "effective_date": "2021-05-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q^NIL_FNQ_8905",
+        "effective_date": "2024-06-25T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q^NIL_GC",
+        "effective_date": "2025-01-16T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q^^N_ARTW_SRAR",
+        "effective_date": "2022-09-15T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q^^N_DM_SVC_SRAR",
+        "effective_date": "2022-12-13T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q^^N_NIL_SRAR",
+        "effective_date": "2022-09-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q^^N_TW_SVC_SRAR",
+        "effective_date": "2022-12-13T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q_KEP-HYB_50MW",
+        "effective_date": "2022-08-26T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q_STR_NIL_KEP",
+        "effective_date": "2026-08-27T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "Q_STR_NIL_KEP_I",
+        "effective_date": "2026-08-27T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "S:VN_700_TEST",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S:VN_700_TEST_DYN",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S:VS_900_HY_TEST",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S:VS_900_HY_TEST_DYN",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S:V_600_HY_TEST",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S:V_600_HY_TEST_DYN",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S>>BRBG_WTTP_WEMWP4",
+        "effective_date": "2026-08-12T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S>>NIL_RBNW1_MWP1NWB",
+        "effective_date": "2022-02-28T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S>>NIL_RBNW1_RBMWP3",
+        "effective_date": "2022-02-28T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S>>V_NIL_NIL_RBMW3",
+        "effective_date": "2022-02-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "S>NIL_ACPA_MAMO",
+        "effective_date": "2026-08-12T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S>NIL_BWMP_HUWT",
+        "effective_date": "2026-01-12T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S>NIL_BWMP_RHBR-T",
+        "effective_date": "2026-03-03T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S>NIL_DVTX_DVTX",
+        "effective_date": "2022-02-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "S>NIL_LKDV_CNRB",
+        "effective_date": "2024-10-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S>NIL_MHNW1_MHNW2",
+        "effective_date": "2024-06-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S>NIL_NIL_DLAW",
+        "effective_date": "2024-10-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S>NIL_NIL_MHNW2",
+        "effective_date": "2022-02-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "S>NIL_NIL_NWMH2",
+        "effective_date": "2022-02-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "S>NIL_NWMH1_NWMH2",
+        "effective_date": "2022-02-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "S>NIL_NWRB1_MWP3RB",
+        "effective_date": "2022-02-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "S>NIL_NWRB2_NWRB1",
+        "effective_date": "2024-06-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S>NIL_RBMWP3_RBNW1",
+        "effective_date": "2022-02-01T00:00:00+10:00",
+        "version_no": 2
+      },
+      {
+        "constraint_id": "S>NIL_TINO3_TINO4",
+        "effective_date": "2026-01-12T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "SN_150_DYN_TEST",
+        "effective_date": "2026-10-06T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "SN_150_TEST",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "SVML^NIL_MH-CAP_ON",
+        "effective_date": "2021-01-13T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "SVML_233",
+        "effective_date": "2014-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "SVML_FLT_130",
+        "effective_date": "2020-10-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "SVML_FLT_150",
+        "effective_date": "2019-07-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "SVML_RAT_LIM_DYN",
+        "effective_date": "2026-05-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "SVML_ROC_80",
+        "effective_date": "2020-07-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S^NIL_SA_NORTH",
+        "effective_date": "2026-01-12T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S_LB2WF_CONF",
+        "effective_date": "2015-08-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T::T_NIL_3",
+        "effective_date": "2024-07-10T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>>T_NIL_BL_EXP_3G",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>>T_NIL_BL_EXP_5F",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>>T_NIL_BL_EXP_5G",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>>T_NIL_BL_EXP_5H",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>>T_NIL_BL_EXP_6E",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>>T_NIL_BL_EXP_6F",
+        "effective_date": "2024-07-10T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>>T_NIL_BL_EXP_7C",
+        "effective_date": "2024-07-10T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_110_4",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_110_5",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_110_9",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_220_6B",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_220_6C",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_220_6D",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_3D",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_4C",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_5A",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_5B",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_5C",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_5D",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_5E",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_6A",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_6B",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_6C",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_6D",
+        "effective_date": "2024-07-10T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_IMP_3G",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_IMP_5F",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_IMP_5FF",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_IMP_5G",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_IMP_5H",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_IMP_6E",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_IMP_6EE",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_IMP_6F",
+        "effective_date": "2019-11-28T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_IMP_7C",
+        "effective_date": "2021-11-15T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_BL_IMP_7CC",
+        "effective_date": "2021-11-15T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_NCSPS5_3G",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_NCSPS5_7C",
+        "effective_date": "2021-11-15T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_TOV_5F",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_TOV_5FF",
+        "effective_date": "2024-08-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "TVBL_NIL_CONT_478",
+        "effective_date": "2026-08-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "TVBL_NIL_DYN",
+        "effective_date": "2026-05-29T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "TVBL_ROC",
+        "effective_date": "2020-07-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T^T_NIL_BL_2",
+        "effective_date": "2017-07-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T^T_NIL_BL_4",
+        "effective_date": "2017-07-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T^T_NIL_BL_5",
+        "effective_date": "2017-07-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T^T_NIL_BL_7",
+        "effective_date": "2017-07-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T^V_NIL_BL_6",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T_BLINK_TV_NGZ",
+        "effective_date": "2022-02-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T_BLINK_VT_NGZ",
+        "effective_date": "2022-02-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T_V_FCSPS_DS",
+        "effective_date": "2023-11-13T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T_V_NIL_BL1",
+        "effective_date": "2022-02-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V::V_1900",
+        "effective_date": "2018-08-24T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V:NS_750_TEST",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V:NS_750_TEST_DYN",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V:SS_970_HY_TEST",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V:SS_970_HY_TEST_DYN",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V:S_600_HY_TEST",
+        "effective_date": "2022-10-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V:S_600_HY_TEST_DYN",
+        "effective_date": "2023-09-14T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V:S_650_HY_TEST",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V:S_650_HY_TEST_DYN",
+        "effective_date": "2026-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V:T_NIL_BL_1",
+        "effective_date": "2022-01-20T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>MLTX2_KTDPT_MLTX1",
+        "effective_date": "2026-10-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>N_X3_65_66",
+        "effective_date": "2026-10-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>N_X3_66_65",
+        "effective_date": "2026-10-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>X3_BABE_SHBE",
+        "effective_date": "2026-10-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>X3_BEKG_CWBUHO",
+        "effective_date": "2026-10-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>X3_BUHO_BEKG",
+        "effective_date": "2026-10-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>X3_KGWE_CWBUHO",
+        "effective_date": "2026-10-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>X3_KOKG_NIL",
+        "effective_date": "2026-10-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>X3_MSDD1_MSDD2",
+        "effective_date": "2026-10-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>X3_MSDD1_MSDD2_S",
+        "effective_date": "2026-10-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>X3_MSDD2_MSDD1",
+        "effective_date": "2026-10-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>X3_MSDD2_MSDD1_S",
+        "effective_date": "2026-10-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>X3_SHBE_NIL",
+        "effective_date": "2026-10-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>X3_WBBA_KGBE",
+        "effective_date": "2026-10-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>>X3_WERC_CWBUHO",
+        "effective_date": "2026-10-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>NIL_TGTX_NIL",
+        "effective_date": "2023-03-23T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>NIL_TGTX_TGTX_2",
+        "effective_date": "2023-03-23T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>NIL_TGTX_TGTX_20S",
+        "effective_date": "2023-03-23T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>NIL_WETX_NIL",
+        "effective_date": "2023-03-23T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V>V_X_HWTX23_TXA_R5",
+        "effective_date": "2026-08-05T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "VSML_220",
+        "effective_date": "2012-07-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "VSML_RAT_LIM_DYN",
+        "effective_date": "2026-05-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "VSML_ROC_80",
+        "effective_date": "2020-07-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "VTBL_NIL",
+        "effective_date": "2026-05-29T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "VTBL_NIL_CONT_458",
+        "effective_date": "2026-05-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "VTBL_ROC",
+        "effective_date": "2020-07-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V^SML_BESH_2",
+        "effective_date": "2022-03-25T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V^T_NIL_9",
+        "effective_date": "2019-11-28T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V_BGWF_BESS_FLT_100",
+        "effective_date": "2026-03-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V_DUNDWF1_2_3_168",
+        "effective_date": "2026-03-13T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V_GANWR_SF_BAT_50",
+        "effective_date": "2024-08-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V_MURRAWRWF_FLT_200",
+        "effective_date": "2026-03-18T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V_MURRAWRWF_FLT_60",
+        "effective_date": "2023-06-09T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V_NWVIC_GFT1_750",
+        "effective_date": "2026-03-30T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V_T_FCSPS_DS",
+        "effective_date": "2023-11-13T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V_T_NIL_BL1",
+        "effective_date": "2022-02-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V_T_NIL_FCSPS",
+        "effective_date": "2025-05-27T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V_WDR_NO_SCADA",
+        "effective_date": "2022-03-14T00:00:00+10:00",
+        "version_no": 1
+      }
+    ],
+    "dudetail_month": "2026_09"
+  }
+}

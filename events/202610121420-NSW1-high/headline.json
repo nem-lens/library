@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "event_id": "202610121420-NSW1-high",
+  "region": "NSW1",
+  "trading_day": "2026-10-12",
+  "start": "2026-10-12T14:20:00+10:00",
+  "end": "2026-10-12T15:35:00+10:00",
+  "peak_price": 23107.0,
+  "duration_minutes": 80,
+  "baseline_mean_price": 12030.93,
+  "scenarios": [
+    {
+      "name": "coal and transmission",
+      "mean_price_change": -13029.96
+    },
+    {
+      "name": "coal back",
+      "mean_price_change": -12313.19
+    },
+    {
+      "name": "NSW demand +300 MW",
+      "mean_price_change": 9065.7
+    },
+    {
+      "name": "full transmission",
+      "mean_price_change": -12081.85
+    }
+  ]
+}

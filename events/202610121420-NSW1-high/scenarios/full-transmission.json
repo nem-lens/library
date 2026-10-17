@@ -1,0 +1,8 @@
+{
+  "name": "full transmission",
+  "description": "NSW outage constraints removed and NSW units released from their constrained dispatch. Interconnector limits stay at AEMO's constrained values, so this understates the effect of restoring the network.",
+  "ops": [
+    { "op": "remove_outage_constraints", "prefix": "N" },
+    { "op": "unpin", "region": "NSW1" }
+  ]
+}

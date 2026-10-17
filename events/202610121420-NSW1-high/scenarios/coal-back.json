@@ -1,0 +1,7 @@
+{
+  "name": "coal back",
+  "description": "The four NSW coal units on outage (BW03, ER01, ER03, MP2) and the two derated Eraring units (ER02, ER04) available at their full offered capacity, priced at their own 12 October offers.",
+  "ops": [
+    { "op": "restore_availability", "duids": ["BW03", "ER01", "ER03", "MP2", "ER02", "ER04"] }
+  ]
+}

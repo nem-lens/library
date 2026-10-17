@@ -1,0 +1,9 @@
+{
+  "name": "coal and transmission",
+  "description": "Both supply shocks removed: coal back and full transmission together.",
+  "ops": [
+    { "op": "restore_availability", "duids": ["BW03", "ER01", "ER03", "MP2", "ER02", "ER04"] },
+    { "op": "remove_outage_constraints", "prefix": "N" },
+    { "op": "unpin", "region": "NSW1" }
+  ]
+}
