@@ -10,7 +10,8 @@ Headline results and replay inputs for NEM price events detected by
   price and each scenario's change in mean price, over the event span.
 - `events/<id>/snapshots.json.gz`: the engine's intervals for the event span,
   for running scenarios in the browser.
-- `events/<id>/scenarios/`: the scenarios run.
+- `events/<id>/scenarios/`: the scenarios run; `index.json` lists each
+  name and file, in headline order.
 - `events/<id>/manifest.json`: the AEMO source files and their SHA-256.
 
 Times are interval ends in market time with the offset
