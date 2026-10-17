@@ -7,23 +7,23 @@
   "end": "2026-10-12T15:35:00+10:00",
   "peak_price": 23107.0,
   "duration_minutes": 80,
-  "baseline_mean_price": 12030.93,
+  "baseline_mean_price": 12030.95,
   "scenarios": [
     {
       "name": "coal and transmission",
-      "mean_price_change": -13029.96
+      "mean_price_change": -13029.98
     },
     {
       "name": "coal back",
-      "mean_price_change": -12313.19
+      "mean_price_change": -12313.21
     },
     {
       "name": "NSW demand +300 MW",
-      "mean_price_change": 9065.7
+      "mean_price_change": 9065.69
     },
     {
       "name": "full transmission",
-      "mean_price_change": -12081.85
+      "mean_price_change": -12081.86
     }
   ]
 }

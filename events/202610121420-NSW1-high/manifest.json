@@ -8,7 +8,7 @@
   "intervals_expected": 52,
   "intervals_found": 52,
   "created_at": "2026-10-17T04:24:14Z",
-  "updated_at": "2026-10-17T04:36:41Z",
+  "updated_at": "2026-10-17T09:55:49Z",
   "sources": [
     {
       "file": "PUBLIC_DISPATCHIS_202610121220_0000000542477939.zip",
@@ -389,6 +389,1224 @@
       "role": "Next_Day_Offer_Energy_SPARSE"
     },
     {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202503010000.CSV",
+      "url": "",
+      "sha256": "a835b635a9bbbab7f1977e3bb70911c8c65af112e00ea4b992a4916b1fb93530",
+      "bytes": 4353,
+      "role": "mmsdm:2025_03"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202602010000.CSV",
+      "url": "",
+      "sha256": "cf4ce91a04f4135889057c8a0f49a8a35390ecf717c278b9a8ba11da897809a2",
+      "bytes": 38043,
+      "role": "mmsdm:2026_02"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202607010000.CSV",
+      "url": "",
+      "sha256": "2060261fb4e77fb9f422b905ab94dd5fa20a36a151564f0226e8ef68cefaefc7",
+      "bytes": 5383,
+      "role": "mmsdm:2026_07"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202609010000.CSV",
+      "url": "",
+      "sha256": "a4a8fd81bde5ead3f08435e8fc9c840c2120584be04438d489b92552934bf0fb",
+      "bytes": 11405,
+      "role": "mmsdm:2026_09"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201207010000.CSV",
+      "url": "",
+      "sha256": "73c7da8afff06e2219d4b78e1ccba48436e9f210cfbb55296fa430d35874b2a9",
+      "bytes": 624864,
+      "role": "mmsdm:2012_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201207010000.CSV",
+      "url": "",
+      "sha256": "479126c1dc134e3ff94d5f77e00657541b6b20d84d7e889d504eb6c52e7031f3",
+      "bytes": 2563628,
+      "role": "mmsdm:2012_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201207010000.CSV",
+      "url": "",
+      "sha256": "3017f91d830a241303945e37ffed10515b6442980b437f291f8f3cd7a078ed98",
+      "bytes": 280328,
+      "role": "mmsdm:2012_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201307010000.CSV",
+      "url": "",
+      "sha256": "134a353ef5e16b6c93c59e0bd299fb46b9bf87f8692fcc1c64ce198e8dc6d951",
+      "bytes": 1584062,
+      "role": "mmsdm:2013_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201307010000.CSV",
+      "url": "",
+      "sha256": "0c98e8335629207b265fd8011198eeb9627f7a62dc15d61567451c1ca3f25b18",
+      "bytes": 4252506,
+      "role": "mmsdm:2013_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201307010000.CSV",
+      "url": "",
+      "sha256": "b6d855360ed67c9b0a56425b3b5fc13e5ae646541b00c446f21c038a7c1822d2",
+      "bytes": 318114,
+      "role": "mmsdm:2013_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201308010000.CSV",
+      "url": "",
+      "sha256": "ddfd305da6e9541a62b4c23850319d5c23396bc2403e96de580f76252905b994",
+      "bytes": 5025852,
+      "role": "mmsdm:2013_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201308010000.CSV",
+      "url": "",
+      "sha256": "8a0a414e1118ae0f2e14e44099e87de5ac454caf99d1ce28aabf984ec85f9510",
+      "bytes": 9911411,
+      "role": "mmsdm:2013_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201308010000.CSV",
+      "url": "",
+      "sha256": "2d174dcf0b669e728e9d84960a3a4afd19cf6160c1d50eab4c9ad743f49b8226",
+      "bytes": 1036881,
+      "role": "mmsdm:2013_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_201308010000.CSV",
+      "url": "",
+      "sha256": "be068075bd3b9ba3abd2fc156ba9eb46cdc1c54634f6d8b9a7f867925873a8b0",
+      "bytes": 649170,
+      "role": "mmsdm:2013_08"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201311010000.CSV",
+      "url": "",
+      "sha256": "33ce6b53d05ac9f71fc3752b1e91456e7e202cb17f323b99708114971c67b432",
+      "bytes": 1659178,
+      "role": "mmsdm:2013_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201311010000.CSV",
+      "url": "",
+      "sha256": "78a3816e01433deeed97a83253f0b242a64cbd72f41464c9a4a0fedec8debe37",
+      "bytes": 6322326,
+      "role": "mmsdm:2013_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201311010000.CSV",
+      "url": "",
+      "sha256": "b121b284b6c38ca4738a8acf0d2a0f9b202c17ef256e5ac7e7bea21ed91fb015",
+      "bytes": 458880,
+      "role": "mmsdm:2013_11"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201401010000.CSV",
+      "url": "",
+      "sha256": "f5709c6a33726a614cc5444c4b3dbde1d2e15285096309a7b893b18a7d80ae9a",
+      "bytes": 1434973,
+      "role": "mmsdm:2014_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201401010000.CSV",
+      "url": "",
+      "sha256": "514abb7bb2bc9ad367cd6494427fef7ba60e8a8bf1dd037a3f338bf8bd8a294b",
+      "bytes": 2436150,
+      "role": "mmsdm:2014_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201401010000.CSV",
+      "url": "",
+      "sha256": "294f32239a20bf18a16533e4789b1c96630486998c4b1a4017abe0fd557224f2",
+      "bytes": 333537,
+      "role": "mmsdm:2014_01"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201405010000.CSV",
+      "url": "",
+      "sha256": "b5e1f1ec1bc4f845c47f085ce06d6c4c81c1b394247eefdd234ab63b0c70e2fe",
+      "bytes": 2888807,
+      "role": "mmsdm:2014_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201405010000.CSV",
+      "url": "",
+      "sha256": "320caa6b686ea5216eb22d10b2915b3f5a01a851881c440f5ba633eb5840caeb",
+      "bytes": 7417357,
+      "role": "mmsdm:2014_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201405010000.CSV",
+      "url": "",
+      "sha256": "32180f95657878f2d48b76c914c85fe72a4f0fd31249774074db58be1947fb4b",
+      "bytes": 832493,
+      "role": "mmsdm:2014_05"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201410010000.CSV",
+      "url": "",
+      "sha256": "78d2d87e3e35f0cb0b9bfade098f9d86e3a2c73d27560f6005c8375d131d6f87",
+      "bytes": 1357844,
+      "role": "mmsdm:2014_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201410010000.CSV",
+      "url": "",
+      "sha256": "68961ab58454f1361f52f67a03594f5d4e9d5da0499307f345ca44afae18f656",
+      "bytes": 4836425,
+      "role": "mmsdm:2014_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201410010000.CSV",
+      "url": "",
+      "sha256": "dd0e66a8428f44ba4b9db9adda1904c48b7aa1e6afe82fa0cbc783227596f5d2",
+      "bytes": 678369,
+      "role": "mmsdm:2014_10"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201508010000.CSV",
+      "url": "",
+      "sha256": "7cb0e95bb36a51c7bda4d18508342f8eceadfa9047767cdd2c5bb73b7b01f8dd",
+      "bytes": 2755613,
+      "role": "mmsdm:2015_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201508010000.CSV",
+      "url": "",
+      "sha256": "b925fff33b289c2174afca7a8ed4e59143aafe19fa0888f5d1352c953ebc9fd4",
+      "bytes": 9939089,
+      "role": "mmsdm:2015_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201508010000.CSV",
+      "url": "",
+      "sha256": "4d4653988bc9435f1b4d5b2af8e59448316314a3979ae3fe688d6bd63bced2e4",
+      "bytes": 1192971,
+      "role": "mmsdm:2015_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_201508010000.CSV",
+      "url": "",
+      "sha256": "052e1e2ef61c6a1fb4071196bde7f8ce244f30c7c85d45017c439105d7c9b4dc",
+      "bytes": 7676,
+      "role": "mmsdm:2015_08"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201512010000.CSV",
+      "url": "",
+      "sha256": "2b17c451a1761a8eaa7c8d853c11bbf7d5fe4d6afbafaca8b6ed8f2152d3b2db",
+      "bytes": 826628,
+      "role": "mmsdm:2015_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201512010000.CSV",
+      "url": "",
+      "sha256": "50ef610f6560f1c1d6d50cbc0238971031270df3b1b9ffc15500c45bb988b2f9",
+      "bytes": 2273332,
+      "role": "mmsdm:2015_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201512010000.CSV",
+      "url": "",
+      "sha256": "fca34733057823d86c24f9e9ba02cc58b27283bb8ec948f115059ac272e1f9b6",
+      "bytes": 329124,
+      "role": "mmsdm:2015_12"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201603010000.CSV",
+      "url": "",
+      "sha256": "d532eed8459d51607f7fc0e6b9e216345b86b4d9409aa3e034a117d8e8a35dae",
+      "bytes": 1985656,
+      "role": "mmsdm:2016_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201603010000.CSV",
+      "url": "",
+      "sha256": "9705648b0b110ff8a838130c494b92eb15af96cba198f06b229ed451340e39e0",
+      "bytes": 6538060,
+      "role": "mmsdm:2016_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201603010000.CSV",
+      "url": "",
+      "sha256": "5c672c1224aeae1cab69300059f01c1089215f90d1e5487e6ad1d511b37189ac",
+      "bytes": 819037,
+      "role": "mmsdm:2016_03"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201707010000.CSV",
+      "url": "",
+      "sha256": "38e08f44932fc4b5c94af67959e3143b885f612888a43f16dab963c403d5f22a",
+      "bytes": 1644163,
+      "role": "mmsdm:2017_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201707010000.CSV",
+      "url": "",
+      "sha256": "632c9f5b989493ba8272b4acd9b6b0fdb743c9a529080e41e9514da704a5a98e",
+      "bytes": 2438412,
+      "role": "mmsdm:2017_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201707010000.CSV",
+      "url": "",
+      "sha256": "0b0f0bc0d1f56a12033208f943809d45f3e0c80eec5b8785d8bbc672c871883e",
+      "bytes": 359635,
+      "role": "mmsdm:2017_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201710010000.CSV",
+      "url": "",
+      "sha256": "86bb7ce11c2edce856fc4495cc36980fd5a5836f309765537fa5c5a08fe71b84",
+      "bytes": 2217406,
+      "role": "mmsdm:2017_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201710010000.CSV",
+      "url": "",
+      "sha256": "c7b96daaf739474a4cd7d1e12099370663c7011cfedcb109bf0f6a6750225fba",
+      "bytes": 4981890,
+      "role": "mmsdm:2017_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201710010000.CSV",
+      "url": "",
+      "sha256": "5cb8d613908a78c4707e09838f2545896f6c34cc166462744788c34d269e8460",
+      "bytes": 621617,
+      "role": "mmsdm:2017_10"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201804010000.CSV",
+      "url": "",
+      "sha256": "0c7827289f38944d45dcf7084318bd4d629b4ac66a942a2d01c1139759ffc371",
+      "bytes": 2492946,
+      "role": "mmsdm:2018_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201804010000.CSV",
+      "url": "",
+      "sha256": "82bd2fecdda6240382ceedff322faa7c8fe4ec52785be9a83df8a95d31c27140",
+      "bytes": 5914679,
+      "role": "mmsdm:2018_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201804010000.CSV",
+      "url": "",
+      "sha256": "1a77f8be7ab434069961456f1532893221d9b0f72dd03222fbe53ff7f0c99b18",
+      "bytes": 749804,
+      "role": "mmsdm:2018_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_201804010000.CSV",
+      "url": "",
+      "sha256": "4af2ed6fd342b9545c491191e35358c375fa6b919217a028b373c55218de362c",
+      "bytes": 95044,
+      "role": "mmsdm:2018_04"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201805010000.CSV",
+      "url": "",
+      "sha256": "2aaacf5d1adc995e96f26dc7f8f0f19b4e757a3d97980ff77b6a6b0d27529ef1",
+      "bytes": 2826686,
+      "role": "mmsdm:2018_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201805010000.CSV",
+      "url": "",
+      "sha256": "ab3a30be8c872f8af1b8c9c59ba18a627673a9dedea97e58a3a4d556c9821bda",
+      "bytes": 7924634,
+      "role": "mmsdm:2018_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201805010000.CSV",
+      "url": "",
+      "sha256": "752a20d36fe8e01fad696d605fcf4296dadf11be0f58d6b1c6a05887e637bc99",
+      "bytes": 809841,
+      "role": "mmsdm:2018_05"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201808010000.CSV",
+      "url": "",
+      "sha256": "174493e287faffd76dfd2f8902c0d816d3e514bc5780181ca819324a6f41cd53",
+      "bytes": 4306112,
+      "role": "mmsdm:2018_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201808010000.CSV",
+      "url": "",
+      "sha256": "2dc24e7177a877e1bbc979a432e5d8b2830201c548b56f5fcc983babd6548be1",
+      "bytes": 15179440,
+      "role": "mmsdm:2018_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201808010000.CSV",
+      "url": "",
+      "sha256": "964a6aad8beb6d38fbe358a53e7a428816c22b2ce5797c853f63718616645b0d",
+      "bytes": 1413456,
+      "role": "mmsdm:2018_08"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201901010000.CSV",
+      "url": "",
+      "sha256": "6c5de420049c5ed87008819126a1addf4ca7ce516288383d79412b760f7c5f38",
+      "bytes": 2123445,
+      "role": "mmsdm:2019_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201901010000.CSV",
+      "url": "",
+      "sha256": "ea1c7e64097f2c8c4f854348623d85e31332430c8fec0b4ee30df63fe03b9385",
+      "bytes": 3150177,
+      "role": "mmsdm:2019_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201901010000.CSV",
+      "url": "",
+      "sha256": "fb91611433bd6c37fae1b2596898ece583be06466ec6396ae21dfb8fa18a692d",
+      "bytes": 475042,
+      "role": "mmsdm:2019_01"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201905010000.CSV",
+      "url": "",
+      "sha256": "046cdda2c3f2a73b9055191fdb4afc4bbbaa12bdc70307e36433dfe1819df615",
+      "bytes": 3262719,
+      "role": "mmsdm:2019_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201905010000.CSV",
+      "url": "",
+      "sha256": "5e88ce70793a719863eacb3f9941c590cf4266cf417ab6a4c560a66bcf6362da",
+      "bytes": 13268189,
+      "role": "mmsdm:2019_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201905010000.CSV",
+      "url": "",
+      "sha256": "1086411606bda9971ecd8fc42637d69af9dc1fabf288a6c2d585330dacfba884",
+      "bytes": 1013308,
+      "role": "mmsdm:2019_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_201905010000.CSV",
+      "url": "",
+      "sha256": "c5a648364f161ab8b0d482b952b22300707f2e6173b893864d2eba2db65251b6",
+      "bytes": 4038,
+      "role": "mmsdm:2019_05"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201907010000.CSV",
+      "url": "",
+      "sha256": "e017f3864a41f3f8a04fdc973ddd07af757ce54e293d9e56d2665a92faf3dab9",
+      "bytes": 3204802,
+      "role": "mmsdm:2019_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201907010000.CSV",
+      "url": "",
+      "sha256": "e87a4068f320aaec17fcb179b4427481e10c30b9ce2d0314dc5fd56727a30d32",
+      "bytes": 12699719,
+      "role": "mmsdm:2019_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201907010000.CSV",
+      "url": "",
+      "sha256": "86cbdced24dcd5dc7489cf4fac210ba97294092eb8511e011b25eb2155d14daa",
+      "bytes": 834993,
+      "role": "mmsdm:2019_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201911010000.CSV",
+      "url": "",
+      "sha256": "d46b81520f0dd6f88f24f8598d13092bb95d1a7d897cfea55bce3517f3058187",
+      "bytes": 1725355,
+      "role": "mmsdm:2019_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201911010000.CSV",
+      "url": "",
+      "sha256": "85b87c6ae0368dd2188a1b0036ae2483e230ff459203aa5a734576386e73db89",
+      "bytes": 6346546,
+      "role": "mmsdm:2019_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201911010000.CSV",
+      "url": "",
+      "sha256": "4a92898d26716bfae2f32b88176b1a56eae283a4d7d442c793eeabe7adaef431",
+      "bytes": 542668,
+      "role": "mmsdm:2019_11"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202004010000.CSV",
+      "url": "",
+      "sha256": "a35172705a37a639a19b51459f499106e77f9e1b7f2ae279d180b37006c7d4c1",
+      "bytes": 797991,
+      "role": "mmsdm:2020_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202004010000.CSV",
+      "url": "",
+      "sha256": "3d1f97d7a0080751c3f32e5517a430a1df2d0d5a6fa194935cea3d0984202cf2",
+      "bytes": 5964094,
+      "role": "mmsdm:2020_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202004010000.CSV",
+      "url": "",
+      "sha256": "f573f3961921ca4bfa903125081872334e5afc82b3d6efccf362680296300e14",
+      "bytes": 368003,
+      "role": "mmsdm:2020_04"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202007010000.CSV",
+      "url": "",
+      "sha256": "55ca52ba9b1e1c6019d79ca0e5aec372a458c849c2d2474af21cdd9113c4216b",
+      "bytes": 3062460,
+      "role": "mmsdm:2020_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202007010000.CSV",
+      "url": "",
+      "sha256": "71e0e1357dc8fc31c25bdae0e975d2f0d5af7c1419e95b8d711b6a6206d5deac",
+      "bytes": 8502077,
+      "role": "mmsdm:2020_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202007010000.CSV",
+      "url": "",
+      "sha256": "d37cb1f9307c5049f3f8cdd3f8f18a7a0284223aef93b7b161e7b81aa1d4f6c1",
+      "bytes": 965693,
+      "role": "mmsdm:2020_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202010010000.CSV",
+      "url": "",
+      "sha256": "6cb07f8fd266b9b2b5ef2fe700727f0f01d21e9229a7dd055b6508aafae6f2ce",
+      "bytes": 2177000,
+      "role": "mmsdm:2020_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202010010000.CSV",
+      "url": "",
+      "sha256": "806512a5646d0d96aecad25a1dbe90269cc28ce21e0621c1259cea31dd22a5e7",
+      "bytes": 12903251,
+      "role": "mmsdm:2020_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202010010000.CSV",
+      "url": "",
+      "sha256": "f519254732bcf4dd5fd8c64aa3a7634afa912e039c7234bca227771e6896e237",
+      "bytes": 789777,
+      "role": "mmsdm:2020_10"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202012010000.CSV",
+      "url": "",
+      "sha256": "c2826e05662c9c43300106139789d8482333e2033de58fad4f9c6fa4a68802f8",
+      "bytes": 4739490,
+      "role": "mmsdm:2020_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202012010000.CSV",
+      "url": "",
+      "sha256": "fb29b5db446be35135d52719d4de185eaa5880e7eae050f1235d1aefea861f3d",
+      "bytes": 16578689,
+      "role": "mmsdm:2020_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202012010000.CSV",
+      "url": "",
+      "sha256": "e5d30a91220f3c545260edf8b6877c0572dfa9cba6059ee6ada3e9eb63896bbf",
+      "bytes": 1363615,
+      "role": "mmsdm:2020_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202012010000.CSV",
+      "url": "",
+      "sha256": "8458b10d9a485c81927b2e7230fc3d2678d8ae5b005146dab347b96b5e416cc1",
+      "bytes": 39498,
+      "role": "mmsdm:2020_12"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202101010000.CSV",
+      "url": "",
+      "sha256": "9fd823ee79c1f94e00511f5de17239b1cd4f4ccdb8a20cf4d4bd7ae06c382523",
+      "bytes": 3849725,
+      "role": "mmsdm:2021_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202101010000.CSV",
+      "url": "",
+      "sha256": "5213f34e0880417415ebe431d6f6d08a8947c3b65c90a5d236dc87a72db4ccdb",
+      "bytes": 12355965,
+      "role": "mmsdm:2021_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202101010000.CSV",
+      "url": "",
+      "sha256": "9c7c725473b20e3a881deceba417d57077209bbc6c77d4551acc7432fb513b66",
+      "bytes": 1071502,
+      "role": "mmsdm:2021_01"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202102010000.CSV",
+      "url": "",
+      "sha256": "23182ca725c4d4f6d6311b5d70cb5c057bd5bf3820c819dcab5f15c5b944849d",
+      "bytes": 2782785,
+      "role": "mmsdm:2021_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202102010000.CSV",
+      "url": "",
+      "sha256": "f0f8d044817285627c1ca744f0ed8484ab6e0cc821b1a656b0bbc1ea4dc26840",
+      "bytes": 6898124,
+      "role": "mmsdm:2021_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202102010000.CSV",
+      "url": "",
+      "sha256": "defd30e9871114fcaabed3017f4aa02ed34bbfa64d9b34b7bac5df7be8b6df61",
+      "bytes": 727563,
+      "role": "mmsdm:2021_02"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202105010000.CSV",
+      "url": "",
+      "sha256": "3f9817b17845c173073383b4eb8cf90d70a5d89fa75869e54cfa98aee832191a",
+      "bytes": 1917615,
+      "role": "mmsdm:2021_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202105010000.CSV",
+      "url": "",
+      "sha256": "f03f1b8784592dabfbe896d2147dddb129382d4474e08b3750c14c4c967647e6",
+      "bytes": 11193810,
+      "role": "mmsdm:2021_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202105010000.CSV",
+      "url": "",
+      "sha256": "61bc98cfa9ef49c0a3df944205b9c56bf5e35685623ddad25d5e7556ab49e7f2",
+      "bytes": 592211,
+      "role": "mmsdm:2021_05"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202111010000.CSV",
+      "url": "",
+      "sha256": "ca6cf51071d7ee560ca5202400a65bb3a7b66272929782a672b36967b4ddb10d",
+      "bytes": 2051389,
+      "role": "mmsdm:2021_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202111010000.CSV",
+      "url": "",
+      "sha256": "c1a5fe02f8c5a7ebd062cf9111fd4ef0709af25ca8691808b05d5d42591ad48b",
+      "bytes": 9949790,
+      "role": "mmsdm:2021_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202111010000.CSV",
+      "url": "",
+      "sha256": "9a27330f723ece0e5d60efe23c2eab6b10403983dcff7068123d511e192ac5a1",
+      "bytes": 641423,
+      "role": "mmsdm:2021_11"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202201010000.CSV",
+      "url": "",
+      "sha256": "a9dedd9b3e3c9d1e6c78ea6ec0d5f140e53ce632802fcc508bfabbdf161020ac",
+      "bytes": 977518,
+      "role": "mmsdm:2022_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202201010000.CSV",
+      "url": "",
+      "sha256": "b1e781615a1bcd401a30bd45b2d281a3b60593389d54ad5e16f8eec9591ddce5",
+      "bytes": 6534630,
+      "role": "mmsdm:2022_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202201010000.CSV",
+      "url": "",
+      "sha256": "42ce9e5629bd804264d6c198ff7c22d8b000298373dd603df3edbc4cfd82fae4",
+      "bytes": 329683,
+      "role": "mmsdm:2022_01"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202202010000.CSV",
+      "url": "",
+      "sha256": "d5bbca483a9aa5d43e5d909a389ad0d46e464a9c5f555ffdc6ede5c828b98e9e",
+      "bytes": 4880671,
+      "role": "mmsdm:2022_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202202010000.CSV",
+      "url": "",
+      "sha256": "12be3c22775aae85fac92ca053b815de5f923762408b91efaa9acc128146e37d",
+      "bytes": 16241727,
+      "role": "mmsdm:2022_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202202010000.CSV",
+      "url": "",
+      "sha256": "e46aaa5fbecde5fe88edc989f28f0e8cc2ba628774c4c1e8662b1901b75ad3c2",
+      "bytes": 1201543,
+      "role": "mmsdm:2022_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202202010000.CSV",
+      "url": "",
+      "sha256": "71631370023b99e34ee5353cd41f78025d3157ba88df5a281a3d0f5f577837b6",
+      "bytes": 23709,
+      "role": "mmsdm:2022_02"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202203010000.CSV",
+      "url": "",
+      "sha256": "f70f13fb3e3a4526b7d60aaf1613ca5fa2efdffd31b5a8f19b31c6d89271e367",
+      "bytes": 2667890,
+      "role": "mmsdm:2022_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202203010000.CSV",
+      "url": "",
+      "sha256": "fea2fcee66fd0715d65590508d0f5bbcc3c6e33c42447792abdd0212c6b016cb",
+      "bytes": 8985436,
+      "role": "mmsdm:2022_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202203010000.CSV",
+      "url": "",
+      "sha256": "a333ce1b8941a689bf9d4283b117ee30acb0bb43e86152b23142e0438a440ad9",
+      "bytes": 769583,
+      "role": "mmsdm:2022_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202203010000.CSV",
+      "url": "",
+      "sha256": "88c061e970cd5474e509255ca77ec4de1fb37861faac69a398c67b974c800577",
+      "bytes": 3882,
+      "role": "mmsdm:2022_03"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202206010000.CSV",
+      "url": "",
+      "sha256": "4a5f68deeedc7ec9a41684d5e36549f8c843286fd91c80c4e98dead52f318091",
+      "bytes": 2963528,
+      "role": "mmsdm:2022_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202206010000.CSV",
+      "url": "",
+      "sha256": "95463d223114d74dd86390c6dfe649c636a0e7b8afc568e7efafdcc0069ccb07",
+      "bytes": 845903,
+      "role": "mmsdm:2022_06"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202207010000.CSV",
+      "url": "",
+      "sha256": "7ec0b86cefd8084ba860bb183cf19637e54a6e081ac97f9c464ecc379579d2a4",
+      "bytes": 3035523,
+      "role": "mmsdm:2022_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202207010000.CSV",
+      "url": "",
+      "sha256": "02cdfd9f944b85ce0670f4e4d3d3c8e926c9dd7f38b8581d03d581a3daf8f888",
+      "bytes": 10430379,
+      "role": "mmsdm:2022_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202207010000.CSV",
+      "url": "",
+      "sha256": "8dc5845b8d4f76ff4da33c8e02d2eab900ddf76482cbcab9e9242c5018184ce3",
+      "bytes": 810010,
+      "role": "mmsdm:2022_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202208010000.CSV",
+      "url": "",
+      "sha256": "8a69ad59ec2f921d1da0bf73105be4a26f9777987dc353db616aa6d50602fab9",
+      "bytes": 2227852,
+      "role": "mmsdm:2022_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202208010000.CSV",
+      "url": "",
+      "sha256": "336676b2bb1a1d08319ac3f87f12362707a72b6b20949863931c3ac9aca6e2cb",
+      "bytes": 13666933,
+      "role": "mmsdm:2022_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202208010000.CSV",
+      "url": "",
+      "sha256": "bb9703fda0b4b339019af09828a561ec5b7438c4ad0f2524c62c7a80e11fa4eb",
+      "bytes": 649504,
+      "role": "mmsdm:2022_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202208010000.CSV",
+      "url": "",
+      "sha256": "8e576d1f4a2da2d631ed83b3f85dbc6247fe1d1a736c81382d2014f519edafb8",
+      "bytes": 23882,
+      "role": "mmsdm:2022_08"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202209010000.CSV",
+      "url": "",
+      "sha256": "8a6a23c988d8aa43099fd10ab98c085a5f8fa68d44fb662b804033328287293c",
+      "bytes": 2155346,
+      "role": "mmsdm:2022_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202209010000.CSV",
+      "url": "",
+      "sha256": "ca74f65612347f107bbf097e4fc1808fc487366d6f9c080b9150c99030bdffc7",
+      "bytes": 14992198,
+      "role": "mmsdm:2022_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202209010000.CSV",
+      "url": "",
+      "sha256": "956257e4f2b31de671beaa1b30fe8ebd3082632a279f90c20f8c98c111aa0507",
+      "bytes": 767870,
+      "role": "mmsdm:2022_09"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202210010000.CSV",
+      "url": "",
+      "sha256": "c22087e9b5a108ad1b58548bd2840e060f0aef313a4d66287b46ecb0226d4a37",
+      "bytes": 3562939,
+      "role": "mmsdm:2022_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202210010000.CSV",
+      "url": "",
+      "sha256": "123113546df2f8b655577f93f814b1202f1ad4bbcaa86604d833e8a3113f2bf3",
+      "bytes": 16022305,
+      "role": "mmsdm:2022_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202210010000.CSV",
+      "url": "",
+      "sha256": "948766736812798e2074ba540c5ae2b36876971b61559f1d8b317c2521aa6198",
+      "bytes": 1016231,
+      "role": "mmsdm:2022_10"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202212010000.CSV",
+      "url": "",
+      "sha256": "d7b1ca641eed2b81e0e99c3de3c7e619f44db39c98799b41fd71c7ce6682d36b",
+      "bytes": 4724103,
+      "role": "mmsdm:2022_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202212010000.CSV",
+      "url": "",
+      "sha256": "78689107961902a25d76cec52fb415027fb3cb9abcf3cfe9b50c9414e927f3d9",
+      "bytes": 17846176,
+      "role": "mmsdm:2022_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202212010000.CSV",
+      "url": "",
+      "sha256": "0d7143aecad9373fed96dfaf8a450b03ecc15cf8c10fd3b90a90b06d4a9ab079",
+      "bytes": 1368964,
+      "role": "mmsdm:2022_12"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202303010000.CSV",
+      "url": "",
+      "sha256": "be4215298760f7fd03c6ae15aa38bdd3363fcd77e3e5818ae069bff6c4779234",
+      "bytes": 2382858,
+      "role": "mmsdm:2023_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202303010000.CSV",
+      "url": "",
+      "sha256": "191aa8f18284bd95c8992e1bfa5ea05faa7ef563bdcc2a8303a2d27cb002f925",
+      "bytes": 22290019,
+      "role": "mmsdm:2023_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202303010000.CSV",
+      "url": "",
+      "sha256": "596f5eda5ca06b9a5d861478b85c28e6ccba1c389e8b340bb0e81bcec4d44068",
+      "bytes": 876407,
+      "role": "mmsdm:2023_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202303010000.CSV",
+      "url": "",
+      "sha256": "cccbbe61887e8319db95774c0035dfa4cb9ceb0613594db78943868385c85d7b",
+      "bytes": 63634,
+      "role": "mmsdm:2023_03"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202304010000.CSV",
+      "url": "",
+      "sha256": "96bcc9458703a0bb89477b8e009bac8b9fd4922d3455a8af2c7daaab33a264a8",
+      "bytes": 4945202,
+      "role": "mmsdm:2023_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202304010000.CSV",
+      "url": "",
+      "sha256": "517ff2e5a3d6fe7063a4e6d318cdf756ac4c70cb0ec2de78e6f2c5298cf8d6c1",
+      "bytes": 19035718,
+      "role": "mmsdm:2023_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202304010000.CSV",
+      "url": "",
+      "sha256": "ebfbd624a82d90226dd25e1f914e8f70adbc958d39031b313c3434e34941a588",
+      "bytes": 1315663,
+      "role": "mmsdm:2023_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202304010000.CSV",
+      "url": "",
+      "sha256": "f820d5c9875aca0df1c5394f34cb1e39b378c76f5d412e9d63e1570d89b5a42e",
+      "bytes": 10346,
+      "role": "mmsdm:2023_04"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202305010000.CSV",
+      "url": "",
+      "sha256": "5d56791ba07299ae8718b0ff37a051401d7abb25dc281818e9100cc2b8a6863e",
+      "bytes": 3465371,
+      "role": "mmsdm:2023_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202305010000.CSV",
+      "url": "",
+      "sha256": "d2787cb85bc558ce17e5e1f60f886b5b910e14a13639d30c4ad8b8f22029978a",
+      "bytes": 21736887,
+      "role": "mmsdm:2023_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202305010000.CSV",
+      "url": "",
+      "sha256": "a38bc392e632faf1603459dc0d053dccd00aed763071372d2035f7bbe61bb268",
+      "bytes": 1083061,
+      "role": "mmsdm:2023_05"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202306010000.CSV",
+      "url": "",
+      "sha256": "022e95b8ce01e69bd04baec32b2f296a9e737563709c21ac7e6021f40fd3ad8d",
+      "bytes": 2759620,
+      "role": "mmsdm:2023_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202306010000.CSV",
+      "url": "",
+      "sha256": "6eb1ffd26f929283af85ae93f7c13aae5ac191dd13069d077198b76c6bc702b8",
+      "bytes": 16312975,
+      "role": "mmsdm:2023_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202306010000.CSV",
+      "url": "",
+      "sha256": "5276f02ee22324376edc1a7d6bfdc32017f692ca83e1abdf6f377fe052192eaf",
+      "bytes": 924503,
+      "role": "mmsdm:2023_06"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202307010000.CSV",
+      "url": "",
+      "sha256": "5766a8f523bbc6ef7cbc961d85180f13989b5bead7c56a48d4bbbe6210db322e",
+      "bytes": 4048365,
+      "role": "mmsdm:2023_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202307010000.CSV",
+      "url": "",
+      "sha256": "888020e350e195758ecff78f2b36e56d79d4a66b02476611186b07bf5e356128",
+      "bytes": 17394454,
+      "role": "mmsdm:2023_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202307010000.CSV",
+      "url": "",
+      "sha256": "40b3ce450ddbdb796706927eabddc9e0fca6f96f04483c12f42590eedcfc945a",
+      "bytes": 1114014,
+      "role": "mmsdm:2023_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202308010000.CSV",
+      "url": "",
+      "sha256": "c47b16dd4a37c5b6cf9ab7dd114f6e0fb793e546174947ab4f3024c35e35f32a",
+      "bytes": 5400002,
+      "role": "mmsdm:2023_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202308010000.CSV",
+      "url": "",
+      "sha256": "34ea3a72f7f64f42ee7ba3475af48377ef086945badfc93a4c36fcc0e716a1b2",
+      "bytes": 20828686,
+      "role": "mmsdm:2023_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202308010000.CSV",
+      "url": "",
+      "sha256": "1ccd504c30142854f680d80fdd6244dbefbbe680e08097ea55c161df48773a28",
+      "bytes": 1387090,
+      "role": "mmsdm:2023_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202308010000.CSV",
+      "url": "",
+      "sha256": "c07f05bd6f77aa7d7f9ac39eff1f51b1f03acf3b177f75112c655e8370ac7be2",
+      "bytes": 41358,
+      "role": "mmsdm:2023_08"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202309010000.CSV",
+      "url": "",
+      "sha256": "76adcfb0598c80ce0665df25ff6ec1d2c09f38cdd37fcb781315cd57d72a8ecd",
+      "bytes": 3003960,
+      "role": "mmsdm:2023_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202309010000.CSV",
+      "url": "",
+      "sha256": "79a8bdce2a7ed2b68716220a4c780e986c7ce3107e9277a8ca4edafb70ed9d41",
+      "bytes": 12486210,
+      "role": "mmsdm:2023_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202309010000.CSV",
+      "url": "",
+      "sha256": "715829074749a94a2131d6dd60fae1f4af6eb0c91668aad0785de089c5e0d597",
+      "bytes": 790643,
+      "role": "mmsdm:2023_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202309010000.CSV",
+      "url": "",
+      "sha256": "86aedf088507d63369275f7f53f68fe8201bb1e95fc9fad332ff04b283a95fe6",
+      "bytes": 16903,
+      "role": "mmsdm:2023_09"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202310010000.CSV",
+      "url": "",
+      "sha256": "68ced13995501e47da8326c6a785b2fd40d5e62988d4431ef6ec4bcf11901a35",
+      "bytes": 2443670,
+      "role": "mmsdm:2023_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202310010000.CSV",
+      "url": "",
+      "sha256": "317e56ce07db973c7d6214436f2e379a92219a52938bece8b4810d014a9e7526",
+      "bytes": 16364169,
+      "role": "mmsdm:2023_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202310010000.CSV",
+      "url": "",
+      "sha256": "faca2cffcdfea32e8dcce3d5007b9c17b970fb9e842f4b37ff55f77d398f205b",
+      "bytes": 611893,
+      "role": "mmsdm:2023_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202310010000.CSV",
+      "url": "",
+      "sha256": "d24218e5fbb163f53cf3887893d5f8695b0bb7bcc77ce0452a26bb4cd13df6fb",
+      "bytes": 24253,
+      "role": "mmsdm:2023_10"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202311010000.CSV",
+      "url": "",
+      "sha256": "dd2f456294ece6daab33822d363ae8a8b69021916c613675df3532064a4047f8",
+      "bytes": 2635677,
+      "role": "mmsdm:2023_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202311010000.CSV",
+      "url": "",
+      "sha256": "385944b755de435f64625f19ff4c555261a8a99f67e0459c6db6d603c2391779",
+      "bytes": 19328001,
+      "role": "mmsdm:2023_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202311010000.CSV",
+      "url": "",
+      "sha256": "47961961a1372db05c3d1717e8ad3e2daf075429b1a560888964a67aedac3050",
+      "bytes": 883335,
+      "role": "mmsdm:2023_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202311010000.CSV",
+      "url": "",
+      "sha256": "ad2065b7079786959d3b97e951b909be54c0f6b812e5c05643a5c04a11ffeb34",
+      "bytes": 20878,
+      "role": "mmsdm:2023_11"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202403010000.CSV",
+      "url": "",
+      "sha256": "ac80ebd8a59b3278d63211cd0f3196cf53a12ec3125264c891649adb64e6073a",
+      "bytes": 787234,
+      "role": "mmsdm:2024_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202403010000.CSV",
+      "url": "",
+      "sha256": "a4c34b77ce6c288214ba1e02a5cb7ac6bc45a92788880328258720f6d9cd7014",
+      "bytes": 3347820,
+      "role": "mmsdm:2024_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202403010000.CSV",
+      "url": "",
+      "sha256": "e7fb5c7af7470aa85cdf7ff519e97bd5fa8b358f4eb94a9429164462d114e34a",
+      "bytes": 128676,
+      "role": "mmsdm:2024_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202403010000.CSV",
+      "url": "",
+      "sha256": "010a86d469087962d2f273a89b8e703b8db8eac7ad3da3d5dd12eaad836d14b5",
+      "bytes": 8827,
+      "role": "mmsdm:2024_03"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202406010000.CSV",
+      "url": "",
+      "sha256": "f52cd6474fd39f9dce73e494a38b78fd8d174317a3b633d21dc98ad73e09339a",
+      "bytes": 1645945,
+      "role": "mmsdm:2024_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202406010000.CSV",
+      "url": "",
+      "sha256": "d68c7ab180a3ead77d8d5764753d733a3298e88aea2a23830fa6723bd1cd7fea",
+      "bytes": 11442035,
+      "role": "mmsdm:2024_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202406010000.CSV",
+      "url": "",
+      "sha256": "87797550f8620e8eeab406eb711efba4887611b81a9566767b3738f079cdc85a",
+      "bytes": 474092,
+      "role": "mmsdm:2024_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202406010000.CSV",
+      "url": "",
+      "sha256": "4f5de4890af7d922ff92b030821e7437c3c33e5a27388e1e626f9e005ff9f742",
+      "bytes": 20838,
+      "role": "mmsdm:2024_06"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202407010000.CSV",
+      "url": "",
+      "sha256": "580472e8d8d939ac6655740de34f5bbbc8381867140b35f78994abc28d4f4ff6",
+      "bytes": 1570546,
+      "role": "mmsdm:2024_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202407010000.CSV",
+      "url": "",
+      "sha256": "d1dd0950b4b0d620fb5f30a6022e16639e3f49b7de8a425843f345afa0f43137",
+      "bytes": 14558465,
+      "role": "mmsdm:2024_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202407010000.CSV",
+      "url": "",
+      "sha256": "7db4e938b1436addd23e88ee53eeab6e6671a8266b973b7be2a7a4e05cc2724e",
+      "bytes": 509614,
+      "role": "mmsdm:2024_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202407010000.CSV",
+      "url": "",
+      "sha256": "9db27a0b70fb36446d1fc4f6b621c0e05bbcac0909a67918afe54c15137224ad",
+      "bytes": 41645,
+      "role": "mmsdm:2024_07"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202408010000.CSV",
+      "url": "",
+      "sha256": "80600cc8eba8790d5c88663b12d732e304c2639d273965303c69ac1b5aaaa677",
+      "bytes": 1557314,
+      "role": "mmsdm:2024_08"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202408010000.CSV",
+      "url": "",
+      "sha256": "20d0473d3970237c45e11771862a595c69e0ded356821200a8a5f8939c40e0fd",
+      "bytes": 12744341,
+      "role": "mmsdm:2024_08"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202408010000.CSV",
+      "url": "",
+      "sha256": "60e6e64cee5c6768768105cf3932f95a955e28c2db0dea78d562b68a21dad2e6",
+      "bytes": 430754,
+      "role": "mmsdm:2024_08"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202409010000.CSV",
+      "url": "",
+      "sha256": "90ae845982cf496391e1269ea3044ff5c481e079e50a9ae3cbdf89efb501cee2",
+      "bytes": 2945780,
+      "role": "mmsdm:2024_09"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202409010000.CSV",
+      "url": "",
+      "sha256": "993bb8b4523fe7b37dfa5d86cf38c5f425fbfa5a8fc75a68c00a09f72163f46c",
+      "bytes": 22663996,
+      "role": "mmsdm:2024_09"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202409010000.CSV",
+      "url": "",
+      "sha256": "7a08e1753495ecf878fb8094212275489ad5d7f404f2cf0876d93ecd17f53f58",
+      "bytes": 921101,
+      "role": "mmsdm:2024_09"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202409010000.CSV",
+      "url": "",
+      "sha256": "e42285f7879ae613787ab35a01593a8abf1cc2aec5a8aff230618aadba158e4f",
+      "bytes": 3093,
+      "role": "mmsdm:2024_09"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202410010000.CSV",
+      "url": "",
+      "sha256": "da2fd09f975efe178d73163a203f1bd01ebc4db2b8707c09fb255ab498c13839",
+      "bytes": 4238925,
+      "role": "mmsdm:2024_10"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202410010000.CSV",
+      "url": "",
+      "sha256": "2a432438f8ccad32dfc10d3302e7a9633a90a157437d61731ae00c2a8a357ee1",
+      "bytes": 32628367,
+      "role": "mmsdm:2024_10"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202410010000.CSV",
+      "url": "",
+      "sha256": "cc4b48e07e083549658ac704dbabe11dd06a82c8980c4647bf712fb6a2a7d5d2",
+      "bytes": 1226084,
+      "role": "mmsdm:2024_10"
+    },
+    {
       "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202411010000.CSV",
       "url": "",
       "sha256": "93c9a9b509dfaa00b152b2cb9b89ad1f3e0f7a234e7f0dd407fd4cc655fc811d",
@@ -445,6 +1663,62 @@
       "role": "mmsdm:2024_12"
     },
     {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202501010000.CSV",
+      "url": "",
+      "sha256": "033173b50138eabefc4df342e497b9f4d31fe168eda5042ac81778bb9992c23d",
+      "bytes": 1120971,
+      "role": "mmsdm:2025_01"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202501010000.CSV",
+      "url": "",
+      "sha256": "77eeab9e8178f3bb63d4a3f6f006225c316e8e57c68d6f24b107274451594e45",
+      "bytes": 7418118,
+      "role": "mmsdm:2025_01"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202501010000.CSV",
+      "url": "",
+      "sha256": "65d4ada177ac66e2b1dce706592cc87df58f36d541e7611708ac53c4e71d6cb9",
+      "bytes": 338626,
+      "role": "mmsdm:2025_01"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202501010000.CSV",
+      "url": "",
+      "sha256": "37e57fb025040979fd69cfac19ad82e9057c61a11f8b019f443e6f146966e51d",
+      "bytes": 14325,
+      "role": "mmsdm:2025_01"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202502010000.CSV",
+      "url": "",
+      "sha256": "19b31755f8dee4c04f28613acb525deaed9d5cf624991b6c09f1df18c110b72e",
+      "bytes": 1426143,
+      "role": "mmsdm:2025_02"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202502010000.CSV",
+      "url": "",
+      "sha256": "0bc26ae4f69065c7f3231401648a7b28cd100c50674dfae7bfa5b88e92fcdc99",
+      "bytes": 12584705,
+      "role": "mmsdm:2025_02"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202502010000.CSV",
+      "url": "",
+      "sha256": "21214099c192977225b2a8247a0bf34d4f52ed7b2ad08d8a820962d0e3c64cf1",
+      "bytes": 466337,
+      "role": "mmsdm:2025_02"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202502010000.CSV",
+      "url": "",
+      "sha256": "d3bcdbb894fdfc7d8ad67b85daad5b88ee9959cf4f49aa014d2e9c4f4874b83e",
+      "bytes": 5915,
+      "role": "mmsdm:2025_02"
+    },
+    {
       "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202503010000.CSV",
       "url": "",
       "sha256": "478ff1ad96baa7e61870cabc295bba801324b91f0cac117abe7f225d70b03635",
@@ -466,11 +1740,130 @@
       "role": "mmsdm:2025_03"
     },
     {
-      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202503010000.CSV",
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202504010000.CSV",
       "url": "",
-      "sha256": "a835b635a9bbbab7f1977e3bb70911c8c65af112e00ea4b992a4916b1fb93530",
-      "bytes": 4353,
-      "role": "mmsdm:2025_03"
+      "sha256": "d570a7cc0c56c5c542f75209438b2ffd679077614571b0a555e51ec9db93b2fb",
+      "bytes": 1463694,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202504010000.CSV",
+      "url": "",
+      "sha256": "34514e7aa2a70f9365707b6419e259783f1c0ce00c5ccb2f5f06698e7a216e1b",
+      "bytes": 10172192,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202504010000.CSV",
+      "url": "",
+      "sha256": "ddc7ee0afb521618e6e2064039637db8ce9bc5e318ea7a9da7eda669004248f1",
+      "bytes": 399098,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202505010000.CSV",
+      "url": "",
+      "sha256": "6214119ab02b070a8251ebd8c15c6f7dc02e14884c9a3b657c416793b27fff6a",
+      "bytes": 1876160,
+      "role": "mmsdm:2025_05"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202505010000.CSV",
+      "url": "",
+      "sha256": "3006f123b1f0f08f52f6934fb65649d5a1394ba31d9f729e437dca95ee5ee492",
+      "bytes": 13433158,
+      "role": "mmsdm:2025_05"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202505010000.CSV",
+      "url": "",
+      "sha256": "53d899273243bef12f96640bc25d00f555d2c7dbcd2d78c06028678a1508ee0b",
+      "bytes": 539641,
+      "role": "mmsdm:2025_05"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202505010000.CSV",
+      "url": "",
+      "sha256": "3f8b6099cd508a006c000f9c3a03dc39f88aa8af5faacc89f01c7dfe3fe74754",
+      "bytes": 606,
+      "role": "mmsdm:2025_05"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202506010000.CSV",
+      "url": "",
+      "sha256": "02e589aea7e26852ce36297be38ebeca1ae57ece0444629fd761e6124448f22e",
+      "bytes": 1264937,
+      "role": "mmsdm:2025_06"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202506010000.CSV",
+      "url": "",
+      "sha256": "1491b49aacde7cada2a8ed5361df1dba1a8b104569176a4a299b2b9655fdd2a1",
+      "bytes": 9797531,
+      "role": "mmsdm:2025_06"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202506010000.CSV",
+      "url": "",
+      "sha256": "fc82c420d1ecde9533142267ad92e7eab21fbc30c8c41bbcda49b21d4b75c6a5",
+      "bytes": 364400,
+      "role": "mmsdm:2025_06"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202506010000.CSV",
+      "url": "",
+      "sha256": "8db95d563f69ef3aba4868c151546a69d5e56f3a4905b6ee04e4847648cc200b",
+      "bytes": 10290,
+      "role": "mmsdm:2025_06"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202508010000.CSV",
+      "url": "",
+      "sha256": "3a8fe31c498a5831f2ba2d0a5692e9c3fb556fe49d910e61720dfa2afa71f08c",
+      "bytes": 1420698,
+      "role": "mmsdm:2025_08"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202508010000.CSV",
+      "url": "",
+      "sha256": "d3e4205c9298b21c1d19290e8a4aecad0387d83e7843fe08bb60c659b242cdeb",
+      "bytes": 7033293,
+      "role": "mmsdm:2025_08"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202508010000.CSV",
+      "url": "",
+      "sha256": "4af90975887f9508962d612ae5967ed4c881b2a94d4daf103f1b3ba53d3c525a",
+      "bytes": 418315,
+      "role": "mmsdm:2025_08"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202510010000.CSV",
+      "url": "",
+      "sha256": "f2aa280c65085b864c8f12b8be63d47c68575fc852ab61afabfd3153b744e4b0",
+      "bytes": 1374779,
+      "role": "mmsdm:2025_10"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202510010000.CSV",
+      "url": "",
+      "sha256": "85e9a6433dc716c642849c7bb7e6c725eee4124a239063bb367ad9c49b6d7cd5",
+      "bytes": 8072529,
+      "role": "mmsdm:2025_10"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202510010000.CSV",
+      "url": "",
+      "sha256": "cf575565eb17f3e2bd26cd478d8f84fbc79eaf95303eb094ab7faeda93731258",
+      "bytes": 369867,
+      "role": "mmsdm:2025_10"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202510010000.CSV",
+      "url": "",
+      "sha256": "e585e92090c86af6d6fad0ad8f1a3a62956ae84a4bce5e9c21de1b7221f7a6dc",
+      "bytes": 20186,
+      "role": "mmsdm:2025_10"
     },
     {
       "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202511010000.CSV",
@@ -529,6 +1922,34 @@
       "role": "mmsdm:2025_12"
     },
     {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202601010000.CSV",
+      "url": "",
+      "sha256": "e7cdedfd55b25536aae425c978c3fabd48e3939deb9323242d9991b075637ad7",
+      "bytes": 1121732,
+      "role": "mmsdm:2026_01"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202601010000.CSV",
+      "url": "",
+      "sha256": "cc9f2c0d2a3afd3bfae15e051f8de8c3450d8fc712533bef6754966bf83efa10",
+      "bytes": 7254214,
+      "role": "mmsdm:2026_01"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202601010000.CSV",
+      "url": "",
+      "sha256": "aa206aef75246fe53a48bf98ea0ff6b79b97f43a1e7fe45f59481df4a0f6217b",
+      "bytes": 227754,
+      "role": "mmsdm:2026_01"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202601010000.CSV",
+      "url": "",
+      "sha256": "93900df4b4e2bc70b0d2190616e944b353251d8c06d2ff102e5f1758b8077e07",
+      "bytes": 2574,
+      "role": "mmsdm:2026_01"
+    },
+    {
       "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202602010000.CSV",
       "url": "",
       "sha256": "172c46fd4cb2af3060076c4d839ea85546e5554ab9938d4872dadcdbf65da202",
@@ -550,11 +1971,88 @@
       "role": "mmsdm:2026_02"
     },
     {
-      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202602010000.CSV",
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202603010000.CSV",
       "url": "",
-      "sha256": "cf4ce91a04f4135889057c8a0f49a8a35390ecf717c278b9a8ba11da897809a2",
-      "bytes": 38043,
-      "role": "mmsdm:2026_02"
+      "sha256": "c0ffbfe3b64998907e373d954222593e42829dbe1b52fad9110adb9b363e9f61",
+      "bytes": 2102104,
+      "role": "mmsdm:2026_03"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202603010000.CSV",
+      "url": "",
+      "sha256": "4582306d2a6803dabe0f207c998f72294fb01b52395085db3db63e8589c75f47",
+      "bytes": 17859052,
+      "role": "mmsdm:2026_03"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202603010000.CSV",
+      "url": "",
+      "sha256": "607d173a2c6db7d0439e0df893a929b45a89490012e0e2b63d764c97ae0865be",
+      "bytes": 592796,
+      "role": "mmsdm:2026_03"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202603010000.CSV",
+      "url": "",
+      "sha256": "0efd5895ea192ce80625665732d02c592209aea63c18c0866ef4af374a988a72",
+      "bytes": 28045,
+      "role": "mmsdm:2026_03"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202604010000.CSV",
+      "url": "",
+      "sha256": "b9d888bea1ecb867ac09f92ff126e73471096cfcc61231c7aa4562ea14ac30a4",
+      "bytes": 1919380,
+      "role": "mmsdm:2026_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202604010000.CSV",
+      "url": "",
+      "sha256": "697038ef9c0199e626d56c277d35388ae516c9c37567afa5fcef020ff7365090",
+      "bytes": 14841865,
+      "role": "mmsdm:2026_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202604010000.CSV",
+      "url": "",
+      "sha256": "82f7945ecf3dcadd20d4e9ce58c9b5b7ba4de1e2e393fbaaa94460d4095916e7",
+      "bytes": 564053,
+      "role": "mmsdm:2026_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202604010000.CSV",
+      "url": "",
+      "sha256": "7dce4d3c76b4b1a9ec99bf0dc7590b529376d0dfa968e8ac2e2585df8a1a91ad",
+      "bytes": 132330,
+      "role": "mmsdm:2026_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202605010000.CSV",
+      "url": "",
+      "sha256": "e37557648a1eb49b5643f28f564e24c29ba417ddfd5aad600def0dcbdb22e935",
+      "bytes": 1808872,
+      "role": "mmsdm:2026_05"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202605010000.CSV",
+      "url": "",
+      "sha256": "80fc83cc701dfc5b156fb99617b4c7f10592f353df31f400b1a7e4ecc41ba714",
+      "bytes": 12747563,
+      "role": "mmsdm:2026_05"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202605010000.CSV",
+      "url": "",
+      "sha256": "c28cd2a95c56e2eaddfc6cc678d890c1e1e880b14a9c9cdae3c15f2232d642c9",
+      "bytes": 569481,
+      "role": "mmsdm:2026_05"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202605010000.CSV",
+      "url": "",
+      "sha256": "c48d66798fa79632e5d34247a2b5008f5bdb1cc5a56e734df430da01e4e24d64",
+      "bytes": 187941,
+      "role": "mmsdm:2026_05"
     },
     {
       "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202606010000.CSV",
@@ -606,11 +2104,25 @@
       "role": "mmsdm:2026_07"
     },
     {
-      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202607010000.CSV",
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202608010000.CSV",
       "url": "",
-      "sha256": "2060261fb4e77fb9f422b905ab94dd5fa20a36a151564f0226e8ef68cefaefc7",
-      "bytes": 5383,
-      "role": "mmsdm:2026_07"
+      "sha256": "8159f8a17ac2f5ecc92b2f9eac79fdf57b197a40685455e7adb8e76f8c75184c",
+      "bytes": 1357144,
+      "role": "mmsdm:2026_08"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202608010000.CSV",
+      "url": "",
+      "sha256": "91be24d216f7b0b69c1a00f9dd92503f7293512b580ba5d5ba87c0f74ee20cf1",
+      "bytes": 8581579,
+      "role": "mmsdm:2026_08"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202608010000.CSV",
+      "url": "",
+      "sha256": "c0e52435a0522f1d43a0e3f6b541437863db690b983aca1f8065b86bc3a61b21",
+      "bytes": 347473,
+      "role": "mmsdm:2026_08"
     },
     {
       "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202609010000.CSV",
@@ -631,13 +2143,6 @@
       "url": "",
       "sha256": "6e56807ecd567b4a851369ce325d3a0ba33778c3ab9dcb8352f23a6053f4c45b",
       "bytes": 627316,
-      "role": "mmsdm:2026_09"
-    },
-    {
-      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202609010000.CSV",
-      "url": "",
-      "sha256": "a4a8fd81bde5ead3f08435e8fc9c840c2120584be04438d489b92552934bf0fb",
-      "bytes": 11405,
       "role": "mmsdm:2026_09"
     },
     {
@@ -700,26 +2205,26 @@
     {
       "file": "static_gencondata.parquet",
       "table": "GENCONDATA_NULL",
-      "rows": 580,
-      "sha256": "cef8a562944b93a7f726420ef50379931cf55228c6d5ab42e35cdf3aab4940ef"
+      "rows": 7922,
+      "sha256": "d849695c82f498fcc0bb55bac37fed87528b4c3db50b1b6c335e2cea50742605"
     },
     {
       "file": "static_spdconnectionpointconstraint.parquet",
       "table": "SPDCPC_NULL",
-      "rows": 17165,
-      "sha256": "f2fc3ab483a9abff8fbd32f601ebe388392077a551c19b5d3e1dfec9aca11ea4"
+      "rows": 253759,
+      "sha256": "3e6c40206fbf64c3e17be481477ea536fd5960a3a42598ca26c86758d835d770"
     },
     {
       "file": "static_spdinterconnectorconstraint.parquet",
       "table": "SPDICC_NULL",
-      "rows": 924,
-      "sha256": "e5b255e70ebf29d1699b778c04ead3ac0e571443dffa9204dc176a7a9d7fdf9e"
+      "rows": 10292,
+      "sha256": "63d1becc84fb57d3e425bb27a98cd77cbde7e75ab8989b6786b0907967f9f54c"
     },
     {
       "file": "static_spdregionconstraint.parquet",
       "table": "SPDRC_NULL",
-      "rows": 69,
-      "sha256": "c49ee9c05860b9c21884d6efeb5b990b90ecb1016fb63c6c19137ba4c4aa5ae5"
+      "rows": 1732,
+      "sha256": "6a51493580d9c5930a983e99660fb7146323982ffbc3d80dd0a6676b3633c22d"
     },
     {
       "file": "static_dudetailsummary.parquet",
@@ -744,7 +2249,6 @@
       "2013_11",
       "2014_01",
       "2014_05",
-      "2014_09",
       "2014_10",
       "2015_08",
       "2015_12",
@@ -810,11 +2314,25 @@
       "2026_06",
       "2026_07",
       "2026_08",
-      "2026_09",
-      "2026_10"
+      "2026_09"
     ],
     "invoked_versions": 1180,
-    "equations_found": 580,
+    "equations_found": 1127,
+    "other_versions": 6795,
+    "ids_without_any_version": [
+      "#R037183_009_RAMP_F",
+      "#R037183_009_RAMP_V",
+      "DATASNAP_DFS_VIC_RW",
+      "DSNAP_BU_PST_ANG",
+      "DSNAP_BU_PST_PANG",
+      "DSNAP_INFO_BUPS_TEAM",
+      "N^N_SOWS_72",
+      "N^N_SOWS_7J",
+      "S:VN_700_TEST",
+      "S:VN_700_TEST_DYN",
+      "V:NS_750_TEST",
+      "V:NS_750_TEST_DYN"
+    ],
     "missing_equations": [
       {
         "constraint_id": "#R037183_009_RAMP_F",
@@ -827,273 +2345,8 @@
         "version_no": 1
       },
       {
-        "constraint_id": "C_N_QUORNP_019_L_H",
-        "effective_date": "2026-01-29T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "C_N_QUORNP_080_G_H",
-        "effective_date": "2026-01-29T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_LS",
-        "effective_date": "2018-04-13T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_NCAN",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_NCWEST",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_NNTH",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_NSYD",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_QCEN",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_QCIND",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_QFNQ",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_QNTH",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_QROSS",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_QSTHE",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_QSTHW",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_Q_BCCP",
-        "effective_date": "2015-12-16T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_Q_BCRG",
-        "effective_date": "2015-12-16T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_Q_CLST",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_Q_CLWU",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_Q_LCCP",
-        "effective_date": "2015-12-16T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_Q_RGLC",
-        "effective_date": "2017-10-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_Q_TAMR",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_Q_TAMR2",
-        "effective_date": "2017-10-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_SADL",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_SNTH",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_SRIV",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_SSE",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_SWNSW",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_TNTH",
-        "effective_date": "2024-07-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_TNWEST",
-        "effective_date": "2024-07-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_TWCST",
-        "effective_date": "2024-07-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_T_FASH1",
-        "effective_date": "2016-03-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_T_GOCS1",
-        "effective_date": "2016-03-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_T_HAGT1",
-        "effective_date": "2016-03-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_T_PMHA1",
-        "effective_date": "2016-03-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_T_PMHA3",
-        "effective_date": "2016-03-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_T_SHGT",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_T_SHPM",
-        "effective_date": "2016-03-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_T_TATU",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_T_WALE",
-        "effective_date": "2016-03-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
         "constraint_id": "DATASNAP_DFS_VIC_RW",
         "effective_date": "2026-10-06T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_VIC_SG",
-        "effective_date": "2024-07-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_VMEL",
-        "effective_date": "2024-07-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_DFS_V_BABE",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_PDID_1",
-        "effective_date": "2018-04-13T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_PV_NSW",
-        "effective_date": "2022-09-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_PV_QLDCEN",
-        "effective_date": "2022-09-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_PV_QLDNORTH",
-        "effective_date": "2022-09-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_PV_QLDSOUTH",
-        "effective_date": "2022-09-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_PV_SA",
-        "effective_date": "2022-09-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_PV_TASNORTH",
-        "effective_date": "2022-09-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_PV_TASSOUTH",
-        "effective_date": "2022-09-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_PV_VIC",
-        "effective_date": "2022-09-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATASNAP_TE_967_1",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DATA_MMS_ALERT1",
-        "effective_date": "2026-08-14T00:00:00+10:00",
         "version_no": 1
       },
       {
@@ -1107,188 +2360,8 @@
         "version_no": 1
       },
       {
-        "constraint_id": "DSNAP_DFS_N_ARTW",
-        "effective_date": "2024-10-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_N_AVMN",
-        "effective_date": "2024-10-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_N_BYCR",
-        "effective_date": "2024-10-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_N_BYSW",
-        "effective_date": "2024-03-13T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_N_CNYS",
-        "effective_date": "2024-10-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_N_DTMN",
-        "effective_date": "2024-10-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_N_LDTW",
-        "effective_date": "2024-10-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_N_LTMS",
-        "effective_date": "2024-10-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_N_MNYS",
-        "effective_date": "2024-10-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_N_MSUT",
-        "effective_date": "2024-10-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_N_TWUL",
-        "effective_date": "2024-10-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_V_BABE_5M",
-        "effective_date": "2024-07-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_V_BAML",
-        "effective_date": "2014-05-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_V_BAML_5M",
-        "effective_date": "2024-07-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_V_DDMB",
-        "effective_date": "2014-05-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_V_DDMS",
-        "effective_date": "2019-01-29T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_V_DDSM",
-        "effective_date": "2014-05-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_V_EPTT",
-        "effective_date": "2024-10-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_V_MLGT1",
-        "effective_date": "2024-10-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_V_MLGT2",
-        "effective_date": "2024-10-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_DFS_V_ROYP",
-        "effective_date": "2014-05-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
         "constraint_id": "DSNAP_INFO_BUPS_TEAM",
         "effective_date": "2026-10-02T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_INFO_NSW_INER",
-        "effective_date": "2024-07-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_INFO_QLD_INER",
-        "effective_date": "2024-07-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_INFO_SA_INER",
-        "effective_date": "2024-07-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_INFO_SA_SYNCON",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_INFO_TAS_INER",
-        "effective_date": "2024-07-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_INFO_TNTH_INER",
-        "effective_date": "2024-07-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_INFO_VIC_INER",
-        "effective_date": "2024-07-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_MLNK_RAT_LIM",
-        "effective_date": "2026-05-13T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_N>>NIL_85_86_S",
-        "effective_date": "2025-08-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_N>>NIL_86_85_S",
-        "effective_date": "2025-08-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_N_MSL_BESS_CHG",
-        "effective_date": "2026-08-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_Q>>MITUM",
-        "effective_date": "2025-05-29T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_Q>WOCY_1",
-        "effective_date": "2026-01-08T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "DSNAP_Q>WOGP",
-        "effective_date": "2025-05-29T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_Q_BKSP838",
-        "effective_date": "2022-07-04T00:00:00+10:00",
         "version_no": 1
       },
       {
@@ -1297,1123 +2370,13 @@
         "version_no": 1
       },
       {
-        "constraint_id": "DSNAP_RACOMIL_GEN",
-        "effective_date": "2025-04-29T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "DSNAP_SVML",
-        "effective_date": "2023-04-26T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
         "constraint_id": "DSNAP_S_MSL_BESS_CHG",
         "effective_date": "2026-10-01T00:00:00+10:00",
         "version_no": 1
       },
       {
-        "constraint_id": "DSNAP_TABMILL2_GEN",
-        "effective_date": "2025-04-29T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
         "constraint_id": "DSNAP_V_MSL_BESS_CHG",
         "effective_date": "2026-10-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "D_I+BIP_ML2_L1",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "D_I+NIL_MG2_R1",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "D_T+NIL_BB_TG_R1",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "D_T+NIL_MG_R1",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "D_T+NIL_ML_L1",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "D_T+NIL_ML_RECL_L1",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "D_T+NIL_TL_L1_DS",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "D_T+NIL_WF_TG_R1",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+BIP_ML_L1",
-        "effective_date": "2024-09-09T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+BIP_ML_L5",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+BIP_ML_L6",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+BIP_ML_L60",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+GFT_TG_R1",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+GFT_TG_R5",
-        "effective_date": "2026-03-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+GFT_TG_R6",
-        "effective_date": "2026-03-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+GFT_TG_R60",
-        "effective_date": "2026-03-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+LREG_0210",
-        "effective_date": "2022-08-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+MREH_TG_R1",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+MREH_TG_R5",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+MREH_TG_R6",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+MREH_TG_R60",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_APD_TL_L1",
-        "effective_date": "2024-09-09T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_APD_TL_L5",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_APD_TL_L6",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_APD_TL_L60",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_LDBES_TL_L1",
-        "effective_date": "2026-03-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_LDBES_TL_L5",
-        "effective_date": "2026-03-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_LDBES_TL_L6",
-        "effective_date": "2026-03-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_LDBES_TL_L60",
-        "effective_date": "2026-03-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_MG_R1",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_MG_R5",
-        "effective_date": "2022-08-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_MG_R6",
-        "effective_date": "2022-08-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_MG_R60",
-        "effective_date": "2022-08-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_MREH_TL_L1",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_MREH_TL_L5",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_MREH_TL_L6",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+NIL_MREH_TL_L60",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+RREG_0220",
-        "effective_date": "2022-08-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+TTS_TG_R1",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+TTS_TG_R5",
-        "effective_date": "2022-08-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+TTS_TG_R6",
-        "effective_date": "2022-08-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_I+TTS_TG_R60",
-        "effective_date": "2022-08-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++APD_TL_L1",
-        "effective_date": "2024-09-09T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++APD_TL_L5",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++APD_TL_L6",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++APD_TL_L60",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++BIP_ML_L1",
-        "effective_date": "2024-09-09T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++BIP_ML_L5",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++BIP_ML_L6",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++BIP_ML_L60",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++GFT_TG_R1",
-        "effective_date": "2025-10-28T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "F_MAIN++GFT_TG_R5",
-        "effective_date": "2026-03-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++GFT_TG_R6",
-        "effective_date": "2026-03-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++GFT_TG_R60",
-        "effective_date": "2026-03-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++LDBES_TL_L1",
-        "effective_date": "2026-03-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++LDBES_TL_L5",
-        "effective_date": "2026-03-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++LDBES_TL_L6",
-        "effective_date": "2026-03-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++LDBES_TL_L60",
-        "effective_date": "2026-03-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++LREG_0210",
-        "effective_date": "2019-05-16T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++MREH_TG_R1",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++MREH_TG_R5",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++MREH_TG_R6",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++MREH_TG_R60",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++MREH_TL_L1",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++MREH_TL_L5",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++MREH_TL_L6",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++MREH_TL_L60",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++NIL_BL_L5",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++NIL_BL_L6",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++NIL_BL_L60",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++NIL_BL_R5",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++NIL_BL_R6",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++NIL_BL_R60",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++NIL_MG_R1",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++NIL_MG_R5",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++NIL_MG_R6",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++NIL_MG_R60",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++RREG_0220",
-        "effective_date": "2019-05-16T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++TTS_TG_R1",
-        "effective_date": "2025-10-28T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "F_MAIN++TTS_TG_R5",
-        "effective_date": "2020-12-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++TTS_TG_R6",
-        "effective_date": "2020-12-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN++TTS_TG_R60",
-        "effective_date": "2020-12-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+APD_TL_L1",
-        "effective_date": "2024-09-09T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+APD_TL_L5",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+APD_TL_L6",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+APD_TL_L60",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+BIP_ML_L1",
-        "effective_date": "2024-09-09T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+BIP_ML_L5",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+BIP_ML_L6",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+BIP_ML_L60",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+GFT_TG_R1",
-        "effective_date": "2025-10-28T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+GFT_TG_R5",
-        "effective_date": "2026-03-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+GFT_TG_R6",
-        "effective_date": "2026-03-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+GFT_TG_R60",
-        "effective_date": "2026-03-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+LDBES_TL_L1",
-        "effective_date": "2026-03-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+LDBES_TL_L5",
-        "effective_date": "2026-03-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+LDBES_TL_L6",
-        "effective_date": "2026-03-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+LDBES_TL_L60",
-        "effective_date": "2026-03-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+LREG_0210",
-        "effective_date": "2019-05-16T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+MREH_TG_R1",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+MREH_TG_R5",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+MREH_TG_R6",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+MREH_TG_R60",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+MREH_TL_L1",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+MREH_TL_L5",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+MREH_TL_L6",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+MREH_TL_L60",
-        "effective_date": "2025-10-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+NIL_BL_L1",
-        "effective_date": "2024-09-09T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+NIL_BL_R1",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+NIL_MG_R1",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+NIL_MG_R5",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+NIL_MG_R6",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+NIL_MG_R60",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+RREG_0220",
-        "effective_date": "2019-05-16T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+TTS_TG_R1",
-        "effective_date": "2025-10-28T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+TTS_TG_R5",
-        "effective_date": "2020-12-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+TTS_TG_R6",
-        "effective_date": "2020-12-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_MAIN+TTS_TG_R60",
-        "effective_date": "2020-12-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_NVS++86_L5",
-        "effective_date": "2023-03-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_NVS++86_L6",
-        "effective_date": "2023-03-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_NVS++86_L60",
-        "effective_date": "2023-03-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_NVS++86_R5",
-        "effective_date": "2026-04-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_NVS++86_R6",
-        "effective_date": "2026-04-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_NVS++86_R60",
-        "effective_date": "2026-04-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_NVS+86_L5",
-        "effective_date": "2023-03-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_NVS+86_L6",
-        "effective_date": "2023-03-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_NVS+86_L60",
-        "effective_date": "2023-03-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_NVS+86_R5",
-        "effective_date": "2026-04-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_NVS+86_R6",
-        "effective_date": "2026-04-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_NVS+86_R60",
-        "effective_date": "2026-04-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_Q++86_L5",
-        "effective_date": "2026-04-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_Q++86_L6",
-        "effective_date": "2026-04-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_Q++86_L60",
-        "effective_date": "2026-04-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_Q++86_R5",
-        "effective_date": "2023-03-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_Q++86_R6",
-        "effective_date": "2023-03-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_Q++86_R60",
-        "effective_date": "2023-03-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_Q++NIL_R1",
-        "effective_date": "2026-01-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_Q++NIL_R5",
-        "effective_date": "2026-01-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_Q++NIL_R6",
-        "effective_date": "2026-01-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_Q++NIL_R60",
-        "effective_date": "2026-01-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_STHN++86_L5",
-        "effective_date": "2023-03-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_STHN++86_L6",
-        "effective_date": "2023-08-22T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_STHN++86_L60",
-        "effective_date": "2023-03-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_STHN++86_R5",
-        "effective_date": "2026-04-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_STHN++86_R6",
-        "effective_date": "2026-04-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_STHN++86_R60",
-        "effective_date": "2026-04-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++GTTE_TL_L5",
-        "effective_date": "2023-09-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++GTTE_TL_L6",
-        "effective_date": "2023-09-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++GTTE_TL_L60",
-        "effective_date": "2023-09-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_BB_TG_R5",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_BB_TG_R6",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_BB_TG_R60",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_BLSPS_L5",
-        "effective_date": "2023-09-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_BLSPS_L6",
-        "effective_date": "2023-09-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_BLSPS_L60",
-        "effective_date": "2023-09-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_BLSPS_R5",
-        "effective_date": "2023-09-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_BLSPS_R6",
-        "effective_date": "2023-09-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_BLSPS_R60",
-        "effective_date": "2023-09-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_CHWF_TG_R6",
-        "effective_date": "2025-06-23T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_GHWF_TG_R6",
-        "effective_date": "2025-06-23T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_MG_R5",
-        "effective_date": "2023-09-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_MG_R6",
-        "effective_date": "2023-09-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_MG_R60",
-        "effective_date": "2023-09-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_ML_L5",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_ML_L6",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_ML_L60",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_ML_RECL_L5",
-        "effective_date": "2025-01-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_ML_RECL_L6",
-        "effective_date": "2025-01-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_ML_RECL_L60",
-        "effective_date": "2025-01-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_MRWF_TG_R6",
-        "effective_date": "2025-06-23T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_TL_L5_DS",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_TL_L60_DS",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_TL_L6_DS",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_WF_TG_R5",
-        "effective_date": "2023-09-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_WF_TG_R60",
-        "effective_date": "2023-09-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T++NIL_WNWF_TG_R6",
-        "effective_date": "2025-06-23T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+GTTE_TL_L5",
-        "effective_date": "2023-09-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+GTTE_TL_L6",
-        "effective_date": "2023-09-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+GTTE_TL_L60",
-        "effective_date": "2023-09-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+LREG_0050",
-        "effective_date": "2023-04-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_BB_TG_R5",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_BB_TG_R6",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_BB_TG_R60",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_CHWF_TG_R6",
-        "effective_date": "2025-06-23T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_FCSPS_R5",
-        "effective_date": "2025-05-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_FCSPS_R6",
-        "effective_date": "2025-05-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_FCSPS_R60",
-        "effective_date": "2025-05-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_GHWF_TG_R6",
-        "effective_date": "2025-06-23T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_MG_R5",
-        "effective_date": "2023-09-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_MG_R6",
-        "effective_date": "2023-09-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_MG_R60",
-        "effective_date": "2023-09-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_ML_L5",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_ML_L6",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_ML_L60",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_ML_RECL_L5",
-        "effective_date": "2025-01-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_ML_RECL_L6",
-        "effective_date": "2025-01-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_ML_RECL_L60",
-        "effective_date": "2025-01-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_MRWF_TG_R6",
-        "effective_date": "2025-06-23T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_TL_L5_DS",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_TL_L60_DS",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_TL_L6_DS",
-        "effective_date": "2024-07-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_WF_TG_R5",
-        "effective_date": "2023-09-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_WF_TG_R60",
-        "effective_date": "2023-09-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+NIL_WNWF_TG_R6",
-        "effective_date": "2025-06-23T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T+RREG_0050",
-        "effective_date": "2023-04-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_TASCAP_LREG_0210",
-        "effective_date": "2019-05-16T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_TASCAP_RREG_0220",
-        "effective_date": "2019-05-16T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "F_T_NIL_MINP_R6",
-        "effective_date": "2026-05-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N::Q_ARTW_KC",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N::Q_ARTW_TNT",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N::Q_DM_SVC_TNT",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N::Q_DM_TW_SVC_KC",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N::Q_DM_TW_SVC_LDMU",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N::Q_DM_TW_SVC_LDTW",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N::Q_NIL_KC",
-        "effective_date": "2023-05-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N::Q_NIL_LDMU",
-        "effective_date": "2023-05-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N::Q_NIL_LDTW",
-        "effective_date": "2023-05-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N::Q_NIL_TNT",
-        "effective_date": "2023-04-28T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N::Q_TW_SVC_TNT",
-        "effective_date": "2023-04-27T00:00:00+10:00",
         "version_no": 1
       },
       {
@@ -2453,17 +2416,7 @@
       },
       {
         "constraint_id": "N>>86_8U_NIL_N",
-        "effective_date": "2023-11-13T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>>86_8U_NIL_N",
         "effective_date": "2026-10-12T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>>86_8U_NIL_S",
-        "effective_date": "2023-11-13T00:00:00+10:00",
         "version_no": 1
       },
       {
@@ -2473,62 +2426,7 @@
       },
       {
         "constraint_id": "N>>86_8U_QGEN_N",
-        "effective_date": "2023-11-13T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>>86_8U_QGEN_N",
         "effective_date": "2026-10-12T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>>NIL_23_22",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>>NIL_23_25",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>>NIL_85_86_S",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>>NIL_86_85_N",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>>NIL_86_85_S",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>>NIL_86_8U_S",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>>NIL_86_N",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>>NIL_86_NIL_S",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>>NIL_8E_8C_S",
-        "effective_date": "2023-10-24T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>>NIL_8U_86_S",
-        "effective_date": "2026-05-20T00:00:00+10:00",
         "version_no": 1
       },
       {
@@ -2542,293 +2440,8 @@
         "version_no": 1
       },
       {
-        "constraint_id": "N>N-NIL_TE_LOAD",
-        "effective_date": "2023-05-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_75_WOTX_72",
-        "effective_date": "2026-05-28T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_8J_8C",
-        "effective_date": "2023-05-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_901",
-        "effective_date": "2024-03-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_945_947",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_947_94T",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_94B",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_94K_1",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_94M",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_94T",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_94T_72",
-        "effective_date": "2026-08-10T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_94T_7J",
-        "effective_date": "2026-03-31T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_94T_947",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_96C_87",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_973",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_977_976",
-        "effective_date": "2025-02-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_997/1_3G",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_997/2_3G",
-        "effective_date": "2026-05-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_997/2_99A",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_997_99A",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_998",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_998_18",
-        "effective_date": "2026-04-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_999",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_999_9GL",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_999_S",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_99U",
-        "effective_date": "2023-05-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_9GL",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_9GM",
-        "effective_date": "2026-05-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_9J5/1",
-        "effective_date": "2023-05-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_9J5/2",
-        "effective_date": "2023-05-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_9J6",
-        "effective_date": "2023-05-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_9ML",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_9R1",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_9R4",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_9R4_62",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_9R4_99A",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_9R4_9R3",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_9R5",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_9R5_9R6",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_9R5_9R6_N",
-        "effective_date": "2026-05-29T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_9R6",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_9R6_991",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_9R6_9R5",
-        "effective_date": "2026-03-06T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_9R6_9R5_N",
-        "effective_date": "2026-05-29T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_9U9_9U8",
-        "effective_date": "2023-05-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_CLDP",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_LSDU",
-        "effective_date": "2023-05-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_MBDU",
-        "effective_date": "2023-05-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "N>NIL_PKTX_LV",
-        "effective_date": "2026-03-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_X2",
-        "effective_date": "2024-09-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>NIL_YSTX_LV",
-        "effective_date": "2026-05-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N>Q-NIL_757_758",
-        "effective_date": "2023-05-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "NQTE_ROC",
-        "effective_date": "2023-05-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "NQ_330",
-        "effective_date": "2026-05-15T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "NQ_950_DYN_TEST",
-        "effective_date": "2025-10-02T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "NQ_950_TEST",
-        "effective_date": "2025-10-02T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
         "constraint_id": "NS_150_DYN_TEST",
         "effective_date": "2026-10-06T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "NS_150_TEST",
-        "effective_date": "2026-10-01T00:00:00+10:00",
         "version_no": 1
       },
       {
@@ -2842,314 +2455,9 @@
         "version_no": 1
       },
       {
-        "constraint_id": "N^Q_ARTW_1",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N^^Q_ARTW_B1",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N^^Q_ARTW_B2",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N^^Q_ARTW_B3",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N^^Q_ARTW_B4",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N^^Q_ARTW_B5",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N^^Q_ARTW_B6",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N^^Q_DM_TW_SVC_A",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N^^Q_DM_TW_SVC_B",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N^^Q_DM_TW_SVC_B1",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N^^Q_DM_TW_SVC_B2",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N^^Q_DM_TW_SVC_B3",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N^^Q_DM_TW_SVC_B4",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N^^Q_DM_TW_SVC_B5",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N^^Q_DM_TW_SVC_B6",
-        "effective_date": "2023-04-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N_MBTE1_A",
-        "effective_date": "2018-05-03T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N_MBTE1_B",
-        "effective_date": "2013-11-25T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N_NEWENSF1+2_110-INV",
-        "effective_date": "2023-10-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N_NIL_TE_A",
-        "effective_date": "2012-07-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N_NIL_TE_B",
-        "effective_date": "2012-07-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N_QPSFB_G_4INV",
-        "effective_date": "2026-08-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N_QPSFB_L_4INV",
-        "effective_date": "2026-08-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N_STR_NESF1+2_110_I",
-        "effective_date": "2024-10-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N_STR_QPSFB_4_I",
-        "effective_date": "2026-08-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N_STR_STUBSF_77_I",
-        "effective_date": "2026-08-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N_STR_WRWSF_30_I",
-        "effective_date": "2021-02-23T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N_STUBSF_77INV",
-        "effective_date": "2026-08-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N_V_HV1700_OSC_AUTO",
-        "effective_date": "2013-07-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "N_WR_30_WT-INV",
-        "effective_date": "2026-08-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q:N_960",
-        "effective_date": "2020-04-02T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
         "constraint_id": "Q>N-NIL_8L_8M",
         "effective_date": "2026-10-08T00:00:00+10:00",
         "version_no": 1
-      },
-      {
-        "constraint_id": "Q>NIL_757_758_ECS",
-        "effective_date": "2022-06-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q>NIL_DRLCLB_NIL",
-        "effective_date": "2023-07-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q>NIL_MRTA_A",
-        "effective_date": "2019-01-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q>NIL_MRTA_B",
-        "effective_date": "2019-01-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q>NIL_MRTA_C",
-        "effective_date": "2019-01-11T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q>NIL_MUTE_757",
-        "effective_date": "2022-06-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q>NIL_MUTE_758",
-        "effective_date": "2022-06-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q>NIL_MUTX_MUTX",
-        "effective_date": "2024-10-17T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q>NIL_TV66",
-        "effective_date": "2018-08-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q>NIL_YLMR",
-        "effective_date": "2020-04-09T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "QNI_NORTH_330_DYN",
-        "effective_date": "2026-05-15T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "QNI_SOUTH_500_DYN",
-        "effective_date": "2023-10-10T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "QNI_SOUTH_890_DYN",
-        "effective_date": "2026-05-15T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "QNTE_ROC",
-        "effective_date": "2020-07-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "QN_1400_DYN_TEST",
-        "effective_date": "2024-07-26T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "QN_1400_TEST",
-        "effective_date": "2024-07-26T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "QN_500",
-        "effective_date": "2014-01-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "QN_890",
-        "effective_date": "2026-05-15T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q^CN_FDR-060",
-        "effective_date": "2021-05-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q^CN_GT-090",
-        "effective_date": "2021-05-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q^NIL_CN_FDR",
-        "effective_date": "2021-05-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q^NIL_CN_GT",
-        "effective_date": "2021-05-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q^NIL_FNQ_8905",
-        "effective_date": "2024-06-25T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q^NIL_GC",
-        "effective_date": "2025-01-16T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q^^N_ARTW_SRAR",
-        "effective_date": "2022-09-15T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q^^N_DM_SVC_SRAR",
-        "effective_date": "2022-12-13T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q^^N_NIL_SRAR",
-        "effective_date": "2022-09-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q^^N_TW_SVC_SRAR",
-        "effective_date": "2022-12-13T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q_KEP-HYB_50MW",
-        "effective_date": "2022-08-26T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "Q_STR_NIL_KEP",
-        "effective_date": "2026-08-27T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "Q_STR_NIL_KEP_I",
-        "effective_date": "2026-08-27T00:00:00+10:00",
-        "version_no": 2
       },
       {
         "constraint_id": "S:VN_700_TEST",
@@ -3182,403 +2490,8 @@
         "version_no": 1
       },
       {
-        "constraint_id": "S>>BRBG_WTTP_WEMWP4",
-        "effective_date": "2026-08-12T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "S>>NIL_RBNW1_MWP1NWB",
-        "effective_date": "2022-02-28T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "S>>NIL_RBNW1_RBMWP3",
-        "effective_date": "2022-02-28T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "S>>V_NIL_NIL_RBMW3",
-        "effective_date": "2022-02-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "S>NIL_ACPA_MAMO",
-        "effective_date": "2026-08-12T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "S>NIL_BWMP_HUWT",
-        "effective_date": "2026-01-12T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "S>NIL_BWMP_RHBR-T",
-        "effective_date": "2026-03-03T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "S>NIL_DVTX_DVTX",
-        "effective_date": "2022-02-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "S>NIL_LKDV_CNRB",
-        "effective_date": "2024-10-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "S>NIL_MHNW1_MHNW2",
-        "effective_date": "2024-06-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "S>NIL_NIL_DLAW",
-        "effective_date": "2024-10-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "S>NIL_NIL_MHNW2",
-        "effective_date": "2022-02-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "S>NIL_NIL_NWMH2",
-        "effective_date": "2022-02-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "S>NIL_NWMH1_NWMH2",
-        "effective_date": "2022-02-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "S>NIL_NWRB1_MWP3RB",
-        "effective_date": "2022-02-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "S>NIL_NWRB2_NWRB1",
-        "effective_date": "2024-06-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "S>NIL_RBMWP3_RBNW1",
-        "effective_date": "2022-02-01T00:00:00+10:00",
-        "version_no": 2
-      },
-      {
-        "constraint_id": "S>NIL_TINO3_TINO4",
-        "effective_date": "2026-01-12T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
         "constraint_id": "SN_150_DYN_TEST",
         "effective_date": "2026-10-06T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "SN_150_TEST",
-        "effective_date": "2026-10-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "SVML^NIL_MH-CAP_ON",
-        "effective_date": "2021-01-13T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "SVML_233",
-        "effective_date": "2014-10-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "SVML_FLT_130",
-        "effective_date": "2020-10-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "SVML_FLT_150",
-        "effective_date": "2019-07-19T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "SVML_RAT_LIM_DYN",
-        "effective_date": "2026-05-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "SVML_ROC_80",
-        "effective_date": "2020-07-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "S^NIL_SA_NORTH",
-        "effective_date": "2026-01-12T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "S_LB2WF_CONF",
-        "effective_date": "2015-08-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T::T_NIL_3",
-        "effective_date": "2024-07-10T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>>T_NIL_BL_EXP_3G",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>>T_NIL_BL_EXP_5F",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>>T_NIL_BL_EXP_5G",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>>T_NIL_BL_EXP_5H",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>>T_NIL_BL_EXP_6E",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>>T_NIL_BL_EXP_6F",
-        "effective_date": "2024-07-10T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>>T_NIL_BL_EXP_7C",
-        "effective_date": "2024-07-10T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_110_4",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_110_5",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_110_9",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_220_6B",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_220_6C",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_220_6D",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_3D",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_4C",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_5A",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_5B",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_5C",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_5D",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_5E",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_6A",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_6B",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_6C",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_6D",
-        "effective_date": "2024-07-10T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_IMP_3G",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_IMP_5F",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_IMP_5FF",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_IMP_5G",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_IMP_5H",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_IMP_6E",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_IMP_6EE",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_IMP_6F",
-        "effective_date": "2019-11-28T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_IMP_7C",
-        "effective_date": "2021-11-15T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_BL_IMP_7CC",
-        "effective_date": "2021-11-15T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_NCSPS5_3G",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_NCSPS5_7C",
-        "effective_date": "2021-11-15T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_TOV_5F",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T>T_NIL_TOV_5FF",
-        "effective_date": "2024-08-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "TVBL_NIL_CONT_478",
-        "effective_date": "2026-08-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "TVBL_NIL_DYN",
-        "effective_date": "2026-05-29T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "TVBL_ROC",
-        "effective_date": "2020-07-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T^T_NIL_BL_2",
-        "effective_date": "2017-07-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T^T_NIL_BL_4",
-        "effective_date": "2017-07-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T^T_NIL_BL_5",
-        "effective_date": "2017-07-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T^T_NIL_BL_7",
-        "effective_date": "2017-07-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T^V_NIL_BL_6",
-        "effective_date": "2013-08-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T_BLINK_TV_NGZ",
-        "effective_date": "2022-02-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T_BLINK_VT_NGZ",
-        "effective_date": "2022-02-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T_V_FCSPS_DS",
-        "effective_date": "2023-11-13T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "T_V_NIL_BL1",
-        "effective_date": "2022-02-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V::V_1900",
-        "effective_date": "2018-08-24T00:00:00+10:00",
         "version_no": 1
       },
       {
@@ -3602,16 +2515,6 @@
         "version_no": 1
       },
       {
-        "constraint_id": "V:S_600_HY_TEST",
-        "effective_date": "2022-10-20T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V:S_600_HY_TEST_DYN",
-        "effective_date": "2023-09-14T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
         "constraint_id": "V:S_650_HY_TEST",
         "effective_date": "2026-10-01T00:00:00+10:00",
         "version_no": 1
@@ -3619,11 +2522,6 @@
       {
         "constraint_id": "V:S_650_HY_TEST_DYN",
         "effective_date": "2026-10-01T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V:T_NIL_BL_1",
-        "effective_date": "2022-01-20T00:00:00+10:00",
         "version_no": 1
       },
       {
@@ -3699,121 +2597,6 @@
       {
         "constraint_id": "V>>X3_WERC_CWBUHO",
         "effective_date": "2026-10-09T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V>NIL_TGTX_NIL",
-        "effective_date": "2023-03-23T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V>NIL_TGTX_TGTX_2",
-        "effective_date": "2023-03-23T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V>NIL_TGTX_TGTX_20S",
-        "effective_date": "2023-03-23T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V>NIL_WETX_NIL",
-        "effective_date": "2023-03-23T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V>V_X_HWTX23_TXA_R5",
-        "effective_date": "2026-08-05T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "VSML_220",
-        "effective_date": "2012-07-04T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "VSML_RAT_LIM_DYN",
-        "effective_date": "2026-05-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "VSML_ROC_80",
-        "effective_date": "2020-07-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "VTBL_NIL",
-        "effective_date": "2026-05-29T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "VTBL_NIL_CONT_458",
-        "effective_date": "2026-05-21T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "VTBL_ROC",
-        "effective_date": "2020-07-08T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V^SML_BESH_2",
-        "effective_date": "2022-03-25T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V^T_NIL_9",
-        "effective_date": "2019-11-28T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V_BGWF_BESS_FLT_100",
-        "effective_date": "2026-03-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V_DUNDWF1_2_3_168",
-        "effective_date": "2026-03-13T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V_GANWR_SF_BAT_50",
-        "effective_date": "2024-08-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V_MURRAWRWF_FLT_200",
-        "effective_date": "2026-03-18T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V_MURRAWRWF_FLT_60",
-        "effective_date": "2023-06-09T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V_NWVIC_GFT1_750",
-        "effective_date": "2026-03-30T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V_T_FCSPS_DS",
-        "effective_date": "2023-11-13T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V_T_NIL_BL1",
-        "effective_date": "2022-02-07T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V_T_NIL_FCSPS",
-        "effective_date": "2025-05-27T00:00:00+10:00",
-        "version_no": 1
-      },
-      {
-        "constraint_id": "V_WDR_NO_SCADA",
-        "effective_date": "2022-03-14T00:00:00+10:00",
         "version_no": 1
       }
     ],
