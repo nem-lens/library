@@ -1,7 +1,0 @@
-{
-  "name": "NSW demand +300 MW",
-  "description": "Sensitivity, not the BTM counterfactual: 300 MW more NSW demand in every interval, roughly the scale of household battery export the event may have seen. Replaced by the nem-btm estimate once it exists.",
-  "ops": [
-    { "op": "add_demand", "region": "NSW1", "mw": 300 }
-  ]
-}

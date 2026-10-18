@@ -8,7 +8,7 @@
   "intervals_expected": 52,
   "intervals_found": 52,
   "created_at": "2026-10-17T04:24:14Z",
-  "updated_at": "2026-10-18T11:29:17Z",
+  "updated_at": "2026-10-18T23:05:44Z",
   "sources": [
     {
       "file": "PUBLIC_DISPATCHIS_202610121220_0000000542477939.zip",
@@ -2158,6 +2158,153 @@
       "sha256": "bc1209be7330b0cba8c3bdaa92baf2f1adcfa23de59dc42226591c51e6ef3e19",
       "bytes": 5086774,
       "role": "mmsdm:2026_09"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#DUALLOC#FILE01#202609010000.CSV",
+      "url": "",
+      "sha256": "daa4955298e2ad0f5ff8041e678f441b52ed1b378ae2fd577bf95a9ddfed024b",
+      "bytes": 305748,
+      "role": "mmsdm:2026_09"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENUNITS#FILE01#202609010000.CSV",
+      "url": "",
+      "sha256": "562f6c7fa87ef1b366cb974b4e546b16d7c03f562dd960098a85492943ccf31a",
+      "bytes": 139520,
+      "role": "mmsdm:2026_09"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145580",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145580",
+      "sha256": "b8b9a64ced46c95e8a89db9ad249684916eb26e9e8dd9f55afb731af6ab3a08d",
+      "bytes": 1657,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145581",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145581",
+      "sha256": "6af0955cd8a6b3ed1080b888c34da378ce36226510f50ccd40f17f174113cc7a",
+      "bytes": 1374,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145582",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145582",
+      "sha256": "4ddf9322c717c21aea03b276887ca3d9fee0bf4b6067df10919d55df5beca9c2",
+      "bytes": 1136,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145583",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145583",
+      "sha256": "970cf9cd81598991bb292643d33a6da313ac1ea50112fd09d601b23c92eae67a",
+      "bytes": 1415,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145584",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145584",
+      "sha256": "ba792c52b066564c53687db135b6659b8b5ef2a122dfe35e79d3ac6324221d3c",
+      "bytes": 1574,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145585",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145585",
+      "sha256": "626c07a1102001b650a5df2a40b358617896d63d95494284b70cc2209c6a0c10",
+      "bytes": 1917,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145586",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145586",
+      "sha256": "853c7591b65ba004247e7f4442a3335466fc3477e566896ee47d6a74c3cb459e",
+      "bytes": 1451,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145587",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145587",
+      "sha256": "1527a417d1ae6181d52f1376e00a05a8c8d2904d51782c73caa5d382c31e26d3",
+      "bytes": 1275,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145588",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145588",
+      "sha256": "1ebe74eff8309bc803003eebe79780a580d70bce09339d842c6ac0168e7b1d44",
+      "bytes": 1470,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145589",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145589",
+      "sha256": "41a4cc9ae70527941053fac71e9bedd1da6740cbbe38637327bd3b19be255047",
+      "bytes": 1785,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145590",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145590",
+      "sha256": "967dbf0f994aa3f3058431fac6e3796627224b4cae4252629469a9e6ba2df8c8",
+      "bytes": 1657,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145591",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145591",
+      "sha256": "bdbe8ea0fb0863bbb939f68285c08bdcf5ba46daf6cd653a6096ede5aab4c3f8",
+      "bytes": 1472,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145592",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145592",
+      "sha256": "5f580e1b2f12b23c5b1d94fc8fa905a922e81130e8b5d1ae6cb83a23d322eae0",
+      "bytes": 1136,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145593",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145593",
+      "sha256": "04f6f344c3170552426b7c684c85a5830f6be1da6c62178c18aca76f213db86c",
+      "bytes": 1285,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145594",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145594",
+      "sha256": "83e49b06ef4e7b2b47c5be15bf2db5bd3d6460cbc5289048a09a5ec680daba89",
+      "bytes": 1807,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145595",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145595",
+      "sha256": "79543d937f26ff7b2cd851ff947df438cdf343793ebd83a14502158f5695c3ec",
+      "bytes": 1785,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145596",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145596",
+      "sha256": "e2aecd27c76598f24aaf868c68f532e73f9e1469cccb38a64bbeacf95f1600f3",
+      "bytes": 1686,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145598",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145598",
+      "sha256": "9cdd4542753167bb0e2a72622d87f3a0d82de076db95224b813c0ad6ae59b5dc",
+      "bytes": 1136,
+      "role": "market_notice"
+    },
+    {
+      "file": "NEMITWEB1_MKTNOTICE_20261012.R145599",
+      "url": "https://nemweb.com.au/Reports/Current/Market_Notice/NEMITWEB1_MKTNOTICE_20261012.R145599",
+      "sha256": "f5464d62ea66d0a34a01ca711263fe1d9d4fb4e3b348637f416affda8718d985",
+      "bytes": 1702,
+      "role": "market_notice"
     }
   ],
   "outputs": [
@@ -2244,6 +2391,24 @@
       "table": "PARTICIPANT_REGISTRATION_DUDETAILSUMMARY",
       "rows": 573,
       "sha256": "3ad03ef99ed94f752721b85cb95b61466ff8086b4e1b66116810fe1fc9f6c8c6"
+    },
+    {
+      "file": "static_dualloc.parquet",
+      "table": "PARTICIPANT_REGISTRATION_DUALLOC",
+      "rows": 1353,
+      "sha256": "7c3b4eb83c69495f6f6c5a990db7e93b1b4c0dfcad0004e4961fa92a6b35ba98"
+    },
+    {
+      "file": "static_genunits.parquet",
+      "table": "PARTICIPANT_REGISTRATION_GENUNITS",
+      "rows": 522,
+      "sha256": "e19da023f6c72146d92eb42f501cfb14ffa9508bc276fde50331d09a5268d0c3"
+    },
+    {
+      "file": "market_notices.json",
+      "table": "MARKET_NOTICE",
+      "rows": 19,
+      "sha256": "17b63bf348f99aafd45a0d7658b8eba01054ad014eeeaf4106d8cf8645be50f7"
     }
   ],
   "next_day": {
@@ -2614,6 +2779,7 @@
       }
     ],
     "dudetail_month": "2026_09",
-    "interconnector_month": "2026_09"
+    "interconnector_month": "2026_09",
+    "fuel_month": "2026_09"
   }
 }

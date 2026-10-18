@@ -1,0 +1,138 @@
+{
+  "schema": 2,
+  "notices": [
+    {
+      "id": "145580",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2026-10-12T06:40:17+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Yallourn - Rowville 7 220 kV line and Yallourn - Rowville 8 220 kV line in VIC1 due to Lightning.",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nReclassification of a Non-Credible Contingency Event as a Credible Contingency Event due to Lightning. AEMO considers the simultaneous trip of the following circuits to now be more likely and reasonably possible. Accordingly AEMO has reclassified it as a credible contingency event.\n\nRegion: VIC1\n\nLines: Yallourn - Rowville 7 220 kV and Yallourn - Rowville 8 220 kV\n\nDuration: 12/10/2026 06:40 until further notice\n\nConstraint set(s) invoked:\n\t\tV-ROYP78_R_N-2 Constraint set contains the following interconnector(s) on the left hand side:\n\t\t\t\tNONE\n\n\nAuto-generated on behalf of Manager NEM Real Time Operations"
+    },
+    {
+      "id": "145581",
+      "kind": "INTER-REGIONAL TRANSFER",
+      "issued": "2026-10-12T07:40:54+10:00",
+      "title": "Inter-regional transfer limit variation - constraint to manage Power System Security in NSW region - 12/10/2026",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nIn order to maintain the power system in a secure operating state in the NSW region, AEMO has invoked constraint set I-QN_600 from 0735 hrs until further notice.\n\nThis constraint set contains equations with the following interconnectors on the LHS;\n\nNSW1-QLD1\n\nRefer to AEMO Network Outage Scheduler (NOS) for further information.\n\nManager NEM Real Time Operations"
+    },
+    {
+      "id": "145582",
+      "kind": "RESERVE NOTICE",
+      "issued": "2026-10-12T08:31:09+10:00",
+      "title": "PDPASA - Cancellation of the Forecast Lack Of Reserve Level 1 (LOR1) in the NSW Region on 12/10/2026",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nThe Forecast LOR1 condition in the NSW region advised in AEMO Electricity Market Notice No. 145575 is cancelled at 0730 hrs 12/10/2026.   \n \nManager NEM Real Time Operations"
+    },
+    {
+      "id": "145583",
+      "kind": "INTER-REGIONAL TRANSFER",
+      "issued": "2026-10-12T08:31:46+10:00",
+      "title": "Update Inter-regional transfer limit variation - constraint to manage Power System Security in NSW region - 12/10/2026",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nRefer to Market Notice 145581\n \nIn order to maintain the power system in a secure operating state in the NSW region, AEMO has invoked constraint set I-QN_500 from 0820 hrs until further notice.\n\nThis constraint set contains equations with the following interconnectors on the LHS;\n\nNSW1-QLD1\n\nRefer to AEMO Network Outage Scheduler (NOS) for further information.\n\nManager NEM Real Time Operations"
+    },
+    {
+      "id": "145584",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2026-10-12T08:45:36+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Eildon PS - Mt Beauty No.1 220 kV line and Eildon PS - Mt Beauty No.2 220 kV line in VIC1 due to Lightning.",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nReclassification of a Non-Credible Contingency Event as a Credible Contingency Event due to Lightning. AEMO considers the simultaneous trip of the following circuits to now be more likely and reasonably possible. Accordingly AEMO has reclassified it as a credible contingency event.\n\nRegion: VIC1\n\nLines: Eildon PS - Mt Beauty No.1 220 kV and Eildon PS - Mt Beauty No.2 220 kV\n\nDuration: 12/10/2026 08:45 until further notice\n\nConstraint set(s) invoked:\nNONE\n\nAuto-generated on behalf of Manager NEM Real Time Operations"
+    },
+    {
+      "id": "145585",
+      "kind": "MARKET SYSTEMS",
+      "issued": "2026-10-12T09:03:01+10:00",
+      "title": "Initial - CHG0114087 - Maintenance activities to be performed on the Gas Short Term Trading Market Systems Pre-Production.",
+      "reason": "Change Number: CHG0114087\n\nNotification issued to: Market Notice\nNotification Type: Initial\nChange Type: Normal\nService/ Component: STTM - Market Inputs - File\nChange Title: Maintenance activities to be performed on the Gas Short Term Trading Market Systems Pre-Production.\nChange Start Date & Time: 14/10/2026 15:00:00\nChange End Date & Time: 14/10/2026 18:00:00\nOutage Start Date & Time: 15/10/2026 15:00:00\nOutage End Date & Time: 15/10/2026 17:00:00\nEnvironment: Pre-Production\nParticipant Impact and Requirements: A scheduled maintenance window is planned for the STTM SWEXIE service. During this period, the service will experience a short outage.\nPre-Production Gas Short Term Trading Market (STTM)\n\n\nSupport Information:\nReport any impacts to the AEMO Information and Support Hub or call 1300 236 600.\nPlease refer to https://aemo.service-now.com/participantportal?id=pp_services_status for any planned/unplanned maintenance activities."
+    },
+    {
+      "id": "145586",
+      "kind": "RESERVE NOTICE",
+      "issued": "2026-10-12T09:42:08+10:00",
+      "title": "PDPASA - Forecast Lack Of Reserve Level 1 (LOR1) in the NSW Region on 12/10/2026",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nAEMO declares a Forecast LOR1 condition under clause 4.8.4(b) of the National Electricity Rules for the NSW region for the following Periods:\n\n\n[1.] From 1530 hrs 12/10/2026 to 1600 hrs 12/10/2026.\nThe forecast capacity reserve requirement is 1415 MW.\nThe minimum capacity reserve available is 1171 MW.\n\n\n[2.] From 1630 hrs 12/10/2026 to 2000 hrs 12/10/2026.\nThe forecast capacity reserve requirement is 1552 MW.\nThe minimum capacity reserve available is 992 MW.\n\n\nManager NEM Real Time Operations"
+    },
+    {
+      "id": "145587",
+      "kind": "NON-CONFORMANCE",
+      "issued": "2026-10-12T09:55:14+10:00",
+      "title": "NON-CONFORMANCE Region VIC1 Monday, 12 October 2026",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nNON-CONFORMANCE VIC1 Region Monday, 12 October 2026\n\nAEMO has declared the following unit as non-conforming under clause 3.8.23 of the National Electricity Rules:\n\nUnit:      WOORB1\nDuration:   12/10/2026 09:35 to 12/10/2026 09:55\nAmount:     9 MW\nConstraint: NC-V_WOORB1\n\nAuto-generated on behalf of Manager NEM Real Time Operations"
+    },
+    {
+      "id": "145589",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2026-10-12T10:44:16+10:00",
+      "title": "Cancellation of a Non-Credible Contingency Event: Yallourn - Rowville 7 220 kV line and Yallourn - Rowville 8 220 kV line in VIC1 due to Lightning.",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nCancellation of reclassification of a Non-Credible Contingency Event as a Credible Contingency Event due to Lightning. AEMO considers the simultaneous trip of the following circuits is no longer reasonably possible. There is no longer any lightning activity in the vicinity of the following lines. Accordingly its classification has reverted to a non-credible contingency event.\n\nRegion: VIC1\n\nLines: Yallourn - Rowville 7 220 kV and Yallourn - Rowville 8 220 kV\n\nCancellation time: 12/10/2026 10:44\n\nConstraint set(s) revoked: \n\t\tV-ROYP78_R_N-2 Constraint set contains the following interconnector(s) on the left hand side:\n\t\t\t\tNONE\n\n\nRefer AEMO Electricity Market Notice 145580\n\nAuto-generated on behalf of Manager NEM Real Time Operations"
+    },
+    {
+      "id": "145588",
+      "kind": "RESERVE NOTICE",
+      "issued": "2026-10-12T10:47:28+10:00",
+      "title": "PDPASA - Update of the Forecast Lack Of Reserve Level 1 (LOR1) in the NSW Region on 12/10/2026",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nThe Forecast LOR1 condition in the NSW region advised in AEMO Electricity Market Notice No. 145586 has been updated at 1041 hrs to the following:\n\n\n[1.] From 1530 hrs 12/10/2026 to 1600 hrs 12/10/2026.\nThe forecast capacity reserve requirement is 1415 MW.\nThe minimum capacity reserve available is 1278 MW.\n\n\n[2.] From 1630 hrs 12/10/2026 to 1830 hrs 12/10/2026.\nThe forecast capacity reserve requirement is 1415 MW.\nThe minimum capacity reserve available is 1269 MW.\n\n\nManager NEM Real Time Operations"
+    },
+    {
+      "id": "145590",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2026-10-12T11:04:06+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Yallourn - Rowville 7 220 kV line and Yallourn - Rowville 8 220 kV line in VIC1 due to Lightning.",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nReclassification of a Non-Credible Contingency Event as a Credible Contingency Event due to Lightning. AEMO considers the simultaneous trip of the following circuits to now be more likely and reasonably possible. Accordingly AEMO has reclassified it as a credible contingency event.\n\nRegion: VIC1\n\nLines: Yallourn - Rowville 7 220 kV and Yallourn - Rowville 8 220 kV\n\nDuration: 12/10/2026 11:04 until further notice\n\nConstraint set(s) invoked:\n\t\tV-ROYP78_R_N-2 Constraint set contains the following interconnector(s) on the left hand side:\n\t\t\t\tNONE\n\n\nAuto-generated on behalf of Manager NEM Real Time Operations"
+    },
+    {
+      "id": "145591",
+      "kind": "INTER-REGIONAL TRANSFER",
+      "issued": "2026-10-12T11:24:11+10:00",
+      "title": "Inter-regional transfer limit variation - Bendigo to Shepparton 220kV line - VIC region - 12/10/2026",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nInter-regional transfer limit variation - Bendigo to Shepparton 220kV line - VIC region - 12/10/2026\n\nAt   1107 hrs 12/10/2026 there was an unplanned outage of Bendigo to Shepparton 220kV line.\n\nThe following constraint set(s) invoked at 1120 hrs 12/10/2026\nV-BESH\n\nThis constraint set(s) contains equations with the following interconnectors on the LHS.\nV-S-MNSP1\n  \nRefer to the AEMO Network Outage Scheduler for further information.\n\nManager NEM Real Time Operations"
+    },
+    {
+      "id": "145592",
+      "kind": "RESERVE NOTICE",
+      "issued": "2026-10-12T11:29:15+10:00",
+      "title": "PDPASA - Cancellation of the Forecast Lack Of Reserve Level 1 (LOR1) in the NSW Region on 12/10/2026",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nThe Forecast LOR1 condition in the NSW region advised in AEMO Electricity Market Notice No. 145588 is cancelled at 1125 hrs 12/10/2026.   \n \nManager NEM Real Time Operations"
+    },
+    {
+      "id": "145593",
+      "kind": "RESERVE NOTICE",
+      "issued": "2026-10-12T12:55:33+10:00",
+      "title": "PDPASA - Forecast Lack Of Reserve Level 1 (LOR1) in the NSW Region on 13/10/2026",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nAEMO declares a Forecast LOR1 condition under clause 4.8.4(b) of the National Electricity Rules for the NSW region for the following Period:\n\n\n[1.] From 1800 hrs 13/10/2026 to 1900 hrs 13/10/2026.\nThe forecast capacity reserve requirement is 1430 MW.\nThe minimum capacity reserve available is 1223 MW.\n\n\nManager NEM Real Time Operations"
+    },
+    {
+      "id": "145594",
+      "kind": "MARKET SYSTEMS",
+      "issued": "2026-10-12T13:00:32+10:00",
+      "title": "Initial - CHG0114146 - NOR Pre-Prod GFRC will have scheduled maintenance works outage from 9.30am Wednesday 14 October until 12:30pm (EST)",
+      "reason": "Change Number: CHG0114146\n\nNotification issued to: Market Notice\nNotification Type: Initial\nChange Type: Normal\nService/ Component: Windows Server\nChange Title: NOR Pre-Prod GFRC will have scheduled maintenance works outage from 9.30am Wednesday 14 October until 12:30pm (EST)\nChange Start Date & Time: 14/10/2026 09:30:00\nChange End Date & Time: 14/10/2026 12:30:00\nOutage Start Date & Time: 14/10/2026 09:30:00\nOutage End Date & Time: 14/10/2026 12:30:00\nEnvironment: Pre-Production\nParticipant Impact and Requirements: Services may be unavailable while maintenance is in progress\n\nSupport Information:\nReport any impacts to the AEMO Information and Support Hub or call 1300 236 600.\nPlease refer to https://aemo.service-now.com/participantportal?id=pp_services_status for any planned/unplanned maintenance activities."
+    },
+    {
+      "id": "145595",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2026-10-12T13:08:56+10:00",
+      "title": "Cancellation of a Non-Credible Contingency Event: Yallourn - Rowville 7 220 kV line and Yallourn - Rowville 8 220 kV line in VIC1 due to Lightning.",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nCancellation of reclassification of a Non-Credible Contingency Event as a Credible Contingency Event due to Lightning. AEMO considers the simultaneous trip of the following circuits is no longer reasonably possible. There is no longer any lightning activity in the vicinity of the following lines. Accordingly its classification has reverted to a non-credible contingency event.\n\nRegion: VIC1\n\nLines: Yallourn - Rowville 7 220 kV and Yallourn - Rowville 8 220 kV\n\nCancellation time: 12/10/2026 13:08\n\nConstraint set(s) revoked: \n\t\tV-ROYP78_R_N-2 Constraint set contains the following interconnector(s) on the left hand side:\n\t\t\t\tNONE\n\n\nRefer AEMO Electricity Market Notice 145590\n\nAuto-generated on behalf of Manager NEM Real Time Operations"
+    },
+    {
+      "id": "145596",
+      "kind": "SETTLEMENTS RESIDUE",
+      "issued": "2026-10-12T14:15:17+10:00",
+      "title": "[EventId:202610121415_NRM_NSW1_VIC1_started] NEGRES CONSTRAINT NRM_NSW1_VIC1 started operating from 12 October 2026 14:15",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nIssued by Australian Energy Market Operator Ltd at 1415 hrs on 12 October 2026\n\nACTUAL NEGATIVE SETTLEMENT RESIDUES - NSW to VIC - 12 October 2026.\n\nElectricity Market outcomes have resulted in the accumulation of negative settlement residues that have exceeded the allowable negative residue threshold for the NSW to VIC directional interconnector.\n\nThe negative residue constraint set NRM_NSW1_VIC1 commenced operating from 1415 hrs on 12 October 2026.\n\nThis constraint set contains an equation with the following interconnectors on the LHS:\nVIC1-NSW1\n\nThe RHS of the constraint equation may be adjusted to manage residues.\n\n\nThis is an AEMO autogenerated Market Notice."
+    },
+    {
+      "id": "145598",
+      "kind": "RESERVE NOTICE",
+      "issued": "2026-10-12T15:42:56+10:00",
+      "title": "PDPASA - Cancellation of the Forecast Lack Of Reserve Level 1 (LOR1) in the NSW Region on 13/10/2026",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nThe Forecast LOR1 condition in the NSW region advised in AEMO Electricity Market Notice No. 145593 is cancelled at 1530 hrs 12/10/2026.   \n \nManager NEM Real Time Operations"
+    },
+    {
+      "id": "145599",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2026-10-12T15:48:55+10:00",
+      "title": "Cancellation of a Non-Credible Contingency Event: Eildon PS - Mt Beauty No.1 220 kV line and Eildon PS - Mt Beauty No.2 220 kV line in VIC1 due to Lightning.",
+      "reason": "AEMO ELECTRICITY MARKET NOTICE\n\nCancellation of reclassification of a Non-Credible Contingency Event as a Credible Contingency Event due to Lightning. AEMO considers the simultaneous trip of the following circuits is no longer reasonably possible. There is no longer any lightning activity in the vicinity of the following lines. Accordingly its classification has reverted to a non-credible contingency event.\n\nRegion: VIC1\n\nLines: Eildon PS - Mt Beauty No.1 220 kV and Eildon PS - Mt Beauty No.2 220 kV\n\nCancellation time: 12/10/2026 15:48\n\nConstraint set(s) revoked: \nNONE\n\nRefer AEMO Electricity Market Notice 145584\n\nAuto-generated on behalf of Manager NEM Real Time Operations"
+    }
+  ]
+}

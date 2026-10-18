@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEM Lens Replays</title>
+<meta name="description" content="Price events in Australia's National Electricity Market, shown in AEMO's own published figures: prices, dispatch, interconnectors, constraints, unavailable plant and market notices.">
+<link rel="stylesheet" href="replay.css">
+<script type="module" src="replay.js"></script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./">NEM Lens <span>Replays</span></a>
+  <p class="lede">Price events in Australia's National Electricity Market, in AEMO's own published figures.</p>
+</header>
+
+<main id="main">
+  <section id="events-view">
+    <h1>Events</h1>
+    <p id="events-status" class="muted">Loading the event library…</p>
+    <ul id="events" class="events"></ul>
+  </section>
+
+  <section id="event-view" hidden>
+    <p><a href="./" class="back">← All events</a></p>
+    <h1 id="ev-title"></h1>
+    <p id="ev-sub" class="muted"></p>
+    <div id="cards" class="cards"></div>
+    <div id="panels" class="panels"></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p class="small muted">NEM Lens is an independent project, not affiliated with or endorsed by AEMO. Every figure here is AEMO's own (dispatch pricing run), or simple arithmetic on it; each event's <code>manifest.json</code> lists the AEMO source files and their SHA-256 hashes. Source data © AEMO, used under AEMO's copyright permissions.</p>
+</footer>
+</body>
+</html>
