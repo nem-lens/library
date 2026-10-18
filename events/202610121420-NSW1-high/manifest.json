@@ -8,7 +8,7 @@
   "intervals_expected": 52,
   "intervals_found": 52,
   "created_at": "2026-10-17T04:24:14Z",
-  "updated_at": "2026-10-17T09:55:49Z",
+  "updated_at": "2026-10-18T11:29:17Z",
   "sources": [
     {
       "file": "PUBLIC_DISPATCHIS_202610121220_0000000542477939.zip",
@@ -2146,6 +2146,13 @@
       "role": "mmsdm:2026_09"
     },
     {
+      "file": "PUBLIC_ARCHIVE#INTERCONNECTORCONSTRAINT#FILE01#202609010000.CSV",
+      "url": "",
+      "sha256": "0947538271df5dedaea44b455c9b33c4dce92d8e48dfaf59ef5d582e3019c52e",
+      "bytes": 52099,
+      "role": "mmsdm:2026_09"
+    },
+    {
       "file": "PUBLIC_ARCHIVE#DUDETAILSUMMARY#FILE01#202609010000.CSV",
       "url": "",
       "sha256": "bc1209be7330b0cba8c3bdaa92baf2f1adcfa23de59dc42226591c51e6ef3e19",
@@ -2225,6 +2232,12 @@
       "table": "SPDRC_NULL",
       "rows": 1732,
       "sha256": "6a51493580d9c5930a983e99660fb7146323982ffbc3d80dd0a6676b3633c22d"
+    },
+    {
+      "file": "static_interconnectorconstraint.parquet",
+      "table": "MARKET_CONFIG_INTERCONNECTORCONSTRAINT",
+      "rows": 203,
+      "sha256": "f9546ca38bc844981872bd356c0f39df0e545f13231a9fbe85d42592a06fa498"
     },
     {
       "file": "static_dudetailsummary.parquet",
@@ -2600,6 +2613,7 @@
         "version_no": 1
       }
     ],
-    "dudetail_month": "2026_09"
+    "dudetail_month": "2026_09",
+    "interconnector_month": "2026_09"
   }
 }
