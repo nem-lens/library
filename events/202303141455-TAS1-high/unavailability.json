@@ -1,0 +1,520 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2023-03-14T12:55:00+10:00",
+    "2023-03-14T13:00:00+10:00",
+    "2023-03-14T13:05:00+10:00",
+    "2023-03-14T13:10:00+10:00",
+    "2023-03-14T13:15:00+10:00",
+    "2023-03-14T13:20:00+10:00",
+    "2023-03-14T13:25:00+10:00",
+    "2023-03-14T13:30:00+10:00",
+    "2023-03-14T13:35:00+10:00",
+    "2023-03-14T13:40:00+10:00",
+    "2023-03-14T13:45:00+10:00",
+    "2023-03-14T13:50:00+10:00",
+    "2023-03-14T13:55:00+10:00",
+    "2023-03-14T14:00:00+10:00",
+    "2023-03-14T14:05:00+10:00",
+    "2023-03-14T14:10:00+10:00",
+    "2023-03-14T14:15:00+10:00",
+    "2023-03-14T14:20:00+10:00",
+    "2023-03-14T14:25:00+10:00",
+    "2023-03-14T14:30:00+10:00",
+    "2023-03-14T14:35:00+10:00",
+    "2023-03-14T14:40:00+10:00",
+    "2023-03-14T14:45:00+10:00",
+    "2023-03-14T14:50:00+10:00",
+    "2023-03-14T14:55:00+10:00",
+    "2023-03-14T15:00:00+10:00",
+    "2023-03-14T15:05:00+10:00",
+    "2023-03-14T15:10:00+10:00",
+    "2023-03-14T15:15:00+10:00",
+    "2023-03-14T15:20:00+10:00",
+    "2023-03-14T15:25:00+10:00",
+    "2023-03-14T15:30:00+10:00",
+    "2023-03-14T15:35:00+10:00",
+    "2023-03-14T15:40:00+10:00",
+    "2023-03-14T15:45:00+10:00",
+    "2023-03-14T15:50:00+10:00",
+    "2023-03-14T15:55:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "GORDON",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 450.0,
+      "availability": [
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        210.0,
+        105.0,
+        105.0,
+        105.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-03-14T15:03:51+10:00",
+          "explanation": "Machine target different to expectation: BBTHREE 104"
+        },
+        {
+          "offer_time": "2023-03-14T15:12:36+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2023-03-14T15:19:36+10:00",
+          "explanation": "Price > forecast: VIC"
+        },
+        {
+          "offer_time": "2023-03-14T15:37:28+10:00",
+          "explanation": "Change in outage schedule  gordon 2"
+        },
+        {
+          "offer_time": "2023-03-14T15:51:26+10:00",
+          "explanation": "Price > forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "TVCC201",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 208.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2023-03-14T15:03:51+10:00",
+          "explanation": "Machine target different to expectation: BBTHREE 104"
+        },
+        {
+          "offer_time": "2023-03-14T15:12:36+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2023-03-14T15:19:36+10:00",
+          "explanation": "Price > forecast: VIC"
+        },
+        {
+          "offer_time": "2023-03-14T15:37:28+10:00",
+          "explanation": "Change in outage schedule  gordon 2"
+        },
+        {
+          "offer_time": "2023-03-14T15:51:26+10:00",
+          "explanation": "Price > forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "REECE2",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 119.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2023-03-14T15:03:51+10:00",
+          "explanation": "Machine target different to expectation: BBTHREE 104"
+        },
+        {
+          "offer_time": "2023-03-14T15:12:36+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2023-03-14T15:19:36+10:00",
+          "explanation": "Price > forecast: VIC"
+        },
+        {
+          "offer_time": "2023-03-14T15:37:28+10:00",
+          "explanation": "Change in outage schedule  gordon 2"
+        },
+        {
+          "offer_time": "2023-03-14T15:51:26+10:00",
+          "explanation": "Price > forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "LEM_WIL",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 87.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-03-14T15:03:51+10:00",
+          "explanation": "Machine target different to expectation: BBTHREE 104"
+        },
+        {
+          "offer_time": "2023-03-14T15:12:36+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2023-03-14T15:19:36+10:00",
+          "explanation": "Price > forecast: VIC"
+        },
+        {
+          "offer_time": "2023-03-14T15:37:28+10:00",
+          "explanation": "Change in outage schedule  gordon 2"
+        },
+        {
+          "offer_time": "2023-03-14T15:51:26+10:00",
+          "explanation": "Price > forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "BBTHREE1",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 49.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2023-03-14T15:03:51+10:00",
+          "explanation": "Machine target different to expectation: BBTHREE 104"
+        },
+        {
+          "offer_time": "2023-03-14T15:12:36+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2023-03-14T15:19:36+10:00",
+          "explanation": "Price > forecast: VIC"
+        },
+        {
+          "offer_time": "2023-03-14T15:37:28+10:00",
+          "explanation": "Change in outage schedule  gordon 2"
+        },
+        {
+          "offer_time": "2023-03-14T15:51:26+10:00",
+          "explanation": "Price > forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "TUNGATIN",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 142.0,
+      "availability": [
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0,
+        109.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-03-14T15:03:51+10:00",
+          "explanation": "Machine target different to expectation: BBTHREE 104"
+        },
+        {
+          "offer_time": "2023-03-14T15:12:36+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2023-03-14T15:19:36+10:00",
+          "explanation": "Price > forecast: VIC"
+        },
+        {
+          "offer_time": "2023-03-14T15:37:28+10:00",
+          "explanation": "Change in outage schedule  gordon 2"
+        },
+        {
+          "offer_time": "2023-03-14T15:51:26+10:00",
+          "explanation": "Price > forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "TVPP104",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 58.0,
+      "availability": [
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-03-14T15:03:51+10:00",
+          "explanation": "Machine target different to expectation: BBTHREE 104"
+        },
+        {
+          "offer_time": "2023-03-14T15:12:36+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2023-03-14T15:19:36+10:00",
+          "explanation": "Price > forecast: VIC"
+        },
+        {
+          "offer_time": "2023-03-14T15:37:28+10:00",
+          "explanation": "Change in outage schedule  gordon 2"
+        },
+        {
+          "offer_time": "2023-03-14T15:51:26+10:00",
+          "explanation": "Price > forecast: VIC"
+        }
+      ]
+    }
+  ]
+}

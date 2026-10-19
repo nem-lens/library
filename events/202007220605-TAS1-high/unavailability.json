@@ -1,0 +1,724 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2020-07-22T04:05:00+10:00",
+    "2020-07-22T04:10:00+10:00",
+    "2020-07-22T04:15:00+10:00",
+    "2020-07-22T04:20:00+10:00",
+    "2020-07-22T04:25:00+10:00",
+    "2020-07-22T04:30:00+10:00",
+    "2020-07-22T04:35:00+10:00",
+    "2020-07-22T04:40:00+10:00",
+    "2020-07-22T04:45:00+10:00",
+    "2020-07-22T04:50:00+10:00",
+    "2020-07-22T04:55:00+10:00",
+    "2020-07-22T05:00:00+10:00",
+    "2020-07-22T05:05:00+10:00",
+    "2020-07-22T05:10:00+10:00",
+    "2020-07-22T05:15:00+10:00",
+    "2020-07-22T05:20:00+10:00",
+    "2020-07-22T05:25:00+10:00",
+    "2020-07-22T05:30:00+10:00",
+    "2020-07-22T05:35:00+10:00",
+    "2020-07-22T05:40:00+10:00",
+    "2020-07-22T05:45:00+10:00",
+    "2020-07-22T05:50:00+10:00",
+    "2020-07-22T05:55:00+10:00",
+    "2020-07-22T06:00:00+10:00",
+    "2020-07-22T06:05:00+10:00",
+    "2020-07-22T06:10:00+10:00",
+    "2020-07-22T06:15:00+10:00",
+    "2020-07-22T06:20:00+10:00",
+    "2020-07-22T06:25:00+10:00",
+    "2020-07-22T06:30:00+10:00",
+    "2020-07-22T06:35:00+10:00",
+    "2020-07-22T06:40:00+10:00",
+    "2020-07-22T06:45:00+10:00",
+    "2020-07-22T06:50:00+10:00",
+    "2020-07-22T06:55:00+10:00",
+    "2020-07-22T07:00:00+10:00",
+    "2020-07-22T07:05:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "TVCC201",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 208.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2020-07-15T03:03:42+10:00",
+          "explanation": "INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-20T13:11:30+10:00",
+          "explanation": "1310P INTIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-20T17:28:04+10:00",
+          "explanation": "INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-21T09:16:45+10:00",
+          "explanation": "0916P INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-21T12:17:17+10:00",
+          "explanation": "1216P INITIAL OFFER"
+        }
+      ]
+    },
+    {
+      "duid": "TRIBUTE",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 92.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        92.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2020-07-21T18:02:34+10:00",
+          "explanation": "1704A PRICE DIFFERENT FROM FORECAST: VIC"
+        },
+        {
+          "offer_time": "2020-07-21T18:29:37+10:00",
+          "explanation": "1804A PRICE DIFFERENT FROM FORECAST: VIC"
+        },
+        {
+          "offer_time": "2020-07-21T19:23:08+10:00",
+          "explanation": "1834A PRICE DIFFERENT FROM FORECAST: VIC"
+        },
+        {
+          "offer_time": "2020-07-21T23:24:13+10:00",
+          "explanation": "2233A PRICE DIFFERENT FROM FORECAST: VIC P30."
+        },
+        {
+          "offer_time": "2020-07-22T06:58:43+10:00",
+          "explanation": "0650A PRICE DIFFERENT FROM FORECAST: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "GORDON",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 450.0,
+      "availability": [
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2020-07-21T12:17:17+10:00",
+          "explanation": "1216P INITIAL OFFER+ENV CNST"
+        },
+        {
+          "offer_time": "2020-07-22T04:32:17+10:00",
+          "explanation": "0432A FCAS REQUIREMENT > FORECAST: TAS R6+ENV CNST"
+        },
+        {
+          "offer_time": "2020-07-22T04:47:31+10:00",
+          "explanation": "0446A FCAS REQUIREMENT > FORECAST: TAS R6+ENV CNST"
+        },
+        {
+          "offer_time": "2020-07-22T04:58:32+10:00",
+          "explanation": "0458A FCAS REQUIREMENT > FORECAST: TAS R6+ENV CNST"
+        },
+        {
+          "offer_time": "2020-07-22T05:13:19+10:00",
+          "explanation": "0505A PRICE > FORECAST: VIC P5MIN AND P30.+ENV CNST"
+        }
+      ]
+    },
+    {
+      "duid": "POAT110",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 124.0,
+      "availability": [
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2020-07-21T16:43:33+10:00",
+          "explanation": "1635A PRICE DIFFERENT FROM FORECAST: VIC"
+        },
+        {
+          "offer_time": "2020-07-21T18:29:37+10:00",
+          "explanation": "1804A PRICE DIFFERENT FROM FORECAST: VIC"
+        },
+        {
+          "offer_time": "2020-07-21T23:24:13+10:00",
+          "explanation": "2233A PRICE DIFFERENT FROM FORECAST: VIC P30."
+        },
+        {
+          "offer_time": "2020-07-22T05:13:19+10:00",
+          "explanation": "0505A PRICE > FORECAST: VIC P5MIN AND P30."
+        },
+        {
+          "offer_time": "2020-07-22T05:23:05+10:00",
+          "explanation": "0521P PLANT START ISSUE:,OPERATATOR REQUIRED TO START DEVILS GATE."
+        }
+      ]
+    },
+    {
+      "duid": "LI_WY_CA",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 190.0,
+      "availability": [
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2020-07-20T13:11:30+10:00",
+          "explanation": "1310P INTIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-20T17:28:04+10:00",
+          "explanation": "INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-21T09:16:45+10:00",
+          "explanation": "0916P INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-21T09:53:36+10:00",
+          "explanation": "0953P INTIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-21T12:17:17+10:00",
+          "explanation": "1216P INITIAL OFFER"
+        }
+      ]
+    },
+    {
+      "duid": "TUNGATIN",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 142.0,
+      "availability": [
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0,
+        86.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2020-07-20T17:28:04+10:00",
+          "explanation": "INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-21T09:16:45+10:00",
+          "explanation": "0916P INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-21T12:17:17+10:00",
+          "explanation": "1216P INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-21T18:29:37+10:00",
+          "explanation": "1804A PRICE DIFFERENT FROM FORECAST: VIC"
+        },
+        {
+          "offer_time": "2020-07-22T04:32:17+10:00",
+          "explanation": "0432A FCAS REQUIREMENT > FORECAST: TAS R6"
+        }
+      ]
+    },
+    {
+      "duid": "BBTHREE3",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 49.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2020-07-15T03:03:42+10:00",
+          "explanation": "INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-20T13:11:30+10:00",
+          "explanation": "1310P INTIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-20T17:28:04+10:00",
+          "explanation": "INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-21T09:16:45+10:00",
+          "explanation": "0916P INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-21T12:17:17+10:00",
+          "explanation": "1216P INITIAL OFFER"
+        }
+      ]
+    },
+    {
+      "duid": "MEADOWBK",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 44.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2020-07-15T03:03:42+10:00",
+          "explanation": "INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-20T13:11:30+10:00",
+          "explanation": "1310P INTIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-20T17:28:04+10:00",
+          "explanation": "INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-21T09:16:45+10:00",
+          "explanation": "0916P INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-07-21T12:17:17+10:00",
+          "explanation": "1216P INITIAL OFFER"
+        }
+      ]
+    },
+    {
+      "duid": "DEVILS_G",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 67.0,
+      "availability": [
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2020-07-21T16:43:33+10:00",
+          "explanation": "1635A PRICE DIFFERENT FROM FORECAST: VIC"
+        },
+        {
+          "offer_time": "2020-07-21T18:29:37+10:00",
+          "explanation": "1804A PRICE DIFFERENT FROM FORECAST: VIC"
+        },
+        {
+          "offer_time": "2020-07-21T23:24:13+10:00",
+          "explanation": "2233A PRICE DIFFERENT FROM FORECAST: VIC P30."
+        },
+        {
+          "offer_time": "2020-07-22T05:23:05+10:00",
+          "explanation": "0521P PLANT START ISSUE:,OPERATATOR REQUIRED TO START DEVILS GATE."
+        },
+        {
+          "offer_time": "2020-07-22T06:48:29+10:00",
+          "explanation": "0640A PRICE DIFFERENT FROM FORECAST: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "LEM_WIL",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 86.0,
+      "availability": [
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2020-07-21T18:29:37+10:00",
+          "explanation": "1804A PRICE DIFFERENT FROM FORECAST: VIC"
+        },
+        {
+          "offer_time": "2020-07-21T23:24:13+10:00",
+          "explanation": "2233A PRICE DIFFERENT FROM FORECAST: VIC P30."
+        },
+        {
+          "offer_time": "2020-07-22T05:13:19+10:00",
+          "explanation": "0505A PRICE > FORECAST: VIC P5MIN AND P30."
+        },
+        {
+          "offer_time": "2020-07-22T06:48:29+10:00",
+          "explanation": "0640A PRICE DIFFERENT FROM FORECAST: VIC"
+        },
+        {
+          "offer_time": "2020-07-22T06:58:43+10:00",
+          "explanation": "0650A PRICE DIFFERENT FROM FORECAST: VIC"
+        }
+      ]
+    }
+  ]
+}

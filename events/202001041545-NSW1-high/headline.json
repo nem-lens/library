@@ -1,0 +1,24 @@
+{
+  "schema": 2,
+  "event_id": "202001041545-NSW1-high",
+  "region": "NSW1",
+  "trading_day": "2020-01-04",
+  "start": "2020-01-04T15:45:00+10:00",
+  "end": "2020-01-04T17:40:00+10:00",
+  "duration_minutes": 120,
+  "peak_price": 14700.0,
+  "peak_at": "2020-01-04T15:45:00+10:00",
+  "mean_price": 14656.4,
+  "intervals_above_5000": 24,
+  "cost_to_load": 357986458.0,
+  "max_demand_mw": 12387.1,
+  "tags": [
+    "year:2020",
+    "season:summer",
+    "region:NSW1",
+    "severity:cap",
+    "price:at-cap",
+    "intervention:yes",
+    "settlement:30-minute"
+  ]
+}

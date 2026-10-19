@@ -1,0 +1,54 @@
+{
+  "schema": 2,
+  "notices": [
+    {
+      "id": "91769",
+      "kind": "INTER-REGIONAL TRANSFER",
+      "issued": "2021-10-18T07:42:19+10:00",
+      "title": "Cancellation - Inter-regional transfer limit variation - constraint automation to manage Power System Security in NSW region - 17/10/2021",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCkNhbmNlbGxhdGlvbiAtIEludGVyLXJlZ2lvbmFsIHRyYW5zZmVyIGxpbWl0IHZhcmlhdGlvbiAtIGNvbnN0cmFpbnQgYXV0b21hdGlvbiB0byBtYW5hZ2UgUG93ZXIgU3lzdGVtIFNlY3VyaXR5IGluIE5TVyByZWdpb24gLSAxNy8xMC8yMDIxDQoNClJlZmVyIEFFTU8gRWxlY3RyaWNpdHkgTWFya2V0IE5vdGljZSA5MTc2Mw0KDQpDb25zdHJhaW50IHNldCBDQV9CUklTXzUwN0UzMUZFIHdhcyByZXZva2VkIGF0IDA3NDAgaHJzIDE4LzEwLzIxLg0KDQpUaGlzIGNvbnN0cmFpbnQgc2V0IGNvbnRhaW5zIGVxdWF0aW9ucyB3aXRoIHRoZSBmb2xsb3dpbmcgaW50ZXJjb25uZWN0b3Igb24gdGhlIExIUzsNCg0KVklDMS1OU1cxDQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25zDQo="
+    },
+    {
+      "id": "91770",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2021-10-18T08:08:33+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Tarong - Chinchilla No.7168 132 kV line and Tarong - Chinchilla No.7183 132 kV line in QLD1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClJlY2xhc3NpZmljYXRpb24gb2YgYSBOb24tQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgYXMgYSBDcmVkaWJsZSBDb250aW5nZW5jeSBFdmVudCBkdWUgdG8gTGlnaHRuaW5nLiBBRU1PIGNvbnNpZGVycyB0aGUgc2ltdWx0YW5lb3VzIHRyaXAgb2YgdGhlIGZvbGxvd2luZyBjaXJjdWl0cyB0byBub3cgYmUgbW9yZSBsaWtlbHkgYW5kIHJlYXNvbmFibHkgcG9zc2libGUuIEFjY29yZGluZ2x5IEFFTU8gaGFzIHJlY2xhc3NpZmllZCBpdCBhcyBhIGNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFFMRDENCg0KTGluZXM6IFRhcm9uZyAtIENoaW5jaGlsbGEgTm8uNzE2OCAxMzIga1YgYW5kIFRhcm9uZyAtIENoaW5jaGlsbGEgTm8uNzE4MyAxMzIga1YNCg0KRHVyYXRpb246IDE4LzEwLzIwMjEgMDg6MDggdW50aWwgZnVydGhlciBub3RpY2UNCg0KQ29uc3RyYWludCBzZXQocykgaW52b2tlZDoNCk5PTkUNCg0KQXV0by1nZW5lcmF0ZWQgb24gYmVoYWxmIG9mIE1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25zDQ=="
+    },
+    {
+      "id": "91771",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2021-10-18T09:39:42+10:00",
+      "title": "Cancellation of a Non-Credible Contingency Event: Tarong - Chinchilla No.7168 132 kV line and Tarong - Chinchilla No.7183 132 kV line in QLD1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCkNhbmNlbGxhdGlvbiBvZiByZWNsYXNzaWZpY2F0aW9uIG9mIGEgTm9uLUNyZWRpYmxlIENvbnRpbmdlbmN5IEV2ZW50IGFzIGEgQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgZHVlIHRvIExpZ2h0bmluZy4gQUVNTyBjb25zaWRlcnMgdGhlIHNpbXVsdGFuZW91cyB0cmlwIG9mIHRoZSBmb2xsb3dpbmcgY2lyY3VpdHMgaXMgbm8gbG9uZ2VyIHJlYXNvbmFibHkgcG9zc2libGUuIFRoZXJlIGlzIG5vIGxvbmdlciBhbnkgbGlnaHRuaW5nIGFjdGl2aXR5IGluIHRoZSB2aWNpbml0eSBvZiB0aGUgZm9sbG93aW5nIGxpbmVzLiBBY2NvcmRpbmdseSBpdHMgY2xhc3NpZmljYXRpb24gaGFzIHJldmVydGVkIHRvIGEgbm9uLWNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFFMRDENCg0KTGluZXM6IFRhcm9uZyAtIENoaW5jaGlsbGEgTm8uNzE2OCAxMzIga1YgYW5kIFRhcm9uZyAtIENoaW5jaGlsbGEgTm8uNzE4MyAxMzIga1YNCg0KQ2FuY2VsbGF0aW9uIHRpbWU6IDE4LzEwLzIwMjEgMDk6MzkNCg0KQ29uc3RyYWludCBzZXQocykgcmV2b2tlZDogDQpOT05FDQoNClJlZmVyIEFFTU8gRWxlY3RyaWNpdHkgTWFya2V0IE5vdGljZSA5MTc3MA0KDQpBdXRvLWdlbmVyYXRlZCBvbiBiZWhhbGYgb2YgTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnMN"
+    },
+    {
+      "id": "91772",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2021-10-18T11:02:52+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Tarong - Chinchilla No.7168 132 kV line and Tarong - Chinchilla No.7183 132 kV line in QLD1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClJlY2xhc3NpZmljYXRpb24gb2YgYSBOb24tQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgYXMgYSBDcmVkaWJsZSBDb250aW5nZW5jeSBFdmVudCBkdWUgdG8gTGlnaHRuaW5nLiBBRU1PIGNvbnNpZGVycyB0aGUgc2ltdWx0YW5lb3VzIHRyaXAgb2YgdGhlIGZvbGxvd2luZyBjaXJjdWl0cyB0byBub3cgYmUgbW9yZSBsaWtlbHkgYW5kIHJlYXNvbmFibHkgcG9zc2libGUuIEFjY29yZGluZ2x5IEFFTU8gaGFzIHJlY2xhc3NpZmllZCBpdCBhcyBhIGNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFFMRDENCg0KTGluZXM6IFRhcm9uZyAtIENoaW5jaGlsbGEgTm8uNzE2OCAxMzIga1YgYW5kIFRhcm9uZyAtIENoaW5jaGlsbGEgTm8uNzE4MyAxMzIga1YNCg0KRHVyYXRpb246IDE4LzEwLzIwMjEgMTE6MDIgdW50aWwgZnVydGhlciBub3RpY2UNCg0KQ29uc3RyYWludCBzZXQocykgaW52b2tlZDoNCk5PTkUNCg0KQXV0by1nZW5lcmF0ZWQgb24gYmVoYWxmIG9mIE1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25zDQ=="
+    },
+    {
+      "id": "91773",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2021-10-18T12:39:41+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Condabri Nth - Condabri Central 7400 132kV line and Condabri Nth - Condabri Central 7401 132kV line in QLD1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClJlY2xhc3NpZmljYXRpb24gb2YgYSBOb24tQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgYXMgYSBDcmVkaWJsZSBDb250aW5nZW5jeSBFdmVudCBkdWUgdG8gTGlnaHRuaW5nLiBBRU1PIGNvbnNpZGVycyB0aGUgc2ltdWx0YW5lb3VzIHRyaXAgb2YgdGhlIGZvbGxvd2luZyBjaXJjdWl0cyB0byBub3cgYmUgbW9yZSBsaWtlbHkgYW5kIHJlYXNvbmFibHkgcG9zc2libGUuIEFjY29yZGluZ2x5IEFFTU8gaGFzIHJlY2xhc3NpZmllZCBpdCBhcyBhIGNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFFMRDENCg0KTGluZXM6IENvbmRhYnJpIE50aCAtIENvbmRhYnJpIENlbnRyYWwgNzQwMCAxMzJrViBhbmQgQ29uZGFicmkgTnRoIC0gQ29uZGFicmkgQ2VudHJhbCA3NDAxIDEzMmtWDQoNCkR1cmF0aW9uOiAxOC8xMC8yMDIxIDEyOjM5IHVudGlsIGZ1cnRoZXIgbm90aWNlDQoNCkNvbnN0cmFpbnQgc2V0KHMpIGludm9rZWQ6DQpOT05FDQoNCkF1dG8tZ2VuZXJhdGVkIG9uIGJlaGFsZiBvZiBNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw0="
+    },
+    {
+      "id": "91774",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2021-10-18T12:52:40+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Lismore - Dunoon 9U6 132kV line and Lismore - Dunoon 9U7 132kV line in NSW1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClJlY2xhc3NpZmljYXRpb24gb2YgYSBOb24tQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgYXMgYSBDcmVkaWJsZSBDb250aW5nZW5jeSBFdmVudCBkdWUgdG8gTGlnaHRuaW5nLiBBRU1PIGNvbnNpZGVycyB0aGUgc2ltdWx0YW5lb3VzIHRyaXAgb2YgdGhlIGZvbGxvd2luZyBjaXJjdWl0cyB0byBub3cgYmUgbW9yZSBsaWtlbHkgYW5kIHJlYXNvbmFibHkgcG9zc2libGUuIEFjY29yZGluZ2x5IEFFTU8gaGFzIHJlY2xhc3NpZmllZCBpdCBhcyBhIGNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IE5TVzENCg0KTGluZXM6IExpc21vcmUgLSBEdW5vb24gOVU2IDEzMmtWIGFuZCBMaXNtb3JlIC0gRHVub29uIDlVNyAxMzJrVg0KDQpEdXJhdGlvbjogMTgvMTAvMjAyMSAxMjo1MiB1bnRpbCBmdXJ0aGVyIG5vdGljZQ0KDQpDb25zdHJhaW50IHNldChzKSBpbnZva2VkOg0KTk9ORQ0KDQpBdXRvLWdlbmVyYXRlZCBvbiBiZWhhbGYgb2YgTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnMN"
+    },
+    {
+      "id": "91775",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2021-10-18T13:59:30+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Collinsville Nth-Clare Sth Tee King Creek 7128 132kV line and Strathmore-Clare South 7208 132kV line in QLD1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClJlY2xhc3NpZmljYXRpb24gb2YgYSBOb24tQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgYXMgYSBDcmVkaWJsZSBDb250aW5nZW5jeSBFdmVudCBkdWUgdG8gTGlnaHRuaW5nLiBBRU1PIGNvbnNpZGVycyB0aGUgc2ltdWx0YW5lb3VzIHRyaXAgb2YgdGhlIGZvbGxvd2luZyBjaXJjdWl0cyB0byBub3cgYmUgbW9yZSBsaWtlbHkgYW5kIHJlYXNvbmFibHkgcG9zc2libGUuIEFjY29yZGluZ2x5IEFFTU8gaGFzIHJlY2xhc3NpZmllZCBpdCBhcyBhIGNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFFMRDENCg0KTGluZXM6IENvbGxpbnN2aWxsZSBOdGgtQ2xhcmUgU3RoIFRlZSBLaW5nIENyZWVrIDcxMjggMTMya1YgYW5kIFN0cmF0aG1vcmUtQ2xhcmUgU291dGggNzIwOCAxMzJrVg0KDQpEdXJhdGlvbjogMTgvMTAvMjAyMSAxMzo1OSB1bnRpbCBmdXJ0aGVyIG5vdGljZQ0KDQpDb25zdHJhaW50IHNldChzKSBpbnZva2VkOg0KTk9ORQ0KDQpBdXRvLWdlbmVyYXRlZCBvbiBiZWhhbGYgb2YgTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnMN"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema": 2,
+  "notices": [
+    {
+      "id": "102470",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-10-22T02:44:15+10:00",
+      "title": "Cancellation of a Non-Credible Contingency Event: Condabri Nth - Condabri Central 7400 132kV line and Condabri Nth - Condabri Central 7401 132kV line in QLD1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCkNhbmNlbGxhdGlvbiBvZiByZWNsYXNzaWZpY2F0aW9uIG9mIGEgTm9uLUNyZWRpYmxlIENvbnRpbmdlbmN5IEV2ZW50IGFzIGEgQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgZHVlIHRvIExpZ2h0bmluZy4gQUVNTyBjb25zaWRlcnMgdGhlIHNpbXVsdGFuZW91cyB0cmlwIG9mIHRoZSBmb2xsb3dpbmcgY2lyY3VpdHMgaXMgbm8gbG9uZ2VyIHJlYXNvbmFibHkgcG9zc2libGUuIFRoZXJlIGlzIG5vIGxvbmdlciBhbnkgbGlnaHRuaW5nIGFjdGl2aXR5IGluIHRoZSB2aWNpbml0eSBvZiB0aGUgZm9sbG93aW5nIGxpbmVzLiBBY2NvcmRpbmdseSBpdHMgY2xhc3NpZmljYXRpb24gaGFzIHJldmVydGVkIHRvIGEgbm9uLWNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFFMRDENCg0KTGluZXM6IENvbmRhYnJpIE50aCAtIENvbmRhYnJpIENlbnRyYWwgNzQwMCAxMzJrViBhbmQgQ29uZGFicmkgTnRoIC0gQ29uZGFicmkgQ2VudHJhbCA3NDAxIDEzMmtWDQoNCkNhbmNlbGxhdGlvbiB0aW1lOiAyMi8xMC8yMDIyIDAyOjQ0DQoNCkNvbnN0cmFpbnQgc2V0KHMpIHJldm9rZWQ6IA0KTk9ORQ0KDQpSZWZlciBBRU1PIEVsZWN0cmljaXR5IE1hcmtldCBOb3RpY2UgMTAyNDYyDQoNCkF1dG8tZ2VuZXJhdGVkIG9uIGJlaGFsZiBvZiBNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw0="
+    },
+    {
+      "id": "102472",
+      "kind": "MARKET INTERVENTION",
+      "issued": "2022-10-22T07:05:49+10:00",
+      "title": "Cancellation - AEMO Intervention Event - Intervention trading intervals - Direction SA Region - 21/10/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFIA0KDQpDYW5jZWxsYXRpb24gLSBBRU1PIEludGVydmVudGlvbiBFdmVudCAtIEludGVydmVudGlvbiB0cmFkaW5nIGludGVydmFscyAtIERpcmVjdGlvbiBTQSBSZWdpb24gLSAgMjEvMTAvMjAyMg0KDQpSZWZlciBNYXJrZXQgTm90aWNlIDEwMjQ1Nw0KDQpUaGUgQUVNTyBJbnRlcnZlbnRpb24gRXZlbnQgYW5kIGFsbCBhc3NvY2lhdGVkIGRpcmVjdGlvbnMgYXJlIGNhbmNlbGxlZCBmcm9tIDA3MDAgaHJzIDIyLzEwLzIwMjINCg0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "102473",
+      "kind": "INTER-REGIONAL TRANSFER",
+      "issued": "2022-10-22T08:13:56+10:00",
+      "title": "Inter-regional transfer limit variation - Greenbank SVC - Qld region - 22/10/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCkludGVyLXJlZ2lvbmFsIHRyYW5zZmVyIGxpbWl0IHZhcmlhdGlvbiAtIEdyZWVuYmFuayBTVkMgLSBRbGQgcmVnaW9uIC0gMjIvMTAvMjAyMg0KDQpBdCAgIDA3NDYgaHJzIDIyLzEwLzIwMjIgdGhlcmUgd2FzIGFuIHVucGxhbm5lZCBvdXRhZ2Ugb2YgR3JlZW5iYW5rIFNWQw0KDQoNClRoZSBmb2xsb3dpbmcgY29uc3RyYWludCBzZXQgaW52b2tlZCBhdCAwNzU1IGhycyAyMi8xMC8yMDIyOw0KUS1HQl9WQw0KDQpUaGlzIGNvbnN0cmFpbnQgc2V0KHMpIGNvbnRhaW5zIGVxdWF0aW9ucyB3aXRoIHRoZSBmb2xsb3dpbmcgaW50ZXJjb25uZWN0b3JzIG9uIHRoZSBMSFMuDQoNCk4tUS1NTlNQMQ0KTlNXMSAtIFFMRDENCg0KICANClJlZmVyIHRvIHRoZSBBRU1PIE5ldHdvcmsgT3V0YWdlIFNjaGVkdWxlciBmb3IgZnVydGhlciBpbmZvcm1hdGlvbi4NCg0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnM="
+    }
+  ]
+}

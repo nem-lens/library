@@ -1,0 +1,24 @@
+{
+  "schema": 2,
+  "event_id": "202206271730-NSW1-high",
+  "region": "NSW1",
+  "trading_day": "2022-06-27",
+  "start": "2022-06-27T17:30:00+10:00",
+  "end": "2022-06-27T17:30:00+10:00",
+  "duration_minutes": 5,
+  "peak_price": 15099.98,
+  "peak_at": "2022-06-27T17:30:00+10:00",
+  "mean_price": 15099.98,
+  "intervals_above_5000": 1,
+  "cost_to_load": 14835907.0,
+  "max_demand_mw": 11790.1,
+  "tags": [
+    "year:2022",
+    "season:winter",
+    "region:NSW1",
+    "severity:cap",
+    "price:at-cap",
+    "settlement:5-minute",
+    "bids:no-band-availability"
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2020-11-12T11:35:00+10:00",
+    "2020-11-12T11:40:00+10:00",
+    "2020-11-12T11:45:00+10:00",
+    "2020-11-12T11:50:00+10:00",
+    "2020-11-12T11:55:00+10:00",
+    "2020-11-12T12:00:00+10:00",
+    "2020-11-12T12:05:00+10:00",
+    "2020-11-12T12:10:00+10:00",
+    "2020-11-12T12:15:00+10:00",
+    "2020-11-12T12:20:00+10:00",
+    "2020-11-12T12:25:00+10:00",
+    "2020-11-12T12:30:00+10:00",
+    "2020-11-12T12:35:00+10:00",
+    "2020-11-12T12:40:00+10:00",
+    "2020-11-12T12:45:00+10:00",
+    "2020-11-12T12:50:00+10:00",
+    "2020-11-12T12:55:00+10:00",
+    "2020-11-12T13:00:00+10:00",
+    "2020-11-12T13:05:00+10:00",
+    "2020-11-12T13:10:00+10:00",
+    "2020-11-12T13:15:00+10:00",
+    "2020-11-12T13:20:00+10:00",
+    "2020-11-12T13:25:00+10:00",
+    "2020-11-12T13:30:00+10:00",
+    "2020-11-12T13:35:00+10:00",
+    "2020-11-12T13:40:00+10:00",
+    "2020-11-12T13:45:00+10:00",
+    "2020-11-12T13:50:00+10:00",
+    "2020-11-12T13:55:00+10:00",
+    "2020-11-12T14:00:00+10:00",
+    "2020-11-12T14:05:00+10:00",
+    "2020-11-12T14:10:00+10:00",
+    "2020-11-12T14:15:00+10:00",
+    "2020-11-12T14:20:00+10:00",
+    "2020-11-12T14:25:00+10:00",
+    "2020-11-12T14:30:00+10:00",
+    "2020-11-12T14:35:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "TVCC201",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 208.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2020-11-06T03:01:39+10:00",
+          "explanation": "1130P INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-11-11T07:11:57+10:00",
+          "explanation": "0711A INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-11-11T07:40:30+10:00",
+          "explanation": "0740A INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-11-11T09:29:04+10:00",
+          "explanation": "0928A INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-11-11T10:57:22+10:00",
+          "explanation": "1057A INITIAL OFFER"
+        }
+      ]
+    },
+    {
+      "duid": "GORDON",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 450.0,
+      "availability": [
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0,
+        244.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2020-11-12T04:09:01+10:00",
+          "explanation": "0407P REDISTRIBUTING VOLUME WITHIN AGGREGATE: GORDON TUNGATINAH"
+        },
+        {
+          "offer_time": "2020-11-12T06:21:18+10:00",
+          "explanation": "0600A PRICE > FORECAST: VIC P5MIN ."
+        },
+        {
+          "offer_time": "2020-11-12T07:39:33+10:00",
+          "explanation": "0735A PRICE > FORECAST: VIC P5MIN."
+        },
+        {
+          "offer_time": "2020-11-12T12:22:15+10:00",
+          "explanation": "1202A PRICE DIFFERENT FROM FORECAST: VIC"
+        },
+        {
+          "offer_time": "2020-11-12T13:21:20+10:00",
+          "explanation": "1320A FCAS REQUIREMENT > FORECAST: TAS R6"
+        }
+      ]
+    },
+    {
+      "duid": "REECE2",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 119.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2020-11-11T07:11:57+10:00",
+          "explanation": "0711A INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-11-11T07:40:30+10:00",
+          "explanation": "0740A INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-11-11T09:29:04+10:00",
+          "explanation": "0928A INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-11-11T10:57:22+10:00",
+          "explanation": "1057A INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-11-12T04:09:01+10:00",
+          "explanation": "0407P REDISTRIBUTING VOLUME WITHIN AGGREGATE: GORDON TUNGATINAH"
+        }
+      ]
+    },
+    {
+      "duid": "DEVILS_G",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 67.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2020-11-06T03:01:39+10:00",
+          "explanation": "1130P INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-11-11T07:11:57+10:00",
+          "explanation": "0711A INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-11-11T07:40:30+10:00",
+          "explanation": "0740A INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-11-11T09:29:04+10:00",
+          "explanation": "0928A INITIAL OFFER"
+        },
+        {
+          "offer_time": "2020-11-11T10:57:22+10:00",
+          "explanation": "1057A INITIAL OFFER"
+        }
+      ]
+    },
+    {
+      "duid": "POAT110",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 124.0,
+      "availability": [
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0,
+        57.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2020-11-12T05:39:02+10:00",
+          "explanation": "0538P LAKE LEVEL DIFFERENT FROM FORECAST: POATINA REG POND REQUIREMENT"
+        },
+        {
+          "offer_time": "2020-11-12T06:21:18+10:00",
+          "explanation": "0600A PRICE > FORECAST: VIC P5MIN ."
+        },
+        {
+          "offer_time": "2020-11-12T10:51:49+10:00",
+          "explanation": "1045A PRICE DIFFERENT FROM FORECAST: VIC P5MIN AND P30. REDUCTION IN TAS DEMAND FORECAST."
+        },
+        {
+          "offer_time": "2020-11-12T11:09:06+10:00",
+          "explanation": "1108P PLANT FAILURE: LIAPOOTAH 2"
+        },
+        {
+          "offer_time": "2020-11-12T12:22:15+10:00",
+          "explanation": "1202A PRICE DIFFERENT FROM FORECAST: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "LI_WY_CA",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 190.0,
+      "availability": [
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        126.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2020-11-12T06:21:18+10:00",
+          "explanation": "0600A PRICE > FORECAST: VIC P5MIN ."
+        },
+        {
+          "offer_time": "2020-11-12T10:51:49+10:00",
+          "explanation": "1045A PRICE DIFFERENT FROM FORECAST: VIC P5MIN AND P30. REDUCTION IN TAS DEMAND FORECAST."
+        },
+        {
+          "offer_time": "2020-11-12T11:09:06+10:00",
+          "explanation": "1108P PLANT FAILURE: LIAPOOTAH 2"
+        },
+        {
+          "offer_time": "2020-11-12T11:29:34+10:00",
+          "explanation": "1128E CORRECTING ERROR IN PREVIOUS BID: WAYATINAH 1 ROUGH RUNNING RANGE."
+        },
+        {
+          "offer_time": "2020-11-12T13:34:14+10:00",
+          "explanation": "1331A FCAS REQUIREMENT > FORECAST: TAS R6"
+        }
+      ]
+    }
+  ]
+}

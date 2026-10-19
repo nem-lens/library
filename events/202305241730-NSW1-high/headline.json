@@ -1,0 +1,23 @@
+{
+  "schema": 2,
+  "event_id": "202305241730-NSW1-high",
+  "region": "NSW1",
+  "trading_day": "2023-05-24",
+  "start": "2023-05-24T17:30:00+10:00",
+  "end": "2023-05-24T18:35:00+10:00",
+  "duration_minutes": 70,
+  "peak_price": 14141.35,
+  "peak_at": "2023-05-24T18:25:00+10:00",
+  "mean_price": 7968.34,
+  "intervals_above_5000": 8,
+  "cost_to_load": 99100015.0,
+  "max_demand_mw": 10800.4,
+  "tags": [
+    "year:2023",
+    "season:autumn",
+    "region:NSW1",
+    "severity:extreme",
+    "settlement:5-minute",
+    "bids:no-band-availability"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema": 2,
+  "notices": [
+    {
+      "id": "91981",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2021-10-27T07:01:29+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Brinkworth-Davenport, Brinkworth-Templers West and Para-Templers West 275kV lines in SA due to severe weather warning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFLg0KDQpSZWNsYXNzaWZpY2F0aW9uIG9mIGEgbm9uLWNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50IGFzIGEgY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQgZHVlIHRvIHNldmVyZSB3ZWF0aGVyIHdhcm5pbmcuDQoNCkFFTU8gY29uc2lkZXJzIHRoZSBzaW11bHRhbmVvdXMgdHJpcCBvZiB0aGUgZm9sbG93aW5nIGNpcmN1aXRzIHRvIG5vdyBiZSBtb3JlIGxpa2VseSBhbmQgcmVhc29uYWJseSBwb3NzaWJsZS4gQWNjb3JkaW5nbHkgQUVNTyBoYXMgcmVjbGFzc2lmaWVkIGl0IGFzIGEgY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQuDQoNClJlZ2lvbjogU0ENCg0KTGluZXM6IEJyaW5rd29ydGgtRGF2ZW5wb3J0LCBCcmlua3dvcnRoLVRlbXBsZXJzIFdlc3QgYW5kIFBhcmEtVGVtcGxlcnMgV2VzdCAyNzVrViBsaW5lcw0KDQpEdXJhdGlvbjogMDcwMCBocnMgMjcvMTAvMjAyMSB1bnRpbCBmdXJ0aGVyIG5vdGljZQ0KDQpDb25zdHJhaW50IHNldChzKSBpbnZva2VkOiBOaWwNCg0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "91982",
+      "kind": "MARKET SYSTEMS",
+      "issued": "2021-10-27T07:45:38+10:00",
+      "title": "CHG0070801 | Completed | Pre-Production |  MSATS Pre-Production Release",
+      "reason": "Q2hhbmdlIE51bWJlcjogQ0hHMDA3MDgwMQ0KTm90aWZpY2F0aW9uIGlzc3VlZCB0bzogTWFya2V0IE5vdGljZQ0KDQpOb3RpZmljYXRpb24gVHlwZTogQ29tcGxldGVkDQoNCkNoYW5nZSBUeXBlOiBOb3JtYWwNClNlcnZpY2UvQ29tcG9uZW50OiBNU0FUUyAtIE1ldGVyIERhdGEgTWFuYWdlbWVudA0KQ2hhbmdlIFRpdGxlOiBNU0FUUyBQcmUtUHJvZHVjdGlvbiBSZWxlYXNlDQoNClN1cHBvcnQgSW5mb3JtYXRpb246IFJlcG9ydCBhbnkgaW1wYWN0cyB0byB0aGUgQUVNTyBJbmZvcm1hdGlvbiBhbmQgU3VwcG9ydCBIdWIgb3Igb24gRXh0ZXJuYWwgMTMwMCAyMzYgNjAwLg0K"
+    },
+    {
+      "id": "91983",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2021-10-27T08:32:39+10:00",
+      "title": "Cancellation of the reclassification of a Non-Credible Contingency Event: Brinkworth-Davenport, Brinkworth-Templers West and Para-Templers West 275kV lines in SA due to severe weather warning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFLg0KDQpDYW5jZWxsYXRpb24gb2YgdGhlIHJlY2xhc3NpZmljYXRpb24gb2YgYSBub24tY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQgYXMgYSBjcmVkaWJsZSBjb250aW5nZW5jeSBldmVudCBkdWUgdG8gc2V2ZXJlIHdlYXRoZXIgd2FybmluZy4NCg0KQUVNTyBjb25zaWRlcnMgdGhlIHNpbXVsdGFuZW91cyB0cmlwIG9mIHRoZSBmb2xsb3dpbmcgY2lyY3VpdHMgaXMgbm8gbG9uZ2VyIHJlYXNvbmFibHkgcG9zc2libGUuIFRoZXJlIGlzIG5vIGxvbmdlciBhbnkgc2V2ZXJlIHdlYXRoZXIgd2FybmluZyBpbiB0aGUgdmljaW5pdHkgb2YgdGhlIGZvbGxvd2luZyBsaW5lcy4gQWNjb3JkaW5nbHksIGl0cyBjbGFzc2lmaWNhdGlvbiBoYXMgcmV2ZXJ0ZWQgdG8gYSBub24tY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQuDQoNClJlZ2lvbjogU0ENCg0KTGluZXM6ICBCcmlua3dvcnRoLURhdmVucG9ydCwgQnJpbmt3b3J0aC1UZW1wbGVycyBXZXN0IGFuZCBQYXJhLVRlbXBsZXJzIFdlc3QgMjc1a1YgbGluZXMNCiANCkNhbmNlbGxhdGlvbiB0aW1lOiAwODE1IGhycyAyNy8xMC8yMDIxDQogDQpDb25zdHJhaW50IHNldChzKSByZXZva2VkOiBOaWwNCg0KUmVmZXIgQUVNTyBFbGVjdHJpY2l0eSBNYXJrZXQgTm90aWNlIDkxOTgxDQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25z"
+    }
+  ]
+}

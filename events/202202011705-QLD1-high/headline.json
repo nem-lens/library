@@ -1,0 +1,25 @@
+{
+  "schema": 2,
+  "event_id": "202202011705-QLD1-high",
+  "region": "QLD1",
+  "trading_day": "2022-02-01",
+  "start": "2022-02-01T17:05:00+10:00",
+  "end": "2022-02-01T20:05:00+10:00",
+  "duration_minutes": 185,
+  "peak_price": 15100.0,
+  "peak_at": "2022-02-01T17:25:00+10:00",
+  "mean_price": 10382.24,
+  "intervals_above_5000": 28,
+  "cost_to_load": 296733823.0,
+  "max_demand_mw": 9381.1,
+  "tags": [
+    "year:2022",
+    "season:summer",
+    "region:QLD1",
+    "severity:cap",
+    "price:at-cap",
+    "intervention:yes",
+    "settlement:5-minute",
+    "bids:no-band-availability"
+  ]
+}

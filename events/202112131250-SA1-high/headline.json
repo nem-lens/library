@@ -1,0 +1,23 @@
+{
+  "schema": 2,
+  "event_id": "202112131250-SA1-high",
+  "region": "SA1",
+  "trading_day": "2021-12-13",
+  "start": "2021-12-13T12:50:00+10:00",
+  "end": "2021-12-13T13:20:00+10:00",
+  "duration_minutes": 35,
+  "peak_price": 10247.41,
+  "peak_at": "2021-12-13T13:05:00+10:00",
+  "mean_price": 4914.81,
+  "intervals_above_5000": 3,
+  "cost_to_load": 3999350.0,
+  "max_demand_mw": 1430.1,
+  "tags": [
+    "year:2021",
+    "season:summer",
+    "region:SA1",
+    "severity:extreme",
+    "settlement:5-minute",
+    "bids:no-band-availability"
+  ]
+}

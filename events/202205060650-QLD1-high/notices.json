@@ -1,0 +1,61 @@
+{
+  "schema": 2,
+  "notices": [
+    {
+      "id": "96104",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-05-05T23:33:25+10:00",
+      "title": "PDPASA - Cancellation of the Forecast Lack Of Reserve Level 1 (LOR1) in the NSW Region on 06/05/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClRoZSBGb3JlY2FzdCBMT1IxIGNvbmRpdGlvbiBpbiB0aGUgTlNXIHJlZ2lvbiBhZHZpc2VkIGluIEFFTU8gRWxlY3RyaWNpdHkgTWFya2V0IE5vdGljZSBOby4gOTYxMDAgaXMgY2FuY2VsbGVkIGF0IDIzMzAgaHJzIDA1LzA1LzIwMjIuICAgDQogDQpNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw=="
+    },
+    {
+      "id": "96105",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-05-06T03:54:00+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Lindisfarne - Mornington No.1 TEE line and Lindisfarne - Mornington No.2 TEE line in TAS1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClJlY2xhc3NpZmljYXRpb24gb2YgYSBOb24tQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgYXMgYSBDcmVkaWJsZSBDb250aW5nZW5jeSBFdmVudCBkdWUgdG8gTGlnaHRuaW5nLiBBRU1PIGNvbnNpZGVycyB0aGUgc2ltdWx0YW5lb3VzIHRyaXAgb2YgdGhlIGZvbGxvd2luZyBjaXJjdWl0cyB0byBub3cgYmUgbW9yZSBsaWtlbHkgYW5kIHJlYXNvbmFibHkgcG9zc2libGUuIEFjY29yZGluZ2x5IEFFTU8gaGFzIHJlY2xhc3NpZmllZCBpdCBhcyBhIGNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFRBUzENCg0KTGluZXM6IExpbmRpc2Zhcm5lIC0gTW9ybmluZ3RvbiBOby4xIFRFRSBhbmQgTGluZGlzZmFybmUgLSBNb3JuaW5ndG9uIE5vLjIgVEVFDQoNCkR1cmF0aW9uOiAwNi8wNS8yMDIyIDAzOjUzIHVudGlsIGZ1cnRoZXIgbm90aWNlDQoNCkNvbnN0cmFpbnQgc2V0KHMpIGludm9rZWQ6DQpOT05FDQoNCkF1dG8tZ2VuZXJhdGVkIG9uIGJlaGFsZiBvZiBNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw0="
+    },
+    {
+      "id": "96106",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-05-06T04:21:47+10:00",
+      "title": "PDPASA - Forecast Lack Of Reserve Level 1 (LOR1) in the NSW Region on 06/05/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCkFFTU8gZGVjbGFyZXMgYSBGb3JlY2FzdCBMT1IxIGNvbmRpdGlvbiB1bmRlciBjbGF1c2UgNC44LjQoYikgb2YgdGhlIE5hdGlvbmFsIEVsZWN0cmljaXR5IFJ1bGVzIGZvciB0aGUgTlNXIHJlZ2lvbiBmb3IgdGhlIGZvbGxvd2luZyBwZXJpb2Q6DQoNClsxLl0gRnJvbSAxODAwIGhycyAwNi8wNS8yMDIyIHRvIDE4MzAgaHJzIDA2LzA1LzIwMjIuIA0KVGhlIGZvcmVjYXN0IGNhcGFjaXR5IHJlc2VydmUgcmVxdWlyZW1lbnQgaXMgMTQ0NiBNVy4gDQpUaGUgbWluaW11bSBjYXBhY2l0eSByZXNlcnZlIGF2YWlsYWJsZSBpcyAxNDEwIE1XLg0KDQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25z"
+    },
+    {
+      "id": "96108",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-05-06T04:56:59+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Lindisfarne - Sorell 110kV line and Lindisfarne- Sorell- Triabunna_Tee 110kV line in TAS1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClJlY2xhc3NpZmljYXRpb24gb2YgYSBOb24tQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgYXMgYSBDcmVkaWJsZSBDb250aW5nZW5jeSBFdmVudCBkdWUgdG8gTGlnaHRuaW5nLiBBRU1PIGNvbnNpZGVycyB0aGUgc2ltdWx0YW5lb3VzIHRyaXAgb2YgdGhlIGZvbGxvd2luZyBjaXJjdWl0cyB0byBub3cgYmUgbW9yZSBsaWtlbHkgYW5kIHJlYXNvbmFibHkgcG9zc2libGUuIEFjY29yZGluZ2x5IEFFTU8gaGFzIHJlY2xhc3NpZmllZCBpdCBhcyBhIGNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFRBUzENCg0KTGluZXM6IExpbmRpc2Zhcm5lIC0gU29yZWxsIDExMGtWIGFuZCBMaW5kaXNmYXJuZS0gU29yZWxsLSBUcmlhYnVubmFfVGVlIDExMGtWDQoNCkR1cmF0aW9uOiAwNi8wNS8yMDIyIDA0OjU2IHVudGlsIGZ1cnRoZXIgbm90aWNlDQoNCkNvbnN0cmFpbnQgc2V0KHMpIGludm9rZWQ6DQpOT05FDQoNCkF1dG8tZ2VuZXJhdGVkIG9uIGJlaGFsZiBvZiBNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw0="
+    },
+    {
+      "id": "96109",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-05-06T05:59:14+10:00",
+      "title": "Cancellation of a Non-Credible Contingency Event: Lindisfarne - Sorell 110kV line and Lindisfarne- Sorell- Triabunna_Tee 110kV line in TAS1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCkNhbmNlbGxhdGlvbiBvZiByZWNsYXNzaWZpY2F0aW9uIG9mIGEgTm9uLUNyZWRpYmxlIENvbnRpbmdlbmN5IEV2ZW50IGFzIGEgQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgZHVlIHRvIExpZ2h0bmluZy4gQUVNTyBjb25zaWRlcnMgdGhlIHNpbXVsdGFuZW91cyB0cmlwIG9mIHRoZSBmb2xsb3dpbmcgY2lyY3VpdHMgaXMgbm8gbG9uZ2VyIHJlYXNvbmFibHkgcG9zc2libGUuIFRoZXJlIGlzIG5vIGxvbmdlciBhbnkgbGlnaHRuaW5nIGFjdGl2aXR5IGluIHRoZSB2aWNpbml0eSBvZiB0aGUgZm9sbG93aW5nIGxpbmVzLiBBY2NvcmRpbmdseSBpdHMgY2xhc3NpZmljYXRpb24gaGFzIHJldmVydGVkIHRvIGEgbm9uLWNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFRBUzENCg0KTGluZXM6IExpbmRpc2Zhcm5lIC0gU29yZWxsIDExMGtWIGFuZCBMaW5kaXNmYXJuZS0gU29yZWxsLSBUcmlhYnVubmFfVGVlIDExMGtWDQoNCkNhbmNlbGxhdGlvbiB0aW1lOiAwNi8wNS8yMDIyIDA1OjU5DQoNCkNvbnN0cmFpbnQgc2V0KHMpIHJldm9rZWQ6IA0KTk9ORQ0KDQpSZWZlciBBRU1PIEVsZWN0cmljaXR5IE1hcmtldCBOb3RpY2UgOTYxMDgNCg0KQXV0by1nZW5lcmF0ZWQgb24gYmVoYWxmIG9mIE1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25zDQ=="
+    },
+    {
+      "id": "96110",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-05-06T06:01:27+10:00",
+      "title": "PDPASA - Cancellation of the Forecast Lack Of Reserve Level 1 (LOR1) in the NSW Region on 06/05/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClRoZSBGb3JlY2FzdCBMT1IxIGNvbmRpdGlvbiBpbiB0aGUgTlNXIHJlZ2lvbiBhZHZpc2VkIGluIEFFTU8gRWxlY3RyaWNpdHkgTWFya2V0IE5vdGljZSBOby4gOTYxMDYgaXMgY2FuY2VsbGVkIGF0IDA2MDAgaHJzIDA2LzA1LzIwMjIuICAgDQogDQpNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw=="
+    },
+    {
+      "id": "96111",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-05-06T06:04:09+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Lindisfarne - Sorell 110kV line and Lindisfarne- Sorell- Triabunna_Tee 110kV line in TAS1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClJlY2xhc3NpZmljYXRpb24gb2YgYSBOb24tQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgYXMgYSBDcmVkaWJsZSBDb250aW5nZW5jeSBFdmVudCBkdWUgdG8gTGlnaHRuaW5nLiBBRU1PIGNvbnNpZGVycyB0aGUgc2ltdWx0YW5lb3VzIHRyaXAgb2YgdGhlIGZvbGxvd2luZyBjaXJjdWl0cyB0byBub3cgYmUgbW9yZSBsaWtlbHkgYW5kIHJlYXNvbmFibHkgcG9zc2libGUuIEFjY29yZGluZ2x5IEFFTU8gaGFzIHJlY2xhc3NpZmllZCBpdCBhcyBhIGNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFRBUzENCg0KTGluZXM6IExpbmRpc2Zhcm5lIC0gU29yZWxsIDExMGtWIGFuZCBMaW5kaXNmYXJuZS0gU29yZWxsLSBUcmlhYnVubmFfVGVlIDExMGtWDQoNCkR1cmF0aW9uOiAwNi8wNS8yMDIyIDA2OjAzIHVudGlsIGZ1cnRoZXIgbm90aWNlDQoNCkNvbnN0cmFpbnQgc2V0KHMpIGludm9rZWQ6DQpOT05FDQoNCkF1dG8tZ2VuZXJhdGVkIG9uIGJlaGFsZiBvZiBNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw0="
+    },
+    {
+      "id": "96112",
+      "kind": "NON-CONFORMANCE",
+      "issued": "2022-05-06T07:20:13+10:00",
+      "title": "NON-CONFORMANCE Region VIC1 Friday, 6 May 2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCk5PTi1DT05GT1JNQU5DRSBWSUMxIFJlZ2lvbiBGcmlkYXksIDYgTWF5IDIwMjINCg0KQUVNTyBkZWNsYXJlZCBhIHNjaGVkdWxlIGdlbmVyYXRpbmcgdW5pdCBub24tY29uZm9ybWluZw0KDQpVbml0OiAgICAgICBKTEEwMQ0KRHVyYXRpb246ICAgMDYvMDUvMjAyMiAwNzoxNSB0byAwNi8wNS8yMDIyIDA3OjIwDQpBbW91bnQ6ICAgICAtNDQgTVcNCkNvbnN0cmFpbnQ6IE5DLVZfSkxBMDENCg0KQXV0by1nZW5lcmF0ZWQgb24gYmVoYWxmIG9mIE1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25z"
+    }
+  ]
+}

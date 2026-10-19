@@ -1,0 +1,846 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2023-05-17T15:40:00+10:00",
+    "2023-05-17T15:45:00+10:00",
+    "2023-05-17T15:50:00+10:00",
+    "2023-05-17T15:55:00+10:00",
+    "2023-05-17T16:00:00+10:00",
+    "2023-05-17T16:05:00+10:00",
+    "2023-05-17T16:10:00+10:00",
+    "2023-05-17T16:15:00+10:00",
+    "2023-05-17T16:20:00+10:00",
+    "2023-05-17T16:25:00+10:00",
+    "2023-05-17T16:30:00+10:00",
+    "2023-05-17T16:35:00+10:00",
+    "2023-05-17T16:40:00+10:00",
+    "2023-05-17T16:45:00+10:00",
+    "2023-05-17T16:50:00+10:00",
+    "2023-05-17T16:55:00+10:00",
+    "2023-05-17T17:00:00+10:00",
+    "2023-05-17T17:05:00+10:00",
+    "2023-05-17T17:10:00+10:00",
+    "2023-05-17T17:15:00+10:00",
+    "2023-05-17T17:20:00+10:00",
+    "2023-05-17T17:25:00+10:00",
+    "2023-05-17T17:30:00+10:00",
+    "2023-05-17T17:35:00+10:00",
+    "2023-05-17T17:40:00+10:00",
+    "2023-05-17T17:45:00+10:00",
+    "2023-05-17T17:50:00+10:00",
+    "2023-05-17T17:55:00+10:00",
+    "2023-05-17T18:00:00+10:00",
+    "2023-05-17T18:05:00+10:00",
+    "2023-05-17T18:10:00+10:00",
+    "2023-05-17T18:15:00+10:00",
+    "2023-05-17T18:20:00+10:00",
+    "2023-05-17T18:25:00+10:00",
+    "2023-05-17T18:30:00+10:00",
+    "2023-05-17T18:35:00+10:00",
+    "2023-05-17T18:40:00+10:00",
+    "2023-05-17T18:45:00+10:00",
+    "2023-05-17T18:50:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "ER03",
+      "region": "NSW1",
+      "fuel": "coal",
+      "capacity_mw": 750.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2023-05-09T19:56:52+10:00",
+          "explanation": "Daily Bid SL"
+        }
+      ]
+    },
+    {
+      "duid": "TUMUT3",
+      "region": "NSW1",
+      "fuel": "hydro",
+      "capacity_mw": 1800.0,
+      "availability": [
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0,
+        1435.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-05-17T18:04:26+10:00",
+          "explanation": "18:00:04 A UPPTUMUT 5MIN ACTUAL DUID Dispatch 235 LOWER THAN 5MIN PD 18:05@17:56 (397) - SL"
+        },
+        {
+          "offer_time": "2023-05-17T18:09:10+10:00",
+          "explanation": "18:05:03 A UPPTUMUT 5MIN ACTUAL DUID Dispatch 155 LOWER THAN 5MIN PD 18:10@18:01 (439) - SL"
+        },
+        {
+          "offer_time": "2023-05-17T18:13:39+10:00",
+          "explanation": "18:10:03 A UPPTUMUT 5MIN ACTUAL DUID Dispatch 112 LOWER THAN 5MIN PD 18:15@18:06 (507) - SL"
+        },
+        {
+          "offer_time": "2023-05-17T18:33:01+10:00",
+          "explanation": "18:30:04 A V-N Exp 5MIN ACTUAL I/C Head Room 462 LOWER THAN 5MIN PD 18:35@18:26 (0) - SL"
+        },
+        {
+          "offer_time": "2023-05-17T18:37:41+10:00",
+          "explanation": "18:36:00 A VIC-NSW 5MIN PD Price Separation $5.75 HIGHER THAN 5MIN PD 18:45@18:31 ($15.41) - SL"
+        }
+      ]
+    },
+    {
+      "duid": "VP5",
+      "region": "NSW1",
+      "fuel": "coal",
+      "capacity_mw": 680.0,
+      "availability": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        400.0,
+        400.0,
+        400.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        450.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        350.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-05-17T15:23:55+10:00",
+          "explanation": "Adjust avail to ongoing plant issues"
+        },
+        {
+          "offer_time": "2023-05-17T16:06:04+10:00",
+          "explanation": "Load adjust to Milling/Feeder limit"
+        },
+        {
+          "offer_time": "2023-05-17T16:41:45+10:00",
+          "explanation": "Adjust load to revised plant limits"
+        },
+        {
+          "offer_time": "2023-05-17T17:19:15+10:00",
+          "explanation": "Milling/Feeder limit"
+        },
+        {
+          "offer_time": "2023-05-17T17:24:10+10:00",
+          "explanation": "Revised Milling/Feeder limit"
+        }
+      ]
+    },
+    {
+      "duid": "ER02",
+      "region": "NSW1",
+      "fuel": "coal",
+      "capacity_mw": 750.0,
+      "availability": [
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        400.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-05-09T19:56:52+10:00",
+          "explanation": "Daily Bid SL"
+        },
+        {
+          "offer_time": "2023-05-17T05:27:46+10:00",
+          "explanation": "INC NSW DEM 5PD 7547 MW > 30PD 7451 MW @0600 SL"
+        }
+      ]
+    },
+    {
+      "duid": "CG4",
+      "region": "NSW1",
+      "fuel": "gas",
+      "capacity_mw": 181.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        178.0,
+        178.0,
+        178.0,
+        178.0,
+        178.0,
+        178.0,
+        178.0,
+        178.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-05-16T10:46:50+10:00",
+          "explanation": "10:46:49 F INITIAL BID"
+        },
+        {
+          "offer_time": "2023-05-16T11:53:44+10:00",
+          "explanation": "11:53:43 F INITIAL BID"
+        },
+        {
+          "offer_time": "2023-05-17T15:53:05+10:00",
+          "explanation": "15:53:00 P UPDATE CAPABILITY PARAMETERS FOR CHANGE TO OUTAGE PLAN/PLANT CONDITIONS - SL"
+        },
+        {
+          "offer_time": "2023-05-17T17:37:41+10:00",
+          "explanation": "17:37:34 P UPDATE CAPABILITY PARAMETERS FOR CHANGE TO OUTAGE PLAN/PLANT CONDITIONS - SL"
+        },
+        {
+          "offer_time": "2023-05-17T17:43:27+10:00",
+          "explanation": "17:43:00 P UPDATE CAPABILITY PARAMETERS FOR CHANGE TO OUTAGE PLAN/PLANT CONDITIONS"
+        }
+      ]
+    },
+    {
+      "duid": "SITHE01",
+      "region": "NSW1",
+      "fuel": "gas",
+      "capacity_mw": 185.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-04-19T17:40:50+10:00",
+          "explanation": "Initial Bid"
+        },
+        {
+          "offer_time": "2023-05-17T06:42:58+10:00",
+          "explanation": "NSW1 RRP 5PD@6:45 for 7:05 is $12.61 higher than 5PD@6:35 ($299.99 vs $287.38) SL"
+        },
+        {
+          "offer_time": "2023-05-17T07:34:41+10:00",
+          "explanation": "NSW1 RRP 5PD@7:35 for 7:50 is $123.06 lower than 5PD@7:30 ($160.90 vs $283.96) SL"
+        },
+        {
+          "offer_time": "2023-05-17T16:31:22+10:00",
+          "explanation": "NSW1 TOTALDEMAND 5PD@16:30 for 16:45 is 29.00 lower than 5PD@16:25 (9,305.76 vs 9,334.76) SL"
+        },
+        {
+          "offer_time": "2023-05-17T16:59:13+10:00",
+          "explanation": "NSW1 RRP 5PD@17:00 for 17:15 is $102.06 higher than 5PD@16:55 ($299.99 vs $197.93) SL"
+        }
+      ]
+    },
+    {
+      "duid": "TALWA1",
+      "region": "NSW1",
+      "fuel": "gas",
+      "capacity_mw": 440.0,
+      "availability": [
+        190.0,
+        190.0,
+        190.0,
+        190.0,
+        190.0,
+        190.0,
+        190.0,
+        190.0,
+        190.0,
+        190.0,
+        190.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0,
+        410.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-05-16T12:26:31+10:00",
+          "explanation": "Initial offer ROC=1 for RTS requirement SL"
+        },
+        {
+          "offer_time": "2023-05-16T14:56:58+10:00",
+          "explanation": "Adj avail bands response to PD"
+        },
+        {
+          "offer_time": "2023-05-17T01:31:29+10:00",
+          "explanation": "Adj bands, chg in NSW sched demand at HHE 05:00, 6836 vs 6940 MW at HHE 01:30 PD run, ROC =1 for RTS requirements SL"
+        },
+        {
+          "offer_time": "2023-05-17T17:35:53+10:00",
+          "explanation": "Adj band due to change in binding network constraint N::N DTKV_2 dispatch<P5 SL"
+        },
+        {
+          "offer_time": "2023-05-17T18:10:44+10:00",
+          "explanation": "Adj band change in NSW RRP HHE 1900 $203 v $300 at HHE 1830 PD run SL"
+        }
+      ]
+    },
+    {
+      "duid": "MP2",
+      "region": "NSW1",
+      "fuel": "coal",
+      "capacity_mw": 700.0,
+      "availability": [
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        700.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        550.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0,
+        570.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-05-17T03:06:35+10:00",
+          "explanation": "Adj bands, chg in NSW RRP at HHE 04:30, $119 vs $138.4 at HHE 03:00 PD run SL"
+        },
+        {
+          "offer_time": "2023-05-17T16:44:34+10:00",
+          "explanation": "Adj avail due to mill issue SL"
+        },
+        {
+          "offer_time": "2023-05-17T17:12:51+10:00",
+          "explanation": "Adj avail mill limit SL"
+        },
+        {
+          "offer_time": "2023-05-17T17:46:35+10:00",
+          "explanation": "Adj avail unit mill limits extended SL"
+        },
+        {
+          "offer_time": "2023-05-17T18:10:44+10:00",
+          "explanation": "Adj band change in NSW RRP HHE 1900 $203 v $300 at HHE 1830 PD run SL"
+        }
+      ]
+    },
+    {
+      "duid": "SHGEN",
+      "region": "NSW1",
+      "fuel": "hydro",
+      "capacity_mw": 246.0,
+      "availability": [
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-05-17T06:39:22+10:00",
+          "explanation": "INC NSW DEM 5PD 8935 MW > 30PD 8735 MW @ 0700 SL"
+        },
+        {
+          "offer_time": "2023-05-17T08:45:31+10:00",
+          "explanation": "DEC NSW DEM 5PD 7886MW < 30PD 8162MW @0930 SL"
+        },
+        {
+          "offer_time": "2023-05-17T13:06:19+10:00",
+          "explanation": "Pond level management SL"
+        },
+        {
+          "offer_time": "2023-05-17T14:22:42+10:00",
+          "explanation": "DEC NSW DEM 5PD 7446 MW < 30PD 7565 MW @ 1435 SL"
+        },
+        {
+          "offer_time": "2023-05-17T17:57:16+10:00",
+          "explanation": "Plant conditions - ROC Adjusted - 0MW/MIN ROC Plant limitation SL"
+        }
+      ]
+    },
+    {
+      "duid": "BW02",
+      "region": "NSW1",
+      "fuel": "coal",
+      "capacity_mw": 700.0,
+      "availability": [
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0,
+        630.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-05-16T15:01:27+10:00",
+          "explanation": "050 Chg in unit operation~Forced Close Valve Testing: Stable Load Reqd"
+        },
+        {
+          "offer_time": "2023-05-17T08:06:33+10:00",
+          "explanation": "050 Chg in AEMO PD~56 Price decrease NSW  5MPD vs PD : 08:30 - 09:00 AVG $89.09 vs 30MPD $132.57 PE 09:00"
+        },
+        {
+          "offer_time": "2023-05-17T13:38:27+10:00",
+          "explanation": "010 Unexpected/plant limits~Fabric Filter"
+        },
+        {
+          "offer_time": "2023-05-17T16:02:09+10:00",
+          "explanation": "010 Unexpected/plant limits~Fabric Filter Limitations"
+        },
+        {
+          "offer_time": "2023-05-17T16:04:42+10:00",
+          "explanation": "15:31~A~050 Chg in AEMO PD~51 PD Available Gen increase [mainland] avg 528MWs PE 0430-0630 PD 1531"
+        }
+      ]
+    },
+    {
+      "duid": "GUTHEGA",
+      "region": "NSW1",
+      "fuel": "hydro",
+      "capacity_mw": 80.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-05-17T13:23:03+10:00",
+          "explanation": "13:23:00 P UPDATE CAPABILITY PARAMETERS FOR CHANGE TO OUTAGE PLAN/PLANT CONDITIONS - SL"
+        },
+        {
+          "offer_time": "2023-05-17T13:44:22+10:00",
+          "explanation": "11:04:00 A NSW 30MIN PD +200 Sensitivity $56.19 HIGHER THAN 30MIN PD 20:00@10:34 ($368.41) - SL"
+        },
+        {
+          "offer_time": "2023-05-17T17:28:22+10:00",
+          "explanation": "17:28:00 P UPDATE CAPABILITY PARAMETERS FOR CHANGE TO OUTAGE PLAN/PLANT CONDITIONS"
+        },
+        {
+          "offer_time": "2023-05-17T17:39:49+10:00",
+          "explanation": "17:36:00 A NSW 5MIN PD Price $66.58 HIGHER THAN 30MIN PD 18:05@17:33 ($366.57) - SL"
+        },
+        {
+          "offer_time": "2023-05-17T17:50:14+10:00",
+          "explanation": "17:45:03 A NSW 5MIN ACTUAL Price $1,060.82 HIGHER THAN 5MIN PD 17:50@17:41 ($1,248.81) - SL"
+        }
+      ]
+    },
+    {
+      "duid": "BLOWERNG",
+      "region": "NSW1",
+      "fuel": "hydro",
+      "capacity_mw": 80.0,
+      "availability": [
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0,
+        21.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-05-10T03:58:31+10:00",
+          "explanation": "03:58:31 P INITIAL BID - BLOWERING OUTPUT INFLEXIBLE TO DISPATCH PROCESS"
+        },
+        {
+          "offer_time": "2023-05-14T09:39:39+10:00",
+          "explanation": "09:34:57 P STATE WATER REQUESTED RELEASE CHANGE - BLOWERING OUTPUT INFLEXIBLE TO DISPATCH PROCESS"
+        }
+      ]
+    }
+  ]
+}

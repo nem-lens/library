@@ -1,0 +1,886 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2022-02-17T06:05:00+10:00",
+    "2022-02-17T06:10:00+10:00",
+    "2022-02-17T06:15:00+10:00",
+    "2022-02-17T06:20:00+10:00",
+    "2022-02-17T06:25:00+10:00",
+    "2022-02-17T06:30:00+10:00",
+    "2022-02-17T06:35:00+10:00",
+    "2022-02-17T06:40:00+10:00",
+    "2022-02-17T06:45:00+10:00",
+    "2022-02-17T06:50:00+10:00",
+    "2022-02-17T06:55:00+10:00",
+    "2022-02-17T07:00:00+10:00",
+    "2022-02-17T07:05:00+10:00",
+    "2022-02-17T07:10:00+10:00",
+    "2022-02-17T07:15:00+10:00",
+    "2022-02-17T07:20:00+10:00",
+    "2022-02-17T07:25:00+10:00",
+    "2022-02-17T07:30:00+10:00",
+    "2022-02-17T07:35:00+10:00",
+    "2022-02-17T07:40:00+10:00",
+    "2022-02-17T07:45:00+10:00",
+    "2022-02-17T07:50:00+10:00",
+    "2022-02-17T07:55:00+10:00",
+    "2022-02-17T08:00:00+10:00",
+    "2022-02-17T08:05:00+10:00",
+    "2022-02-17T08:10:00+10:00",
+    "2022-02-17T08:15:00+10:00",
+    "2022-02-17T08:20:00+10:00",
+    "2022-02-17T08:25:00+10:00",
+    "2022-02-17T08:30:00+10:00",
+    "2022-02-17T08:35:00+10:00",
+    "2022-02-17T08:40:00+10:00",
+    "2022-02-17T08:45:00+10:00",
+    "2022-02-17T08:50:00+10:00",
+    "2022-02-17T08:55:00+10:00",
+    "2022-02-17T09:00:00+10:00",
+    "2022-02-17T09:05:00+10:00",
+    "2022-02-17T09:10:00+10:00",
+    "2022-02-17T09:15:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "TVCC201",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 208.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-02-17T08:40:06+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-02-17T08:41:25+10:00",
+          "explanation": "Basslink flow different from forecast"
+        },
+        {
+          "offer_time": "2022-02-17T08:44:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        },
+        {
+          "offer_time": "2022-02-17T08:52:31+10:00",
+          "explanation": "FCAS requirement different to forecast"
+        },
+        {
+          "offer_time": "2022-02-17T09:02:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "GORDON",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 450.0,
+      "availability": [
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0,
+        247.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-02-17T08:40:06+10:00",
+          "explanation": "Machine target different to expectation +ENV CNST"
+        },
+        {
+          "offer_time": "2022-02-17T08:41:25+10:00",
+          "explanation": "Basslink flow different from forecast +ENV CNST"
+        },
+        {
+          "offer_time": "2022-02-17T08:44:06+10:00",
+          "explanation": "Price different from forecast: VIC +ENV CNST"
+        },
+        {
+          "offer_time": "2022-02-17T08:52:31+10:00",
+          "explanation": "FCAS requirement different to forecast +ENV CNST"
+        },
+        {
+          "offer_time": "2022-02-17T09:02:06+10:00",
+          "explanation": "Price different from forecast: VIC +ENV CNST"
+        }
+      ]
+    },
+    {
+      "duid": "MACKNTSH",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 89.0,
+      "availability": [
+        82.0,
+        82.0,
+        82.0,
+        82.0,
+        82.0,
+        82.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-02-17T08:40:06+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-02-17T08:41:25+10:00",
+          "explanation": "Basslink flow different from forecast"
+        },
+        {
+          "offer_time": "2022-02-17T08:44:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        },
+        {
+          "offer_time": "2022-02-17T08:52:31+10:00",
+          "explanation": "FCAS requirement different to forecast"
+        },
+        {
+          "offer_time": "2022-02-17T09:02:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "POAT220",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 248.0,
+      "availability": [
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-02-17T08:40:06+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-02-17T08:41:25+10:00",
+          "explanation": "Basslink flow different from forecast"
+        },
+        {
+          "offer_time": "2022-02-17T08:44:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        },
+        {
+          "offer_time": "2022-02-17T08:52:31+10:00",
+          "explanation": "FCAS requirement different to forecast"
+        },
+        {
+          "offer_time": "2022-02-17T09:02:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "LEM_WIL",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 87.0,
+      "availability": [
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-02-17T08:40:06+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-02-17T08:41:25+10:00",
+          "explanation": "Basslink flow different from forecast"
+        },
+        {
+          "offer_time": "2022-02-17T08:44:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        },
+        {
+          "offer_time": "2022-02-17T08:52:31+10:00",
+          "explanation": "FCAS requirement different to forecast"
+        },
+        {
+          "offer_time": "2022-02-17T09:02:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "BBTHREE1",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 49.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-02-17T08:40:06+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-02-17T08:41:25+10:00",
+          "explanation": "Basslink flow different from forecast"
+        },
+        {
+          "offer_time": "2022-02-17T08:44:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        },
+        {
+          "offer_time": "2022-02-17T08:52:31+10:00",
+          "explanation": "FCAS requirement different to forecast"
+        },
+        {
+          "offer_time": "2022-02-17T09:02:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "BBTHREE2",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 49.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-02-17T08:40:06+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-02-17T08:41:25+10:00",
+          "explanation": "Basslink flow different from forecast"
+        },
+        {
+          "offer_time": "2022-02-17T08:44:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        },
+        {
+          "offer_time": "2022-02-17T08:52:31+10:00",
+          "explanation": "FCAS requirement different to forecast"
+        },
+        {
+          "offer_time": "2022-02-17T09:02:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "BBTHREE3",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 49.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-02-17T08:40:06+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-02-17T08:41:25+10:00",
+          "explanation": "Basslink flow different from forecast"
+        },
+        {
+          "offer_time": "2022-02-17T08:44:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        },
+        {
+          "offer_time": "2022-02-17T08:52:31+10:00",
+          "explanation": "FCAS requirement different to forecast"
+        },
+        {
+          "offer_time": "2022-02-17T09:02:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "LI_WY_CA",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 192.0,
+      "availability": [
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0,
+        132.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-02-17T08:40:06+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-02-17T08:41:25+10:00",
+          "explanation": "Basslink flow different from forecast"
+        },
+        {
+          "offer_time": "2022-02-17T08:44:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        },
+        {
+          "offer_time": "2022-02-17T08:52:31+10:00",
+          "explanation": "FCAS requirement different to forecast"
+        },
+        {
+          "offer_time": "2022-02-17T09:02:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "FISHER",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 46.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-02-17T08:40:06+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-02-17T08:41:25+10:00",
+          "explanation": "Basslink flow different from forecast"
+        },
+        {
+          "offer_time": "2022-02-17T08:44:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        },
+        {
+          "offer_time": "2022-02-17T08:52:31+10:00",
+          "explanation": "FCAS requirement different to forecast"
+        },
+        {
+          "offer_time": "2022-02-17T09:02:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "TREVALLN",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 107.0,
+      "availability": [
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-02-17T08:40:06+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-02-17T08:41:25+10:00",
+          "explanation": "Basslink flow different from forecast"
+        },
+        {
+          "offer_time": "2022-02-17T08:44:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        },
+        {
+          "offer_time": "2022-02-17T08:52:31+10:00",
+          "explanation": "FCAS requirement different to forecast"
+        },
+        {
+          "offer_time": "2022-02-17T09:02:06+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "LK_ECHO",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 34.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-02-17T08:40:06+10:00",
+          "explanation": "Machine target different to expectation +UNMANNED"
+        },
+        {
+          "offer_time": "2022-02-17T08:41:25+10:00",
+          "explanation": "Basslink flow different from forecast +UNMANNED"
+        },
+        {
+          "offer_time": "2022-02-17T08:44:06+10:00",
+          "explanation": "Price different from forecast: VIC +UNMANNED"
+        },
+        {
+          "offer_time": "2022-02-17T08:52:31+10:00",
+          "explanation": "FCAS requirement different to forecast +UNMANNED"
+        },
+        {
+          "offer_time": "2022-02-17T09:02:06+10:00",
+          "explanation": "Price different from forecast: VIC +UNMANNED"
+        }
+      ]
+    }
+  ]
+}

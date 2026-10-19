@@ -1,0 +1,47 @@
+{
+  "schema": 2,
+  "notices": [
+    {
+      "id": "101527",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-09-07T05:20:24+10:00",
+      "title": "PDPASA - Forecast Lack Of Reserve Level 1 (LOR1) in the QLD Region on 07/09/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFIA0KDQpBRU1PIGRlY2xhcmVzIGEgRm9yZWNhc3QgTE9SMSBjb25kaXRpb24gdW5kZXIgY2xhdXNlIDQuOC40KGIpIG9mIHRoZSBOYXRpb25hbCBFbGVjdHJpY2l0eSBSdWxlcyBmb3IgdGhlIFFMRCByZWdpb24gZm9yIHRoZSBmb2xsb3dpbmcgcGVyaW9kOiANCg0KWzEuXSBGcm9tIDE4MDAgaHJzIDA3LzA5LzIwMjIgdG8gMTgzMCBocnMgMDcvMDkvMjAyMi4gDQpUaGUgZm9yZWNhc3QgY2FwYWNpdHkgcmVzZXJ2ZSByZXF1aXJlbWVudCBpcyAxMTYzIE1XLiANClRoZSBtaW5pbXVtIGNhcGFjaXR5IHJlc2VydmUgYXZhaWxhYmxlIGlzIDExNTMgTVcuDQoNCg0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "101529",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-09-07T08:28:25+10:00",
+      "title": "PDPASA - Cancellation of the Forecast Lack Of Reserve Level 1 (LOR1) in the QLD Region on 07/09/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClRoZSBGb3JlY2FzdCBMT1IxIGNvbmRpdGlvbiBpbiB0aGUgUUxEIHJlZ2lvbiBhZHZpc2VkIGluIEFFTU8gRWxlY3RyaWNpdHkgTWFya2V0IE5vdGljZSBOby4gMTAxNTI3IGlzIGNhbmNlbGxlZCBhdCAwODAwIGhycyAwNy8wOS8yMDIyLg0KIA0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "101528",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-09-07T08:58:33+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Armidale No. 1 330 kV SVC and Sapphire Wind Farm in NSW1",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClJlY2xhc3NpZmljYXRpb24gb2YgYSBOb24tQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgYXMgYSBDcmVkaWJsZSBDb250aW5nZW5jeSBFdmVudC4gQUVNTyBjb25zaWRlcnMgdGhlIHNpbXVsdGFuZW91cyB0cmlwIG9mIHRoZSBmb2xsb3dpbmcgY2lyY3VpdHMgdG8gbm93IGJlIG1vcmUgbGlrZWx5IGFuZCByZWFzb25hYmx5IHBvc3NpYmxlLiBBY2NvcmRpbmdseSwgQUVNTyBoYXMgcmVjbGFzc2lmaWVkIGl0IGFzIGEgY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQuDQoNClJlZ2lvbjogTlNXMQ0KDQpFcXVpcG1lbnQ6IEFybWlkYWxlIE5vLiAxIDMzMCBrViBTVkMgYW5kIFNhcHBoaXJlIFdpbmQgRmFybQ0KDQpEdXJhdGlvbjogMDcvMDkvMjAyMiAwOTowMCB1bnRpbCBmdXJ0aGVyIG5vdGljZQ0KDQpDb25zdHJhaW50IHNldChzKSBpbnZva2VkOiBOT05FDQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25z"
+    },
+    {
+      "id": "101530",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-09-07T11:40:32+10:00",
+      "title": "STPASA - Forecast Lack Of Reserve Level 2 (LOR2) in the SA Region on 10/09/2022",
+      "reason": "QUVNTyBkZWNsYXJlcyBhIEZvcmVjYXN0IExPUjIgY29uZGl0aW9uIHVuZGVyIGNsYXVzZSA0LjguNChiKSBvZiB0aGUgTmF0aW9uYWwgRWxlY3RyaWNpdHkgUnVsZXMgZm9yIHRoZSBTQSByZWdpb24gZm9yIHRoZSBmb2xsb3dpbmcgcGVyaW9kOiANCg0KRnJvbSAwNTMwIGhycyB0byAwOTAwIGhycyAxMC8wOS8yMDIyLiANClRoZSBmb3JlY2FzdCBjYXBhY2l0eSByZXNlcnZlIHJlcXVpcmVtZW50IGlzIDQ2NCBNVy4gDQpUaGUgbWluaW11bSBjYXBhY2l0eSByZXNlcnZlIGF2YWlsYWJsZSBpcyAzODYgTVcuDQoNCkFFTU8gaXMgc2Vla2luZyBhIG1hcmtldCByZXNwb25zZS4gDQoNCkFFTU8gaGFzIG5vdCB5ZXQgZXN0aW1hdGVkIHRoZSBsYXRlc3QgdGltZSBpdCB3b3VsZCBuZWVkIHRvIGludGVydmVuZSB0aHJvdWdoIGFuIEFFTU8gaW50ZXJ2ZW50aW9uIGV2ZW50Lg0KDQpBRU1PIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "101532",
+      "kind": "MARKET SYSTEMS",
+      "issued": "2022-09-07T12:32:47+10:00",
+      "title": "CHG0075121 | Completed | Production | Telco Outage Notification - Telstra Norwest Indial  (02 8884 5000-5999)",
+      "reason": "Q2hhbmdlIE51bWJlcjogQ0hHMDA3NTEyMQ0KDQpOb3RpZmljYXRpb24gaXNzdWVkIHRvOiBNYXJrZXQgTm90aWNlDQoNCk5vdGlmaWNhdGlvbiBUeXBlOiBDb21wbGV0ZWQNCg0KQ2hhbmdlIFR5cGU6IE5vcm1hbA0KDQpTZXJ2aWNlL0NvbXBvbmVudDogVm9pY2UgU3lzdGVtcw0KDQpDaGFuZ2UgVGl0bGU6IFRlbGNvIE91dGFnZSBOb3RpZmljYXRpb24gLSBUZWxzdHJhIE5vcndlc3QgSW5kaWFsICgwMiA4ODg0IDUwMDAtNTk5OSkNCg0KU3VwcG9ydCBJbmZvcm1hdGlvbjogUmVwb3J0IGFueSBpbXBhY3RzIHRvIHRoZSBBRU1PIEluZm9ybWF0aW9uIGFuZCBTdXBwb3J0IEh1YiBvciBvbiBFeHRlcm5hbCAxMzAwIDIzNiA2MDAuDQo="
+    },
+    {
+      "id": "101531",
+      "kind": "MARKET SYSTEMS",
+      "issued": "2022-09-07T12:33:45+10:00",
+      "title": "CHG0075122 | Completed | Production | Planned Maintenance Affecting the AEMO MarketNet IPWAN Access",
+      "reason": "Q2hhbmdlIE51bWJlcjogQ0hHMDA3NTEyMg0KDQpOb3RpZmljYXRpb24gaXNzdWVkIHRvOiBNYXJrZXQgTm90aWNlDQoNCk5vdGlmaWNhdGlvbiBUeXBlOiBDb21wbGV0ZWQNCg0KQ2hhbmdlIFR5cGU6IE5vcm1hbA0KDQpTZXJ2aWNlL0NvbXBvbmVudDogTWFya2V0IFZQTg0KDQpDaGFuZ2UgVGl0bGU6IFBsYW5uZWQgTWFpbnRlbmFuY2UgQWZmZWN0aW5nIHRoZSBBRU1PIE1hcmtldE5ldCBJUFdBTiBBY2Nlc3MuDQoNClN1cHBvcnQgSW5mb3JtYXRpb246IFJlcG9ydCBhbnkgaW1wYWN0cyB0byB0aGUgQUVNTyBJbmZvcm1hdGlvbiBhbmQgU3VwcG9ydCBIdWIgb3Igb24gRXh0ZXJuYWwgMTMwMCAyMzYgNjAwLg0K"
+    }
+  ]
+}

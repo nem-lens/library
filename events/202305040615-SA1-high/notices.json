@@ -1,0 +1,26 @@
+{
+  "schema": 2,
+  "notices": [
+    {
+      "id": "107712",
+      "kind": "RESERVE NOTICE",
+      "issued": "2023-05-04T03:04:14+10:00",
+      "title": "PDPASA - Update of the Forecast Lack Of Reserve Level 1 (LOR1) in the SA Region on 04/05/2023",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClRoZSBGb3JlY2FzdCBMT1IxIGNvbmRpdGlvbiBpbiB0aGUgU0EgcmVnaW9uIGFkdmlzZWQgaW4gQUVNTyBFbGVjdHJpY2l0eSBNYXJrZXQgTm90aWNlIDEwNzcwOSBoYXMgYmVlbiB1cGRhdGVkIGF0IDAzMDAgaHJzIHRvIHRoZSBmb2xsb3dpbmc6DQoNClsxLl0gRnJvbSAwNjAwIGhycyAwNC8wNS8yMDIzIHRvIDA4MDAgaHJzIDA0LzA1LzIwMjMuIA0KVGhlIGZvcmVjYXN0IGNhcGFjaXR5IHJlc2VydmUgcmVxdWlyZW1lbnQgaXMgNDU4IE1XLiANClRoZSBtaW5pbXVtIGNhcGFjaXR5IHJlc2VydmUgYXZhaWxhYmxlIGlzIDI4MiBNVy4NCg0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "107713",
+      "kind": "RESERVE NOTICE",
+      "issued": "2023-05-04T04:46:43+10:00",
+      "title": "PDPASA - Update of the Forecast Lack Of Reserve Level 1 (LOR1) in the SA Region on 04/05/2023",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFIA0KDQpUaGUgRm9yZWNhc3QgTE9SMSBjb25kaXRpb24gaW4gdGhlIFNBIHJlZ2lvbiBhZHZpc2VkIGluIEFFTU8gRWxlY3RyaWNpdHkgTWFya2V0IE5vdGljZSAxMDc3MTIgaGFzIGJlZW4gdXBkYXRlZCBhdCAwNDMwIGhycyB0byB0aGUgZm9sbG93aW5nOg0KDQpGcm9tIDA3MDAgaHJzIDA0LzA1LzIwMjMgdG8gMDgwMCBocnMgMDQvMDUvMjAyMy4gDQpUaGUgZm9yZWNhc3QgY2FwYWNpdHkgcmVzZXJ2ZSByZXF1aXJlbWVudCBpcyA0NTggTVcuIA0KVGhlIG1pbmltdW0gY2FwYWNpdHkgcmVzZXJ2ZSBhdmFpbGFibGUgaXMgMzk2IE1XLg0KDQpNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw0K"
+    },
+    {
+      "id": "107714",
+      "kind": "RESERVE NOTICE",
+      "issued": "2023-05-04T07:15:44+10:00",
+      "title": "PDPASA - Cancellation of the Forecast Lack Of Reserve Level 1 (LOR1) in the SA Region on 04/05/2023",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClRoZSBGb3JlY2FzdCBMT1IxIGNvbmRpdGlvbiBpbiB0aGUgU0EgcmVnaW9uIGFkdmlzZWQgaW4gQUVNTyBFbGVjdHJpY2l0eSBNYXJrZXQgTm90aWNlIE5vLiAxMDc3MTMgaXMgY2FuY2VsbGVkIGF0IDA3MTUgaHJzIDA0LzA1LzIwMjMuICAgDQogDQpNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw=="
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema": 2,
+  "notices": [
+    {
+      "id": "105861",
+      "kind": "MARKET SYSTEMS",
+      "issued": "2023-02-15T11:29:12+10:00",
+      "title": "CHG0077222 | Completed | Production | Maintenance on Gas B2B Hub databases",
+      "reason": "Q2hhbmdlIE51bWJlcjogQ0hHMDA3NzIyMg0KDQpOb3RpZmljYXRpb24gaXNzdWVkIHRvOiBNYXJrZXQgTm90aWNlDQoNCk5vdGlmaWNhdGlvbiBUeXBlOiBDb21wbGV0ZWQNCg0KQ2hhbmdlIFR5cGU6IE5vcm1hbA0KDQpTZXJ2aWNlL0NvbXBvbmVudDogR2FzIEh1Yg0KDQpDaGFuZ2UgVGl0bGU6IE1haW50ZW5hbmNlIG9uIEdhcyBCMkIgSHViIGRhdGFiYXNlcw0KDQpTdXBwb3J0IEluZm9ybWF0aW9uOiBSZXBvcnQgYW55IGltcGFjdHMgdG8gdGhlIEFFTU8gSW5mb3JtYXRpb24gYW5kIFN1cHBvcnQgSHViIG9yIG9uIEV4dGVybmFsIDEzMDAgMjM2IDYwMC4NCg=="
+    },
+    {
+      "id": "105865",
+      "kind": "RESERVE NOTICE",
+      "issued": "2023-02-15T12:54:52+10:00",
+      "title": "PDPASA - Forecast Lack Of Reserve Level 1 (LOR1) in the SA Region on 16/02/2023",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFIA0KDQpBRU1PIGRlY2xhcmVzIGEgRm9yZWNhc3QgTE9SMSBjb25kaXRpb24gdW5kZXIgY2xhdXNlIDQuOC40KGIpIG9mIHRoZSBOYXRpb25hbCBFbGVjdHJpY2l0eSBSdWxlcyBmb3IgdGhlIFNBIHJlZ2lvbiBmb3IgdGhlIGZvbGxvd2luZyBwZXJpb2Q6IA0KDQpbMS5dIEZyb20gMTkwMCBocnMgMTYvMDIvMjAyMyB0byAxOTMwIGhycyAxNi8wMi8yMDIzLiANClRoZSBmb3JlY2FzdCBjYXBhY2l0eSByZXNlcnZlIHJlcXVpcmVtZW50IGlzIDYwMCBNVy4gDQpUaGUgbWluaW11bSBjYXBhY2l0eSByZXNlcnZlIGF2YWlsYWJsZSBpcyA1OTMgTVcuDQoNCg0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "105866",
+      "kind": "RESERVE NOTICE",
+      "issued": "2023-02-15T12:55:45+10:00",
+      "title": "PDPASA - Forecast Lack Of Reserve Level 1 (LOR1) in the VIC Region on 16/02/2023",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFIA0KDQpBRU1PIGRlY2xhcmVzIGEgRm9yZWNhc3QgTE9SMSBjb25kaXRpb24gdW5kZXIgY2xhdXNlIDQuOC40KGIpIG9mIHRoZSBOYXRpb25hbCBFbGVjdHJpY2l0eSBSdWxlcyBmb3IgdGhlIFZJQyByZWdpb24gZm9yIHRoZSBmb2xsb3dpbmcgcGVyaW9kOiANCg0KMS4gRnJvbSAxODMwIGhycyAxNi8wMi8yMDIzIHRvIDE5MDAgaHJzIDE2LzAyLzIwMjMuIA0KVGhlIGZvcmVjYXN0IGNhcGFjaXR5IHJlc2VydmUgcmVxdWlyZW1lbnQgaXMgMTEyMCBNVy4gDQpUaGUgbWluaW11bSBjYXBhY2l0eSByZXNlcnZlIGF2YWlsYWJsZSBpcyAxMDU5IE1XLg0KDQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25z"
+    },
+    {
+      "id": "105864",
+      "kind": "MARKET INTERVENTION",
+      "issued": "2023-02-15T12:59:11+10:00",
+      "title": "Cancellation - AEMO Intervention Event - Intervention trading intervals - Direction SA Region - 14/02/2023",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFIA0KDQpDYW5jZWxsYXRpb24gLSBBRU1PIEludGVydmVudGlvbiBFdmVudCAtIEludGVydmVudGlvbiB0cmFkaW5nIGludGVydmFscyAtIERpcmVjdGlvbiBTQSBSZWdpb24gLSAgMTQvMDIvMjAyMw0KDQpSZWZlciBNYXJrZXQgTm90aWNlIDEwNTg1MA0KDQpUaGUgQUVNTyBJbnRlcnZlbnRpb24gRXZlbnQgYW5kIGFsbCBhc3NvY2lhdGVkIGRpcmVjdGlvbnMgYXJlIGNhbmNlbGxlZCBmcm9tIDEzMDAgaHJzIDE1LzAyLzIwMjMNCg0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "105867",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2023-02-15T14:37:35+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: H77 Columboola - H76 Wandoan South No. 8891 and No. 8892 275 kV Lines in QLD due to Bushfires",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFLg0KDQpSZWNsYXNzaWZpY2F0aW9uIG9mIGEgTm9uLUNyZWRpYmxlIENvbnRpbmdlbmN5IEV2ZW50IGFzIGEgQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgZHVlIHRvIGJ1c2hmaXJlcy4gQUVNTyBjb25zaWRlcnMgdGhlIHNpbXVsdGFuZW91cyB0cmlwIG9mIHRoZSBmb2xsb3dpbmcgY2lyY3VpdHMgdG8gbm93IGJlIG1vcmUgbGlrZWx5IGFuZCByZWFzb25hYmx5IHBvc3NpYmxlLiBBY2NvcmRpbmdseSBBRU1PIGhhcyByZWNsYXNzaWZpZWQgaXQgYXMgYSBjcmVkaWJsZSBjb250aW5nZW5jeSBldmVudC4NCg0KUmVnaW9uOiBRTEQNCg0KTGluZXM6IEg3NyBDb2x1bWJvb2xhIC0gSDc2IFdhbmRvYW4gU291dGggTm8uIDg4OTEgYW5kIE5vLiA4ODkyIDI3NSBrViBMaW5lcw0KDQpEdXJhdGlvbjogMTQ0MCBocnMgMTUvMDIvMjAyMyB1bnRpbCBmdXJ0aGVyIG5vdGljZQ0KDQpDb25zdHJhaW50IHNldChzKSBpbnZva2VkOg0KUS1DTEJXU19OLTINCg0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "105868",
+      "kind": "RESERVE NOTICE",
+      "issued": "2023-02-15T15:57:14+10:00",
+      "title": "PDPASA - Cancellation of the Forecast Lack Of Reserve Level 1 (LOR1) in the SA Region on 16/02/2023",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClRoZSBGb3JlY2FzdCBMT1IxIGNvbmRpdGlvbiBpbiB0aGUgU0EgcmVnaW9uIGFkdmlzZWQgaW4gQUVNTyBFbGVjdHJpY2l0eSBNYXJrZXQgTm90aWNlIE5vLiAxMDU4NjUgaXMgY2FuY2VsbGVkIGF0IDE2MDAgaHJzIDE1LzAyLzIwMjMuICAgDQogDQpNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw=="
+    },
+    {
+      "id": "105869",
+      "kind": "RESERVE NOTICE",
+      "issued": "2023-02-15T15:57:48+10:00",
+      "title": "PDPASA - Cancellation of the Forecast Lack Of Reserve Level 1 (LOR1) in the VIC Region on 16/02/2023",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClRoZSBGb3JlY2FzdCBMT1IxIGNvbmRpdGlvbiBpbiB0aGUgVklDIHJlZ2lvbiBhZHZpc2VkIGluIEFFTU8gRWxlY3RyaWNpdHkgTWFya2V0IE5vdGljZSBOby4gMTA1ODY2IGlzIGNhbmNlbGxlZCBhdCAxNjAwIGhycyAxNS8wMi8yMDIzLiAgIA0KIA0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnM="
+    }
+  ]
+}

@@ -1,0 +1,834 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2022-06-04T15:10:00+10:00",
+    "2022-06-04T15:15:00+10:00",
+    "2022-06-04T15:20:00+10:00",
+    "2022-06-04T15:25:00+10:00",
+    "2022-06-04T15:30:00+10:00",
+    "2022-06-04T15:35:00+10:00",
+    "2022-06-04T15:40:00+10:00",
+    "2022-06-04T15:45:00+10:00",
+    "2022-06-04T15:50:00+10:00",
+    "2022-06-04T15:55:00+10:00",
+    "2022-06-04T16:00:00+10:00",
+    "2022-06-04T16:05:00+10:00",
+    "2022-06-04T16:10:00+10:00",
+    "2022-06-04T16:15:00+10:00",
+    "2022-06-04T16:20:00+10:00",
+    "2022-06-04T16:25:00+10:00",
+    "2022-06-04T16:30:00+10:00",
+    "2022-06-04T16:35:00+10:00",
+    "2022-06-04T16:40:00+10:00",
+    "2022-06-04T16:45:00+10:00",
+    "2022-06-04T16:50:00+10:00",
+    "2022-06-04T16:55:00+10:00",
+    "2022-06-04T17:00:00+10:00",
+    "2022-06-04T17:05:00+10:00",
+    "2022-06-04T17:10:00+10:00",
+    "2022-06-04T17:15:00+10:00",
+    "2022-06-04T17:20:00+10:00",
+    "2022-06-04T17:25:00+10:00",
+    "2022-06-04T17:30:00+10:00",
+    "2022-06-04T17:35:00+10:00",
+    "2022-06-04T17:40:00+10:00",
+    "2022-06-04T17:45:00+10:00",
+    "2022-06-04T17:50:00+10:00",
+    "2022-06-04T17:55:00+10:00",
+    "2022-06-04T18:00:00+10:00",
+    "2022-06-04T18:05:00+10:00",
+    "2022-06-04T18:10:00+10:00",
+    "2022-06-04T18:15:00+10:00",
+    "2022-06-04T18:20:00+10:00",
+    "2022-06-04T18:25:00+10:00",
+    "2022-06-04T18:30:00+10:00",
+    "2022-06-04T18:35:00+10:00",
+    "2022-06-04T18:40:00+10:00",
+    "2022-06-04T18:45:00+10:00",
+    "2022-06-04T18:50:00+10:00",
+    "2022-06-04T18:55:00+10:00",
+    "2022-06-04T19:00:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "TVCC201",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 208.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-06-04T18:02:01+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-06-04T18:09:41+10:00",
+          "explanation": "Lake level different from forecast: Liapootah"
+        },
+        {
+          "offer_time": "2022-06-04T18:14:21+10:00",
+          "explanation": "Plant capability different to expectation: Devils Gate"
+        },
+        {
+          "offer_time": "2022-06-04T18:17:01+10:00",
+          "explanation": "Correcting error in previous bid: Tungatinah config"
+        },
+        {
+          "offer_time": "2022-06-04T18:57:18+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6"
+        }
+      ]
+    },
+    {
+      "duid": "POAT220",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 248.0,
+      "availability": [
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-06-04T18:02:01+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-06-04T18:09:41+10:00",
+          "explanation": "Lake level different from forecast: Liapootah"
+        },
+        {
+          "offer_time": "2022-06-04T18:14:21+10:00",
+          "explanation": "Plant capability different to expectation: Devils Gate"
+        },
+        {
+          "offer_time": "2022-06-04T18:17:01+10:00",
+          "explanation": "Correcting error in previous bid: Tungatinah config"
+        },
+        {
+          "offer_time": "2022-06-04T18:57:18+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6"
+        }
+      ]
+    },
+    {
+      "duid": "LI_WY_CA",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 192.0,
+      "availability": [
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0,
+        68.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-06-04T18:02:01+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-06-04T18:09:41+10:00",
+          "explanation": "Lake level different from forecast: Liapootah"
+        },
+        {
+          "offer_time": "2022-06-04T18:14:21+10:00",
+          "explanation": "Plant capability different to expectation: Devils Gate"
+        },
+        {
+          "offer_time": "2022-06-04T18:17:01+10:00",
+          "explanation": "Correcting error in previous bid: Tungatinah config"
+        },
+        {
+          "offer_time": "2022-06-04T18:57:18+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6"
+        }
+      ]
+    },
+    {
+      "duid": "GORDON",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 450.0,
+      "availability": [
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0,
+        330.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-06-04T18:02:01+10:00",
+          "explanation": "Machine target different to expectation +ENV CNST"
+        },
+        {
+          "offer_time": "2022-06-04T18:09:41+10:00",
+          "explanation": "Lake level different from forecast: Liapootah +ENV CNST"
+        },
+        {
+          "offer_time": "2022-06-04T18:14:21+10:00",
+          "explanation": "Plant capability different to expectation: Devils Gate +ENV CNST"
+        },
+        {
+          "offer_time": "2022-06-04T18:17:01+10:00",
+          "explanation": "Correcting error in previous bid: Tungatinah config +ENV CNST"
+        },
+        {
+          "offer_time": "2022-06-04T18:57:18+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6 +ENV CNST"
+        }
+      ]
+    },
+    {
+      "duid": "TUNGATIN",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 142.0,
+      "availability": [
+        139.0,
+        139.0,
+        139.0,
+        139.0,
+        139.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-06-04T18:02:01+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-06-04T18:09:41+10:00",
+          "explanation": "Lake level different from forecast: Liapootah"
+        },
+        {
+          "offer_time": "2022-06-04T18:14:21+10:00",
+          "explanation": "Plant capability different to expectation: Devils Gate"
+        },
+        {
+          "offer_time": "2022-06-04T18:17:01+10:00",
+          "explanation": "Correcting error in previous bid: Tungatinah config"
+        },
+        {
+          "offer_time": "2022-06-04T18:57:18+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6"
+        }
+      ]
+    },
+    {
+      "duid": "TREVALLN",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 107.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-06-04T18:02:01+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-06-04T18:09:41+10:00",
+          "explanation": "Lake level different from forecast: Liapootah"
+        },
+        {
+          "offer_time": "2022-06-04T18:14:21+10:00",
+          "explanation": "Plant capability different to expectation: Devils Gate"
+        },
+        {
+          "offer_time": "2022-06-04T18:17:01+10:00",
+          "explanation": "Correcting error in previous bid: Tungatinah config"
+        },
+        {
+          "offer_time": "2022-06-04T18:57:18+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6"
+        }
+      ]
+    },
+    {
+      "duid": "TARRALEA",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 94.0,
+      "availability": [
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0,
+        18.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-06-04T18:02:01+10:00",
+          "explanation": "Machine target different to expectation +UNMANNED"
+        },
+        {
+          "offer_time": "2022-06-04T18:09:41+10:00",
+          "explanation": "Lake level different from forecast: Liapootah +UNMANNED"
+        },
+        {
+          "offer_time": "2022-06-04T18:14:21+10:00",
+          "explanation": "Plant capability different to expectation: Devils Gate +UNMANNED"
+        },
+        {
+          "offer_time": "2022-06-04T18:17:01+10:00",
+          "explanation": "Correcting error in previous bid: Tungatinah config +UNMANNED"
+        },
+        {
+          "offer_time": "2022-06-04T18:57:18+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6 +UNMANNED"
+        }
+      ]
+    },
+    {
+      "duid": "MEADOWBK",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 44.0,
+      "availability": [
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-06-04T18:02:01+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-06-04T18:09:41+10:00",
+          "explanation": "Lake level different from forecast: Liapootah"
+        },
+        {
+          "offer_time": "2022-06-04T18:14:21+10:00",
+          "explanation": "Plant capability different to expectation: Devils Gate"
+        },
+        {
+          "offer_time": "2022-06-04T18:17:01+10:00",
+          "explanation": "Correcting error in previous bid: Tungatinah config"
+        },
+        {
+          "offer_time": "2022-06-04T18:57:18+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6"
+        }
+      ]
+    },
+    {
+      "duid": "LK_ECHO",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 34.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-06-04T18:02:01+10:00",
+          "explanation": "Machine target different to expectation +UNMANNED"
+        },
+        {
+          "offer_time": "2022-06-04T18:09:41+10:00",
+          "explanation": "Lake level different from forecast: Liapootah +UNMANNED"
+        },
+        {
+          "offer_time": "2022-06-04T18:14:21+10:00",
+          "explanation": "Plant capability different to expectation: Devils Gate +UNMANNED"
+        },
+        {
+          "offer_time": "2022-06-04T18:17:01+10:00",
+          "explanation": "Correcting error in previous bid: Tungatinah config +UNMANNED"
+        },
+        {
+          "offer_time": "2022-06-04T18:57:18+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6 +UNMANNED"
+        }
+      ]
+    },
+    {
+      "duid": "TVPP104",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 58.0,
+      "availability": [
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        0.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-06-04T18:02:01+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-06-04T18:09:41+10:00",
+          "explanation": "Lake level different from forecast: Liapootah"
+        },
+        {
+          "offer_time": "2022-06-04T18:14:21+10:00",
+          "explanation": "Plant capability different to expectation: Devils Gate"
+        },
+        {
+          "offer_time": "2022-06-04T18:17:01+10:00",
+          "explanation": "Correcting error in previous bid: Tungatinah config"
+        },
+        {
+          "offer_time": "2022-06-04T18:57:18+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6"
+        }
+      ]
+    }
+  ]
+}

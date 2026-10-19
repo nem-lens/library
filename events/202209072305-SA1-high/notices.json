@@ -1,0 +1,124 @@
+{
+  "schema": 2,
+  "notices": [
+    {
+      "id": "101534",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-09-07T15:09:46+10:00",
+      "title": "STPASA - Forecast Lack Of Reserve Level 1 (LOR1) in the SA Region on 10/09/2022",
+      "reason": "QUVNTyBkZWNsYXJlcyBhIEZvcmVjYXN0IExPUjEgY29uZGl0aW9uIHVuZGVyIGNsYXVzZSA0LjguNChiKSBvZiB0aGUgTmF0aW9uYWwgRWxlY3RyaWNpdHkgUnVsZXMgZm9yIHRoZSBTQSByZWdpb24gZm9yIHRoZSBmb2xsb3dpbmcgcGVyaW9kOiANCg0KMS4gRnJvbSAxNzAwIGhycyB0byAxNzMwIGhycyBvbiAxMC8wOS8yMDIyLiANClRoZSBmb3JlY2FzdCBjYXBhY2l0eSByZXNlcnZlIHJlcXVpcmVtZW50IGlzIDM3NiBNVy4gDQpUaGUgbWluaW11bSBjYXBhY2l0eSByZXNlcnZlIGF2YWlsYWJsZSBpcyAyOTEgTVcuDQoNCjIuIEZyb20gMjIzMCBocnMgdG8gMjMwMCBocnMgb24gMTAvMDkvMjAyMi4gDQpUaGUgZm9yZWNhc3QgY2FwYWNpdHkgcmVzZXJ2ZSByZXF1aXJlbWVudCBpcyA1NDIgTVcuIA0KVGhlIG1pbmltdW0gY2FwYWNpdHkgcmVzZXJ2ZSBhdmFpbGFibGUgaXMgMjkyIE1XLg0KDQpBRU1PIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "101535",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-09-07T15:10:42+10:00",
+      "title": "STPASA - Forecast Lack Of Reserve Level 1 (LOR1) in the SA Region on 11/09/2022",
+      "reason": "QUVNTyBkZWNsYXJlcyBhIEZvcmVjYXN0IExPUjEgY29uZGl0aW9uIHVuZGVyIGNsYXVzZSA0LjguNChiKSBvZiB0aGUgTmF0aW9uYWwgRWxlY3RyaWNpdHkgUnVsZXMgZm9yIHRoZSBTQSByZWdpb24gZm9yIHRoZSBmb2xsb3dpbmcgcGVyaW9kOiANCg0KRnJvbSAwMTMwIGhycyB0byAwNDAwIGhycyAxMS8wOS8yMDIyLiANClRoZSBmb3JlY2FzdCBjYXBhY2l0eSByZXNlcnZlIHJlcXVpcmVtZW50IGlzIDUwNCBNVy4gDQpUaGUgbWluaW11bSBjYXBhY2l0eSByZXNlcnZlIGF2YWlsYWJsZSBpcyAyNjYgTVcuDQoNCkFFTU8gT3BlcmF0aW9ucw=="
+    },
+    {
+      "id": "101537",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-09-07T15:11:36+10:00",
+      "title": "STPASA - Forecast Lack Of Reserve Level 1 (LOR1) in the SA Region on 12/09/2022",
+      "reason": "QUVNTyBkZWNsYXJlcyBhIEZvcmVjYXN0IExPUjEgY29uZGl0aW9uIHVuZGVyIGNsYXVzZSA0LjguNChiKSBvZiB0aGUgTmF0aW9uYWwgRWxlY3RyaWNpdHkgUnVsZXMgZm9yIHRoZSBTQSByZWdpb24gZm9yIHRoZSBmb2xsb3dpbmcgcGVyaW9kOiANCg0KRnJvbSAwNjMwIGhycyB0byAwOTAwIGhycyAxMi8wOS8yMDIyLiANClRoZSBmb3JlY2FzdCBjYXBhY2l0eSByZXNlcnZlIHJlcXVpcmVtZW50IGlzIDU1NyBNVy4gDQpUaGUgbWluaW11bSBjYXBhY2l0eSByZXNlcnZlIGF2YWlsYWJsZSBpcyAzMzkgTVcuDQoNCkFFTU8gT3BlcmF0aW9ucw=="
+    },
+    {
+      "id": "101540",
+      "kind": "MARKET INTERVENTION",
+      "issued": "2022-09-07T15:20:44+10:00",
+      "title": "Update - Possible intervention to manage power system security in South Australia (SA) Region",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClVwZGF0ZSAtIFBvc3NpYmxlIGludGVydmVudGlvbiB0byBtYW5hZ2UgcG93ZXIgc3lzdGVtIHNlY3VyaXR5IGluIFNvdXRoIEF1c3RyYWxpYSAoU0EpIFJlZ2lvbg0KDQpSZWZlciBNYXJrZXQgTm90aWNlIDEwMTUyNA0KDQpUaGUgc3luY2hyb25vdXMgZ2VuZXJhdGluZyB1bml0cyBjdXJyZW50bHkgZXhwZWN0ZWQgdG8gYmUgc3luY2hyb25pc2VkIGluIFNBIGZyb20gMDAzMCBocnMgMDgvMDkvMjAyMiB3aWxsIGJlIGluYWRlcXVhdGUgdG8gbWFpbnRhaW4gYSBzZWN1cmUgb3BlcmF0aW5nIHN0YXRlIGluIFNBLiANCg0KQUVNTyBlc3RpbWF0ZXMgdGhhdCwgaW4gdGhlIGFic2VuY2Ugb2Ygc3VmZmljaWVudCBtYXJrZXQgcmVzcG9uc2UgYnkgMTczMCBocnMgMDcvMDkvMjAyMiwgQUVNTyBtYXkgbmVlZCB0byBpbnRlcnZlbmUgYnkgaXNzdWluZyBhIGRpcmVjdGlvbiByZXF1aXJpbmcgb25lIG9yIG1vcmUgU0Egc3luY2hyb25vdXMgZ2VuZXJhdGluZyB1bml0KHMpIHRvIG9wZXJhdGUgb3IgcmVtYWluIHN5bmNocm9uaXNlZCB0byBtYWludGFpbiBwb3dlciBzeXN0ZW0gc2VjdXJpdHkgaW4gU0EuDQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25zDQo="
+    },
+    {
+      "id": "101533",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-09-07T15:33:42+10:00",
+      "title": "STPASA - Update of the Forecast Lack Of Reserve Level 2 (LOR2) in the SA Region on 10/09/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClRoZSBGb3JlY2FzdCBMT1IyIGNvbmRpdGlvbiBpbiB0aGUgU0EgcmVnaW9uIGFkdmlzZWQgaW4gQUVNTyBFbGVjdHJpY2l0eSBNYXJrZXQgTm90aWNlIE5vLiAxMDE1MzAgaGFzIGJlZW4gdXBkYXRlZCBhdCAxNDAwIGhycyAwNy8wOS8yMDIyIHRvIHRoZSBmb2xsb3dpbmc6DQoNCjEuIEZyb20gMDQwMCBocnMgdG8gMTEzMCBocnMgMTAvMDkvMjAyMi4gDQpUaGUgZm9yZWNhc3QgY2FwYWNpdHkgcmVzZXJ2ZSByZXF1aXJlbWVudCBpcyA1MTIgTVcuIA0KVGhlIG1pbmltdW0gY2FwYWNpdHkgcmVzZXJ2ZSBhdmFpbGFibGUgaXMgMjUgTVcuDQoNCjIuIEZyb20gMTczMCBocnMgdG8gMjIzMCBocnMgMTAvMDkvMjAyMi4gDQpUaGUgZm9yZWNhc3QgY2FwYWNpdHkgcmVzZXJ2ZSByZXF1aXJlbWVudCBpcyAyMDAgTVcuIA0KVGhlIG1pbmltdW0gY2FwYWNpdHkgcmVzZXJ2ZSBhdmFpbGFibGUgaXMgMzcgTVcuDQoNCjMuIEZyb20gMjMwMCBocnMgdG8gMjM1OSBocnMgMTAvMDkvMjAyMi4NClRoZSBmb3JlY2FzdCBjYXBhY2l0eSByZXNlcnZlIHJlcXVpcmVtZW50IGlzIDI5NSBNVy4gDQpUaGUgbWluaW11bSBjYXBhY2l0eSByZXNlcnZlIGF2YWlsYWJsZSBpcyAyOTIgTVcuDQoNCkFFTU8gaXMgc2Vla2luZyBhIG1hcmtldCByZXNwb25zZS4NCg0KQUVNTyBoYXMgbm90IHlldCBlc3RpbWF0ZWQgdGhlIGxhdGVzdCB0aW1lIGl0IHdvdWxkIG5lZWQgdG8gaW50ZXJ2ZW5lIHRocm91Z2ggYW4gQUVNTyBpbnRlcnZlbnRpb24gZXZlbnQuDQoNCkFFTU8gT3BlcmF0aW9ucw=="
+    },
+    {
+      "id": "101539",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-09-07T15:35:42+10:00",
+      "title": "STPASA - Forecast Lack Of Reserve Level 2 (LOR2) in the SA Region on 11/09/2022",
+      "reason": "QUVNTyBkZWNsYXJlcyBhIEZvcmVjYXN0IExPUjIgY29uZGl0aW9uIHVuZGVyIGNsYXVzZSA0LjguNChiKSBvZiB0aGUgTmF0aW9uYWwgRWxlY3RyaWNpdHkgUnVsZXMgZm9yIHRoZSBTQSByZWdpb24gZm9yIHRoZSBmb2xsb3dpbmcgcGVyaW9kOiANCg0KRnJvbSAwMDAwIGhycyB0byAwMTMwIGhycyAxMS8wOS8yMDIyLiANClRoZSBmb3JlY2FzdCBjYXBhY2l0eSByZXNlcnZlIHJlcXVpcmVtZW50IGlzIDI5MiBNVy4gDQpUaGUgbWluaW11bSBjYXBhY2l0eSByZXNlcnZlIGF2YWlsYWJsZSBpcyAyOTEgTVcuDQoNCkFFTU8gaXMgc2Vla2luZyBhIG1hcmtldCByZXNwb25zZS4gDQoNCkFFTU8gaGFzIG5vdCB5ZXQgZXN0aW1hdGVkIHRoZSBsYXRlc3QgdGltZSBpdCB3b3VsZCBuZWVkIHRvIGludGVydmVuZSB0aHJvdWdoIGFuIEFFTU8gaW50ZXJ2ZW50aW9uIGV2ZW50Lg0KDQpBRU1PIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "101541",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-09-07T16:03:36+10:00",
+      "title": "STPASA - Update of the Forecast Lack Of Reserve Level 2 (LOR2) in the SA Region on 10/09/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClRoZSBGb3JlY2FzdCBMT1IyIGNvbmRpdGlvbiBpbiB0aGUgU0EgcmVnaW9uIGFkdmlzZWQgaW4gQUVNTyBFbGVjdHJpY2l0eSBNYXJrZXQgTm90aWNlIE5vLiAxMDE1MzMgaGFzIGJlZW4gdXBkYXRlZCBhdCAxNTAwIGhycyAwNy8wOS8yMDIyIHRvIHRoZSBmb2xsb3dpbmc6DQoNCkZyb20gMDUzMCBocnMgdG8gMDkzMCBocnMgMTAvMDkvMjAyMi4gDQpUaGUgZm9yZWNhc3QgY2FwYWNpdHkgcmVzZXJ2ZSByZXF1aXJlbWVudCBpcyA0OTEgTVcuIA0KVGhlIG1pbmltdW0gY2FwYWNpdHkgcmVzZXJ2ZSBhdmFpbGFibGUgaXMgMjg0IE1XLg0KDQpBRU1PIGlzIHNlZWtpbmcgYSBtYXJrZXQgcmVzcG9uc2UuDQoNCkFFTU8gaGFzIG5vdCB5ZXQgZXN0aW1hdGVkIHRoZSBsYXRlc3QgdGltZSBpdCB3b3VsZCBuZWVkIHRvIGludGVydmVuZSB0aHJvdWdoIGFuIEFFTU8gaW50ZXJ2ZW50aW9uIGV2ZW50Lg0KDQpBRU1PIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "101542",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-09-07T16:04:40+10:00",
+      "title": "STPASA - Cancellation of the Forecast Lack Of Reserve Level 2 (LOR2) in the SA Region on 11/09/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFIA0KDQpUaGUgRm9yZWNhc3QgTE9SMiBjb25kaXRpb24gaW4gdGhlIFNBIHJlZ2lvbiBhZHZpc2VkIGluIEFFTU8gRWxlY3RyaWNpdHkgTWFya2V0IE5vdGljZSAxMDE1MzkgaGFzIGJlZW4gY2FuY2VsbGVkIGF0IDE1MDAgaHJzIDA3LzA5LzIwMjIgDQoNCkFFTU8gT3BlcmF0aW9ucw=="
+    },
+    {
+      "id": "101543",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-09-07T16:31:47+10:00",
+      "title": "STPASA - Update of the Forecast Lack Of Reserve Level 2 (LOR2) in the SA Region on 10/09/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClRoZSBGb3JlY2FzdCBMT1IyIGNvbmRpdGlvbiBpbiB0aGUgU0EgcmVnaW9uIGFkdmlzZWQgaW4gQUVNTyBFbGVjdHJpY2l0eSBNYXJrZXQgTm90aWNlIE5vLiAxMDE1NDEgaGFzIGJlZW4gdXBkYXRlZCBhdCAxNjAwIGhycyAwNy8wOS8yMDIyIHRvIHRoZSBmb2xsb3dpbmc6DQoNCkZyb20gMDUzMCBocnMgdG8gMDkzMCBocnMgMTAvMDkvMjAyMi4gDQpUaGUgZm9yZWNhc3QgY2FwYWNpdHkgcmVzZXJ2ZSByZXF1aXJlbWVudCBpcyA0NjUgTVcuIA0KVGhlIG1pbmltdW0gY2FwYWNpdHkgcmVzZXJ2ZSBhdmFpbGFibGUgaXMgMjUwIE1XLg0KDQpGcm9tIDE4MDAgaHJzIHRvIDE4MzAgaHJzIDEwLzA5LzIwMjIuIA0KVGhlIGZvcmVjYXN0IGNhcGFjaXR5IHJlc2VydmUgcmVxdWlyZW1lbnQgaXMgMjUwIE1XLiANClRoZSBtaW5pbXVtIGNhcGFjaXR5IHJlc2VydmUgYXZhaWxhYmxlIGlzIDI0NiBNVy4NCg0KQUVNTyBpcyBzZWVraW5nIGEgbWFya2V0IHJlc3BvbnNlLg0KDQpBRU1PIGhhcyBub3QgeWV0IGVzdGltYXRlZCB0aGUgbGF0ZXN0IHRpbWUgaXQgd291bGQgbmVlZCB0byBpbnRlcnZlbmUgdGhyb3VnaCBhbiBBRU1PIGludGVydmVudGlvbiBldmVudC4NCg0KQUVNTyBPcGVyYXRpb25z"
+    },
+    {
+      "id": "101544",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-09-07T16:47:53+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Brinkworth-Davenport, Brinkworth-Templers West and Para-Templers West 275kV lines in SA due to severe weather warning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFLg0KDQpSZWNsYXNzaWZpY2F0aW9uIG9mIGEgbm9uLWNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50IGFzIGEgY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQgZHVlIHRvIHNldmVyZSB3ZWF0aGVyIHdhcm5pbmcuDQoNCkFFTU8gY29uc2lkZXJzIHRoZSBzaW11bHRhbmVvdXMgdHJpcCBvZiB0aGUgZm9sbG93aW5nIGNpcmN1aXRzIHRvIG5vdyBiZSBtb3JlIGxpa2VseSBhbmQgcmVhc29uYWJseSBwb3NzaWJsZS4gQWNjb3JkaW5nbHkgQUVNTyBoYXMgcmVjbGFzc2lmaWVkIGl0IGFzIGEgY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQuDQoNClJlZ2lvbjogU0ENCg0KTGluZXM6IEJyaW5rd29ydGgtRGF2ZW5wb3J0LCBCcmlua3dvcnRoLVRlbXBsZXJzIFdlc3QgYW5kIFBhcmEtVGVtcGxlcnMgV2VzdCAyNzVrViBsaW5lcw0KDQpEdXJhdGlvbjogMDcvMDkvMjAyMiAxNjQ1IGhycyB1bnRpbCBmdXJ0aGVyIG5vdGljZQ0KQ29uc3RyYWludCBzZXQocykgaW52b2tlZDogTmlsDQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25z"
+    },
+    {
+      "id": "101547",
+      "kind": "MARKET INTERVENTION",
+      "issued": "2022-09-07T17:33:35+10:00",
+      "title": "Direction - SA region 07/09/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFLg0KDQpEaXJlY3Rpb24gLSBTQSByZWdpb24gMDcvMDkvMjAyMg0KDQpJbiBhY2NvcmRhbmNlIHdpdGggc2VjdGlvbiAxMTYgb2YgdGhlIE5hdGlvbmFsIEVsZWN0cmljaXR5IExhdywgQUVNTyBoYXMgaXNzdWVkIGEgZGlyZWN0aW9uIHRvIGEgcGFydGljaXBhbnQgaW4gdGhlIFNBIHJlZ2lvbi4gRm9yIHRoZSBwdXJwb3NlcyBvZiB0aGUgTmF0aW9uYWwgRWxlY3RyaWNpdHkgUnVsZXMgdGhpcyBpcyBhIGRpcmVjdGlvbiB1bmRlciBjbGF1c2UgNC44LjkoYSkuIA0KDQpUaGUgZGlyZWN0aW9uIHdhcyBuZWNlc3NhcnkgdG8gbWFpbnRhaW4gdGhlIHBvd2VyIHN5c3RlbSBpbiBhIHNlY3VyZSBvcGVyYXRpbmcgc3RhdGUuDQoNCkFFTU8gbWF5IGlzc3VlIG9yIHJldm9rZSBhZGRpdGlvbmFsIGRpcmVjdGlvbnMgaW4gb3JkZXIgdG8gbWVldCB0aGUgY3VycmVudCByZXF1aXJlbWVudCwgdW5sZXNzIHN1ZmZpY2llbnQgbWFya2V0IHJlc3BvbnNlIGlzIHByb3ZpZGVkLiBBIGZ1cnRoZXIgbWFya2V0IG5vdGljZSB3aWxsIGJlIGlzc3VlZCB3aGVuIGFsbCBkaXJlY3Rpb25zIHJlbGF0ZWQgdG8gdGhpcyByZXF1aXJlbWVudCBoYXZlIGJlZW4gY2FuY2VsbGVkLiANCg0KVGhlIGlzc3VlIG9mIHRoZSBkaXJlY3Rpb24gY29tbWVuY2VzIGFuIEFFTU8gaW50ZXJ2ZW50aW9uIGV2ZW50LiBBRU1PIGRlY2xhcmVzIGFsbCB0cmFkaW5nIGludGVydmFscyBkdXJpbmcgdGhlIGV2ZW50IHRvIGJlIGludGVydmVudGlvbiB0cmFkaW5nIGludGVydmFscywgY29tbWVuY2luZyBmcm9tIHRoZSBpbnRlcnZhbCBlbmRpbmcgMTczNSBocnMgb24gMDcvMDkvMjAyMi4NCg0KSW50ZXJ2ZW50aW9uIHByaWNpbmcgZG9lcyBub3QgYXBwbHkgdG8gdGhpcyBBRU1PIGludGVydmVudGlvbiBldmVudC4gDQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25z"
+    },
+    {
+      "id": "101548",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-09-07T17:44:40+10:00",
+      "title": "PDPASA - Cancellation of the Forecast Lack Of Reserve Level 1 (LOR1) in the SA Region on 07/09/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClRoZSBGb3JlY2FzdCBMT1IxIGNvbmRpdGlvbiBpbiB0aGUgU0EgcmVnaW9uIGFkdmlzZWQgaW4gQUVNTyBFbGVjdHJpY2l0eSBNYXJrZXQgTm90aWNlIE5vLiAxMDE1MzggaXMgY2FuY2VsbGVkIGF0IDE3NDAgaHJzIDA3LzA5LzIwMjIuDQogDQpNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw=="
+    },
+    {
+      "id": "101549",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-09-07T19:35:55+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Para-Templers West and Magill-Torrens Island A 275kV lines in SA due to severe weather warning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFLg0KDQpSZWNsYXNzaWZpY2F0aW9uIG9mIGEgbm9uLWNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50IGFzIGEgY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQgZHVlIHRvIHNldmVyZSB3ZWF0aGVyIHdhcm5pbmcuDQoNCkFFTU8gY29uc2lkZXJzIHRoZSBzaW11bHRhbmVvdXMgdHJpcCBvZiB0aGUgZm9sbG93aW5nIGNpcmN1aXRzIHRvIG5vdyBiZSBtb3JlIGxpa2VseSBhbmQgcmVhc29uYWJseSBwb3NzaWJsZS4gQWNjb3JkaW5nbHkgQUVNTyBoYXMgcmVjbGFzc2lmaWVkIGl0IGFzIGEgY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQuDQoNClJlZ2lvbjogU0ENCg0KTGluZXM6IFBhcmEtVGVtcGxlcnMgV2VzdCBhbmQgTWFnaWxsLVRvcnJlbnMgSXNsYW5kIEEgMjc1a1YgbGluZXMNCg0KRHVyYXRpb246IDA3LzA5LzIwMjIgMTkzMCBocnMgdW50aWwgZnVydGhlciBub3RpY2UNCkNvbnN0cmFpbnQgc2V0KHMpIGludm9rZWQ6IE5pbA0KDQpNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw=="
+    },
+    {
+      "id": "101551",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-09-07T22:12:13+10:00",
+      "title": "Cancellation of the reclassification of a Non-Credible Contingency Event: Brinkworth-Davenport, Brinkworth-Templers West and Para-Templers West 275kV lines in SA due to severe weather warning .",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFLg0KDQpDYW5jZWxsYXRpb24gb2YgdGhlIHJlY2xhc3NpZmljYXRpb24gb2YgYSBub24tY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQgYXMgYSBjcmVkaWJsZSBjb250aW5nZW5jeSBldmVudCBkdWUgdG8gc2V2ZXJlIHdlYXRoZXIgd2FybmluZy4NCg0KQUVNTyBjb25zaWRlcnMgdGhlIHNpbXVsdGFuZW91cyB0cmlwIG9mIHRoZSBmb2xsb3dpbmcgY2lyY3VpdHMgaXMgbm8gbG9uZ2VyIHJlYXNvbmFibHkgcG9zc2libGUuIFRoZXJlIGlzIG5vIGxvbmdlciBhbnkgc2V2ZXJlIHdlYXRoZXIgd2FybmluZyBpbiB0aGUgdmljaW5pdHkgb2YgdGhlIGZvbGxvd2luZyBsaW5lcy4gQWNjb3JkaW5nbHksIGl0cyBjbGFzc2lmaWNhdGlvbiBoYXMgcmV2ZXJ0ZWQgdG8gYSBub24tY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQuDQoNClJlZ2lvbjogU0ENCg0KTGluZXM6IEJyaW5rd29ydGgtRGF2ZW5wb3J0LCBCcmlua3dvcnRoLVRlbXBsZXJzIFdlc3QgYW5kIFBhcmEtVGVtcGxlcnMgV2VzdCAyNzVrViBsaW5lcw0KIA0KQ2FuY2VsbGF0aW9uIHRpbWU6IDA3LzA5LzIwMjIgMjI6MTAgaHJzIA0KQ29uc3RyYWludCBzZXQocykgcmV2b2tlZDogTmlsDQoNClJlZmVyIEFFTU8gRWxlY3RyaWNpdHkgTWFya2V0IE5vdGljZSAxMDE1NDQNCg0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "101550",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-09-07T22:12:58+10:00",
+      "title": "Cancellation of the reclassification of a Non-Credible Contingency Event: Para-Templers West and Magill-Torrens Island A 275kV lines in SA due to severe weather warning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFLg0KDQpDYW5jZWxsYXRpb24gb2YgdGhlIHJlY2xhc3NpZmljYXRpb24gb2YgYSBub24tY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQgYXMgYSBjcmVkaWJsZSBjb250aW5nZW5jeSBldmVudCBkdWUgdG8gc2V2ZXJlIHdlYXRoZXIgd2FybmluZy4NCg0KQUVNTyBjb25zaWRlcnMgdGhlIHNpbXVsdGFuZW91cyB0cmlwIG9mIHRoZSBmb2xsb3dpbmcgY2lyY3VpdHMgaXMgbm8gbG9uZ2VyIHJlYXNvbmFibHkgcG9zc2libGUuIFRoZXJlIGlzIG5vIGxvbmdlciBhbnkgc2V2ZXJlIHdlYXRoZXIgd2FybmluZyBpbiB0aGUgdmljaW5pdHkgb2YgdGhlIGZvbGxvd2luZyBsaW5lcy4gQWNjb3JkaW5nbHksIGl0cyBjbGFzc2lmaWNhdGlvbiBoYXMgcmV2ZXJ0ZWQgdG8gYSBub24tY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQuDQoNClJlZ2lvbjogU0ENCg0KTGluZXM6IFBhcmEtVGVtcGxlcnMgV2VzdCBhbmQgTWFnaWxsLVRvcnJlbnMgSXNsYW5kIEEgMjc1a1YgbGluZXMNCiANCkNhbmNlbGxhdGlvbiB0aW1lOiAwNy8wOS8yMDIyIDIyOjEwIGhycyANCkNvbnN0cmFpbnQgc2V0KHMpIHJldm9rZWQ6IE5pbA0KDQpSZWZlciBBRU1PIEVsZWN0cmljaXR5IE1hcmtldCBOb3RpY2UgMTAxNTQ5DQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25z"
+    },
+    {
+      "id": "101552",
+      "kind": "NON-CONFORMANCE",
+      "issued": "2022-09-08T00:35:18+10:00",
+      "title": "NON-CONFORMANCE Region QLD1 Thursday, 8 September 2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCk5PTi1DT05GT1JNQU5DRSBRTEQxIFJlZ2lvbiBUaHVyc2RheSwgOCBTZXB0ZW1iZXIgMjAyMg0KDQpBRU1PIGRlY2xhcmVkIGEgc2NoZWR1bGUgZ2VuZXJhdGluZyB1bml0IG5vbi1jb25mb3JtaW5nDQoNClVuaXQ6ICAgICAgIE1QUF8yDQpEdXJhdGlvbjogICAwOC8wOS8yMDIyIDAwOjMwIHRvIDA4LzA5LzIwMjIgMDA6MzUNCkFtb3VudDogICAgIDE0IE1XDQpDb25zdHJhaW50OiBOQy1RX01QUF8yDQoNCkF1dG8tZ2VuZXJhdGVkIG9uIGJlaGFsZiBvZiBNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw=="
+    },
+    {
+      "id": "101553",
+      "kind": "RESERVE NOTICE",
+      "issued": "2022-09-08T00:47:29+10:00",
+      "title": "Actual Lack Of Reserve Level 1 (LOR1) in the SA Region on 08/09/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCkFjdHVhbCBMYWNrIE9mIFJlc2VydmUgTGV2ZWwgMSAoTE9SMSkgaW4gdGhlIFNBIHJlZ2lvbiAtIDA4LzA5LzIwMjINCg0KQW4gQWN0dWFsIExPUjEgY29uZGl0aW9uIGhhcyBiZWVuIGRlY2xhcmVkIHVuZGVyIGNsYXVzZSA0LjguNChiKSBvZiB0aGUgTmF0aW9uYWwgRWxlY3RyaWNpdHkgUnVsZXMgZm9yIHRoZSBTQSByZWdpb24gZnJvbSAwMDMwIGhycy4NCg0KVGhlIEFjdHVhbCBMT1IxIGNvbmRpdGlvbiBpcyBmb3JlY2FzdCB0byBleGlzdCB1bnRpbCAwMTMwIGhycy4NCg0KVGhlIGZvcmVjYXN0IGNhcGFjaXR5IHJlc2VydmUgcmVxdWlyZW1lbnQgaXMgNDcxIE1XLiANClRoZSBtaW5pbXVtIGNhcGFjaXR5IHJlc2VydmUgYXZhaWxhYmxlIGlzIDI0OCBNVy4NCg0KDQpNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw0K"
+    }
+  ]
+}

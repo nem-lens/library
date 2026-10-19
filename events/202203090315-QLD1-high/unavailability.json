@@ -1,0 +1,1129 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2022-03-09T01:15:00+10:00",
+    "2022-03-09T01:20:00+10:00",
+    "2022-03-09T01:25:00+10:00",
+    "2022-03-09T01:30:00+10:00",
+    "2022-03-09T01:35:00+10:00",
+    "2022-03-09T01:40:00+10:00",
+    "2022-03-09T01:45:00+10:00",
+    "2022-03-09T01:50:00+10:00",
+    "2022-03-09T01:55:00+10:00",
+    "2022-03-09T02:00:00+10:00",
+    "2022-03-09T02:05:00+10:00",
+    "2022-03-09T02:10:00+10:00",
+    "2022-03-09T02:15:00+10:00",
+    "2022-03-09T02:20:00+10:00",
+    "2022-03-09T02:25:00+10:00",
+    "2022-03-09T02:30:00+10:00",
+    "2022-03-09T02:35:00+10:00",
+    "2022-03-09T02:40:00+10:00",
+    "2022-03-09T02:45:00+10:00",
+    "2022-03-09T02:50:00+10:00",
+    "2022-03-09T02:55:00+10:00",
+    "2022-03-09T03:00:00+10:00",
+    "2022-03-09T03:05:00+10:00",
+    "2022-03-09T03:10:00+10:00",
+    "2022-03-09T03:15:00+10:00",
+    "2022-03-09T03:20:00+10:00",
+    "2022-03-09T03:25:00+10:00",
+    "2022-03-09T03:30:00+10:00",
+    "2022-03-09T03:35:00+10:00",
+    "2022-03-09T03:40:00+10:00",
+    "2022-03-09T03:45:00+10:00",
+    "2022-03-09T03:50:00+10:00",
+    "2022-03-09T03:55:00+10:00",
+    "2022-03-09T04:00:00+10:00",
+    "2022-03-09T04:05:00+10:00",
+    "2022-03-09T04:10:00+10:00",
+    "2022-03-09T04:15:00+10:00",
+    "2022-03-09T04:20:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "CPP_4",
+      "region": "QLD1",
+      "fuel": "coal",
+      "capacity_mw": 420.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-02-24T10:06:07+10:00",
+          "explanation": "Daily Bid"
+        },
+        {
+          "offer_time": "2022-03-04T10:55:11+10:00",
+          "explanation": "Daily bid"
+        },
+        {
+          "offer_time": "2022-03-08T14:48:33+10:00",
+          "explanation": "QLD1 RRP CHANGE +69 (14:45 DS DI 08/03/22 14:50 VALUE 198 VS 14:40 P5 DI 08/03/22 14:50 VALUE 129) SL"
+        },
+        {
+          "offer_time": "2022-03-08T16:30:36+10:00",
+          "explanation": "Intra regional constraint management Q>>NIL_MRTX5_MRTX4 SL"
+        },
+        {
+          "offer_time": "2022-03-08T16:37:36+10:00",
+          "explanation": "QLD1 RRP CHANGE +232 (16:35 DS DI 08/03/22 16:40 VALUE 350 VS 16:30 P5 DI 08/03/22 16:40 VALUE 118) SL"
+        }
+      ]
+    },
+    {
+      "duid": "SWAN_E",
+      "region": "QLD1",
+      "fuel": "gas",
+      "capacity_mw": 385.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": []
+    },
+    {
+      "duid": "GSTONE1",
+      "region": "QLD1",
+      "fuel": "coal",
+      "capacity_mw": 285.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-02-25T13:46:43+10:00",
+          "explanation": "Technical issues-turbine vibration-SL"
+        },
+        {
+          "offer_time": "2022-03-02T09:47:07+10:00",
+          "explanation": "Technical issues-Turbine vibrations-SL"
+        },
+        {
+          "offer_time": "2022-03-03T15:39:38+10:00",
+          "explanation": "Turbine vibrations-SL"
+        }
+      ]
+    },
+    {
+      "duid": "GSTONE4",
+      "region": "QLD1",
+      "fuel": "coal",
+      "capacity_mw": 285.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-02-25T13:46:43+10:00",
+          "explanation": "Daily Offer"
+        },
+        {
+          "offer_time": "2022-03-07T14:32:59+10:00",
+          "explanation": "Technical issues-Condenser clean-SL"
+        },
+        {
+          "offer_time": "2022-03-07T14:35:52+10:00",
+          "explanation": "Daily Offer"
+        }
+      ]
+    },
+    {
+      "duid": "DDPS1",
+      "region": "QLD1",
+      "fuel": "gas",
+      "capacity_mw": 661.0,
+      "availability": [
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        455.0,
+        458.0,
+        458.0,
+        458.0,
+        458.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-03-08T19:44:08+10:00",
+          "explanation": "INC QLD DEM 5PD 9487MW > 30PD 9365MW @ 2015 SL"
+        },
+        {
+          "offer_time": "2022-03-08T21:35:41+10:00",
+          "explanation": "Constraint management - N^^Q_LS_VC_B1 SL"
+        },
+        {
+          "offer_time": "2022-03-08T22:07:47+10:00",
+          "explanation": "Plant conditions - ROC Adjusted - 3MW/MIN ROC - 3GT DB limitation SL"
+        },
+        {
+          "offer_time": "2022-03-08T23:19:00+10:00",
+          "explanation": "Constraint management - N^^Q_LS_VC_B1 SL"
+        },
+        {
+          "offer_time": "2022-03-09T03:15:39+10:00",
+          "explanation": "Plant conditions - ROC Adjusted - 0MW/MIN ROC - target Below station minload SL"
+        }
+      ]
+    },
+    {
+      "duid": "W/HOE#1",
+      "region": "QLD1",
+      "fuel": "hydro",
+      "capacity_mw": 285.0,
+      "availability": [
+        276.0,
+        276.0,
+        276.0,
+        276.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        276.0,
+        276.0,
+        276.0,
+        276.0,
+        276.0,
+        276.0,
+        276.0,
+        276.0,
+        276.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-03-08T21:12:33+10:00",
+          "explanation": "Avoid forecast unit cycling"
+        },
+        {
+          "offer_time": "2022-03-08T21:47:21+10:00",
+          "explanation": "Avoid marginal targets and manage SYC dam level"
+        },
+        {
+          "offer_time": "2022-03-08T22:17:13+10:00",
+          "explanation": "avoid marginal targets and unit cycling"
+        },
+        {
+          "offer_time": "2022-03-08T22:37:39+10:00",
+          "explanation": "unit shut down"
+        },
+        {
+          "offer_time": "2022-03-09T03:13:34+10:00",
+          "explanation": "avoid forecast marginal targets"
+        }
+      ]
+    },
+    {
+      "duid": "WANDBG1",
+      "region": "QLD1",
+      "fuel": "battery",
+      "capacity_mw": 100.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-02-23T10:01:42+10:00",
+          "explanation": "00 Initial Bid"
+        }
+      ]
+    },
+    {
+      "duid": "TARONG#2",
+      "region": "QLD1",
+      "fuel": "coal",
+      "capacity_mw": 385.0,
+      "availability": [
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-03-08T09:30:58+10:00",
+          "explanation": "PREDISPATCH PRICE HIGHER THAN INTERNAL FORECAST - SL"
+        },
+        {
+          "offer_time": "2022-03-08T09:57:22+10:00",
+          "explanation": "FURNANCE NOSE TESTING ADJUSTMENT AND REBALANCE"
+        },
+        {
+          "offer_time": "2022-03-08T12:12:26+10:00",
+          "explanation": "FURNACE NOSE TESTING ADJUSTMENT AND REBALANCE"
+        }
+      ]
+    },
+    {
+      "duid": "TARONG#3",
+      "region": "QLD1",
+      "fuel": "coal",
+      "capacity_mw": 385.0,
+      "availability": [
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0,
+        295.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-03-08T09:30:58+10:00",
+          "explanation": "PREDISPATCH PRICE HIGHER THAN INTERNAL FORECAST - SL"
+        },
+        {
+          "offer_time": "2022-03-08T09:57:22+10:00",
+          "explanation": "FURNANCE NOSE TESTING ADJUSTMENT AND REBALANCE"
+        },
+        {
+          "offer_time": "2022-03-08T12:12:26+10:00",
+          "explanation": "FURNACE NOSE TESTING ADJUSTMENT AND REBALANCE"
+        },
+        {
+          "offer_time": "2022-03-08T16:43:48+10:00",
+          "explanation": "Manage Binding QLD Intra-Regional Constraint - SL"
+        }
+      ]
+    },
+    {
+      "duid": "CALL_B_1",
+      "region": "QLD1",
+      "fuel": "coal",
+      "capacity_mw": 385.0,
+      "availability": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0,
+        290.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-03-08T03:58:43+10:00",
+          "explanation": "review and update max availability-SL"
+        },
+        {
+          "offer_time": "2022-03-08T12:55:34+10:00",
+          "explanation": "Initial Response to predispatch-SL"
+        },
+        {
+          "offer_time": "2022-03-08T16:32:03+10:00",
+          "explanation": "Intra Regional Constraint-Q>>CPWO1_CPWO2_WUGG-SL"
+        },
+        {
+          "offer_time": "2022-03-09T02:52:44+10:00",
+          "explanation": "Mill limit - Coal quality-SL"
+        },
+        {
+          "offer_time": "2022-03-09T02:56:58+10:00",
+          "explanation": "Mill limit-Coal quality-SL"
+        }
+      ]
+    },
+    {
+      "duid": "CALL_B_2",
+      "region": "QLD1",
+      "fuel": "coal",
+      "capacity_mw": 385.0,
+      "availability": [
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0,
+        300.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-03-08T16:32:03+10:00",
+          "explanation": "Intra Regional Constraint-Q>>CPWO1_CPWO2_WUGG-SL"
+        },
+        {
+          "offer_time": "2022-03-08T17:13:05+10:00",
+          "explanation": "Technical issues-ID fan limits-SL"
+        },
+        {
+          "offer_time": "2022-03-08T17:27:38+10:00",
+          "explanation": "Technical issues-ID Fan limits-SL"
+        },
+        {
+          "offer_time": "2022-03-08T20:07:39+10:00",
+          "explanation": "Mill limit - Coal quality-SL"
+        },
+        {
+          "offer_time": "2022-03-09T02:56:58+10:00",
+          "explanation": "Mill limit-Coal quality-SL"
+        }
+      ]
+    },
+    {
+      "duid": "YABULU2",
+      "region": "QLD1",
+      "fuel": "gas",
+      "capacity_mw": 84.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-03-08T16:08:18+10:00",
+          "explanation": "060 Unfcast network constraint~61 constr off out of merit order"
+        },
+        {
+          "offer_time": "2022-03-08T16:52:08+10:00",
+          "explanation": "060 Unfcast network constraint~61 constr off out of merit order - Q>>CPWO1_CPWO2_WUGG"
+        },
+        {
+          "offer_time": "2022-03-08T16:56:10+10:00",
+          "explanation": "050 Chg in AEMO PD~51 PD DISPATCHABLEGENERATION increase [NSW QLD] Av+86MW PE2130 - 2230 (1632PD) SL"
+        },
+        {
+          "offer_time": "2022-03-08T17:16:34+10:00",
+          "explanation": "060 Unfcast network constraint~61 constr off out of merit order - Q>>CPWO1_CPWO2_WUGG"
+        },
+        {
+          "offer_time": "2022-03-08T21:31:32+10:00",
+          "explanation": "050 Chg in AEMO PD~Price decrease [QLD] 5MPD $119.20 for TI ending 22:00 vs 30MPD $197.29 for PE 22:00."
+        }
+      ]
+    },
+    {
+      "duid": "STAN-2",
+      "region": "QLD1",
+      "fuel": "coal",
+      "capacity_mw": 385.0,
+      "availability": [
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0,
+        310.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-03-08T09:30:58+10:00",
+          "explanation": "PREDISPATCH PRICE HIGHER THAN INTERNAL FORECAST - SL"
+        },
+        {
+          "offer_time": "2022-03-08T16:16:21+10:00",
+          "explanation": "Manage Binding QLD Intra-Regional Constraint - SL"
+        },
+        {
+          "offer_time": "2022-03-08T17:54:40+10:00",
+          "explanation": "Unit Response to QLD Market LOR Conditions - HP Heater Limitations; ROC TI 1805-2000;"
+        }
+      ]
+    },
+    {
+      "duid": "CPSA",
+      "region": "QLD1",
+      "fuel": "gas",
+      "capacity_mw": 145.0,
+      "availability": [
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0,
+        84.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-03-08T16:22:27+10:00",
+          "explanation": "162211 P Unit Start Issue"
+        },
+        {
+          "offer_time": "2022-03-08T16:30:21+10:00",
+          "explanation": "163000 P Change in Plant Capabilities SL"
+        },
+        {
+          "offer_time": "2022-03-08T19:17:14+10:00",
+          "explanation": "191700 F Market Conditions SL"
+        },
+        {
+          "offer_time": "2022-03-08T20:45:47+10:00",
+          "explanation": "204528 P Change in Ambient Conditions SL"
+        },
+        {
+          "offer_time": "2022-03-08T20:47:00+10:00",
+          "explanation": "204641 P Change in Ambient Conditions SL"
+        }
+      ]
+    },
+    {
+      "duid": "YARWUN_1",
+      "region": "QLD1",
+      "fuel": "gas",
+      "capacity_mw": 180.0,
+      "availability": [
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0,
+        135.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-03-04T12:14:37+10:00",
+          "explanation": "Alumina Refinery Constraints"
+        }
+      ]
+    },
+    {
+      "duid": "GSTONE3",
+      "region": "QLD1",
+      "fuel": "coal",
+      "capacity_mw": 285.0,
+      "availability": [
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0,
+        245.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-03-08T16:39:22+10:00",
+          "explanation": "Intra Regional Constraint-Q>>CPWO1_CPWO2_WUGG-SL"
+        },
+        {
+          "offer_time": "2022-03-08T16:49:45+10:00",
+          "explanation": "FCAS enablement update-match mill limits-SL"
+        },
+        {
+          "offer_time": "2022-03-08T22:29:06+10:00",
+          "explanation": "QLD1 DI 08-03-2022 22:25:00 RRP $276.99 vs P5 RRP $349.99 @ P5 RUN 08-03-2022 22:15:00 - RRP CHANGE OF $-73-SL"
+        },
+        {
+          "offer_time": "2022-03-09T01:27:46+10:00",
+          "explanation": "QLD1 TI 09-03-2022 01:20:00 P5 RRP $96.11 vs P5 RRP $105.25 @ P5 RUN 09-03-2022 01:06:01 - RRP CHANGE OF $-9.15-SL"
+        },
+        {
+          "offer_time": "2022-03-09T04:10:20+10:00",
+          "explanation": "FCAS enablement update-match mill limits-SL"
+        }
+      ]
+    },
+    {
+      "duid": "BARCALDN",
+      "region": "QLD1",
+      "fuel": "gas",
+      "capacity_mw": 37.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-03-07T14:27:19+10:00",
+          "explanation": "1233A RESPONSE TO INITIAL PRE-DISPATCH"
+        },
+        {
+          "offer_time": "2022-03-07T14:29:25+10:00",
+          "explanation": "1420P INITIAL BID"
+        },
+        {
+          "offer_time": "2022-03-08T15:25:30+10:00",
+          "explanation": "1520A INCREASE IN QLD 5PD PRICE SL"
+        },
+        {
+          "offer_time": "2022-03-08T19:45:42+10:00",
+          "explanation": "1940A INCREASE IN QLD 5PD PRICE SL"
+        },
+        {
+          "offer_time": "2022-03-08T21:01:51+10:00",
+          "explanation": "2055A DECREASE IN QLD 5PD PRICE SL"
+        }
+      ]
+    }
+  ]
+}

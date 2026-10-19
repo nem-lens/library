@@ -1,0 +1,47 @@
+{
+  "schema": 2,
+  "notices": [
+    {
+      "id": "103067",
+      "kind": "POWER SYSTEM EVENTS",
+      "issued": "2022-11-12T21:07:37+10:00",
+      "title": "Update - Significant power system event - 12/11/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFLg0KDQpVcGRhdGUgLSBTaWduaWZpY2FudCBwb3dlciBzeXN0ZW0gZXZlbnQgLSAxMi8xMS8yMDIyDQoNClJlZmVyIEFFTU8gRWxlY3RyaWNpdHkgTm90aWNlIDEwMzA2NA0KDQpBdCAxNjM5IGhycyAxMi8xMS8yMDIyIGEgc2lnbmlmaWNhbnQgcG93ZXIgc3lzdGVtIGV2ZW50IG9jY3VycmVkLg0KDQpEZXNjcmlwdGlvbiBvZiBldmVudCAtIE11bHRpcGxlIHRyaXBwaW5nIG9mIHRyYW5zbWlzc2lvbiBsaW5lcyANCg0KVHJhbnNtaXNzaW9uIGVsZW1lbnQocykgdHJpcHBlZCAtIFRhaWxlbSBCZW5kIC0gU291dGggRWFzdCAyNzUga1YgTm8gMSBhbmQgMiBMaW5lcw0KDQpSZWdpb24gLSBTQQ0KDQpJZGVudGlmaWVkIGlzbGFuZHMgZm9ybWVkIGFzIGEgcmVzdWx0IG9mIHRoaXMgY29udGluZ2VuY3kgZXZlbnQgLSBTQSBhbmQgRWFzdGVybiBORU0NCg0KQUVNTyBoYXMgYmVlbiBhZHZpc2VkIHRoYXQgdGhlIFRhaWxlbSBCZW5kIC0gU291dGggRWFzdCBObyAxIGFuZCAyIExpbmVzIHdpbGwgcmVtYWluIG91dCBvZiBzZXJ2aWNlIHVudGlsIDE3MDAgaHJzIDE4LzExLzIwMjIuDQoNClJlZmVyIHRvIEFFTU8gTmV0d29yayBPdXRhZ2UgU2NoZWR1bGUgZm9yIGZ1cnRoZXIgaW5mb3JtYXRpb24uDQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25z"
+    },
+    {
+      "id": "103068",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-11-12T21:34:11+10:00",
+      "title": "Cancellation of a Non-Credible Contingency Event: Eildon PS - Mt Beauty No.1 220 kV line and Eildon PS - Mt Beauty No.2 220 kV line in VIC1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCkNhbmNlbGxhdGlvbiBvZiByZWNsYXNzaWZpY2F0aW9uIG9mIGEgTm9uLUNyZWRpYmxlIENvbnRpbmdlbmN5IEV2ZW50IGFzIGEgQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgZHVlIHRvIExpZ2h0bmluZy4gQUVNTyBjb25zaWRlcnMgdGhlIHNpbXVsdGFuZW91cyB0cmlwIG9mIHRoZSBmb2xsb3dpbmcgY2lyY3VpdHMgaXMgbm8gbG9uZ2VyIHJlYXNvbmFibHkgcG9zc2libGUuIFRoZXJlIGlzIG5vIGxvbmdlciBhbnkgbGlnaHRuaW5nIGFjdGl2aXR5IGluIHRoZSB2aWNpbml0eSBvZiB0aGUgZm9sbG93aW5nIGxpbmVzLiBBY2NvcmRpbmdseSBpdHMgY2xhc3NpZmljYXRpb24gaGFzIHJldmVydGVkIHRvIGEgbm9uLWNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFZJQzENCg0KTGluZXM6IEVpbGRvbiBQUyAtIE10IEJlYXV0eSBOby4xIDIyMCBrViBhbmQgRWlsZG9uIFBTIC0gTXQgQmVhdXR5IE5vLjIgMjIwIGtWDQoNCkNhbmNlbGxhdGlvbiB0aW1lOiAxMi8xMS8yMDIyIDIxOjM0DQoNCkNvbnN0cmFpbnQgc2V0KHMpIHJldm9rZWQ6IA0KTk9ORQ0KDQpSZWZlciBBRU1PIEVsZWN0cmljaXR5IE1hcmtldCBOb3RpY2UgMTAzMDYzDQoNCkF1dG8tZ2VuZXJhdGVkIG9uIGJlaGFsZiBvZiBNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw0="
+    },
+    {
+      "id": "103070",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-11-12T22:10:05+10:00",
+      "title": "Cancellation of the reclassification of a Non-Credible Contingency Event: Para-Templers West and Magill-Torrens Island A 275kV lines in SA due to severe weather warning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFLg0KDQpDYW5jZWxsYXRpb24gb2YgdGhlIHJlY2xhc3NpZmljYXRpb24gb2YgYSBub24tY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQgYXMgYSBjcmVkaWJsZSBjb250aW5nZW5jeSBldmVudCBkdWUgdG8gc2V2ZXJlIHdlYXRoZXIgd2FybmluZy4NCg0KQUVNTyBjb25zaWRlcnMgdGhlIHNpbXVsdGFuZW91cyB0cmlwIG9mIHRoZSBmb2xsb3dpbmcgY2lyY3VpdHMgaXMgbm8gbG9uZ2VyIHJlYXNvbmFibHkgcG9zc2libGUuIFRoZXJlIGlzIG5vIGxvbmdlciBhbnkgc2V2ZXJlIHdlYXRoZXIgd2FybmluZyBpbiB0aGUgdmljaW5pdHkgb2YgdGhlIGZvbGxvd2luZyBsaW5lcy4gQWNjb3JkaW5nbHksIGl0cyBjbGFzc2lmaWNhdGlvbiBoYXMgcmV2ZXJ0ZWQgdG8gYSBub24tY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQuDQoNClJlZ2lvbjogU0ENCg0KTGluZXM6IFBhcmEtVGVtcGxlcnMgV2VzdCBhbmQgTWFnaWxsLVRvcnJlbnMgSXNsYW5kIEEgMjc1a1YgbGluZXMNCiANCkNhbmNlbGxhdGlvbiB0aW1lOiAyMjowMCBocnMgMTIvMTEvMjAyMiANCkNvbnN0cmFpbnQgc2V0KHMpIHJldm9rZWQ6IE5pbA0KDQpSZWZlciBBRU1PIEVsZWN0cmljaXR5IE1hcmtldCBOb3RpY2UgMTAzMDQ2DQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25z"
+    },
+    {
+      "id": "103069",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-11-12T22:11:09+10:00",
+      "title": "Cancellation of the reclassification of a Non-Credible Contingency Event: Brinkworth-Davenport, Brinkworth-Templers West and Para-Templers West 275kV lines in SA due to severe weather warning .",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFLg0KDQpDYW5jZWxsYXRpb24gb2YgdGhlIHJlY2xhc3NpZmljYXRpb24gb2YgYSBub24tY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQgYXMgYSBjcmVkaWJsZSBjb250aW5nZW5jeSBldmVudCBkdWUgdG8gc2V2ZXJlIHdlYXRoZXIgd2FybmluZy4NCg0KQUVNTyBjb25zaWRlcnMgdGhlIHNpbXVsdGFuZW91cyB0cmlwIG9mIHRoZSBmb2xsb3dpbmcgY2lyY3VpdHMgaXMgbm8gbG9uZ2VyIHJlYXNvbmFibHkgcG9zc2libGUuIFRoZXJlIGlzIG5vIGxvbmdlciBhbnkgc2V2ZXJlIHdlYXRoZXIgd2FybmluZyBpbiB0aGUgdmljaW5pdHkgb2YgdGhlIGZvbGxvd2luZyBsaW5lcy4gQWNjb3JkaW5nbHksIGl0cyBjbGFzc2lmaWNhdGlvbiBoYXMgcmV2ZXJ0ZWQgdG8gYSBub24tY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQuDQoNClJlZ2lvbjogU0ENCg0KTGluZXM6IEJyaW5rd29ydGgtRGF2ZW5wb3J0LCBCcmlua3dvcnRoLVRlbXBsZXJzIFdlc3QgYW5kIFBhcmEtVGVtcGxlcnMgV2VzdCAyNzVrViBsaW5lcw0KIA0KQ2FuY2VsbGF0aW9uIHRpbWU6IDIyMDAgaHJzIDEyLzExLzIwMjIgDQpDb25zdHJhaW50IHNldChzKSByZXZva2VkOiBOaWwNCg0KUmVmZXIgQUVNTyBFbGVjdHJpY2l0eSBNYXJrZXQgTm90aWNlIDEwMzA0MA0KDQpNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw=="
+    },
+    {
+      "id": "103071",
+      "kind": "MARKET INTERVENTION",
+      "issued": "2022-11-12T22:26:48+10:00",
+      "title": "DPV Contingency 1 (DPVC1) in the SA Region on 13/11/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCkFFTU8gaGFzIGRldGVjdGVkIHRoZXJlIGlzIGFuIGVsZXZhdGVkIHJpc2sgb2YgdGhlIGNvbnRpbmdlbnQgZGlzY29ubmVjdGlvbiBvZiBEaXN0cmlidXRlZCBQViAoRFBWKSB3aXRoIHRoZSBsb3NzIG9mIHNjaGVkdWxlZCBnZW5lcmF0aW9uIGV4Y2VlZGluZyBzZWN1cmUgdGhyZXNob2xkcyBpbiB0aGUgU291dGggQXVzdHJhbGlhIHJlZ2lvbiBmcm9tIDA4MzAgaHJzIDEzLzExLzIwMjIgdG8gMTYzMCBocnMgMTMvMTEvMjAyMi4gVGhlIG1heGltdW0gZm9yZWNhc3QgRFBWIGNvbnRpbmdlbmN5IGlzIDI4NSBNVyBhdCAxMjMwIGFuZCB0aGUgc2VjdXJlIERQViBjb250aW5nZW5jeSB0aHJlc2hvbGQgaXMgODAgTVcuDQoNCkFFTU8gaXMgc2Vla2luZyBhIG1hcmtldCByZXNwb25zZS4gDQoNCkFuIGluc3VmZmljaWVudCBtYXJrZXQgcmVzcG9uc2UgbWF5IHJlcXVpcmUgQUVNTyB0byB0YWtlIGFjdGlvbiBvciBpbnRlcnZlbmUgdG8gbWFpbnRhaW4gcG93ZXIgc3lzdGVtIHNlY3VyaXR5IGluIFNvdXRoIEF1c3RyYWxpYS4gVGhpcyBtYXkgcmVzdWx0IGluIGFjdGlvbiBzdWNoIGFzIHRoZSBkaXJlY3Rpb24gb2Ygc2NoZWR1bGVkIGdlbmVyYXRpb24sIGN1cnRhaWxtZW50IG9mIG5vbi1zY2hlZHVsZWQgd2luZCBnZW5lcmF0aW9uLCBhbmQvb3IgYW4gaW5zdHJ1Y3Rpb24gdG8gbWFpbnRhaW4gRFBWIGdlbmVyYXRpb24gYmVsb3cgYSBzZWN1cmUgRFBWIGdlbmVyYXRpb24gdGhyZXNob2xkLg0KDQpBRU1PIGVzdGltYXRlcyB0aGUgbGF0ZXN0IHRpbWUgYXQgd2hpY2ggaXQgbWF5IG5lZWQgdG8gaW50ZXJ2ZW5lIHRocm91Z2ggYW4gQUVNTyBpbnRlcnZlbnRpb24gZXZlbnQgaXMgMDczMCBocnMgb24gMTMvMTEvMjAyMi4NCg0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnMNCg=="
+    },
+    {
+      "id": "103074",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-11-13T00:18:37+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Eildon PS - Mt Beauty No.1 220 kV line and Eildon PS - Mt Beauty No.2 220 kV line in VIC1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClJlY2xhc3NpZmljYXRpb24gb2YgYSBOb24tQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgYXMgYSBDcmVkaWJsZSBDb250aW5nZW5jeSBFdmVudCBkdWUgdG8gTGlnaHRuaW5nLiBBRU1PIGNvbnNpZGVycyB0aGUgc2ltdWx0YW5lb3VzIHRyaXAgb2YgdGhlIGZvbGxvd2luZyBjaXJjdWl0cyB0byBub3cgYmUgbW9yZSBsaWtlbHkgYW5kIHJlYXNvbmFibHkgcG9zc2libGUuIEFjY29yZGluZ2x5IEFFTU8gaGFzIHJlY2xhc3NpZmllZCBpdCBhcyBhIGNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFZJQzENCg0KTGluZXM6IEVpbGRvbiBQUyAtIE10IEJlYXV0eSBOby4xIDIyMCBrViBhbmQgRWlsZG9uIFBTIC0gTXQgQmVhdXR5IE5vLjIgMjIwIGtWDQoNCkR1cmF0aW9uOiAxMy8xMS8yMDIyIDAwOjE4IHVudGlsIGZ1cnRoZXIgbm90aWNlDQoNCkNvbnN0cmFpbnQgc2V0KHMpIGludm9rZWQ6DQpOT05FDQoNCkF1dG8tZ2VuZXJhdGVkIG9uIGJlaGFsZiBvZiBNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw0="
+    }
+  ]
+}

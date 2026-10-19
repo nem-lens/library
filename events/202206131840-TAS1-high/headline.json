@@ -1,0 +1,24 @@
+{
+  "schema": 2,
+  "event_id": "202206131840-TAS1-high",
+  "region": "TAS1",
+  "trading_day": "2022-06-13",
+  "start": "2022-06-13T18:40:00+10:00",
+  "end": "2022-06-13T19:35:00+10:00",
+  "duration_minutes": 60,
+  "peak_price": 12927.93,
+  "peak_at": "2022-06-13T19:20:00+10:00",
+  "mean_price": 10289.93,
+  "intervals_above_5000": 12,
+  "cost_to_load": 16314300.0,
+  "max_demand_mw": 1601.2,
+  "tags": [
+    "year:2022",
+    "season:winter",
+    "region:TAS1",
+    "severity:extreme",
+    "intervention:yes",
+    "settlement:5-minute",
+    "bids:no-band-availability"
+  ]
+}

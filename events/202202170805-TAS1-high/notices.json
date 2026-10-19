@@ -1,0 +1,33 @@
+{
+  "schema": 2,
+  "notices": [
+    {
+      "id": "94631",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-02-17T00:16:34+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Dederang - Glenrowan No.1 & No.3 220 kV Lines line and Numurkah Solar Farm line in VIC1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClJlY2xhc3NpZmljYXRpb24gb2YgYSBOb24tQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgYXMgYSBDcmVkaWJsZSBDb250aW5nZW5jeSBFdmVudCBkdWUgdG8gTGlnaHRuaW5nLiBBRU1PIGNvbnNpZGVycyB0aGUgc2ltdWx0YW5lb3VzIHRyaXAgb2YgdGhlIGZvbGxvd2luZyBjaXJjdWl0cyB0byBub3cgYmUgbW9yZSBsaWtlbHkgYW5kIHJlYXNvbmFibHkgcG9zc2libGUuIEFjY29yZGluZ2x5IEFFTU8gaGFzIHJlY2xhc3NpZmllZCBpdCBhcyBhIGNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFZJQzENCg0KTGluZXM6IERlZGVyYW5nIC0gR2xlbnJvd2FuIE5vLjEgJiBOby4zIDIyMCBrViBMaW5lcyBhbmQgTnVtdXJrYWggU29sYXIgRmFybQ0KDQpEdXJhdGlvbjogMTcvMDIvMjAyMiAwMDoxNiB1bnRpbCBmdXJ0aGVyIG5vdGljZQ0KDQpDb25zdHJhaW50IHNldChzKSBpbnZva2VkOg0KCQlWLU5JTF9EREdOX05TRl9OLTIgQ29uc3RyYWludCBzZXQgY29udGFpbnMgdGhlIGZvbGxvd2luZyBpbnRlcmNvbm5lY3RvcihzKSBvbiB0aGUgbGVmdCBoYW5kIHNpZGU6DQoJCQkJVi1TLU1OU1AxDQoJCQkJVklDMS1OU1cxDQoNCg0KQXV0by1nZW5lcmF0ZWQgb24gYmVoYWxmIG9mIE1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25zDQ=="
+    },
+    {
+      "id": "94632",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-02-17T00:34:07+10:00",
+      "title": "Cancellation of a Non-Credible Contingency Event: Hazelwood - Rowville No.1 220kV line and Hazelwood - Rowville No.2 220kV line in VIC1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCkNhbmNlbGxhdGlvbiBvZiByZWNsYXNzaWZpY2F0aW9uIG9mIGEgTm9uLUNyZWRpYmxlIENvbnRpbmdlbmN5IEV2ZW50IGFzIGEgQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgZHVlIHRvIExpZ2h0bmluZy4gQUVNTyBjb25zaWRlcnMgdGhlIHNpbXVsdGFuZW91cyB0cmlwIG9mIHRoZSBmb2xsb3dpbmcgY2lyY3VpdHMgaXMgbm8gbG9uZ2VyIHJlYXNvbmFibHkgcG9zc2libGUuIFRoZXJlIGlzIG5vIGxvbmdlciBhbnkgbGlnaHRuaW5nIGFjdGl2aXR5IGluIHRoZSB2aWNpbml0eSBvZiB0aGUgZm9sbG93aW5nIGxpbmVzLiBBY2NvcmRpbmdseSBpdHMgY2xhc3NpZmljYXRpb24gaGFzIHJldmVydGVkIHRvIGEgbm9uLWNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFZJQzENCg0KTGluZXM6IEhhemVsd29vZCAtIFJvd3ZpbGxlIE5vLjEgMjIwa1YgYW5kIEhhemVsd29vZCAtIFJvd3ZpbGxlIE5vLjIgMjIwa1YNCg0KQ2FuY2VsbGF0aW9uIHRpbWU6IDE3LzAyLzIwMjIgMDA6MzQNCg0KQ29uc3RyYWludCBzZXQocykgcmV2b2tlZDogDQoJCVYtSFdST19SX04tMiBDb25zdHJhaW50IHNldCBjb250YWlucyB0aGUgZm9sbG93aW5nIGludGVyY29ubmVjdG9yKHMpIG9uIHRoZSBsZWZ0IGhhbmQgc2lkZToNCgkJCQlOT05FDQoNCg0KUmVmZXIgQUVNTyBFbGVjdHJpY2l0eSBNYXJrZXQgTm90aWNlIDk0NjI5DQoNCkF1dG8tZ2VuZXJhdGVkIG9uIGJlaGFsZiBvZiBNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw0="
+    },
+    {
+      "id": "94633",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-02-17T01:19:11+10:00",
+      "title": "Cancellation of a Non-Credible Contingency Event: Dederang - Glenrowan No.1 & No.3 220 kV Lines line and Numurkah Solar Farm line in VIC1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCkNhbmNlbGxhdGlvbiBvZiByZWNsYXNzaWZpY2F0aW9uIG9mIGEgTm9uLUNyZWRpYmxlIENvbnRpbmdlbmN5IEV2ZW50IGFzIGEgQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgZHVlIHRvIExpZ2h0bmluZy4gQUVNTyBjb25zaWRlcnMgdGhlIHNpbXVsdGFuZW91cyB0cmlwIG9mIHRoZSBmb2xsb3dpbmcgY2lyY3VpdHMgaXMgbm8gbG9uZ2VyIHJlYXNvbmFibHkgcG9zc2libGUuIFRoZXJlIGlzIG5vIGxvbmdlciBhbnkgbGlnaHRuaW5nIGFjdGl2aXR5IGluIHRoZSB2aWNpbml0eSBvZiB0aGUgZm9sbG93aW5nIGxpbmVzLiBBY2NvcmRpbmdseSBpdHMgY2xhc3NpZmljYXRpb24gaGFzIHJldmVydGVkIHRvIGEgbm9uLWNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFZJQzENCg0KTGluZXM6IERlZGVyYW5nIC0gR2xlbnJvd2FuIE5vLjEgJiBOby4zIDIyMCBrViBMaW5lcyBhbmQgTnVtdXJrYWggU29sYXIgRmFybQ0KDQpDYW5jZWxsYXRpb24gdGltZTogMTcvMDIvMjAyMiAwMToxOQ0KDQpDb25zdHJhaW50IHNldChzKSByZXZva2VkOiANCgkJVi1OSUxfRERHTl9OU0ZfTi0yIENvbnN0cmFpbnQgc2V0IGNvbnRhaW5zIHRoZSBmb2xsb3dpbmcgaW50ZXJjb25uZWN0b3Iocykgb24gdGhlIGxlZnQgaGFuZCBzaWRlOg0KCQkJCVYtUy1NTlNQMQ0KCQkJCVZJQzEtTlNXMQ0KDQoNClJlZmVyIEFFTU8gRWxlY3RyaWNpdHkgTWFya2V0IE5vdGljZSA5NDYzMQ0KDQpBdXRvLWdlbmVyYXRlZCBvbiBiZWhhbGYgb2YgTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnMN"
+    },
+    {
+      "id": "94634",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-02-17T01:54:09+10:00",
+      "title": "Cancellation of a Non-Credible Contingency Event: Eildon PS - Mt Beauty No.1 220 kV line and Eildon PS - Mt Beauty No.2 220 kV line in VIC1 due to Lightning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCkNhbmNlbGxhdGlvbiBvZiByZWNsYXNzaWZpY2F0aW9uIG9mIGEgTm9uLUNyZWRpYmxlIENvbnRpbmdlbmN5IEV2ZW50IGFzIGEgQ3JlZGlibGUgQ29udGluZ2VuY3kgRXZlbnQgZHVlIHRvIExpZ2h0bmluZy4gQUVNTyBjb25zaWRlcnMgdGhlIHNpbXVsdGFuZW91cyB0cmlwIG9mIHRoZSBmb2xsb3dpbmcgY2lyY3VpdHMgaXMgbm8gbG9uZ2VyIHJlYXNvbmFibHkgcG9zc2libGUuIFRoZXJlIGlzIG5vIGxvbmdlciBhbnkgbGlnaHRuaW5nIGFjdGl2aXR5IGluIHRoZSB2aWNpbml0eSBvZiB0aGUgZm9sbG93aW5nIGxpbmVzLiBBY2NvcmRpbmdseSBpdHMgY2xhc3NpZmljYXRpb24gaGFzIHJldmVydGVkIHRvIGEgbm9uLWNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpSZWdpb246IFZJQzENCg0KTGluZXM6IEVpbGRvbiBQUyAtIE10IEJlYXV0eSBOby4xIDIyMCBrViBhbmQgRWlsZG9uIFBTIC0gTXQgQmVhdXR5IE5vLjIgMjIwIGtWDQoNCkNhbmNlbGxhdGlvbiB0aW1lOiAxNy8wMi8yMDIyIDAxOjU0DQoNCkNvbnN0cmFpbnQgc2V0KHMpIHJldm9rZWQ6IA0KTk9ORQ0KDQpSZWZlciBBRU1PIEVsZWN0cmljaXR5IE1hcmtldCBOb3RpY2UgOTQ2MzANCg0KQXV0by1nZW5lcmF0ZWQgb24gYmVoYWxmIG9mIE1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25zDQ=="
+    }
+  ]
+}

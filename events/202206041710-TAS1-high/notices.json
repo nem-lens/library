@@ -1,0 +1,40 @@
+{
+  "schema": 2,
+  "notices": [
+    {
+      "id": "96764",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-06-04T11:14:21+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Brinkworth-Davenport, Brinkworth-Templers West and Para-Templers West 275kV lines in SA due to severe weather warning.",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFLg0KDQpSZWNsYXNzaWZpY2F0aW9uIG9mIGEgbm9uLWNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50IGFzIGEgY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQgZHVlIHRvIHNldmVyZSB3ZWF0aGVyIHdhcm5pbmcuDQoNCkFFTU8gY29uc2lkZXJzIHRoZSBzaW11bHRhbmVvdXMgdHJpcCBvZiB0aGUgZm9sbG93aW5nIGNpcmN1aXRzIHRvIG5vdyBiZSBtb3JlIGxpa2VseSBhbmQgcmVhc29uYWJseSBwb3NzaWJsZS4gQWNjb3JkaW5nbHkgQUVNTyBoYXMgcmVjbGFzc2lmaWVkIGl0IGFzIGEgY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQuDQoNClJlZ2lvbjogU0ENCg0KTGluZXM6IEJyaW5rd29ydGgtRGF2ZW5wb3J0LCBCcmlua3dvcnRoLVRlbXBsZXJzIFdlc3QgYW5kIFBhcmEtVGVtcGxlcnMgV2VzdCAyNzVrViBsaW5lcw0KDQpEdXJhdGlvbjogMDQvMDYvMjAyMiAxMTE1IGhycyB1bnRpbCBmdXJ0aGVyIG5vdGljZQ0KDQpDb25zdHJhaW50IHNldChzKSBpbnZva2VkOiBOaWwNCg0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "96763",
+      "kind": "RECLASSIFY CONTINGENCY",
+      "issued": "2022-06-04T11:15:16+10:00",
+      "title": "Reclassification of a Non-Credible Contingency Event: Para-Templers West and Magill-Torrens Island A 275kV lines in SA due to severe weather warning",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFLg0KDQpSZWNsYXNzaWZpY2F0aW9uIG9mIGEgbm9uLWNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50IGFzIGEgY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQgZHVlIHRvIHNldmVyZSB3ZWF0aGVyIHdhcm5pbmcuDQoNCkFFTU8gY29uc2lkZXJzIHRoZSBzaW11bHRhbmVvdXMgdHJpcCBvZiB0aGUgZm9sbG93aW5nIGNpcmN1aXRzIHRvIG5vdyBiZSBtb3JlIGxpa2VseSBhbmQgcmVhc29uYWJseSBwb3NzaWJsZS4gQWNjb3JkaW5nbHkgQUVNTyBoYXMgcmVjbGFzc2lmaWVkIGl0IGFzIGEgY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQuDQoNClJlZ2lvbjogU0ENCg0KTGluZXM6IFBhcmEtVGVtcGxlcnMgV2VzdCBhbmQgTWFnaWxsLVRvcnJlbnMgSXNsYW5kIEEgMjc1a1YgbGluZXMNCg0KRHVyYXRpb246IDA0LzA2LzIwMjIgMTExNSBocnMgdW50aWwgZnVydGhlciBub3RpY2UNCg0KQ29uc3RyYWludCBzZXQocykgaW52b2tlZDogTmlsDQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25z"
+    },
+    {
+      "id": "96772",
+      "kind": "MARKET INTERVENTION",
+      "issued": "2022-06-04T16:07:44+10:00",
+      "title": "Update - Direction - SA Region - 03/06/2022",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClVwZGF0ZSAtIERpcmVjdGlvbiAtIFNBIFJlZ2lvbiAtIDAzLzA2LzIwMjINCg0KUmVmZXIgTWFya2V0IE5vdGljZSA5Njc1Ng0KDQpUaGUgQUVNTyBpbnRlcnZlbnRpb24gZXZlbnQgdGhhdCBjb21tZW5jZWQgZnJvbSBpbnRlcnZhbCBlbmRpbmcgMTcwNSBocnMgb24gMDMvMDYvMjAyMi5pcyBjb250aW51aW5nLg0KDQpBRU1PIG1heSBpc3N1ZSBvciByZXZva2UgYWRkaXRpb25hbCBkaXJlY3Rpb25zIGluIG9yZGVyIHRvIG1lZXQgdGhlIGN1cnJlbnQgcmVxdWlyZW1lbnQsIHVubGVzcyBzdWZmaWNpZW50IG1hcmtldCByZXNwb25zZSBpcyBwcm92aWRlZC4gQSBmdXJ0aGVyIG1hcmtldCBub3RpY2Ugd2lsbCBiZSBpc3N1ZWQgd2hlbiBhbGwgZGlyZWN0aW9ucyByZWxhdGVkIHRvIHRoaXMgcmVxdWlyZW1lbnQgaGF2ZSBiZWVuIGNhbmNlbGxlZC4gDQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25z"
+    },
+    {
+      "id": "96774",
+      "kind": "PRICES SUBJECT TO REVIEW",
+      "issued": "2022-06-04T17:50:24+10:00",
+      "title": "[EventId:202206041755_review] Prices for interval 04-Jun-2022 17:55 are subject to review",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCklzc3VlZCBieSBBdXN0cmFsaWFuIEVuZXJneSBNYXJrZXQgT3BlcmF0b3IgTHRkIGF0IDE3NTAgaHJzIG9uIDQgSnVuZSAyMDIyDQoNClBSSUNFUyBBUkUgU1VCSkVDVCBUTyBSRVZJRVcgZm9yIHRyYWRpbmcgaW50ZXJ2YWwgMDQtSnVuLTIwMjIgMTc6NTUuDQoNCkFFTU8gaXMgcmV2aWV3aW5nIHRoZXNlIHByaWNlcyBpbiBhY2NvcmRhbmNlIHdpdGg6DQogICAgLSBUaGUgT3Zlci1Db25zdHJhaW5lZCBEaXNwYXRjaCBwcm9jZXNzIHB1Ymxpc2hlZCBvbiB0aGUgQUVNTyB3ZWJzaXRlDQoNCg0KVGhpcyBpcyBhbiBBRU1PIGF1dG9nZW5lcmF0ZWQgTWFya2V0IE5vdGljZS4="
+    },
+    {
+      "id": "96773",
+      "kind": "MARKET INTERVENTION",
+      "issued": "2022-06-04T17:59:47+10:00",
+      "title": "Possible intervention to manage power system security in South Australia (SA) Region",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClBvc3NpYmxlIGludGVydmVudGlvbiB0byBtYW5hZ2UgcG93ZXIgc3lzdGVtIHNlY3VyaXR5IGluIFNvdXRoIEF1c3RyYWxpYSAoU0EpIFJlZ2lvbg0KDQpUaGUgc3luY2hyb25vdXMgZ2VuZXJhdGluZyB1bml0cyBjdXJyZW50bHkgZXhwZWN0ZWQgdG8gYmUgc3luY2hyb25pc2VkIGluIFNBIGZyb20gMDEzMCBocnMgMDYvMDYvMjAyMiB3aWxsIGJlIGluYWRlcXVhdGUgdG8gbWFpbnRhaW4gYSBzZWN1cmUgb3BlcmF0aW5nIHN0YXRlIGluIFNBLiANCg0KQUVNTyBtYXkgbmVlZCB0byBpbnRlcnZlbmUgYnkgaXNzdWluZyBhIGRpcmVjdGlvbiByZXF1aXJpbmcgb25lIG9yIG1vcmUgU0Egc3luY2hyb25vdXMgZ2VuZXJhdGluZyB1bml0KHMpIHRvIG9wZXJhdGUgb3IgcmVtYWluIHN5bmNocm9uaXNlZCB0byBtYWludGFpbiBwb3dlciBzeXN0ZW0gc2VjdXJpdHkgaW4gU0EuDQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb24="
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2022-12-23T12:45:00+10:00",
+    "2022-12-23T12:50:00+10:00",
+    "2022-12-23T12:55:00+10:00",
+    "2022-12-23T13:00:00+10:00",
+    "2022-12-23T13:05:00+10:00",
+    "2022-12-23T13:10:00+10:00",
+    "2022-12-23T13:15:00+10:00",
+    "2022-12-23T13:20:00+10:00",
+    "2022-12-23T13:25:00+10:00",
+    "2022-12-23T13:30:00+10:00",
+    "2022-12-23T13:35:00+10:00",
+    "2022-12-23T13:40:00+10:00",
+    "2022-12-23T13:45:00+10:00",
+    "2022-12-23T13:50:00+10:00",
+    "2022-12-23T13:55:00+10:00",
+    "2022-12-23T14:00:00+10:00",
+    "2022-12-23T14:05:00+10:00",
+    "2022-12-23T14:10:00+10:00",
+    "2022-12-23T14:15:00+10:00",
+    "2022-12-23T14:20:00+10:00",
+    "2022-12-23T14:25:00+10:00",
+    "2022-12-23T14:30:00+10:00",
+    "2022-12-23T14:35:00+10:00",
+    "2022-12-23T14:40:00+10:00",
+    "2022-12-23T14:45:00+10:00",
+    "2022-12-23T14:50:00+10:00",
+    "2022-12-23T14:55:00+10:00",
+    "2022-12-23T15:00:00+10:00",
+    "2022-12-23T15:05:00+10:00",
+    "2022-12-23T15:10:00+10:00",
+    "2022-12-23T15:15:00+10:00",
+    "2022-12-23T15:20:00+10:00",
+    "2022-12-23T15:25:00+10:00",
+    "2022-12-23T15:30:00+10:00",
+    "2022-12-23T15:35:00+10:00",
+    "2022-12-23T15:40:00+10:00",
+    "2022-12-23T15:45:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "TVCC201",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 208.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-12-23T14:20:38+10:00",
+          "explanation": "Price < forecast: VIC"
+        },
+        {
+          "offer_time": "2022-12-23T14:43:57+10:00",
+          "explanation": "FCAS price > forecast: TAS RREG"
+        },
+        {
+          "offer_time": "2022-12-23T14:53:57+10:00",
+          "explanation": "FCAS price different from forecast: TAS RREG +SL"
+        },
+        {
+          "offer_time": "2022-12-23T15:15:19+10:00",
+          "explanation": "Price different from forecast: VIC P5min & P30"
+        },
+        {
+          "offer_time": "2022-12-23T15:37:07+10:00",
+          "explanation": "Lake level > forecast: Liapootah"
+        }
+      ]
+    },
+    {
+      "duid": "GORDON",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 450.0,
+      "availability": [
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-12-23T14:20:38+10:00",
+          "explanation": "Price < forecast: VIC"
+        },
+        {
+          "offer_time": "2022-12-23T14:43:57+10:00",
+          "explanation": "FCAS price > forecast: TAS RREG"
+        },
+        {
+          "offer_time": "2022-12-23T14:53:57+10:00",
+          "explanation": "FCAS price different from forecast: TAS RREG +SL"
+        },
+        {
+          "offer_time": "2022-12-23T15:15:19+10:00",
+          "explanation": "Price different from forecast: VIC P5min & P30"
+        },
+        {
+          "offer_time": "2022-12-23T15:37:07+10:00",
+          "explanation": "Lake level > forecast: Liapootah"
+        }
+      ]
+    },
+    {
+      "duid": "BBTHREE1",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 49.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-12-23T14:20:38+10:00",
+          "explanation": "Price < forecast: VIC"
+        },
+        {
+          "offer_time": "2022-12-23T14:43:57+10:00",
+          "explanation": "FCAS price > forecast: TAS RREG"
+        },
+        {
+          "offer_time": "2022-12-23T14:53:57+10:00",
+          "explanation": "FCAS price different from forecast: TAS RREG +SL"
+        },
+        {
+          "offer_time": "2022-12-23T15:15:19+10:00",
+          "explanation": "Price different from forecast: VIC P5min & P30"
+        },
+        {
+          "offer_time": "2022-12-23T15:37:07+10:00",
+          "explanation": "Lake level > forecast: Liapootah"
+        }
+      ]
+    },
+    {
+      "duid": "TARRALEA",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 94.0,
+      "availability": [
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0,
+        48.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-12-23T14:20:38+10:00",
+          "explanation": "Price < forecast: VIC +UNMANNED"
+        },
+        {
+          "offer_time": "2022-12-23T14:43:57+10:00",
+          "explanation": "FCAS price > forecast: TAS RREG +UNMANNED"
+        },
+        {
+          "offer_time": "2022-12-23T14:53:57+10:00",
+          "explanation": "FCAS price different from forecast: TAS RREG +SL +UNMANNED"
+        },
+        {
+          "offer_time": "2022-12-23T15:15:19+10:00",
+          "explanation": "Price different from forecast: VIC P5min & P30 +UNMANNED"
+        },
+        {
+          "offer_time": "2022-12-23T15:37:07+10:00",
+          "explanation": "Lake level > forecast: Liapootah +UNMANNED"
+        }
+      ]
+    },
+    {
+      "duid": "LK_ECHO",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 34.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-12-23T14:20:38+10:00",
+          "explanation": "Price < forecast: VIC +UNMANNED"
+        },
+        {
+          "offer_time": "2022-12-23T14:43:57+10:00",
+          "explanation": "FCAS price > forecast: TAS RREG +UNMANNED"
+        },
+        {
+          "offer_time": "2022-12-23T14:53:57+10:00",
+          "explanation": "FCAS price different from forecast: TAS RREG +SL +UNMANNED"
+        },
+        {
+          "offer_time": "2022-12-23T15:15:19+10:00",
+          "explanation": "Price different from forecast: VIC P5min & P30 +UNMANNED"
+        },
+        {
+          "offer_time": "2022-12-23T15:37:07+10:00",
+          "explanation": "Lake level > forecast: Liapootah +UNMANNED"
+        }
+      ]
+    },
+    {
+      "duid": "LEM_WIL",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 87.0,
+      "availability": [
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0,
+        54.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-12-23T14:20:38+10:00",
+          "explanation": "Price < forecast: VIC"
+        },
+        {
+          "offer_time": "2022-12-23T14:43:57+10:00",
+          "explanation": "FCAS price > forecast: TAS RREG"
+        },
+        {
+          "offer_time": "2022-12-23T14:53:57+10:00",
+          "explanation": "FCAS price different from forecast: TAS RREG +SL"
+        },
+        {
+          "offer_time": "2022-12-23T15:15:19+10:00",
+          "explanation": "Price different from forecast: VIC P5min & P30"
+        },
+        {
+          "offer_time": "2022-12-23T15:37:07+10:00",
+          "explanation": "Lake level > forecast: Liapootah"
+        }
+      ]
+    }
+  ]
+}

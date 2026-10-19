@@ -1,0 +1,520 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2022-10-22T05:50:00+10:00",
+    "2022-10-22T05:55:00+10:00",
+    "2022-10-22T06:00:00+10:00",
+    "2022-10-22T06:05:00+10:00",
+    "2022-10-22T06:10:00+10:00",
+    "2022-10-22T06:15:00+10:00",
+    "2022-10-22T06:20:00+10:00",
+    "2022-10-22T06:25:00+10:00",
+    "2022-10-22T06:30:00+10:00",
+    "2022-10-22T06:35:00+10:00",
+    "2022-10-22T06:40:00+10:00",
+    "2022-10-22T06:45:00+10:00",
+    "2022-10-22T06:50:00+10:00",
+    "2022-10-22T06:55:00+10:00",
+    "2022-10-22T07:00:00+10:00",
+    "2022-10-22T07:05:00+10:00",
+    "2022-10-22T07:10:00+10:00",
+    "2022-10-22T07:15:00+10:00",
+    "2022-10-22T07:20:00+10:00",
+    "2022-10-22T07:25:00+10:00",
+    "2022-10-22T07:30:00+10:00",
+    "2022-10-22T07:35:00+10:00",
+    "2022-10-22T07:40:00+10:00",
+    "2022-10-22T07:45:00+10:00",
+    "2022-10-22T07:50:00+10:00",
+    "2022-10-22T07:55:00+10:00",
+    "2022-10-22T08:00:00+10:00",
+    "2022-10-22T08:05:00+10:00",
+    "2022-10-22T08:10:00+10:00",
+    "2022-10-22T08:15:00+10:00",
+    "2022-10-22T08:20:00+10:00",
+    "2022-10-22T08:25:00+10:00",
+    "2022-10-22T08:30:00+10:00",
+    "2022-10-22T08:35:00+10:00",
+    "2022-10-22T08:40:00+10:00",
+    "2022-10-22T08:45:00+10:00",
+    "2022-10-22T08:50:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "TVCC201",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 208.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-10-22T07:53:40+10:00",
+          "explanation": "Early RTS: Devils_G"
+        },
+        {
+          "offer_time": "2022-10-22T08:14:13+10:00",
+          "explanation": "Price < forecast: VIC P5min and P30."
+        },
+        {
+          "offer_time": "2022-10-22T08:15:09+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6"
+        },
+        {
+          "offer_time": "2022-10-22T08:36:21+10:00",
+          "explanation": "Change in outage schedule: Cethana screen cleaning required."
+        },
+        {
+          "offer_time": "2022-10-22T08:47:32+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6"
+        }
+      ]
+    },
+    {
+      "duid": "POAT220",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 248.0,
+      "availability": [
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-10-22T08:14:13+10:00",
+          "explanation": "Price < forecast: VIC P5min and P30.  +ctl isue"
+        },
+        {
+          "offer_time": "2022-10-22T08:15:09+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6 +ctl isue"
+        },
+        {
+          "offer_time": "2022-10-22T08:22:05+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6  +ctl isue"
+        },
+        {
+          "offer_time": "2022-10-22T08:36:21+10:00",
+          "explanation": "Change in outage schedule: Cethana screen cleaning required.  +ctl isue"
+        },
+        {
+          "offer_time": "2022-10-22T08:47:32+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6 +ctl isue"
+        }
+      ]
+    },
+    {
+      "duid": "GORDON",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 450.0,
+      "availability": [
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-10-22T07:53:40+10:00",
+          "explanation": "Early RTS: Devils_G"
+        },
+        {
+          "offer_time": "2022-10-22T08:14:13+10:00",
+          "explanation": "Price < forecast: VIC P5min and P30."
+        },
+        {
+          "offer_time": "2022-10-22T08:15:09+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6"
+        },
+        {
+          "offer_time": "2022-10-22T08:36:21+10:00",
+          "explanation": "Change in outage schedule: Cethana screen cleaning required."
+        },
+        {
+          "offer_time": "2022-10-22T08:47:32+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6"
+        }
+      ]
+    },
+    {
+      "duid": "POAT110",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 124.0,
+      "availability": [
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-10-22T07:53:40+10:00",
+          "explanation": "Early RTS: Devils_G"
+        },
+        {
+          "offer_time": "2022-10-22T08:14:13+10:00",
+          "explanation": "Price < forecast: VIC P5min and P30."
+        },
+        {
+          "offer_time": "2022-10-22T08:15:09+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6"
+        },
+        {
+          "offer_time": "2022-10-22T08:36:21+10:00",
+          "explanation": "Change in outage schedule: Cethana screen cleaning required."
+        },
+        {
+          "offer_time": "2022-10-22T08:47:32+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6"
+        }
+      ]
+    },
+    {
+      "duid": "BBTHREE1",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 49.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        25.0,
+        25.0,
+        0.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0,
+        25.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-10-22T07:53:40+10:00",
+          "explanation": "Early RTS: Devils_G"
+        },
+        {
+          "offer_time": "2022-10-22T08:14:13+10:00",
+          "explanation": "Price < forecast: VIC P5min and P30."
+        },
+        {
+          "offer_time": "2022-10-22T08:15:09+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6"
+        },
+        {
+          "offer_time": "2022-10-22T08:36:21+10:00",
+          "explanation": "Change in outage schedule: Cethana screen cleaning required."
+        },
+        {
+          "offer_time": "2022-10-22T08:47:32+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6"
+        }
+      ]
+    },
+    {
+      "duid": "TARRALEA",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 94.0,
+      "availability": [
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0,
+        55.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-10-22T08:14:13+10:00",
+          "explanation": "Price < forecast: VIC P5min and P30.  +UNMANNED"
+        },
+        {
+          "offer_time": "2022-10-22T08:15:09+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6 +UNMANNED"
+        },
+        {
+          "offer_time": "2022-10-22T08:22:05+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6  +UNMANNED"
+        },
+        {
+          "offer_time": "2022-10-22T08:36:21+10:00",
+          "explanation": "Change in outage schedule: Cethana screen cleaning required.  +UNMANNED"
+        },
+        {
+          "offer_time": "2022-10-22T08:47:32+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6 +UNMANNED"
+        }
+      ]
+    },
+    {
+      "duid": "LK_ECHO",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 34.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-10-22T08:14:13+10:00",
+          "explanation": "Price < forecast: VIC P5min and P30.  +UNMANNED"
+        },
+        {
+          "offer_time": "2022-10-22T08:15:09+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6 +UNMANNED"
+        },
+        {
+          "offer_time": "2022-10-22T08:22:05+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6  +UNMANNED"
+        },
+        {
+          "offer_time": "2022-10-22T08:36:21+10:00",
+          "explanation": "Change in outage schedule: Cethana screen cleaning required.  +UNMANNED"
+        },
+        {
+          "offer_time": "2022-10-22T08:47:32+10:00",
+          "explanation": "FCAS requirement > forecast: TAS R6 +UNMANNED"
+        }
+      ]
+    }
+  ]
+}

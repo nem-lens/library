@@ -1,0 +1,25 @@
+{
+  "schema": 2,
+  "event_id": "202106101700-QLD1-high",
+  "region": "QLD1",
+  "trading_day": "2021-06-10",
+  "start": "2021-06-10T17:00:00+10:00",
+  "end": "2021-06-10T19:05:00+10:00",
+  "duration_minutes": 130,
+  "peak_price": 15000.0,
+  "peak_at": "2021-06-10T17:55:00+10:00",
+  "mean_price": 5099.32,
+  "intervals_above_5000": 9,
+  "cost_to_load": 84950296.0,
+  "max_demand_mw": 7931.4,
+  "tags": [
+    "year:2021",
+    "season:winter",
+    "region:QLD1",
+    "severity:cap",
+    "price:at-cap",
+    "price:negative",
+    "settlement:30-minute",
+    "bids:no-band-availability"
+  ]
+}

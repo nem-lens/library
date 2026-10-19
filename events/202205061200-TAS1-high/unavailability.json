@@ -1,0 +1,656 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2022-05-06T10:00:00+10:00",
+    "2022-05-06T10:05:00+10:00",
+    "2022-05-06T10:10:00+10:00",
+    "2022-05-06T10:15:00+10:00",
+    "2022-05-06T10:20:00+10:00",
+    "2022-05-06T10:25:00+10:00",
+    "2022-05-06T10:30:00+10:00",
+    "2022-05-06T10:35:00+10:00",
+    "2022-05-06T10:40:00+10:00",
+    "2022-05-06T10:45:00+10:00",
+    "2022-05-06T10:50:00+10:00",
+    "2022-05-06T10:55:00+10:00",
+    "2022-05-06T11:00:00+10:00",
+    "2022-05-06T11:05:00+10:00",
+    "2022-05-06T11:10:00+10:00",
+    "2022-05-06T11:15:00+10:00",
+    "2022-05-06T11:20:00+10:00",
+    "2022-05-06T11:25:00+10:00",
+    "2022-05-06T11:30:00+10:00",
+    "2022-05-06T11:35:00+10:00",
+    "2022-05-06T11:40:00+10:00",
+    "2022-05-06T11:45:00+10:00",
+    "2022-05-06T11:50:00+10:00",
+    "2022-05-06T11:55:00+10:00",
+    "2022-05-06T12:00:00+10:00",
+    "2022-05-06T12:05:00+10:00",
+    "2022-05-06T12:10:00+10:00",
+    "2022-05-06T12:15:00+10:00",
+    "2022-05-06T12:20:00+10:00",
+    "2022-05-06T12:25:00+10:00",
+    "2022-05-06T12:30:00+10:00",
+    "2022-05-06T12:35:00+10:00",
+    "2022-05-06T12:40:00+10:00",
+    "2022-05-06T12:45:00+10:00",
+    "2022-05-06T12:50:00+10:00",
+    "2022-05-06T12:55:00+10:00",
+    "2022-05-06T13:00:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "TVCC201",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 208.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-05-06T11:22:44+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2022-05-06T11:45:39+10:00",
+          "explanation": "Inflows > Fcast: Tarra #2 pond"
+        },
+        {
+          "offer_time": "2022-05-06T11:57:16+10:00",
+          "explanation": "Change in Tas wind forecast"
+        },
+        {
+          "offer_time": "2022-05-06T11:59:42+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-05-06T12:09:12+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "GORDON",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 450.0,
+      "availability": [
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0,
+        345.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-05-06T11:22:44+10:00",
+          "explanation": "Demand different from forecast: TAS +ENV CNST"
+        },
+        {
+          "offer_time": "2022-05-06T11:45:39+10:00",
+          "explanation": "Inflows > Fcast: Tarra #2 pond +ENV CNST"
+        },
+        {
+          "offer_time": "2022-05-06T11:57:16+10:00",
+          "explanation": "Change in Tas wind forecast +ENV CNST"
+        },
+        {
+          "offer_time": "2022-05-06T11:59:42+10:00",
+          "explanation": "Machine target different to expectation +ENV CNST"
+        },
+        {
+          "offer_time": "2022-05-06T12:09:12+10:00",
+          "explanation": "Price different from forecast: VIC +ENV CNST"
+        }
+      ]
+    },
+    {
+      "duid": "CETHANA",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 100.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-05-06T11:22:44+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2022-05-06T11:45:39+10:00",
+          "explanation": "Inflows > Fcast: Tarra #2 pond"
+        },
+        {
+          "offer_time": "2022-05-06T11:57:16+10:00",
+          "explanation": "Change in Tas wind forecast"
+        },
+        {
+          "offer_time": "2022-05-06T11:59:42+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-05-06T12:09:12+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "POAT110",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 124.0,
+      "availability": [
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-05-06T11:22:44+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2022-05-06T11:45:39+10:00",
+          "explanation": "Inflows > Fcast: Tarra #2 pond"
+        },
+        {
+          "offer_time": "2022-05-06T11:57:16+10:00",
+          "explanation": "Change in Tas wind forecast"
+        },
+        {
+          "offer_time": "2022-05-06T11:59:42+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-05-06T12:09:12+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "LI_WY_CA",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 192.0,
+      "availability": [
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0,
+        134.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-05-06T11:22:44+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2022-05-06T11:45:39+10:00",
+          "explanation": "Inflows > Fcast: Tarra #2 pond"
+        },
+        {
+          "offer_time": "2022-05-06T11:57:16+10:00",
+          "explanation": "Change in Tas wind forecast"
+        },
+        {
+          "offer_time": "2022-05-06T11:59:42+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-05-06T12:09:12+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "LEM_WIL",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 87.0,
+      "availability": [
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-05-06T11:22:44+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2022-05-06T11:45:39+10:00",
+          "explanation": "Inflows > Fcast: Tarra #2 pond"
+        },
+        {
+          "offer_time": "2022-05-06T11:57:16+10:00",
+          "explanation": "Change in Tas wind forecast"
+        },
+        {
+          "offer_time": "2022-05-06T11:59:42+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-05-06T12:09:12+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "TREVALLN",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 107.0,
+      "availability": [
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-05-06T11:22:44+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2022-05-06T11:45:39+10:00",
+          "explanation": "Inflows > Fcast: Tarra #2 pond"
+        },
+        {
+          "offer_time": "2022-05-06T11:57:16+10:00",
+          "explanation": "Change in Tas wind forecast"
+        },
+        {
+          "offer_time": "2022-05-06T11:59:42+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-05-06T12:09:12+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    },
+    {
+      "duid": "LK_ECHO",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 34.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2022-05-06T11:22:44+10:00",
+          "explanation": "Demand different from forecast: TAS +UNMANNED"
+        },
+        {
+          "offer_time": "2022-05-06T11:45:39+10:00",
+          "explanation": "Inflows > Fcast: Tarra #2 pond +UNMANNED"
+        },
+        {
+          "offer_time": "2022-05-06T11:57:16+10:00",
+          "explanation": "Change in Tas wind forecast +UNMANNED"
+        },
+        {
+          "offer_time": "2022-05-06T11:59:42+10:00",
+          "explanation": "Machine target different to expectation +UNMANNED"
+        },
+        {
+          "offer_time": "2022-05-06T12:09:12+10:00",
+          "explanation": "Price different from forecast: VIC +UNMANNED"
+        }
+      ]
+    },
+    {
+      "duid": "TVPP104",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 58.0,
+      "availability": [
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2022-05-06T11:22:44+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2022-05-06T11:45:39+10:00",
+          "explanation": "Inflows > Fcast: Tarra #2 pond"
+        },
+        {
+          "offer_time": "2022-05-06T11:57:16+10:00",
+          "explanation": "Change in Tas wind forecast"
+        },
+        {
+          "offer_time": "2022-05-06T11:59:42+10:00",
+          "explanation": "Machine target different to expectation"
+        },
+        {
+          "offer_time": "2022-05-06T12:09:12+10:00",
+          "explanation": "Price different from forecast: VIC"
+        }
+      ]
+    }
+  ]
+}

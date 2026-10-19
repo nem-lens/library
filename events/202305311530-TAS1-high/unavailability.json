@@ -1,0 +1,452 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2023-05-31T13:30:00+10:00",
+    "2023-05-31T13:35:00+10:00",
+    "2023-05-31T13:40:00+10:00",
+    "2023-05-31T13:45:00+10:00",
+    "2023-05-31T13:50:00+10:00",
+    "2023-05-31T13:55:00+10:00",
+    "2023-05-31T14:00:00+10:00",
+    "2023-05-31T14:05:00+10:00",
+    "2023-05-31T14:10:00+10:00",
+    "2023-05-31T14:15:00+10:00",
+    "2023-05-31T14:20:00+10:00",
+    "2023-05-31T14:25:00+10:00",
+    "2023-05-31T14:30:00+10:00",
+    "2023-05-31T14:35:00+10:00",
+    "2023-05-31T14:40:00+10:00",
+    "2023-05-31T14:45:00+10:00",
+    "2023-05-31T14:50:00+10:00",
+    "2023-05-31T14:55:00+10:00",
+    "2023-05-31T15:00:00+10:00",
+    "2023-05-31T15:05:00+10:00",
+    "2023-05-31T15:10:00+10:00",
+    "2023-05-31T15:15:00+10:00",
+    "2023-05-31T15:20:00+10:00",
+    "2023-05-31T15:25:00+10:00",
+    "2023-05-31T15:30:00+10:00",
+    "2023-05-31T15:35:00+10:00",
+    "2023-05-31T15:40:00+10:00",
+    "2023-05-31T15:45:00+10:00",
+    "2023-05-31T15:50:00+10:00",
+    "2023-05-31T15:55:00+10:00",
+    "2023-05-31T16:00:00+10:00",
+    "2023-05-31T16:05:00+10:00",
+    "2023-05-31T16:10:00+10:00",
+    "2023-05-31T16:15:00+10:00",
+    "2023-05-31T16:20:00+10:00",
+    "2023-05-31T16:25:00+10:00",
+    "2023-05-31T16:30:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "GORDON",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 450.0,
+      "availability": [
+        130.0,
+        112.0,
+        112.0,
+        112.0,
+        112.0,
+        75.0,
+        75.0,
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        130.0,
+        130.0,
+        130.0,
+        130.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        105.0,
+        105.0,
+        105.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-05-31T15:28:52+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6"
+        },
+        {
+          "offer_time": "2023-05-31T16:14:20+10:00",
+          "explanation": "Change in outage schedule: GORDON"
+        },
+        {
+          "offer_time": "2023-05-31T16:22:06+10:00",
+          "explanation": "FCAS availability different to forecast: TAS R6"
+        },
+        {
+          "offer_time": "2023-05-31T16:27:19+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2023-05-31T16:28:29+10:00",
+          "explanation": "Lake level different from forecast: Catagunya"
+        }
+      ]
+    },
+    {
+      "duid": "TVCC201",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 208.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2023-05-31T15:28:52+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6"
+        },
+        {
+          "offer_time": "2023-05-31T16:14:20+10:00",
+          "explanation": "Change in outage schedule: GORDON"
+        },
+        {
+          "offer_time": "2023-05-31T16:22:06+10:00",
+          "explanation": "FCAS availability different to forecast: TAS R6"
+        },
+        {
+          "offer_time": "2023-05-31T16:27:19+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2023-05-31T16:28:29+10:00",
+          "explanation": "Lake level different from forecast: Catagunya"
+        }
+      ]
+    },
+    {
+      "duid": "JBUTTERS",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 144.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2023-05-31T15:28:52+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6"
+        },
+        {
+          "offer_time": "2023-05-31T16:14:20+10:00",
+          "explanation": "Change in outage schedule: GORDON"
+        },
+        {
+          "offer_time": "2023-05-31T16:22:06+10:00",
+          "explanation": "FCAS availability different to forecast: TAS R6"
+        },
+        {
+          "offer_time": "2023-05-31T16:27:19+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2023-05-31T16:28:29+10:00",
+          "explanation": "Lake level different from forecast: Catagunya"
+        }
+      ]
+    },
+    {
+      "duid": "LK_ECHO",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 34.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2023-05-31T15:28:52+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6 +UNMANNED"
+        },
+        {
+          "offer_time": "2023-05-31T16:14:20+10:00",
+          "explanation": "Change in outage schedule: GORDON +UNMANNED"
+        },
+        {
+          "offer_time": "2023-05-31T16:22:06+10:00",
+          "explanation": "FCAS availability different to forecast: TAS R6 +UNMANNED"
+        },
+        {
+          "offer_time": "2023-05-31T16:27:19+10:00",
+          "explanation": "Demand different from forecast: TAS +UNMANNED"
+        },
+        {
+          "offer_time": "2023-05-31T16:28:29+10:00",
+          "explanation": "Lake level different from forecast: Catagunya +UNMANNED"
+        }
+      ]
+    },
+    {
+      "duid": "TARRALEA",
+      "region": "TAS1",
+      "fuel": "hydro",
+      "capacity_mw": 94.0,
+      "availability": [
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0,
+        61.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-05-31T15:28:52+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6 +UNMANNED"
+        },
+        {
+          "offer_time": "2023-05-31T16:14:20+10:00",
+          "explanation": "Change in outage schedule: GORDON +UNMANNED"
+        },
+        {
+          "offer_time": "2023-05-31T16:22:06+10:00",
+          "explanation": "FCAS availability different to forecast: TAS R6 +UNMANNED"
+        },
+        {
+          "offer_time": "2023-05-31T16:27:19+10:00",
+          "explanation": "Demand different from forecast: TAS +UNMANNED"
+        },
+        {
+          "offer_time": "2023-05-31T16:28:29+10:00",
+          "explanation": "Lake level different from forecast: Catagunya +UNMANNED"
+        }
+      ]
+    },
+    {
+      "duid": "TVPP104",
+      "region": "TAS1",
+      "fuel": "gas",
+      "capacity_mw": 58.0,
+      "availability": [
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        0.0,
+        0.0,
+        0.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2023-05-31T15:28:52+10:00",
+          "explanation": "FCAS availability < forecast: TAS R6"
+        },
+        {
+          "offer_time": "2023-05-31T16:14:20+10:00",
+          "explanation": "Change in outage schedule: GORDON"
+        },
+        {
+          "offer_time": "2023-05-31T16:22:06+10:00",
+          "explanation": "FCAS availability different to forecast: TAS R6"
+        },
+        {
+          "offer_time": "2023-05-31T16:27:19+10:00",
+          "explanation": "Demand different from forecast: TAS"
+        },
+        {
+          "offer_time": "2023-05-31T16:28:29+10:00",
+          "explanation": "Lake level different from forecast: Catagunya"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,845 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2021-12-17T22:50:00+10:00",
+    "2021-12-17T22:55:00+10:00",
+    "2021-12-17T23:00:00+10:00",
+    "2021-12-17T23:05:00+10:00",
+    "2021-12-17T23:10:00+10:00",
+    "2021-12-17T23:15:00+10:00",
+    "2021-12-17T23:20:00+10:00",
+    "2021-12-17T23:25:00+10:00",
+    "2021-12-17T23:30:00+10:00",
+    "2021-12-17T23:35:00+10:00",
+    "2021-12-17T23:40:00+10:00",
+    "2021-12-17T23:45:00+10:00",
+    "2021-12-17T23:50:00+10:00",
+    "2021-12-17T23:55:00+10:00",
+    "2021-12-18T00:00:00+10:00",
+    "2021-12-18T00:05:00+10:00",
+    "2021-12-18T00:10:00+10:00",
+    "2021-12-18T00:15:00+10:00",
+    "2021-12-18T00:20:00+10:00",
+    "2021-12-18T00:25:00+10:00",
+    "2021-12-18T00:30:00+10:00",
+    "2021-12-18T00:35:00+10:00",
+    "2021-12-18T00:40:00+10:00",
+    "2021-12-18T00:45:00+10:00",
+    "2021-12-18T00:50:00+10:00",
+    "2021-12-18T00:55:00+10:00",
+    "2021-12-18T01:00:00+10:00",
+    "2021-12-18T01:05:00+10:00",
+    "2021-12-18T01:10:00+10:00",
+    "2021-12-18T01:15:00+10:00",
+    "2021-12-18T01:20:00+10:00",
+    "2021-12-18T01:25:00+10:00",
+    "2021-12-18T01:30:00+10:00",
+    "2021-12-18T01:35:00+10:00",
+    "2021-12-18T01:40:00+10:00",
+    "2021-12-18T01:45:00+10:00",
+    "2021-12-18T01:50:00+10:00",
+    "2021-12-18T01:55:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "PPCCGT",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 522.0,
+      "availability": [
+        229.0,
+        229.0,
+        229.0,
+        229.0,
+        229.0,
+        229.0,
+        229.0,
+        229.0,
+        229.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        220.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        220.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        230.0,
+        238.0,
+        238.0,
+        238.0,
+        238.0,
+        238.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2021-12-18T00:13:22+10:00",
+          "explanation": "Response to 5MPD forecast price of $348 from DI 0035 to 0100. SL."
+        },
+        {
+          "offer_time": "2021-12-18T00:32:58+10:00",
+          "explanation": "Update Avail: evap cooler operation. SL."
+        },
+        {
+          "offer_time": "2021-12-18T00:39:39+10:00",
+          "explanation": "Response to 5 MPD forecast price of $379.78 from DI 0105 to DI 0130. SL."
+        },
+        {
+          "offer_time": "2021-12-18T01:18:02+10:00",
+          "explanation": "Constraint Management: V_S_NIL_ROCOF. SL."
+        },
+        {
+          "offer_time": "2021-12-18T01:26:34+10:00",
+          "explanation": "Update ROC-Down following cancellation of low load. SL."
+        }
+      ]
+    },
+    {
+      "duid": "TORRB1",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 210.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2021-12-02T01:30:12+10:00",
+          "explanation": "01:30~A~Initial Bid~OPT_R24"
+        },
+        {
+          "offer_time": "2021-12-08T09:06:16+10:00",
+          "explanation": "00 Initial Bid"
+        },
+        {
+          "offer_time": "2021-12-16T13:55:02+10:00",
+          "explanation": "12:31~F~001 Primary Response to D+1 Predispatch"
+        }
+      ]
+    },
+    {
+      "duid": "TORRB3",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 210.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2021-12-09T10:56:41+10:00",
+          "explanation": "00 Initial Bid"
+        },
+        {
+          "offer_time": "2021-12-16T13:55:02+10:00",
+          "explanation": "12:31~F~001 Primary Response to D+1 Predispatch"
+        },
+        {
+          "offer_time": "2021-12-16T16:41:25+10:00",
+          "explanation": "16:30~A~010 AEMO direction~10 +redistribute across portfoli"
+        },
+        {
+          "offer_time": "2021-12-17T06:33:21+10:00",
+          "explanation": "010 Unexpected/plant limits~108 load/ramp variation during RTS"
+        },
+        {
+          "offer_time": "2021-12-17T13:20:28+10:00",
+          "explanation": "020 Reduction in avail cap~206 run-up problems"
+        }
+      ]
+    },
+    {
+      "duid": "TORRB4",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 210.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2021-12-09T06:11:21+10:00",
+          "explanation": "00 Initial Bid"
+        },
+        {
+          "offer_time": "2021-12-16T13:55:02+10:00",
+          "explanation": "12:31~F~001 Primary Response to D+1 Predispatch"
+        },
+        {
+          "offer_time": "2021-12-16T16:41:25+10:00",
+          "explanation": "16:30~A~010 AEMO direction~10 +redistribute across portfoli"
+        },
+        {
+          "offer_time": "2021-12-17T16:33:33+10:00",
+          "explanation": "010 AEMO direction~MN#93228"
+        },
+        {
+          "offer_time": "2021-12-17T17:57:06+10:00",
+          "explanation": "010 AEMO direction~Direction cancelled MN#93231"
+        }
+      ]
+    },
+    {
+      "duid": "OSB-AG",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 204.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2021-12-17T14:27:31+10:00",
+          "explanation": "Plant conditions - ROC Adjusted - 1MW/MIN ROC req for unit RTS SL"
+        },
+        {
+          "offer_time": "2021-12-17T17:32:57+10:00",
+          "explanation": "DEC wind generation from forecast SL"
+        },
+        {
+          "offer_time": "2021-12-17T17:49:29+10:00",
+          "explanation": "Change in avail - ambient conditions SL"
+        },
+        {
+          "offer_time": "2021-12-17T18:34:26+10:00",
+          "explanation": "Plant conditions - Water Wash SL"
+        },
+        {
+          "offer_time": "2021-12-17T19:13:05+10:00",
+          "explanation": "Change in avail - water wash complete SL"
+        }
+      ]
+    },
+    {
+      "duid": "TORRA3",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 130.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2021-12-02T01:29:24+10:00",
+          "explanation": "01:29~A~Initial Bid~OPT_R24"
+        },
+        {
+          "offer_time": "2021-12-08T09:06:16+10:00",
+          "explanation": "00 Initial Bid"
+        },
+        {
+          "offer_time": "2021-12-16T13:55:02+10:00",
+          "explanation": "12:31~F~001 Primary Response to D+1 Predispatch"
+        }
+      ]
+    },
+    {
+      "duid": "SATGS1",
+      "region": "SA1",
+      "fuel": "liquid",
+      "capacity_mw": 123.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        52.0,
+        52.0,
+        52.0,
+        52.0,
+        52.0,
+        52.0,
+        52.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2021-12-17T19:18:18+10:00",
+          "explanation": "SA1 RRP 5PD@19:20 FOR 19:25 IS $25 HIGHER THAN 5PD@19:15 ($248) SL"
+        },
+        {
+          "offer_time": "2021-12-17T19:45:23+10:00",
+          "explanation": "Return to full availability SL"
+        },
+        {
+          "offer_time": "2021-12-18T00:55:47+10:00",
+          "explanation": "SA1 RRP DP@0:55 FOR 0:55 IS $14519.62 HIGHER THAN 5PD@0:50 ($578.81) SL"
+        },
+        {
+          "offer_time": "2021-12-18T01:03:54+10:00",
+          "explanation": "Units synchronised SL"
+        },
+        {
+          "offer_time": "2021-12-18T01:29:30+10:00",
+          "explanation": "SA1 RRP 5PD@1:30 FOR 1:40 IS $221.58 LOWER THAN 5PD@1:20 ($242.21) SL"
+        }
+      ]
+    },
+    {
+      "duid": "MINTARO",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 105.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2021-08-20T09:21:07+10:00",
+          "explanation": "0905~F~INITIAL OFFER~~"
+        },
+        {
+          "offer_time": "2021-10-18T07:52:32+10:00",
+          "explanation": "Initial Offer"
+        }
+      ]
+    },
+    {
+      "duid": "AGLHAL",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 255.0,
+      "availability": [
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0,
+        153.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2021-12-17T20:18:49+10:00",
+          "explanation": "Band Adj due to 5min PD price tracking below forecast 100 vs 115 @2100 SL"
+        },
+        {
+          "offer_time": "2021-12-17T20:37:37+10:00",
+          "explanation": "Band Adj due to 5min PD price tracking below forecast 72 vs 115 @2100 SL"
+        },
+        {
+          "offer_time": "2021-12-18T01:01:23+10:00",
+          "explanation": "Band Adj due to change in SA PD price 348 vs 35 SL"
+        },
+        {
+          "offer_time": "2021-12-18T01:03:56+10:00",
+          "explanation": "Adj FSIP due to revised plant ramp up/RTS"
+        },
+        {
+          "offer_time": "2021-12-18T01:17:53+10:00",
+          "explanation": "Resetting FSIP SL"
+        }
+      ]
+    },
+    {
+      "duid": "HPRG1",
+      "region": "SA1",
+      "fuel": "battery",
+      "capacity_mw": 150.0,
+      "availability": [
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        80.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        80.0,
+        80.0,
+        80.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2021-12-10T05:04:34+10:00",
+          "explanation": "Initial Offer"
+        },
+        {
+          "offer_time": "2021-12-17T03:57:14+10:00",
+          "explanation": "Change in forecast prices"
+        },
+        {
+          "offer_time": "2021-12-18T00:49:08+10:00",
+          "explanation": "A CHANGE IN FORECAST ENERGY PRICES"
+        },
+        {
+          "offer_time": "2021-12-18T01:37:05+10:00",
+          "explanation": "Change in forecast SOC"
+        },
+        {
+          "offer_time": "2021-12-18T01:42:02+10:00",
+          "explanation": "Change in forecast prices"
+        }
+      ]
+    },
+    {
+      "duid": "TORRB2",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 210.0,
+      "availability": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2021-12-14T12:54:01+10:00",
+          "explanation": "00 Initial Bid"
+        },
+        {
+          "offer_time": "2021-12-16T13:55:02+10:00",
+          "explanation": "12:31~F~001 Primary Response to D+1 Predispatch"
+        },
+        {
+          "offer_time": "2021-12-16T16:41:25+10:00",
+          "explanation": "16:30~A~010 AEMO direction~10 +redistribute across portfoli"
+        },
+        {
+          "offer_time": "2021-12-17T16:32:02+10:00",
+          "explanation": "010 AEMO direction~MN#93227"
+        },
+        {
+          "offer_time": "2021-12-17T22:52:02+10:00",
+          "explanation": "040 Chg in AEMO DISP~45 Price increase vs PD [SA] [$115.44]"
+        }
+      ]
+    },
+    {
+      "duid": "PTSTAN1",
+      "region": "SA1",
+      "fuel": "liquid",
+      "capacity_mw": 97.0,
+      "availability": [
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0,
+        65.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2021-12-17T15:49:46+10:00",
+          "explanation": "15:36:00 A V-N Exp 5MIN PD I/C Head Room 165 HIGHER THAN 5MIN PD 15:45@15:31 (481) - SL"
+        },
+        {
+          "offer_time": "2021-12-17T20:59:36+10:00",
+          "explanation": "20:55:02 A VIC 5MIN ACTUAL Price $31.25 LOWER THAN 5MIN PD 21:00@20:51 ($19.20) - SL"
+        },
+        {
+          "offer_time": "2021-12-17T22:47:25+10:00",
+          "explanation": "22:40:04 A SA 5MIN ACTUAL Price $195.91 HIGHER THAN 5MIN PD 22:45@22:36 ($249.00) - SL"
+        },
+        {
+          "offer_time": "2021-12-18T00:43:17+10:00",
+          "explanation": "00:41:00 A SA 5MIN PD Price $198.86 HIGHER THAN 5MIN PD 00:50@00:36 ($578.81) - SL"
+        },
+        {
+          "offer_time": "2021-12-18T01:03:37+10:00",
+          "explanation": "01:01:00 A SA 5MIN PD +100 Sensitivity $14,521.19 HIGHER THAN 5MIN PD 01:45@00:56 ($15,100.00) - SL"
+        }
+      ]
+    }
+  ]
+}

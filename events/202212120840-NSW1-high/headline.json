@@ -1,0 +1,24 @@
+{
+  "schema": 2,
+  "event_id": "202212120840-NSW1-high",
+  "region": "NSW1",
+  "trading_day": "2022-12-12",
+  "start": "2022-12-12T08:40:00+10:00",
+  "end": "2022-12-12T08:55:00+10:00",
+  "duration_minutes": 20,
+  "peak_price": 15500.0,
+  "peak_at": "2022-12-12T08:40:00+10:00",
+  "mean_price": 5204.39,
+  "intervals_above_5000": 1,
+  "cost_to_load": 14104233.0,
+  "max_demand_mw": 8477.0,
+  "tags": [
+    "year:2022",
+    "season:summer",
+    "region:NSW1",
+    "severity:cap",
+    "price:at-cap",
+    "settlement:5-minute",
+    "bids:no-band-availability"
+  ]
+}

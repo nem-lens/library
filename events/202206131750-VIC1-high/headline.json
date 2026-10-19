@@ -1,0 +1,24 @@
+{
+  "schema": 2,
+  "event_id": "202206131750-VIC1-high",
+  "region": "VIC1",
+  "trading_day": "2022-06-13",
+  "start": "2022-06-13T17:50:00+10:00",
+  "end": "2022-06-13T18:30:00+10:00",
+  "duration_minutes": 45,
+  "peak_price": 14570.9,
+  "peak_at": "2022-06-13T18:00:00+10:00",
+  "mean_price": 10991.9,
+  "intervals_above_5000": 8,
+  "cost_to_load": 55864437.0,
+  "max_demand_mw": 6833.2,
+  "tags": [
+    "year:2022",
+    "season:winter",
+    "region:VIC1",
+    "severity:cap",
+    "intervention:yes",
+    "settlement:5-minute",
+    "bids:no-band-availability"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 2,
+  "event_id": "202312291800-QLD1-high",
+  "region": "QLD1",
+  "trading_day": "2023-12-29",
+  "start": "2023-12-29T18:00:00+10:00",
+  "end": "2023-12-29T18:30:00+10:00",
+  "duration_minutes": 35,
+  "peak_price": 14928.01,
+  "peak_at": "2023-12-29T18:10:00+10:00",
+  "mean_price": 8702.52,
+  "intervals_above_5000": 4,
+  "cost_to_load": 49014980.0,
+  "max_demand_mw": 9724.4,
+  "tags": [
+    "year:2023",
+    "season:summer",
+    "region:QLD1",
+    "severity:extreme",
+    "settlement:5-minute",
+    "bids:no-band-availability"
+  ]
+}

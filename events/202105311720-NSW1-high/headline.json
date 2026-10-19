@@ -1,0 +1,23 @@
+{
+  "schema": 2,
+  "event_id": "202105311720-NSW1-high",
+  "region": "NSW1",
+  "trading_day": "2021-05-31",
+  "start": "2021-05-31T17:20:00+10:00",
+  "end": "2021-05-31T17:45:00+10:00",
+  "duration_minutes": 30,
+  "peak_price": 14708.51,
+  "peak_at": "2021-05-31T17:30:00+10:00",
+  "mean_price": 4385.27,
+  "intervals_above_5000": 3,
+  "cost_to_load": 22622963.0,
+  "max_demand_mw": 10499.7,
+  "tags": [
+    "year:2021",
+    "season:autumn",
+    "region:NSW1",
+    "severity:cap",
+    "settlement:30-minute",
+    "bids:no-band-availability"
+  ]
+}
