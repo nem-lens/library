@@ -1,0 +1,830 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2024-07-30T15:55:00+10:00",
+    "2024-07-30T16:00:00+10:00",
+    "2024-07-30T16:05:00+10:00",
+    "2024-07-30T16:10:00+10:00",
+    "2024-07-30T16:15:00+10:00",
+    "2024-07-30T16:20:00+10:00",
+    "2024-07-30T16:25:00+10:00",
+    "2024-07-30T16:30:00+10:00",
+    "2024-07-30T16:35:00+10:00",
+    "2024-07-30T16:40:00+10:00",
+    "2024-07-30T16:45:00+10:00",
+    "2024-07-30T16:50:00+10:00",
+    "2024-07-30T16:55:00+10:00",
+    "2024-07-30T17:00:00+10:00",
+    "2024-07-30T17:05:00+10:00",
+    "2024-07-30T17:10:00+10:00",
+    "2024-07-30T17:15:00+10:00",
+    "2024-07-30T17:20:00+10:00",
+    "2024-07-30T17:25:00+10:00",
+    "2024-07-30T17:30:00+10:00",
+    "2024-07-30T17:35:00+10:00",
+    "2024-07-30T17:40:00+10:00",
+    "2024-07-30T17:45:00+10:00",
+    "2024-07-30T17:50:00+10:00",
+    "2024-07-30T17:55:00+10:00",
+    "2024-07-30T18:00:00+10:00",
+    "2024-07-30T18:05:00+10:00",
+    "2024-07-30T18:10:00+10:00",
+    "2024-07-30T18:15:00+10:00",
+    "2024-07-30T18:20:00+10:00",
+    "2024-07-30T18:25:00+10:00",
+    "2024-07-30T18:30:00+10:00",
+    "2024-07-30T18:35:00+10:00",
+    "2024-07-30T18:40:00+10:00",
+    "2024-07-30T18:45:00+10:00",
+    "2024-07-30T18:50:00+10:00",
+    "2024-07-30T18:55:00+10:00",
+    "2024-07-30T19:00:00+10:00",
+    "2024-07-30T19:05:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "MURRAY",
+      "region": "VIC1",
+      "fuel": "hydro",
+      "capacity_mw": 1575.0,
+      "availability": [
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1152.0,
+        1152.0,
+        1152.0,
+        1152.0,
+        1152.0,
+        1152.0,
+        1152.0,
+        1152.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0,
+        1153.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-07-30T16:18:01+10:00",
+          "explanation": "16:15:03 A VIC 5MIN ACTUAL Price $139.67 HIGHER THAN 5MIN PD 16:20@16:11 ($354.62) - SL"
+        },
+        {
+          "offer_time": "2024-07-30T16:28:14+10:00",
+          "explanation": "16:21:00 A VIC 5MIN PD Price $140.23 LOWER THAN 5MIN PD 16:35@16:16 ($141.67) - SL"
+        },
+        {
+          "offer_time": "2024-07-30T16:41:14+10:00",
+          "explanation": "16:31:00 A NSW 5MIN PD Price $26.63 LOWER THAN 5MIN PD 17:05@16:26 ($9.25) - SL"
+        },
+        {
+          "offer_time": "2024-07-30T17:21:19+10:00",
+          "explanation": "17:16:00 A NSW-VIC 5MIN PD Price Separation $34.34 HIGHER THAN 5MIN PD 17:30@17:11 ($76.30) - SL"
+        },
+        {
+          "offer_time": "2024-07-30T17:22:31+10:00",
+          "explanation": "17:21:00 A NSW-VIC 5MIN PD Price Separation $40.59 HIGHER THAN 5MIN PD 17:30@17:16 ($116.90) - SL"
+        }
+      ]
+    },
+    {
+      "duid": "YWPS4",
+      "region": "VIC1",
+      "fuel": "coal",
+      "capacity_mw": 405.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2024-06-25T12:36:32+10:00",
+          "explanation": "Default Offer"
+        }
+      ]
+    },
+    {
+      "duid": "HBESSG1",
+      "region": "VIC1",
+      "fuel": "battery",
+      "capacity_mw": 150.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        132.0,
+        138.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        150.0,
+        112.0,
+        94.0,
+        65.0,
+        54.0,
+        47.0,
+        47.0,
+        49.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-07-30T18:43:31+10:00",
+          "explanation": "VIC1 5MIN PD RRP FOR 1900 ($406.48) PUBLISHED AT 1840 IS $135.66 HIGHER THAN 30MIN PD RRP PUBLISHED AT 1832 ($270.82) - TIME OF ALERT: 1843"
+        },
+        {
+          "offer_time": "2024-07-30T18:48:36+10:00",
+          "explanation": "VIC1 5MIN PD RRP FOR 1900 ($360.07) PUBLISHED AT 1845 IS $89.25 HIGHER THAN 30MIN PD RRP PUBLISHED AT 1832 ($270.82) - TIME OF ALERT: 1848"
+        },
+        {
+          "offer_time": "2024-07-30T18:53:49+10:00",
+          "explanation": "VIC1 5MIN PD RRP FOR 1900 ($380.97) PUBLISHED AT 1850 IS $110.15 HIGHER THAN 30MIN PD RRP PUBLISHED AT 1832 ($270.82) - TIME OF ALERT: 1853"
+        },
+        {
+          "offer_time": "2024-07-30T18:58:32+10:00",
+          "explanation": "VIC1 5MIN PD RRP FOR 1930 ($241.74) PUBLISHED AT 1855 IS $67.76 HIGHER THAN 30MIN PD RRP PUBLISHED AT 1832 ($173.98) - TIME OF ALERT: 1858"
+        },
+        {
+          "offer_time": "2024-07-30T19:03:32+10:00",
+          "explanation": "VIC1 5MIN PD RRP FOR 1930 ($211.11) PUBLISHED AT 1900 IS $37.13 HIGHER THAN 30MIN PD RRP PUBLISHED AT 1832 ($173.98) - TIME OF ALERT: 1903"
+        }
+      ]
+    },
+    {
+      "duid": "JLA01",
+      "region": "VIC1",
+      "fuel": "gas",
+      "capacity_mw": 65.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2024-06-25T12:52:04+10:00",
+          "explanation": "Default Offer"
+        }
+      ]
+    },
+    {
+      "duid": "VBBG1",
+      "region": "VIC1",
+      "fuel": "battery",
+      "capacity_mw": 300.0,
+      "availability": [
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0,
+        235.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-07-30T18:43:46+10:00",
+          "explanation": "Difference in forecasted enablement at time 2024-07-30 19:30:00 AEST, SL"
+        },
+        {
+          "offer_time": "2024-07-30T18:48:19+10:00",
+          "explanation": "Difference in forecasted enablement at time 2024-07-30 19:25:00 AEST, SL"
+        },
+        {
+          "offer_time": "2024-07-30T18:52:39+10:00",
+          "explanation": "Difference in forecasted enablement at time 2024-07-30 19:20:00 AEST, SL"
+        },
+        {
+          "offer_time": "2024-07-30T18:58:54+10:00",
+          "explanation": "Difference in forecasted enablement at time 2024-07-30 19:45:00 AEST, SL"
+        },
+        {
+          "offer_time": "2024-07-30T19:03:14+10:00",
+          "explanation": "Difference in forecasted enablement at time 2024-07-30 19:55:00 AEST, SL"
+        }
+      ]
+    },
+    {
+      "duid": "YWPS1",
+      "region": "VIC1",
+      "fuel": "coal",
+      "capacity_mw": 380.0,
+      "availability": [
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0,
+        315.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-07-01T15:48:17+10:00",
+          "explanation": "Adj Avail and PASA due to superheater outlet issue SL"
+        },
+        {
+          "offer_time": "2024-07-28T14:55:32+10:00",
+          "explanation": "Initial offer"
+        },
+        {
+          "offer_time": "2024-07-29T18:33:44+10:00",
+          "explanation": "Adj avail due to change in firing pattern SL"
+        },
+        {
+          "offer_time": "2024-07-30T02:25:28+10:00",
+          "explanation": "Adj avail due to ambient conditions"
+        },
+        {
+          "offer_time": "2024-07-30T07:07:45+10:00",
+          "explanation": "Adj avail due to revised exit temps SL"
+        }
+      ]
+    },
+    {
+      "duid": "EILDON1",
+      "region": "VIC1",
+      "fuel": "hydro",
+      "capacity_mw": 60.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2024-04-17T15:51:01+10:00",
+          "explanation": "00 Initial Bid"
+        },
+        {
+          "offer_time": "2024-07-15T01:02:05+10:00",
+          "explanation": "01:02~A~Initial Bid~OPT_NR"
+        },
+        {
+          "offer_time": "2024-07-29T10:24:38+10:00",
+          "explanation": "00 Initial Bid"
+        }
+      ]
+    },
+    {
+      "duid": "AGLSOM",
+      "region": "VIC1",
+      "fuel": "gas",
+      "capacity_mw": 170.0,
+      "availability": [
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0,
+        120.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-07-30T16:43:44+10:00",
+          "explanation": "050 Chg in AEMO PD~Price decrease [VIC] 5MPD $90.84 for TI ending 17:05 vs 30MPD $143.88 for PE 17:30"
+        },
+        {
+          "offer_time": "2024-07-30T17:21:50+10:00",
+          "explanation": "050 Chg in AEMO PD~16:32 - 17:02 PD RRP decrease [VIC] [ -$1332 AVG] for PE 17:30-18:30"
+        },
+        {
+          "offer_time": "2024-07-30T17:25:57+10:00",
+          "explanation": "010 Unexpected/plant limits~112 EILDON2 RTS delay, redist across portfolio"
+        },
+        {
+          "offer_time": "2024-07-30T17:39:06+10:00",
+          "explanation": "040 Chg in AEMO DISP~Price decrease [VIC] 5MD $406.48 for DI ending 17:40 vs 30MPD $3944.96 for PE 18:00"
+        },
+        {
+          "offer_time": "2024-07-30T18:08:16+10:00",
+          "explanation": "040 Chg in AEMO DISP~Price increase [VIC] 5MD $983.96 for DI ending 18:10 vs 30MPD $397.35 for PE 18:30"
+        }
+      ]
+    },
+    {
+      "duid": "YWPS3",
+      "region": "VIC1",
+      "fuel": "coal",
+      "capacity_mw": 405.0,
+      "availability": [
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0,
+        375.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-06-25T12:36:32+10:00",
+          "explanation": "Default Offer"
+        },
+        {
+          "offer_time": "2024-07-28T14:55:32+10:00",
+          "explanation": "Initial offer"
+        },
+        {
+          "offer_time": "2024-07-29T14:27:32+10:00",
+          "explanation": "Adj avail due to ongoing HP steam valve issue"
+        },
+        {
+          "offer_time": "2024-07-29T19:28:03+10:00",
+          "explanation": "Adj avail due to superheater limits SL"
+        },
+        {
+          "offer_time": "2024-07-30T18:13:03+10:00",
+          "explanation": "Adj avail - HP heater issue resolved SL"
+        }
+      ]
+    },
+    {
+      "duid": "EILDON2",
+      "region": "VIC1",
+      "fuel": "hydro",
+      "capacity_mw": 60.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-07-16T10:45:59+10:00",
+          "explanation": "00 Initial Bid"
+        },
+        {
+          "offer_time": "2024-07-29T14:36:29+10:00",
+          "explanation": "001 Primary Response to D+1 Predispatch~P30 Published"
+        },
+        {
+          "offer_time": "2024-07-30T10:00:06+10:00",
+          "explanation": "070 Reduced water avail~702 chg in river flows"
+        },
+        {
+          "offer_time": "2024-07-30T14:32:13+10:00",
+          "explanation": "001 Primary Response to D+1 Predispatch~P30 Published"
+        },
+        {
+          "offer_time": "2024-07-30T17:24:16+10:00",
+          "explanation": "020 Reduction in avail cap~208 RTS later than exp"
+        }
+      ]
+    },
+    {
+      "duid": "HUMEV",
+      "region": "VIC1",
+      "fuel": "hydro",
+      "capacity_mw": 35.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2024-06-30T11:48:09+10:00",
+          "explanation": "Initial offer"
+        }
+      ]
+    },
+    {
+      "duid": "WKIEWA1",
+      "region": "VIC1",
+      "fuel": "hydro",
+      "capacity_mw": 34.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2024-07-29T10:47:41+10:00",
+          "explanation": "00 Initial Bid"
+        },
+        {
+          "offer_time": "2024-07-29T16:17:02+10:00",
+          "explanation": "070 Reduced water avail~704 inflow chg affecting pondage levels"
+        },
+        {
+          "offer_time": "2024-07-29T22:55:36+10:00",
+          "explanation": "060 Increased water avail~604 inflow chg affecting pondage levels"
+        },
+        {
+          "offer_time": "2024-07-30T05:35:33+10:00",
+          "explanation": "070 Reduced water avail~704 inflow chg affecting pondage levels"
+        },
+        {
+          "offer_time": "2024-07-30T06:32:25+10:00",
+          "explanation": "060 Increased water avail~604 inflow chg affecting pondage levels"
+        }
+      ]
+    }
+  ]
+}

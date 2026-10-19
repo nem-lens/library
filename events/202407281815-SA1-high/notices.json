@@ -1,0 +1,40 @@
+{
+  "schema": 2,
+  "notices": [
+    {
+      "id": "117496",
+      "kind": "INTER-REGIONAL TRANSFER",
+      "issued": "2024-07-28T11:42:01+10:00",
+      "title": "Inter-regional transfer limit variation - Heywood - South East No 2 275 kV Line  - SA region - 26/07/2024",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCkludGVyLXJlZ2lvbmFsIHRyYW5zZmVyIGxpbWl0IHZhcmlhdGlvbiAtSGV5d29vZCAtIFNvdXRoIEVhc3QgTm8gMiAyNzUga1YgTGluZSBTQSByZWdpb24gLSAyNi8wNy8yMDI0DQoNCkEgcGxhbm5lZCBvdXRhZ2Ugb2YgSGV5d29vZCAtIFNvdXRoIEVhc3QgTm8gMiAyNzUga1YgTGluZSBpbiB0aGUgU0EgcmVnaW9uIHdhcyBzY2hlZHVsZWQgZnJvbSAwODMwIGhycyAyNi8wNy8yMDI0IHRvIDE3MzAgaHJzIDI4LzA3LzIwMjQuIA0KDQpUaGUgb3V0YWdlIGhhcyBiZWVuIGV4dGVuZGVkIHVudGlsIDEyMDAgaHJzIDI5LzA3LzIwMjQNCg0KQ29uc3RyYWludCBzZXQocykgaW52b2tlZDoNCkktSFlTRQ0KSS1WU18wNTANCkktVlMrTEtCXzA1MA0KDQpSZWZlciB0byB0aGUgQUVNTyBOZXR3b3JrIE91dGFnZSBTY2hlZHVsZXIgZm9yIGZ1cnRoZXIgaW5mb3JtYXRpb24uDQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25z"
+    },
+    {
+      "id": "117497",
+      "kind": "RESERVE NOTICE",
+      "issued": "2024-07-28T12:50:02+10:00",
+      "title": "PDPASA - Forecast Lack Of Reserve Level 1 (LOR1) in the TAS Region on 29/07/2024",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNCkFFTU8gZGVjbGFyZXMgYSBGb3JlY2FzdCBMT1IxIGNvbmRpdGlvbiB1bmRlciBjbGF1c2UgNC44LjQoYikgb2YgdGhlIE5hdGlvbmFsIEVsZWN0cmljaXR5IFJ1bGVzIGZvciB0aGUgVEFTIHJlZ2lvbiBmb3IgdGhlIGZvbGxvd2luZyBQZXJpb2Q6DQoNClsxLl0gRnJvbSAwNzMwIGhycyAyOS8wNy8yMDI0IHRvIDA4MzAgaHJzIDI5LzA3LzIwMjQuDQpUaGUgZm9yZWNhc3QgY2FwYWNpdHkgcmVzZXJ2ZSByZXF1aXJlbWVudCBpcyA1NTcgTVcuDQpUaGUgbWluaW11bSBjYXBhY2l0eSByZXNlcnZlIGF2YWlsYWJsZSBpcyA1MTcgTVcuDQoNCk1hbmFnZXIgTkVNIFJlYWwgVGltZSBPcGVyYXRpb25z"
+    },
+    {
+      "id": "117498",
+      "kind": "RESERVE NOTICE",
+      "issued": "2024-07-28T14:49:38+10:00",
+      "title": "STPASA - Cancellation of the Forecast Lack Of Reserve Level 1 (LOR1) in the TAS Region on 30/07/2024",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClRoZSBGb3JlY2FzdCBMT1IxIGNvbmRpdGlvbiBpbiB0aGUgVEFTIHJlZ2lvbiBhZHZpc2VkIGluIEFFTU8gRWxlY3RyaWNpdHkgTWFya2V0IE5vdGljZSBOby4gMTE3NDkyIGlzIGNhbmNlbGxlZCBhdCAxNDIwIGhycyAyOC8wNy8yMDI0DQoNCk5vIExPUiBjb25kaXRpb24gaXMgY3VycmVudGx5IGZvcmVjYXN0IGluIHRoZSBTVFBBU0EgcGVyaW9kLiAgIA0KIA0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "117499",
+      "kind": "RESERVE NOTICE",
+      "issued": "2024-07-28T14:51:28+10:00",
+      "title": "STPASA - Cancellation of the Forecast Lack Of Reserve Level 1 (LOR1) in the TAS Region on 31/07/2024",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFDQoNClRoZSBGb3JlY2FzdCBMT1IxIGNvbmRpdGlvbiBpbiB0aGUgVEFTIHJlZ2lvbiBhZHZpc2VkIGluIEFFTU8gRWxlY3RyaWNpdHkgTWFya2V0IE5vdGljZSBOby4gMTE3NDkzIGlzIGNhbmNlbGxlZCBhdCAxNDIwIGhycyAyOC8wNy8yMDI0DQoNCk5vIExPUiBjb25kaXRpb24gaXMgY3VycmVudGx5IGZvcmVjYXN0IGluIHRoZSBTVFBBU0EgcGVyaW9kLiAgIA0KIA0KTWFuYWdlciBORU0gUmVhbCBUaW1lIE9wZXJhdGlvbnM="
+    },
+    {
+      "id": "117500",
+      "kind": "POWER SYSTEM EVENTS",
+      "issued": "2024-07-28T17:14:14+10:00",
+      "title": "Update - Non-credible contingency event - QLD region - 27/07/2024",
+      "reason": "QUVNTyBFTEVDVFJJQ0lUWSBNQVJLRVQgTk9USUNFLg0KDQpVcGRhdGUgLSBOb24tY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQgLSBRTEQgcmVnaW9uIC0gMjcvMDcvMjAyNA0KDQpSZWZlciBBRU1PIEVsZWN0cmljaXR5IE1hcmtldCBOb3RpY2UgMTE3NDg3DQoNCkF0IDE3MDIgaHJzIHRoZSBIMzggR29vZG5hIE5vLiAyIDI3NWtWIEJ1cyBhbmQgdGhlIEgzOCBHb29kbmEgTm8uIDEgMjc1LzEzMmtWIHRyYW5zZm9ybWVyIHdhcyByZXR1cm5lZCB0byBzZXJ2aWNlLg0KDQpUaGUgY2F1c2Ugb2YgdGhpcyBub24tY3JlZGlibGUgY29udGluZ2VuY3kgZXZlbnQgaGFzIGJlZW4gaWRlbnRpZmllZCBhbmQgQUVNTyBpcyBzYXRpc2ZpZWQgdGhhdCBhbm90aGVyIG9jY3VycmVuY2Ugb2YgdGhpcyBldmVudCBpcyB1bmxpa2VseSB1bmRlciB0aGUgY3VycmVudCBjaXJjdW1zdGFuY2VzLg0KDQpBRU1PIHdpbGwgbm90IHJlY2xhc3NpZnkgdGhpcyBldmVudCBhcyBhIGNyZWRpYmxlIGNvbnRpbmdlbmN5IGV2ZW50Lg0KDQpNYW5hZ2VyIE5FTSBSZWFsIFRpbWUgT3BlcmF0aW9ucw=="
+    }
+  ]
+}

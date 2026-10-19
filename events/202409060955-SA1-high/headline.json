@@ -1,0 +1,23 @@
+{
+  "schema": 2,
+  "event_id": "202409060955-SA1-high",
+  "region": "SA1",
+  "trading_day": "2024-09-06",
+  "start": "2024-09-06T09:55:00+10:00",
+  "end": "2024-09-06T10:00:00+10:00",
+  "duration_minutes": 10,
+  "peak_price": 17499.98,
+  "peak_at": "2024-09-06T09:55:00+10:00",
+  "mean_price": 17499.98,
+  "intervals_above_5000": 2,
+  "cost_to_load": 4174591.0,
+  "max_demand_mw": 1437.2,
+  "tags": [
+    "year:2024",
+    "season:spring",
+    "region:SA1",
+    "severity:cap",
+    "price:at-cap",
+    "settlement:5-minute"
+  ]
+}

@@ -11,5 +11,12 @@
   "mean_price": 8965.81,
   "intervals_above_5000": 11,
   "cost_to_load": 99429266.0,
-  "max_demand_mw": 9085.4
+  "max_demand_mw": 9085.4,
+  "tags": [
+    "year:2026",
+    "season:spring",
+    "region:NSW1",
+    "severity:cap",
+    "settlement:5-minute"
+  ]
 }

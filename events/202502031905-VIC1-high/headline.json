@@ -1,0 +1,22 @@
+{
+  "schema": 2,
+  "event_id": "202502031905-VIC1-high",
+  "region": "VIC1",
+  "trading_day": "2025-02-03",
+  "start": "2025-02-03T19:05:00+10:00",
+  "end": "2025-02-03T19:25:00+10:00",
+  "duration_minutes": 25,
+  "peak_price": 11346.81,
+  "peak_at": "2025-02-03T19:05:00+10:00",
+  "mean_price": 7164.89,
+  "intervals_above_5000": 3,
+  "cost_to_load": 27024636.0,
+  "max_demand_mw": 9175.6,
+  "tags": [
+    "year:2025",
+    "season:summer",
+    "region:VIC1",
+    "severity:extreme",
+    "settlement:5-minute"
+  ]
+}

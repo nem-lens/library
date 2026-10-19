@@ -1,0 +1,3108 @@
+{
+  "format": 1,
+  "generator": "nem-monitor 0.1.0",
+  "event_id": "202504091725-NSW1-high",
+  "region": "NSW1",
+  "window_start": "2025-04-09T15:25:00+10:00",
+  "window_end": "2025-04-09T18:45:00+10:00",
+  "intervals_expected": 41,
+  "intervals_found": 41,
+  "created_at": "2026-10-19T07:28:39Z",
+  "updated_at": "2026-10-19T07:29:01Z",
+  "sources": [
+    {
+      "file": "PUBLIC_ARCHIVE#BIDDAYOFFER#FILE01#202504010000.zip",
+      "url": "https://nemweb.com.au/Data_Archive/Wholesale_Electricity/MMSDM/2025/MMSDM_2025__04/MMSDM_Historical_Data_SQLLoader/DATA/PUBLIC_ARCHIVE%23BIDDAYOFFER%23FILE01%23202504010000.zip",
+      "sha256": "1b6a6d03988ec4a7a7e05db1d81f3a886be729d47c61e53941d54bc0cc988971",
+      "bytes": 193343744,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#BIDPEROFFER_D#FILE01#202504010000.zip",
+      "url": "https://nemweb.com.au/Data_Archive/Wholesale_Electricity/MMSDM/2025/MMSDM_2025__04/MMSDM_Historical_Data_SQLLoader/DATA/PUBLIC_ARCHIVE%23BIDPEROFFER_D%23FILE01%23202504010000.zip",
+      "sha256": "a019c94850454ac54d00392308f86eafb558b01028a213bd0b9f6a13a4bca8b5",
+      "bytes": 142712842,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#DISPATCHCONSTRAINT#FILE01#202504010000.zip",
+      "url": "https://nemweb.com.au/Data_Archive/Wholesale_Electricity/MMSDM/2025/MMSDM_2025__04/MMSDM_Historical_Data_SQLLoader/DATA/PUBLIC_ARCHIVE%23DISPATCHCONSTRAINT%23FILE01%23202504010000.zip",
+      "sha256": "205ce960d7981e6d0f1bba6f533cecb3291280e8979fd0b3db280a61b7fb8674",
+      "bytes": 164617792,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#DISPATCHINTERCONNECTORRES#FILE01#202504010000.zip",
+      "url": "https://nemweb.com.au/Data_Archive/Wholesale_Electricity/MMSDM/2025/MMSDM_2025__04/MMSDM_Historical_Data_SQLLoader/DATA/PUBLIC_ARCHIVE%23DISPATCHINTERCONNECTORRES%23FILE01%23202504010000.zip",
+      "sha256": "52c41949fb82ee9b192f0d0797dbdbed44c627f483f1593df1e380facf0865d2",
+      "bytes": 1852785,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#DISPATCHLOAD#FILE01#202504010000.zip",
+      "url": "https://nemweb.com.au/Data_Archive/Wholesale_Electricity/MMSDM/2025/MMSDM_2025__04/MMSDM_Historical_Data_SQLLoader/DATA/PUBLIC_ARCHIVE%23DISPATCHLOAD%23FILE01%23202504010000.zip",
+      "sha256": "fdb03c6a1e7aecc2b486fac091c52448350ba64d4ef0b84c0b153bafd7cf7e8c",
+      "bytes": 106213942,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#DISPATCHOFFERTRK#FILE01#202504010000.zip",
+      "url": "https://nemweb.com.au/Data_Archive/Wholesale_Electricity/MMSDM/2025/MMSDM_2025__04/MMSDM_Historical_Data_SQLLoader/DATA/PUBLIC_ARCHIVE%23DISPATCHOFFERTRK%23FILE01%23202504010000.zip",
+      "sha256": "fb2eadf6fe12371480682208062d649bce1be13d40eda49350637271bd2bac23",
+      "bytes": 97163679,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202504010000.zip",
+      "url": "https://nemweb.com.au/Data_Archive/Wholesale_Electricity/MMSDM/2025/MMSDM_2025__04/MMSDM_Historical_Data_SQLLoader/DATA/PUBLIC_ARCHIVE%23DISPATCHPRICE%23FILE01%23202504010000.zip",
+      "sha256": "7e962dbb0cb6d1a6f3d5e6c661b819dd0e2d754e1d3de9197244f0a0f34fd8c8",
+      "bytes": 1958079,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#DISPATCHREGIONSUM#FILE01#202504010000.zip",
+      "url": "https://nemweb.com.au/Data_Archive/Wholesale_Electricity/MMSDM/2025/MMSDM_2025__04/MMSDM_Historical_Data_SQLLoader/DATA/PUBLIC_ARCHIVE%23DISPATCHREGIONSUM%23FILE01%23202504010000.zip",
+      "sha256": "7aff4926cabc29758dc7b9428018db1062196721b5956d5027464b20c5b7c1b1",
+      "bytes": 5835709,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201601010000.zip",
+      "url": "",
+      "sha256": "41e8312a5efca8762acecb6e6f0f2eadfc92f49077464b99a0a97e8921684729",
+      "bytes": 41708,
+      "role": "mmsdm:2016_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201601010000.zip",
+      "url": "",
+      "sha256": "6b927c7e1c3ce02edd7d285f0e5c8988cc6f18551bf4ddfc46fc2d5ead773187",
+      "bytes": 77032,
+      "role": "mmsdm:2016_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201601010000.zip",
+      "url": "",
+      "sha256": "7b5fb3045c95e748d1818c0e6e14a872cdc95446a87fc21d07602a8065749327",
+      "bytes": 18109,
+      "role": "mmsdm:2016_01"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201603010000.zip",
+      "url": "",
+      "sha256": "55645ff79d823c7e9f893addb1cee2118e612b258a602ab79b23130edc3cc899",
+      "bytes": 97796,
+      "role": "mmsdm:2016_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201603010000.zip",
+      "url": "",
+      "sha256": "d7db4582a4b3e2ee852514f7a852cde0a7df1abbb94153b41aad38891c3365bb",
+      "bytes": 316698,
+      "role": "mmsdm:2016_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201603010000.zip",
+      "url": "",
+      "sha256": "3555cb4927ac10af166c3e98ac154307fca0ec3d57214e8a7b7110e19844b184",
+      "bytes": 50888,
+      "role": "mmsdm:2016_03"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201604010000.zip",
+      "url": "",
+      "sha256": "7360ad6bbd88219d38421ea886d5e463e456afb8d37d66a8ccf006847c30f7f3",
+      "bytes": 58754,
+      "role": "mmsdm:2016_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201604010000.zip",
+      "url": "",
+      "sha256": "5537cc9247a83fa6a371d0f83cefa01ba462146bcbabd369e941d612608483f5",
+      "bytes": 221083,
+      "role": "mmsdm:2016_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201604010000.zip",
+      "url": "",
+      "sha256": "86ffe525b5feb9e119ccc84a9a4e3e7a444c7cd4b2bead5a589dcdf83b5b3621",
+      "bytes": 38358,
+      "role": "mmsdm:2016_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_201604010000.zip",
+      "url": "",
+      "sha256": "4561df9499d632029e9400c9489e0e3eeebea88920d8058168b307f46fd2dbd4",
+      "bytes": 1211,
+      "role": "mmsdm:2016_04"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201605010000.zip",
+      "url": "",
+      "sha256": "fad1a8918ec6ec783a9013473d3e251bcc31299e4b9d14b4a5b4ddf3ea261a30",
+      "bytes": 81069,
+      "role": "mmsdm:2016_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201605010000.zip",
+      "url": "",
+      "sha256": "7fbc10bd36dd8765e5392fa3900454e37b87e243d44c2bc555e5927150ae06c5",
+      "bytes": 283884,
+      "role": "mmsdm:2016_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201605010000.zip",
+      "url": "",
+      "sha256": "d3a6b21ce08ae33fd980d12c6d98508793d194692a9124f118e0f8ce6d65827f",
+      "bytes": 42518,
+      "role": "mmsdm:2016_05"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201606010000.zip",
+      "url": "",
+      "sha256": "9fdb99e8f271f871dd500d8d2314aa29bb45e0143bf6f7ea84d0aaff0506d589",
+      "bytes": 83756,
+      "role": "mmsdm:2016_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201606010000.zip",
+      "url": "",
+      "sha256": "1a274f31a51281f920f4f478b24fc7e504976bd21cbca5ad082c0889e9d114c9",
+      "bytes": 195553,
+      "role": "mmsdm:2016_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201606010000.zip",
+      "url": "",
+      "sha256": "c8af557a08cd3253f5c936717723d05c7c18617b37690b7d9e0b15a62be86345",
+      "bytes": 41642,
+      "role": "mmsdm:2016_06"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201607010000.zip",
+      "url": "",
+      "sha256": "aa87f47e9484dffd76d556801c066ee884305aefdbeb33d56424c83c2a7531ad",
+      "bytes": 78530,
+      "role": "mmsdm:2016_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201607010000.zip",
+      "url": "",
+      "sha256": "1de8addb3630f262284796275a3c09c9113842dce0f9ee753f88fdb3f1195038",
+      "bytes": 205878,
+      "role": "mmsdm:2016_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201607010000.zip",
+      "url": "",
+      "sha256": "c156c5c6eb0a14e8ac2b34f3bb7bb04601c09e6f0098f932b72e5e600b06d1eb",
+      "bytes": 44542,
+      "role": "mmsdm:2016_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201608010000.zip",
+      "url": "",
+      "sha256": "181b61035e88db275f32dd4c945338bc026fda30120b5f51673378d33cebe4db",
+      "bytes": 110224,
+      "role": "mmsdm:2016_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201608010000.zip",
+      "url": "",
+      "sha256": "9cb5654ff55030f052032e5d25d23ce5fe5afb5a4dc8731deef37f9aba59ca7f",
+      "bytes": 279087,
+      "role": "mmsdm:2016_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201608010000.zip",
+      "url": "",
+      "sha256": "b7dccb22959d8249db04a5a48f55b974270cc24280b2b7f45756280d80cf9cec",
+      "bytes": 43689,
+      "role": "mmsdm:2016_08"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201609010000.zip",
+      "url": "",
+      "sha256": "826a6a884ed9fa5a453279cb4003a3676369d82d781a2039b74ea06ab292b647",
+      "bytes": 102606,
+      "role": "mmsdm:2016_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201609010000.zip",
+      "url": "",
+      "sha256": "9850b9870f2c7a0da99901fe6e8645eb4a4192581a9519bed5cb37ac22091187",
+      "bytes": 266334,
+      "role": "mmsdm:2016_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201609010000.zip",
+      "url": "",
+      "sha256": "46020c7179aeed250dedf0385b29a1c4e72ae6cdd87d9f28bd5e88c787f6a338",
+      "bytes": 44715,
+      "role": "mmsdm:2016_09"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201610010000.zip",
+      "url": "",
+      "sha256": "cfa3ef7dc69cd52ca17c799a73432cb3b8de2993520e4ada63a953decb198d05",
+      "bytes": 96479,
+      "role": "mmsdm:2016_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201610010000.zip",
+      "url": "",
+      "sha256": "a555038b8341d9fe4c609f7e845f16f315394143786babcfe7cf86746a82c689",
+      "bytes": 173215,
+      "role": "mmsdm:2016_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201610010000.zip",
+      "url": "",
+      "sha256": "67fec20ca236162fdb3880e2c4291cf4652a6985827cc9b089f2a1a9bc0a5d1e",
+      "bytes": 46993,
+      "role": "mmsdm:2016_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_201610010000.zip",
+      "url": "",
+      "sha256": "bddbe6817ecbf9e1684bad5b6d4c1d1c3891a39195da56c062eb0f93b8abc3c0",
+      "bytes": 628,
+      "role": "mmsdm:2016_10"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201611010000.zip",
+      "url": "",
+      "sha256": "9656e11652b1d6bc91a7291e7d846afa7e73fa3a013767b6f6e4c70be674583d",
+      "bytes": 123955,
+      "role": "mmsdm:2016_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201611010000.zip",
+      "url": "",
+      "sha256": "3d3faca30713c40ca1c718cb05bed4d76543edf8e84a6b5d0b8f8c14afdfcb3c",
+      "bytes": 300505,
+      "role": "mmsdm:2016_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201611010000.zip",
+      "url": "",
+      "sha256": "fb627364756e771b01df7924222ea8774d9a2715745f7b6de756551c8b91077c",
+      "bytes": 59076,
+      "role": "mmsdm:2016_11"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201612010000.zip",
+      "url": "",
+      "sha256": "8b8e341b012f088a14c176c33ff05f546175c19b2f0fbbc7766052e9948a3505",
+      "bytes": 64407,
+      "role": "mmsdm:2016_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201612010000.zip",
+      "url": "",
+      "sha256": "814af5b05c5bd6c6ed41928858bfd62ca386b4ad9437bbb8c851f4446381b906",
+      "bytes": 149774,
+      "role": "mmsdm:2016_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201612010000.zip",
+      "url": "",
+      "sha256": "7d996b3c43a6a8727050a80067d382d3f849d8f01af81bb6526b8d763d3b7fcb",
+      "bytes": 33492,
+      "role": "mmsdm:2016_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_201612010000.zip",
+      "url": "",
+      "sha256": "6dc9fafc2533faf7d6f31c4b1037856863646ee513a7aec74a7afd65e8d8c0a3",
+      "bytes": 435,
+      "role": "mmsdm:2016_12"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201701010000.zip",
+      "url": "",
+      "sha256": "b2b0996b315c53596bd7a4cd7211b2335a204029ceb6148ccbe59c20c62ddf1a",
+      "bytes": 58588,
+      "role": "mmsdm:2017_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201701010000.zip",
+      "url": "",
+      "sha256": "ba4eed6e481359bd3258d9443908644d13a3c5d17c8e716177c706fd31e443ba",
+      "bytes": 83206,
+      "role": "mmsdm:2017_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201701010000.zip",
+      "url": "",
+      "sha256": "bcbfe4bbee8880185b691f6744dc2a855d0fd721df76cf4a0607c5306edbc40e",
+      "bytes": 28871,
+      "role": "mmsdm:2017_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_201701010000.zip",
+      "url": "",
+      "sha256": "4ed87e0fb00f99658dfcc4e15d417345a472d6858ba684a26dfe41da2f8ccebc",
+      "bytes": 432,
+      "role": "mmsdm:2017_01"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201702010000.zip",
+      "url": "",
+      "sha256": "3465ef6c01b1030ec62635d188b017bce97e0d3abec1aa0e920e3c943ca48f9c",
+      "bytes": 56570,
+      "role": "mmsdm:2017_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201702010000.zip",
+      "url": "",
+      "sha256": "c27d936e6ac4c5d36807a0dcecef2f1e5d868d797901b4e5207a5438b6ea1580",
+      "bytes": 100298,
+      "role": "mmsdm:2017_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201702010000.zip",
+      "url": "",
+      "sha256": "0f27734e7ecc1f2fa822d09fc46a66b72f91f143893f12a6f70139c312862859",
+      "bytes": 26534,
+      "role": "mmsdm:2017_02"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201704010000.zip",
+      "url": "",
+      "sha256": "4cba16363657a0bad115f849657c642ee48cfea45a5a70ef780351fbb032a581",
+      "bytes": 62083,
+      "role": "mmsdm:2017_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201704010000.zip",
+      "url": "",
+      "sha256": "b29841bf350219f3220b9fa48d7833d24a7821f2a735c0b2dc79c81602c88b00",
+      "bytes": 141449,
+      "role": "mmsdm:2017_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201704010000.zip",
+      "url": "",
+      "sha256": "199885a133918efdbfcdb22594ad92ebf7036ea4e7ac02ded1250d5e2a334ddc",
+      "bytes": 29795,
+      "role": "mmsdm:2017_04"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201705010000.zip",
+      "url": "",
+      "sha256": "1cc3838e09caa3dd8c2c7e12b199bce2d973a0c173597841cad00b814b23c0ec",
+      "bytes": 78287,
+      "role": "mmsdm:2017_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201705010000.zip",
+      "url": "",
+      "sha256": "4af5a97d8c0985b818be1ed1843864fc0fa0716f1ba7a90863e16198e39e607e",
+      "bytes": 200120,
+      "role": "mmsdm:2017_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201705010000.zip",
+      "url": "",
+      "sha256": "f70bea426a1e7d0be702b1d88a1fbb4476e1d8f3e71e30dd9b73fbb426c16522",
+      "bytes": 30350,
+      "role": "mmsdm:2017_05"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201706010000.zip",
+      "url": "",
+      "sha256": "ac4d3bbdd6c14b701a2860d53dc85f1d2c8fe153145b83ba48e2fbc8de3d6ddb",
+      "bytes": 57564,
+      "role": "mmsdm:2017_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201706010000.zip",
+      "url": "",
+      "sha256": "f85de9fed974011a84d4c0f35be188b95cb2ac5c1b0cb71cd8a59bd6d79e3204",
+      "bytes": 131297,
+      "role": "mmsdm:2017_06"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201707010000.zip",
+      "url": "",
+      "sha256": "14c0a699e2e4956c3ccd43ac3581e1f613d675b7ea67f05f2fc651eda0ff06d3",
+      "bytes": 67795,
+      "role": "mmsdm:2017_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201707010000.zip",
+      "url": "",
+      "sha256": "7c7b9bcdb5497b0cc8696f9f9448d4231e99fab72f70c4187df12e300307d54f",
+      "bytes": 126809,
+      "role": "mmsdm:2017_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201707010000.zip",
+      "url": "",
+      "sha256": "a44e7816152e0ca17180a57f7de8b27ed6438a0d6bec28cd154367b590ec2c9d",
+      "bytes": 26213,
+      "role": "mmsdm:2017_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201708010000.zip",
+      "url": "",
+      "sha256": "30f43f291759ad3f8aa8290277936dcca6114195142c8e6203ea1ba0f0692624",
+      "bytes": 84763,
+      "role": "mmsdm:2017_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201708010000.zip",
+      "url": "",
+      "sha256": "3b14e7374c50a7b6619c312ebcffc6a1913112dea93c0f3adc64b7f8086f6613",
+      "bytes": 432202,
+      "role": "mmsdm:2017_08"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201710010000.zip",
+      "url": "",
+      "sha256": "62ed12caf1df5b93ca07c5fbf6aff5559415e785f0e0dd986bfaef668c1af739",
+      "bytes": 106079,
+      "role": "mmsdm:2017_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201710010000.zip",
+      "url": "",
+      "sha256": "a3a475926b735f2d83a85ba2f0fe985c802ca149b6b691639bca317b2ca522bc",
+      "bytes": 263806,
+      "role": "mmsdm:2017_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201710010000.zip",
+      "url": "",
+      "sha256": "bda601b8845808848ed57575ad089b789abc231d15055acbb114b88965739cd1",
+      "bytes": 40719,
+      "role": "mmsdm:2017_10"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201711010000.zip",
+      "url": "",
+      "sha256": "8d91929c55b8cd83423fdb137736479eed90cd5974791046464837226ccb8374",
+      "bytes": 83721,
+      "role": "mmsdm:2017_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201711010000.zip",
+      "url": "",
+      "sha256": "6ca22b4b030a56e532fd5f77c3d17649ee731b3b2813a2ea055f8f126b949ccf",
+      "bytes": 182266,
+      "role": "mmsdm:2017_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201711010000.zip",
+      "url": "",
+      "sha256": "af9f707021c78c6e336f5757c492697fbda20553ef453b7fbf25d657160fc2e3",
+      "bytes": 33109,
+      "role": "mmsdm:2017_11"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201712010000.zip",
+      "url": "",
+      "sha256": "078e629f36320f5af09c1735cd6a1110eb346f050aee02a8f18577ab27c8a315",
+      "bytes": 56941,
+      "role": "mmsdm:2017_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201712010000.zip",
+      "url": "",
+      "sha256": "5aceeb076691d217c53ac0611eb2a58e99a50f15772b29249265a6b4911dd2a1",
+      "bytes": 131735,
+      "role": "mmsdm:2017_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201712010000.zip",
+      "url": "",
+      "sha256": "0b0fd9ce6920ea1533bc05e731d644dc26d13a8e69343faac2dc58cc24e24ff0",
+      "bytes": 18391,
+      "role": "mmsdm:2017_12"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201801010000.zip",
+      "url": "",
+      "sha256": "2a9146ea38de151de4daf3df04cb4b57fb24998f48d2240cdd83c446bca65374",
+      "bytes": 63507,
+      "role": "mmsdm:2018_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201801010000.zip",
+      "url": "",
+      "sha256": "82fe94a5c1bece2b464e00c665288d485ba1a4a10b82d8a3da9378f23b794e37",
+      "bytes": 108984,
+      "role": "mmsdm:2018_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201801010000.zip",
+      "url": "",
+      "sha256": "14309b50efdaa1b15674361c52bb9a877d929087d20b2c0ea797dbaa82395511",
+      "bytes": 23634,
+      "role": "mmsdm:2018_01"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201802010000.zip",
+      "url": "",
+      "sha256": "e972718924742b5e99ea5ce6571da576cd8b5bd5387a18a72108085c818960c4",
+      "bytes": 99809,
+      "role": "mmsdm:2018_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201802010000.zip",
+      "url": "",
+      "sha256": "ae064780658fe548f9f9917baae48896ac7cf54bb3b1ffd8aa938929bb39fae4",
+      "bytes": 355233,
+      "role": "mmsdm:2018_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201802010000.zip",
+      "url": "",
+      "sha256": "bc081696b87ebf22cf7e5ad0a18bd20dffc3a14e82d17b4586ee54e7a44a0bff",
+      "bytes": 48451,
+      "role": "mmsdm:2018_02"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201803010000.zip",
+      "url": "",
+      "sha256": "bd296924a19eb53280913a48f2fc1755a2032049f432a8ff3760bf156ac8b04a",
+      "bytes": 85697,
+      "role": "mmsdm:2018_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201803010000.zip",
+      "url": "",
+      "sha256": "49ba60b0be433b03ce91a398e9ef01cd326564fc6d0311f26b7624cea726c1f2",
+      "bytes": 219458,
+      "role": "mmsdm:2018_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201803010000.zip",
+      "url": "",
+      "sha256": "a17a4427ea4dbdb61f53d2aba990b06b56034604198abdf26934f2f53ff694a5",
+      "bytes": 37731,
+      "role": "mmsdm:2018_03"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201804010000.zip",
+      "url": "",
+      "sha256": "3055f9f6709e208e76da298f5ec59c92f9d1c386524ea69491533e85f2c33c2d",
+      "bytes": 118626,
+      "role": "mmsdm:2018_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201804010000.zip",
+      "url": "",
+      "sha256": "155c2dd71c9d78b3985952287f439bdee88101344ff4395009c219348f50029c",
+      "bytes": 305091,
+      "role": "mmsdm:2018_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201804010000.zip",
+      "url": "",
+      "sha256": "e41cda99b8b55e46a091c392e26045961278b1d73685e993d63cfd459e500283",
+      "bytes": 48383,
+      "role": "mmsdm:2018_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_201804010000.zip",
+      "url": "",
+      "sha256": "8a2c6d49122be718733979c3e1a48726786ff962e9172c7fbf58c7648d712233",
+      "bytes": 4070,
+      "role": "mmsdm:2018_04"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201805010000.zip",
+      "url": "",
+      "sha256": "b824f520c643bb22f6a9659e77bf4aadea2caa593a1eafbfbb2d1f7768b7bdaf",
+      "bytes": 124706,
+      "role": "mmsdm:2018_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201805010000.zip",
+      "url": "",
+      "sha256": "11ebc9fce60fed4bcb9154fcfa1882f7cca5312ce91584c87c232295887babff",
+      "bytes": 402893,
+      "role": "mmsdm:2018_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201805010000.zip",
+      "url": "",
+      "sha256": "3b4d13529103584fcd1e9b62504c7a2f49400af72fd2c59bb4eebe8eb997a10e",
+      "bytes": 50250,
+      "role": "mmsdm:2018_05"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201806010000.zip",
+      "url": "",
+      "sha256": "c829dd78ff114a9309c9124a664b162f4e3af9b00426548cff4a46c6961c2b8b",
+      "bytes": 152785,
+      "role": "mmsdm:2018_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201806010000.zip",
+      "url": "",
+      "sha256": "c9a0d2dec94566e2bfe6645e2431ad2eb6a4520675456007c83bfe23489581b0",
+      "bytes": 658342,
+      "role": "mmsdm:2018_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201806010000.zip",
+      "url": "",
+      "sha256": "5837fb9446cd48f67d2393205cd1f8854c91365bc1ac34dab4d6b21fd4360831",
+      "bytes": 71583,
+      "role": "mmsdm:2018_06"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201807010000.zip",
+      "url": "",
+      "sha256": "78115ebef8a737a92fe804869a48e0c2a7e22069fdbcd2c635a64253d097ce36",
+      "bytes": 135088,
+      "role": "mmsdm:2018_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201807010000.zip",
+      "url": "",
+      "sha256": "d294aa86a490e55a20219bb7f719d044ee7f6d0de0a2f6a22e2bfe30fa755888",
+      "bytes": 462892,
+      "role": "mmsdm:2018_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201807010000.zip",
+      "url": "",
+      "sha256": "eec07a2c95f6e6faeef436474e02f85399f9cb5a247fe0e9b91831a2592d26c6",
+      "bytes": 55347,
+      "role": "mmsdm:2018_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201808010000.zip",
+      "url": "",
+      "sha256": "5aedb1147bd75a723d16c0def3c17e73bbf2b95aec49339656eb3fcd55cee529",
+      "bytes": 197169,
+      "role": "mmsdm:2018_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201808010000.zip",
+      "url": "",
+      "sha256": "863237f3b072bba6a0dd3284cce25e1022ae5cf976c498145084d5ebc24c725c",
+      "bytes": 766457,
+      "role": "mmsdm:2018_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201808010000.zip",
+      "url": "",
+      "sha256": "d7e263e60a6a00b7e3d29ffd9b2fe8424b0e3cef9f0a8c4babaded80c732790f",
+      "bytes": 86162,
+      "role": "mmsdm:2018_08"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201809010000.zip",
+      "url": "",
+      "sha256": "d14133d096acd3cd2a265706051aacc7e83132c484685b5f87366224683b2a30",
+      "bytes": 132083,
+      "role": "mmsdm:2018_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201809010000.zip",
+      "url": "",
+      "sha256": "9f749b77c2c7e345c2741b55396f9ee3f2f2fe9e0e118c986c3e37db91345b7d",
+      "bytes": 469326,
+      "role": "mmsdm:2018_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201809010000.zip",
+      "url": "",
+      "sha256": "4a0ba113a67c8a6efb0f0f6fea4084a47c96bc246d155c16553aaae1a87e8004",
+      "bytes": 56855,
+      "role": "mmsdm:2018_09"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201810010000.zip",
+      "url": "",
+      "sha256": "11942202307f83dffab84a76d37ffeb6bd9cbc97d74eca8f60fc8eeeb859eabf",
+      "bytes": 94363,
+      "role": "mmsdm:2018_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201810010000.zip",
+      "url": "",
+      "sha256": "91b7f03494a182a09e48525cd82e8a410f6373a5fa4f1a4a5837074a61903627",
+      "bytes": 280481,
+      "role": "mmsdm:2018_10"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201811010000.zip",
+      "url": "",
+      "sha256": "8ed98e33499a80a88f9ec802aa3008edc664f5d9bc8ad2b5893586679ced1168",
+      "bytes": 109945,
+      "role": "mmsdm:2018_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201811010000.zip",
+      "url": "",
+      "sha256": "8d331f4b6869fb7bb9ec41e257b4a3c05dd2e27171469e8eea424052f7bb7310",
+      "bytes": 375721,
+      "role": "mmsdm:2018_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201811010000.zip",
+      "url": "",
+      "sha256": "32909841c6c4bdc2dce6eabf48631f62966b94796c4304f4c2c47ab27f045f36",
+      "bytes": 52652,
+      "role": "mmsdm:2018_11"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201812010000.zip",
+      "url": "",
+      "sha256": "52b3d8565a1d9e899de32f77b1b805e1d36c37b0a4cc68e6d23b23512a2eb33e",
+      "bytes": 67359,
+      "role": "mmsdm:2018_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201812010000.zip",
+      "url": "",
+      "sha256": "0384956de9b287b5d43a0c0ecd601c8dbfb9259c712bdef7c506e4261017fa3a",
+      "bytes": 172668,
+      "role": "mmsdm:2018_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201812010000.zip",
+      "url": "",
+      "sha256": "2fd09dbc08f23c1071b6dc015386da3a2d3c6c75d597c2b1f1de7d6aeac8bcf3",
+      "bytes": 20945,
+      "role": "mmsdm:2018_12"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201901010000.zip",
+      "url": "",
+      "sha256": "92e54d1eaaaf3e196f2c8b65160ace5fa01f63958767b6fec4948841db40ef15",
+      "bytes": 95431,
+      "role": "mmsdm:2019_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201901010000.zip",
+      "url": "",
+      "sha256": "0909e7caa3d65d4fd260b8a02b320608308775e1193274016a6b7e976d642ed3",
+      "bytes": 170715,
+      "role": "mmsdm:2019_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201901010000.zip",
+      "url": "",
+      "sha256": "cbbf1bbbe6cc41a4b845ee26e9089bc7ca843829e011e5f802fe2a15140d0c64",
+      "bytes": 33103,
+      "role": "mmsdm:2019_01"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201902010000.zip",
+      "url": "",
+      "sha256": "174deec8ad071caacc8ef0c5047f1e5544ae428fcc479f067f173b3a4fbdf062",
+      "bytes": 82885,
+      "role": "mmsdm:2019_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201902010000.zip",
+      "url": "",
+      "sha256": "65fcd50565b0bbc38c0c564a9fe8857003ae908d313a009ea4a5086c25730c4a",
+      "bytes": 166702,
+      "role": "mmsdm:2019_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201902010000.zip",
+      "url": "",
+      "sha256": "b83ba9f4e52dd47657180a7e11d5c6c9ca425b1f5e8207d0d8f6e2f25bcaa0d1",
+      "bytes": 32586,
+      "role": "mmsdm:2019_02"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201903010000.zip",
+      "url": "",
+      "sha256": "c62a803991707642ae7f9f300c8590eb9b8365bb031946d4755caa06a4cc319d",
+      "bytes": 182927,
+      "role": "mmsdm:2019_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201903010000.zip",
+      "url": "",
+      "sha256": "d9365d797d1b5b19446dc286608033f25d69298484f0378872a3beac1182d19b",
+      "bytes": 664733,
+      "role": "mmsdm:2019_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201903010000.zip",
+      "url": "",
+      "sha256": "f3a5e9743cfc20c71bc952ffcce89a16978b1ca160b24819f864aaead3e7f22b",
+      "bytes": 71829,
+      "role": "mmsdm:2019_03"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201904010000.zip",
+      "url": "",
+      "sha256": "2891621d8ccbd09371274a55232b5db2ae8ae60eea60bb55278a012456aaa81c",
+      "bytes": 124661,
+      "role": "mmsdm:2019_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201904010000.zip",
+      "url": "",
+      "sha256": "287f3374e51e24c3ae49b92e8894dad57febc09bf6e5cfe6595bec04315c0ef5",
+      "bytes": 350723,
+      "role": "mmsdm:2019_04"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201905010000.zip",
+      "url": "",
+      "sha256": "9217f3f89e7d1ed13a362fe26c54ff21d54aa9b9f839d518e25e0c26640dc220",
+      "bytes": 171394,
+      "role": "mmsdm:2019_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201905010000.zip",
+      "url": "",
+      "sha256": "f652eb6d059016abd4440cb3d39917bf8f06fa3cb6df9650d34e00d31c8f0c8c",
+      "bytes": 709289,
+      "role": "mmsdm:2019_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201905010000.zip",
+      "url": "",
+      "sha256": "3f46da917b64606b4e08ad21e5a61de39381b7dccbc52b8ec1980c99b142caaa",
+      "bytes": 69662,
+      "role": "mmsdm:2019_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_201905010000.zip",
+      "url": "",
+      "sha256": "89921940d1c4b0c2dd8dc89d1a93313c5fac817f7690acdbb00c50aa466d88aa",
+      "bytes": 593,
+      "role": "mmsdm:2019_05"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201906010000.zip",
+      "url": "",
+      "sha256": "44a4a1fdac0c8ae316f3db9ba7bcc977be0b5f337021214d21ee00e7950854ed",
+      "bytes": 155666,
+      "role": "mmsdm:2019_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201906010000.zip",
+      "url": "",
+      "sha256": "8aa6903f05034a953c7e0936ec5188af27bf22e0276bdecb2c540de09e643960",
+      "bytes": 591470,
+      "role": "mmsdm:2019_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201906010000.zip",
+      "url": "",
+      "sha256": "870a5393c222ee284e9dbec3472da95f9a399d140bacae0beff4185f994f9839",
+      "bytes": 66694,
+      "role": "mmsdm:2019_06"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201907010000.zip",
+      "url": "",
+      "sha256": "50b2ed7be92ecb617157a9218cb88b82ba5823aed110a60b67679973a5827c0c",
+      "bytes": 149536,
+      "role": "mmsdm:2019_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201907010000.zip",
+      "url": "",
+      "sha256": "adcc9fd08ddd08c031557bdba0eac187f628798ac0e3e1fb1807f08d212305f9",
+      "bytes": 668335,
+      "role": "mmsdm:2019_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201907010000.zip",
+      "url": "",
+      "sha256": "0681efdf8a99d6046f889fb65652a7daece19eb66636ae17d91d5933ed1d93d5",
+      "bytes": 55616,
+      "role": "mmsdm:2019_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201908010000.zip",
+      "url": "",
+      "sha256": "207f1fe8dc13fabedba00ae4b1444b263bca5a59d127e89a9539feeb3bffe3d7",
+      "bytes": 91155,
+      "role": "mmsdm:2019_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201908010000.zip",
+      "url": "",
+      "sha256": "2999fe4b1156a68b85c4a717fc26b6907dabed57b929000bb082933c52932464",
+      "bytes": 191077,
+      "role": "mmsdm:2019_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201908010000.zip",
+      "url": "",
+      "sha256": "96b55b37bd7875be7836652b6da4498c5cf1bb6c98b7e9ba148a60055a3f6d94",
+      "bytes": 28234,
+      "role": "mmsdm:2019_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_201908010000.zip",
+      "url": "",
+      "sha256": "dc264570ef1e05b7242638ff04a1c077225fe3e3eb0dea6fdc61bfb5f67758ef",
+      "bytes": 5549,
+      "role": "mmsdm:2019_08"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201909010000.zip",
+      "url": "",
+      "sha256": "22b83dc18d03d003152c32fc964c925563d09eeaa966513ce5bb39a2b3ef59bf",
+      "bytes": 91239,
+      "role": "mmsdm:2019_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201909010000.zip",
+      "url": "",
+      "sha256": "067338c815f860668c04eb4408c9028b181637aafb8b8b0b4ed6e2cef43465cb",
+      "bytes": 240748,
+      "role": "mmsdm:2019_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201909010000.zip",
+      "url": "",
+      "sha256": "727ef50d7edc5913aa6a28e9c0b8f8558acf28744b17f367ba92b810473043b3",
+      "bytes": 27076,
+      "role": "mmsdm:2019_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_201909010000.zip",
+      "url": "",
+      "sha256": "92f3d8d39e8aa7f3271338d59e01be498603e8e95179aa4296a66a06313908ed",
+      "bytes": 9061,
+      "role": "mmsdm:2019_09"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201910010000.zip",
+      "url": "",
+      "sha256": "1af4a758c3d8c15d17565d48b7fb4f971d9cecedb9642a589b1466de0db76e61",
+      "bytes": 171643,
+      "role": "mmsdm:2019_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201910010000.zip",
+      "url": "",
+      "sha256": "147ad45900d73a1fa34acbdc9bc28622c5cfa41a8fd204efc1fa25a7c922985c",
+      "bytes": 775955,
+      "role": "mmsdm:2019_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201910010000.zip",
+      "url": "",
+      "sha256": "35f67e99b93e15b768257672c77223b76cfed13cb15816d46d1ad4dc0313e410",
+      "bytes": 66907,
+      "role": "mmsdm:2019_10"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_201911010000.zip",
+      "url": "",
+      "sha256": "d9310b9e71ad7283b3fbd638890dd5da2a0355c988ddb301c31e10cc89d65cfd",
+      "bytes": 83402,
+      "role": "mmsdm:2019_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_201911010000.zip",
+      "url": "",
+      "sha256": "50d43f347f36cac9237b8cbd3d817ffc0e0989609266efe2d14b4222b1bcb8d4",
+      "bytes": 369669,
+      "role": "mmsdm:2019_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_201911010000.zip",
+      "url": "",
+      "sha256": "547b9dd2b4e105ce27e448f020010231562ea03ac822240819acff700fcd1253",
+      "bytes": 37139,
+      "role": "mmsdm:2019_11"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202001010000.zip",
+      "url": "",
+      "sha256": "ff23e49985e4d5d677b8ea089e35ea621a1bda3024b49b6253d62ede40f16540",
+      "bytes": 129956,
+      "role": "mmsdm:2020_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202001010000.zip",
+      "url": "",
+      "sha256": "e7189a5e4497dbb57d9a5d083c44f48813697148e7a1c780a85f91678200485c",
+      "bytes": 733991,
+      "role": "mmsdm:2020_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202001010000.zip",
+      "url": "",
+      "sha256": "cceb62ece2d486d20b75575ebd515e3141818214cdcd6678c43525f7575e66a7",
+      "bytes": 79573,
+      "role": "mmsdm:2020_01"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202002010000.zip",
+      "url": "",
+      "sha256": "134e9d29b5237d8cd4ed2a636d4887d6f2d2ce2fc050999bddd0d1bb905ea76d",
+      "bytes": 150038,
+      "role": "mmsdm:2020_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202002010000.zip",
+      "url": "",
+      "sha256": "6aa4bd4e04a9904877d518e1c120687788689077bf403cf7bdb522d89739b39c",
+      "bytes": 731140,
+      "role": "mmsdm:2020_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202002010000.zip",
+      "url": "",
+      "sha256": "1f3be42fdd028e4040eeb74baa6f0be399b49d00e4fd236d4091d442a7c07bc7",
+      "bytes": 76380,
+      "role": "mmsdm:2020_02"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202003010000.zip",
+      "url": "",
+      "sha256": "9626296390e4d287afa55fc09783a3a24e25f95ccda73fbc59bce17ac759686d",
+      "bytes": 109851,
+      "role": "mmsdm:2020_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202003010000.zip",
+      "url": "",
+      "sha256": "ff1db4d84a524f40fe393e744a0b27e747c9d4247b5549f54721e29d9f169aa6",
+      "bytes": 604943,
+      "role": "mmsdm:2020_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202003010000.zip",
+      "url": "",
+      "sha256": "47a927752f5433b5ebd133dd458b9526c14ded0a7133bab23d43c17acf04396f",
+      "bytes": 73303,
+      "role": "mmsdm:2020_03"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202004010000.zip",
+      "url": "",
+      "sha256": "956c81903e81ab2f55dce71a5ef4c642c0f3256882e9725d4af96027cb115cb6",
+      "bytes": 46073,
+      "role": "mmsdm:2020_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202004010000.zip",
+      "url": "",
+      "sha256": "6580285097b539c8d9f03f90bfc894850e1fb6d77033779015d3eb42ea3058c6",
+      "bytes": 368874,
+      "role": "mmsdm:2020_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202004010000.zip",
+      "url": "",
+      "sha256": "1304932d4d154bc64b56be6bb5c78cc23d1958fa8e9229baba49152d5ac3b111",
+      "bytes": 27795,
+      "role": "mmsdm:2020_04"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202005010000.zip",
+      "url": "",
+      "sha256": "5c822b0c2b20fdef4d227380223cdcbcbeabb2a8a4c0caedc1083e4c1493b368",
+      "bytes": 113032,
+      "role": "mmsdm:2020_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202005010000.zip",
+      "url": "",
+      "sha256": "33e103fe42b7b114b1c35d3eb26f6b4ae5ca5a45d1ef648ef0e392752f40e08b",
+      "bytes": 609387,
+      "role": "mmsdm:2020_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202005010000.zip",
+      "url": "",
+      "sha256": "ab284b1c05c87c6bc468740537a0139d16f5597bf214c3e643f8a8fbe7137c67",
+      "bytes": 60883,
+      "role": "mmsdm:2020_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202005010000.zip",
+      "url": "",
+      "sha256": "ce590e9e9f7357fa9ea60e5f2e0fb0b8646064a93ccf2653c1dd0eef3e25f73f",
+      "bytes": 2600,
+      "role": "mmsdm:2020_05"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202006010000.zip",
+      "url": "",
+      "sha256": "9cec6895e9c0e7a817b66e45afdbc74fbe5575af800b5ef7a25393dbb93211fd",
+      "bytes": 149124,
+      "role": "mmsdm:2020_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202006010000.zip",
+      "url": "",
+      "sha256": "72d028cfc87ec78fef63c36abb17c8143221d69c320123c27a1f30e7ee35b265",
+      "bytes": 523336,
+      "role": "mmsdm:2020_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202006010000.zip",
+      "url": "",
+      "sha256": "150072ba1b378ca3ae9f491d3a9d532fc71d31ca1556192a21462b6e1b15015a",
+      "bytes": 70407,
+      "role": "mmsdm:2020_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202006010000.zip",
+      "url": "",
+      "sha256": "360ba4ce6f77e017163964285e861f25e40eb44d78a03a49e273d144af96bbba",
+      "bytes": 1975,
+      "role": "mmsdm:2020_06"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202007010000.zip",
+      "url": "",
+      "sha256": "e98eef2dc5bf16eea2462dbaa2e4a78385aec5c1cc1e034bfe21faf3e318c038",
+      "bytes": 133052,
+      "role": "mmsdm:2020_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202007010000.zip",
+      "url": "",
+      "sha256": "05b776c92bb5180c8641536adfb17646ba176ebf4917081650654137834bfe93",
+      "bytes": 521371,
+      "role": "mmsdm:2020_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202007010000.zip",
+      "url": "",
+      "sha256": "59cfd898df5d2d48aeb9c4140ec7d1486740891530dbf28e14f10b2450eba2ea",
+      "bytes": 69783,
+      "role": "mmsdm:2020_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202008010000.zip",
+      "url": "",
+      "sha256": "d1dc34231ce9068174afead39662c237a1b7695afafe79b9b3f072a52d35af46",
+      "bytes": 88407,
+      "role": "mmsdm:2020_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202008010000.zip",
+      "url": "",
+      "sha256": "6a5a0760d5d17306e906be78ccb7205768ee92c48640fd6571ca3f3d72f831e1",
+      "bytes": 667210,
+      "role": "mmsdm:2020_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202008010000.zip",
+      "url": "",
+      "sha256": "ea33bfc9003fbe5a163dc631562b7c7966b81054f1260240c21371f51a68040f",
+      "bytes": 50666,
+      "role": "mmsdm:2020_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202008010000.zip",
+      "url": "",
+      "sha256": "fee1d9ca7435f8e45332fe06fbacb3a66128d0305d92d54779c6ef6f28ad53f2",
+      "bytes": 1094,
+      "role": "mmsdm:2020_08"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202009010000.zip",
+      "url": "",
+      "sha256": "3306c31b2221a666c6d5149f33454b8f441b8495633e9cd7ae674d67a636741e",
+      "bytes": 92524,
+      "role": "mmsdm:2020_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202009010000.zip",
+      "url": "",
+      "sha256": "55988be0ef5290909d3230fa2d1738290292dfaffc320924d0733beedbb257d1",
+      "bytes": 544449,
+      "role": "mmsdm:2020_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202009010000.zip",
+      "url": "",
+      "sha256": "f8f35769e0014ccc7c7273d1011d285f4f0646ff64facc8b3c50e15f1a1a9f1f",
+      "bytes": 52599,
+      "role": "mmsdm:2020_09"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202010010000.zip",
+      "url": "",
+      "sha256": "fc58a1a765457c944de8e00bfb76872500a7b0e5174cd0b6473050cfbe4e9a54",
+      "bytes": 144208,
+      "role": "mmsdm:2020_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202010010000.zip",
+      "url": "",
+      "sha256": "fad6f220daffa836f7f0060eededce13f266464c5dced882978d314602a24ad5",
+      "bytes": 780033,
+      "role": "mmsdm:2020_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202010010000.zip",
+      "url": "",
+      "sha256": "dfc870f6610060ff88abdbf4081983115449522671325fed6c35df1c21108ac3",
+      "bytes": 53410,
+      "role": "mmsdm:2020_10"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202011010000.zip",
+      "url": "",
+      "sha256": "0c5f7716357ea344dc0e59e99aa8db2f289ec5b047e92b5aaa9f9a776deae418",
+      "bytes": 289112,
+      "role": "mmsdm:2020_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202011010000.zip",
+      "url": "",
+      "sha256": "589922b236c0692dc350dc10369260fb5be639e063813b35a031eaeac2a8fea6",
+      "bytes": 1404117,
+      "role": "mmsdm:2020_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202011010000.zip",
+      "url": "",
+      "sha256": "6deadaf0d054c0bb65e628d879b7620f4c2454445a053ad72061c252d5e7cd3b",
+      "bytes": 123205,
+      "role": "mmsdm:2020_11"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202012010000.zip",
+      "url": "",
+      "sha256": "0634a9819ab2c53890a8155b7e23e2c126fd04186a5c2f1d4ce2e3c84732a217",
+      "bytes": 226943,
+      "role": "mmsdm:2020_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202012010000.zip",
+      "url": "",
+      "sha256": "e122500d7d2deff3384e51826ae867c089cf93eb719de80dc5eec7b464c33460",
+      "bytes": 999823,
+      "role": "mmsdm:2020_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202012010000.zip",
+      "url": "",
+      "sha256": "2ce9a2efaac8cd4f3e5b1981c6ff185eda2f789391476f45b4c9d3f302e9ae77",
+      "bytes": 99064,
+      "role": "mmsdm:2020_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202012010000.zip",
+      "url": "",
+      "sha256": "885cd1ad02754157c8f8145877724cdfacaf3ed3ef331725fe878d19b7d874e0",
+      "bytes": 2071,
+      "role": "mmsdm:2020_12"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202101010000.zip",
+      "url": "",
+      "sha256": "cf77979801cd4b25f23f25b0db857653be87c311119f5dba0950142da48b60d7",
+      "bytes": 172588,
+      "role": "mmsdm:2021_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202101010000.zip",
+      "url": "",
+      "sha256": "32630549b4c8e835f39f6ee6ce869c384089783d52f1650174582cf7eee5f006",
+      "bytes": 746349,
+      "role": "mmsdm:2021_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202101010000.zip",
+      "url": "",
+      "sha256": "5f99c13d015f1c567bde925d44d8cbb633b51994e8789c78378e7a773b49e474",
+      "bytes": 81364,
+      "role": "mmsdm:2021_01"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202102010000.zip",
+      "url": "",
+      "sha256": "cc6625315d51676b3c2880b315e604b010db87f1dca82082eff11317b96fcbf6",
+      "bytes": 115492,
+      "role": "mmsdm:2021_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202102010000.zip",
+      "url": "",
+      "sha256": "ca9fb488505652f1a5684f1836e48e7b2307b2f6ce6646e78ab2015672d27f8f",
+      "bytes": 428684,
+      "role": "mmsdm:2021_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202102010000.zip",
+      "url": "",
+      "sha256": "522bf7c1453aaeeea5f837c6bf85d517756134007efe91fb6ce241b68fcc301e",
+      "bytes": 54931,
+      "role": "mmsdm:2021_02"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202103010000.zip",
+      "url": "",
+      "sha256": "0c01c0757d4fe02b14a53b2e4ec10b9979295887b516dc4166b8facc0142298b",
+      "bytes": 138763,
+      "role": "mmsdm:2021_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202103010000.zip",
+      "url": "",
+      "sha256": "df0af842e971d117a11d06fe4bf0f590a57a6dbfef8eee9f3851f5c2bd3b037a",
+      "bytes": 958026,
+      "role": "mmsdm:2021_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202103010000.zip",
+      "url": "",
+      "sha256": "e5c5d268f6be4b82b17e65908bf550b87a43ad3f11a26d731ed19bdcfdbdec64",
+      "bytes": 63234,
+      "role": "mmsdm:2021_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202103010000.zip",
+      "url": "",
+      "sha256": "044ab3aad7dd267c5546c35a6abc742aec6e2ab2e5e1187d29b3807de61d28d5",
+      "bytes": 823,
+      "role": "mmsdm:2021_03"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202104010000.zip",
+      "url": "",
+      "sha256": "f05cbe2ae970fc5f6d3992db524b68ec94c8f03fd33c896586c7b56051549552",
+      "bytes": 175940,
+      "role": "mmsdm:2021_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202104010000.zip",
+      "url": "",
+      "sha256": "be5d42d10d61acb6ebad6683a085cbf8585eb6cf8617911948fc0b1d7b3871fe",
+      "bytes": 694450,
+      "role": "mmsdm:2021_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202104010000.zip",
+      "url": "",
+      "sha256": "fb9c70cf269a524a5d54eea812a12f460bbcdb1cad1d39154c556a4c9ad0307d",
+      "bytes": 70880,
+      "role": "mmsdm:2021_04"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202105010000.zip",
+      "url": "",
+      "sha256": "e60cabae730f99eefc878ecf56d60b1cfde228285566e173c09c1c1301d067bc",
+      "bytes": 131839,
+      "role": "mmsdm:2021_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202105010000.zip",
+      "url": "",
+      "sha256": "b1efd0b8a4aee619504254f2b05124756e2d9c54ede775f375015bbca2c16300",
+      "bytes": 669697,
+      "role": "mmsdm:2021_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202105010000.zip",
+      "url": "",
+      "sha256": "b006b3bfe5c0b11cbd078695b82baf625bfae6cf87f56fa5bfb29396eadedd09",
+      "bytes": 41973,
+      "role": "mmsdm:2021_05"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202106010000.zip",
+      "url": "",
+      "sha256": "b334eeed67e4bb6891e688756539c18530fc7ec3187ca7f3c68134429723d70e",
+      "bytes": 150520,
+      "role": "mmsdm:2021_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202106010000.zip",
+      "url": "",
+      "sha256": "46d056b97095cb78886d1c1ce6c415e0ea9ef87c76785dfd7f9df272449ffe54",
+      "bytes": 611504,
+      "role": "mmsdm:2021_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202106010000.zip",
+      "url": "",
+      "sha256": "dc79bf36e8a1a5d29ed2e520685a59c8d2fdd447a0bc6321ea300bb5ccf36ac5",
+      "bytes": 59046,
+      "role": "mmsdm:2021_06"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202107010000.zip",
+      "url": "",
+      "sha256": "ec9cebc17c3b6a151be7a9a7c551671cfc06e1b7df2411285e780eff920d0e5f",
+      "bytes": 128386,
+      "role": "mmsdm:2021_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202107010000.zip",
+      "url": "",
+      "sha256": "ffdb68d9025233aad55ca269b3bc1415e8df8b35abcd82a2a2f8a005236df499",
+      "bytes": 702106,
+      "role": "mmsdm:2021_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202107010000.zip",
+      "url": "",
+      "sha256": "b90fc7ec056ad68d7118cbb665f61f9dd2f45556afed3a07ac591a59b4c44d9f",
+      "bytes": 58260,
+      "role": "mmsdm:2021_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202108010000.zip",
+      "url": "",
+      "sha256": "18c75e5289638760bd27f342dea28f63c1ff558583db3a2e74236c89b781e474",
+      "bytes": 310273,
+      "role": "mmsdm:2021_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202108010000.zip",
+      "url": "",
+      "sha256": "bdc5df1db1ef991fad204075a4fbd8dad70595942ea3d7ddcb884acca5438111",
+      "bytes": 1314154,
+      "role": "mmsdm:2021_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202108010000.zip",
+      "url": "",
+      "sha256": "88e399d327b4f1af1f48206ef48eedd3a5bc6921477c4a12fcba7b7773c043bc",
+      "bytes": 119278,
+      "role": "mmsdm:2021_08"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202109010000.zip",
+      "url": "",
+      "sha256": "e02e8c20f40bfbab33ba258f7398a5d4c36acbe504d75ffbe29258ba838ac78f",
+      "bytes": 168582,
+      "role": "mmsdm:2021_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202109010000.zip",
+      "url": "",
+      "sha256": "bd4dbc904a1b0e231329d120cdde3e92144ee950a2d55401b0b83ceb62577aad",
+      "bytes": 704495,
+      "role": "mmsdm:2021_09"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202110010000.zip",
+      "url": "",
+      "sha256": "e1a93767df8020de835f2f47686fe3636cbe9b712014906b11143df2d139ac40",
+      "bytes": 83383,
+      "role": "mmsdm:2021_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202110010000.zip",
+      "url": "",
+      "sha256": "efdab71bd230565a3ab1733640511701d9181087a64980dcfdc27ddfd78533da",
+      "bytes": 721360,
+      "role": "mmsdm:2021_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202110010000.zip",
+      "url": "",
+      "sha256": "e03e2307c1df6fd22104107d19c64c3df77418db14cacd4bad7f34d3535475fa",
+      "bytes": 45896,
+      "role": "mmsdm:2021_10"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202111010000.zip",
+      "url": "",
+      "sha256": "70e5e58d5094cdf21bd7f7e306c20deca595c42d43a114db1dcbae782e34c680",
+      "bytes": 110134,
+      "role": "mmsdm:2021_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202111010000.zip",
+      "url": "",
+      "sha256": "f5781378faaba50dc5b9ea9a29dd9e5625330818a24c997108d0aa50b6e780bd",
+      "bytes": 590364,
+      "role": "mmsdm:2021_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202111010000.zip",
+      "url": "",
+      "sha256": "d3658d631639e058721a82ab007f6f33fadcfb6e07e484d90f912b5539fa2e6e",
+      "bytes": 43185,
+      "role": "mmsdm:2021_11"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202112010000.zip",
+      "url": "",
+      "sha256": "8682e38455cb891a35f8262b6c6c7c5b969237b93add7326cab2df76dd1be5ae",
+      "bytes": 183433,
+      "role": "mmsdm:2021_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202112010000.zip",
+      "url": "",
+      "sha256": "3fb57d52ed0bef7b77a323c947cb178f7c4ea210d6d0747d27a656afdb9429e7",
+      "bytes": 880504,
+      "role": "mmsdm:2021_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202112010000.zip",
+      "url": "",
+      "sha256": "99bb9d014564aed4b1eb488a7d607a5c248ebaf5fae370780e9ce26caa0fa315",
+      "bytes": 55961,
+      "role": "mmsdm:2021_12"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202201010000.zip",
+      "url": "",
+      "sha256": "ac838f0f944a77e5c26feb67e522a02e30d6ba0b524ddba25258faa01e0f3fd3",
+      "bytes": 45492,
+      "role": "mmsdm:2022_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202201010000.zip",
+      "url": "",
+      "sha256": "9606bc542109ec61201e03cac558d5fba913b465bdec387a97512223ab20b0fa",
+      "bytes": 409289,
+      "role": "mmsdm:2022_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202201010000.zip",
+      "url": "",
+      "sha256": "4304462859526f52407b1f35625827b7a048c758cc8057aaeb422c79e9e8b5b9",
+      "bytes": 24005,
+      "role": "mmsdm:2022_01"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202202010000.zip",
+      "url": "",
+      "sha256": "a0e39f6ef01064635b43c66b7972ef96eb30ad4ab2f4a268f7b27ebdae91acdb",
+      "bytes": 180760,
+      "role": "mmsdm:2022_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202202010000.zip",
+      "url": "",
+      "sha256": "4cc2f1710aa60f403e3f760a7a070db1c1dde71a6ec51d4878e1987897735cf3",
+      "bytes": 1028701,
+      "role": "mmsdm:2022_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202202010000.zip",
+      "url": "",
+      "sha256": "f7722e58ad448065241db8d659c95ca54469aff4ee5441ede9ec9436877f726b",
+      "bytes": 84938,
+      "role": "mmsdm:2022_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202202010000.zip",
+      "url": "",
+      "sha256": "31ff978b324ca2c6f9e77682bc3aa9d91a4f311af4fe3ff8b60fe0fd2b5809f0",
+      "bytes": 1278,
+      "role": "mmsdm:2022_02"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202203010000.zip",
+      "url": "",
+      "sha256": "daefb9d2991297a293cff28af7681851dab7ae8e8343dc2ac27b7475a1446038",
+      "bytes": 128175,
+      "role": "mmsdm:2022_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202203010000.zip",
+      "url": "",
+      "sha256": "36144dad1def53b0fe09b90271c7a38c75e21449375186d31b89d1d8b942089c",
+      "bytes": 531245,
+      "role": "mmsdm:2022_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202203010000.zip",
+      "url": "",
+      "sha256": "fb0863944159e129209d4bcdfd2242a92a1c38c27b03db4639c468198d5a5178",
+      "bytes": 49944,
+      "role": "mmsdm:2022_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202203010000.zip",
+      "url": "",
+      "sha256": "1c65c8f860e36330592d09ab648da86aa5d25624d0d4f910d5e4b1365a2bb9c9",
+      "bytes": 590,
+      "role": "mmsdm:2022_03"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202204010000.zip",
+      "url": "",
+      "sha256": "8ab500baad32eab72ff8d018d4740cc155c2ce6586c7d3bb1e4e592d6b353375",
+      "bytes": 108714,
+      "role": "mmsdm:2022_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202204010000.zip",
+      "url": "",
+      "sha256": "89a82dedbf056a7662ab622d6197c9ce0cef0c3c6307fcd1ac4939b60d8f8848",
+      "bytes": 523794,
+      "role": "mmsdm:2022_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202204010000.zip",
+      "url": "",
+      "sha256": "5955e30973a0477dea33995fc01a365575ee18f8ba04569791acb2c8884ca560",
+      "bytes": 48613,
+      "role": "mmsdm:2022_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202204010000.zip",
+      "url": "",
+      "sha256": "e913ed314e819cbbcb00b91d4c0e1b59a7da9caa98215fe8fd24c813d5334934",
+      "bytes": 1316,
+      "role": "mmsdm:2022_04"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202205010000.zip",
+      "url": "",
+      "sha256": "d71799e6c0174c8255c88063c4ae9f67a7a6b6d69c5038c6f5d6e6565752cf2f",
+      "bytes": 145719,
+      "role": "mmsdm:2022_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202205010000.zip",
+      "url": "",
+      "sha256": "a3c2f2a71530820c3c322748984b482e1ddfaff9622503c17171139ba664072d",
+      "bytes": 1201202,
+      "role": "mmsdm:2022_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202205010000.zip",
+      "url": "",
+      "sha256": "d3796ab3dfbd05e7f3ad38977d28a0619bd71fb489c0b6c5806097a4223a1ed3",
+      "bytes": 83835,
+      "role": "mmsdm:2022_05"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202206010000.zip",
+      "url": "",
+      "sha256": "0b9593788861ec6cc45032bde79460439ded0d5ce025925242fe47c2da96ab7c",
+      "bytes": 157682,
+      "role": "mmsdm:2022_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202206010000.zip",
+      "url": "",
+      "sha256": "2eec63fbc0b04b44ecb1ccbb17b485494d153198998f5b33a4f4b223f2a6b789",
+      "bytes": 736566,
+      "role": "mmsdm:2022_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202206010000.zip",
+      "url": "",
+      "sha256": "a4e2c0cd506399c62b950088e6cfe2234255860e8f80f2c91f93fb37ddfab277",
+      "bytes": 59244,
+      "role": "mmsdm:2022_06"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202207010000.zip",
+      "url": "",
+      "sha256": "521a041b47e5080eddc468541997928a845b82ae2352aa28f7d6b1c9153a87fb",
+      "bytes": 130045,
+      "role": "mmsdm:2022_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202207010000.zip",
+      "url": "",
+      "sha256": "f20e47090393ac1f8f01d5fecd60a0102d74dad2a3e3f886bd4bb10c90124b7a",
+      "bytes": 571512,
+      "role": "mmsdm:2022_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202207010000.zip",
+      "url": "",
+      "sha256": "9112c65c042325811cb76c446112e02eda9d85b033b07470760c2b0bf19ed719",
+      "bytes": 57878,
+      "role": "mmsdm:2022_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202208010000.zip",
+      "url": "",
+      "sha256": "6479b39b55373564a97b8f813f1296842182ff0aa550956a3e4bb3bda410a668",
+      "bytes": 141817,
+      "role": "mmsdm:2022_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202208010000.zip",
+      "url": "",
+      "sha256": "fced033d406f6ee8c8a39566cac09e67ec588c3cf67e64936593495a566dcc78",
+      "bytes": 729935,
+      "role": "mmsdm:2022_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202208010000.zip",
+      "url": "",
+      "sha256": "25f973277b46df7f34fd5bed7929f4b9e69ff27c07818ec06e69a1b9dd866b29",
+      "bytes": 47412,
+      "role": "mmsdm:2022_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202208010000.zip",
+      "url": "",
+      "sha256": "f9d80d4b63b53242d10376a35490cb95ab54da515d081392adccf451d462a35a",
+      "bytes": 1472,
+      "role": "mmsdm:2022_08"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202209010000.zip",
+      "url": "",
+      "sha256": "cb45fac2568ab8af59f11760667c28fae69ea2d78e9cabf566e5d50ce72c2848",
+      "bytes": 129129,
+      "role": "mmsdm:2022_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202209010000.zip",
+      "url": "",
+      "sha256": "b8516000b61a90a3b386296acbbda0079c2e215a71a6b70c9c2f99b82b24bec5",
+      "bytes": 792680,
+      "role": "mmsdm:2022_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202209010000.zip",
+      "url": "",
+      "sha256": "da547f7a06b8b4ccb1f892c0bacb7e3a2b1e800290c598b33c4329865965c679",
+      "bytes": 54637,
+      "role": "mmsdm:2022_09"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202210010000.zip",
+      "url": "",
+      "sha256": "0777782bf7dbe56f798dc5c880dfd0ca02249e8fa2f06214daca4e7f4e020709",
+      "bytes": 191436,
+      "role": "mmsdm:2022_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202210010000.zip",
+      "url": "",
+      "sha256": "4bcfba59e4ebc693461fbc863f54ca4666a8bf4897f2107e39dac09284bfb581",
+      "bytes": 947513,
+      "role": "mmsdm:2022_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202210010000.zip",
+      "url": "",
+      "sha256": "e7abfeb9eed093ae4358c314fd7ddb2ad1d40d070c80038bbc4de04000d5d85b",
+      "bytes": 75591,
+      "role": "mmsdm:2022_10"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202211010000.zip",
+      "url": "",
+      "sha256": "6698c5c22d983501f788185c9ef9721678f082174cf9bfd8560e69c08e1919ee",
+      "bytes": 189810,
+      "role": "mmsdm:2022_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202211010000.zip",
+      "url": "",
+      "sha256": "45f13b1da162ac7edae42141ed005ec7cf5929cb164da8e1e695cbcaabdd308e",
+      "bytes": 944581,
+      "role": "mmsdm:2022_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202211010000.zip",
+      "url": "",
+      "sha256": "f8c650845c5d041410fde7d1eb84c78a9ceebc3dbfae3800eeec6c5bdce91e8c",
+      "bytes": 52645,
+      "role": "mmsdm:2022_11"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202212010000.zip",
+      "url": "",
+      "sha256": "feb5f11b4f17da6a47f4a168195aa241586d5f1d4ffdb4e938dc7b15b4ccf645",
+      "bytes": 226951,
+      "role": "mmsdm:2022_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202212010000.zip",
+      "url": "",
+      "sha256": "5e05f1ecea5c4a09adddf2e178f1698982023961579707440603f739f3b58678",
+      "bytes": 1084708,
+      "role": "mmsdm:2022_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202212010000.zip",
+      "url": "",
+      "sha256": "3123691b1c475460c02b96da0d2002f86355b4ef8ec0d150750c48edb21a7f03",
+      "bytes": 105013,
+      "role": "mmsdm:2022_12"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202301010000.zip",
+      "url": "",
+      "sha256": "df82841cd54e0b8b1b543bb25debff43b132f2980a65876769dceca18e99b768",
+      "bytes": 261644,
+      "role": "mmsdm:2023_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202301010000.zip",
+      "url": "",
+      "sha256": "a5482c9efdf35ba6520cbd5885fc2ac8283e6e8e0d72f788a1fc727e5ab3f277",
+      "bytes": 1296623,
+      "role": "mmsdm:2023_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202301010000.zip",
+      "url": "",
+      "sha256": "1153049ee2002d2357167ae433361d9d4c375a22e5658d8dfc8de01d8d506abb",
+      "bytes": 127084,
+      "role": "mmsdm:2023_01"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202302010000.zip",
+      "url": "",
+      "sha256": "7209c522f1aca947cfef9ea0e9214ec013e6185c6dba9deef91def1bdce71eae",
+      "bytes": 131502,
+      "role": "mmsdm:2023_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202302010000.zip",
+      "url": "",
+      "sha256": "9677346aa3f20a3ad8702ad59c5aef9d5197bbfc1e65f1db332862896f1dc750",
+      "bytes": 961470,
+      "role": "mmsdm:2023_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202302010000.zip",
+      "url": "",
+      "sha256": "14f35508e1e9300551a193f9487d8a156ba6395e51dd0b9865408c27796d084a",
+      "bytes": 45751,
+      "role": "mmsdm:2023_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202302010000.zip",
+      "url": "",
+      "sha256": "252f015c8f79a6957bed1d917674e0c3bfe15ba255b6361885ae6dcaee2fe319",
+      "bytes": 1591,
+      "role": "mmsdm:2023_02"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202303010000.zip",
+      "url": "",
+      "sha256": "01fc5609ffbc1aab8fbdc1a33e5439e38fb9d59000f0b67c00109459b766eb0e",
+      "bytes": 140251,
+      "role": "mmsdm:2023_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202303010000.zip",
+      "url": "",
+      "sha256": "f72fd4bf17bddf438136e1cf0b92157bf4ede6f7cfddbea7ee39cd03da237b1e",
+      "bytes": 1364275,
+      "role": "mmsdm:2023_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202303010000.zip",
+      "url": "",
+      "sha256": "8fc8f421b42e9fc7822b14ba8ff3bb08dcb1a2f4bdf1d8f2a37f50d7b19484fc",
+      "bytes": 66686,
+      "role": "mmsdm:2023_03"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202304010000.zip",
+      "url": "",
+      "sha256": "d274295b7c20336d5825dae7da49ebaccc2787320f8272a3561cdeeee30924e9",
+      "bytes": 183818,
+      "role": "mmsdm:2023_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202304010000.zip",
+      "url": "",
+      "sha256": "8d52996b7954836868c842cf33b5926c81df69cb391498fdb8d712e0995e941c",
+      "bytes": 1157098,
+      "role": "mmsdm:2023_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202304010000.zip",
+      "url": "",
+      "sha256": "0f94ace3fdc43bfdc431a95f532540ccc78c2560ca62878ed8962fa92c041740",
+      "bytes": 103394,
+      "role": "mmsdm:2023_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202304010000.zip",
+      "url": "",
+      "sha256": "27f85973ac081954f75f7d56c1799ba4be33b62a1d8a2bca54477c43f6ac7b8b",
+      "bytes": 1012,
+      "role": "mmsdm:2023_04"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202305010000.zip",
+      "url": "",
+      "sha256": "79d97cf9883c06a7d6f149fa959fa6b507a1c13acb75a04383bdb6b71c2f555a",
+      "bytes": 207382,
+      "role": "mmsdm:2023_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202305010000.zip",
+      "url": "",
+      "sha256": "3384d79358d2e2fef9469a6a98fa6d3da90a6657df75bfd40fe1359aae6b02ac",
+      "bytes": 1326270,
+      "role": "mmsdm:2023_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202305010000.zip",
+      "url": "",
+      "sha256": "b5cd87ca28bb90d4f1d9818e12fa32617e097a352875117d9debc368f19480bc",
+      "bytes": 84044,
+      "role": "mmsdm:2023_05"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202306010000.zip",
+      "url": "",
+      "sha256": "5cb2dbfb0a8a38bac54bd0cd6ccba89e469c8d2aa7bd26c047e043e9ecd3047c",
+      "bytes": 164724,
+      "role": "mmsdm:2023_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202306010000.zip",
+      "url": "",
+      "sha256": "e1cf915035b6c533f482d7c33653486878916e6e247f3f86229be7cbe2c092d0",
+      "bytes": 936759,
+      "role": "mmsdm:2023_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202306010000.zip",
+      "url": "",
+      "sha256": "77349fda2c392e1674f1254578000b394f32588b3a2f3f53628ab3310abe14ca",
+      "bytes": 63067,
+      "role": "mmsdm:2023_06"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202307010000.zip",
+      "url": "",
+      "sha256": "cb04255f7332b55bebc58f2df6d5084265dd8107c46cb9744e1354deca97176c",
+      "bytes": 206119,
+      "role": "mmsdm:2023_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202307010000.zip",
+      "url": "",
+      "sha256": "f1c32eac5c39b2e7f94f0d2d7a96d7dbc11906fc0ab197c3458f0e91e703b337",
+      "bytes": 1072087,
+      "role": "mmsdm:2023_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202307010000.zip",
+      "url": "",
+      "sha256": "e57d59f1046fad1f19747593e3b3f789d2b1c1c285baddfb43b64f5f58a25ac0",
+      "bytes": 81677,
+      "role": "mmsdm:2023_07"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202308010000.zip",
+      "url": "",
+      "sha256": "73044ed212a994dd804171b681b310b94cf9574323857e612bbef7ea5bbf72cd",
+      "bytes": 268873,
+      "role": "mmsdm:2023_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202308010000.zip",
+      "url": "",
+      "sha256": "8f6b1ed7e63b8b5ba050afca88e4cba8187542479c766ea49a281877724ceea4",
+      "bytes": 1284050,
+      "role": "mmsdm:2023_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202308010000.zip",
+      "url": "",
+      "sha256": "f8609eae5f73a264ff39d56de83b83cb7f366b269afebca949df9edccfb614ce",
+      "bytes": 110143,
+      "role": "mmsdm:2023_08"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202308010000.zip",
+      "url": "",
+      "sha256": "763bdc2e523ff5c4c05012bbcb1216cf4499c5e5944ae49e5886a6147fb6225a",
+      "bytes": 2419,
+      "role": "mmsdm:2023_08"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202309010000.zip",
+      "url": "",
+      "sha256": "bc29336222ba1d4f7c1e4364dd5f6619426a5580a76e697b0ab3b9048899eef4",
+      "bytes": 156956,
+      "role": "mmsdm:2023_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202309010000.zip",
+      "url": "",
+      "sha256": "2cd8e370bc1de667e9bff7f278ead41a94849434b10fe28a10711e12325fc6fe",
+      "bytes": 756672,
+      "role": "mmsdm:2023_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202309010000.zip",
+      "url": "",
+      "sha256": "9a1b6abe129d397fe511ca7dce57baea68339242cb04a1e1c4564e78036980d9",
+      "bytes": 59177,
+      "role": "mmsdm:2023_09"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202309010000.zip",
+      "url": "",
+      "sha256": "775bc8290a8f18c773bc22df6a1916ce0e70f28789b375b8153d564a0a705dd3",
+      "bytes": 1459,
+      "role": "mmsdm:2023_09"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202310010000.zip",
+      "url": "",
+      "sha256": "fe68d28d9431674e05e6eefc7e50187955dd325e80b4b0de57a2741ef361d5a7",
+      "bytes": 172120,
+      "role": "mmsdm:2023_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202310010000.zip",
+      "url": "",
+      "sha256": "23e93b2a9660a7ec13a49464a6bd568136a242c9831c0c50ee4e4c5490ecbd2e",
+      "bytes": 928359,
+      "role": "mmsdm:2023_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202310010000.zip",
+      "url": "",
+      "sha256": "eed09a137e3f0b32483e1edd8ea09b0e0cabc9fe2e54f701e4725700ecd03e02",
+      "bytes": 40103,
+      "role": "mmsdm:2023_10"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202310010000.zip",
+      "url": "",
+      "sha256": "132a38b5a460088299d12d810dc23322bfaa0f3eebf921e226f348bddbedf3ac",
+      "bytes": 1737,
+      "role": "mmsdm:2023_10"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202311010000.zip",
+      "url": "",
+      "sha256": "1d369448f06f7b1591252e3b49bcac009fbd5b3fc9080cd842eb09230e4186cc",
+      "bytes": 170561,
+      "role": "mmsdm:2023_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202311010000.zip",
+      "url": "",
+      "sha256": "53cc5d833130c45b05e179a37b1620137c6b4d409ad2db41625f7e991fbd963a",
+      "bytes": 1190623,
+      "role": "mmsdm:2023_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202311010000.zip",
+      "url": "",
+      "sha256": "9669fcd715bb3bca8a974492aedea02337358dc637794d7a52f688b9e989b565",
+      "bytes": 65807,
+      "role": "mmsdm:2023_11"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202311010000.zip",
+      "url": "",
+      "sha256": "d14005ac42f60f582f071df52cc03b9cce898ff0ddf1d84210fe90048423bbcb",
+      "bytes": 1444,
+      "role": "mmsdm:2023_11"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202312010000.zip",
+      "url": "",
+      "sha256": "5e5bb64ccfb3d97a8f7838e6806528dca94190c2abed7d30071000880fcad022",
+      "bytes": 234426,
+      "role": "mmsdm:2023_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202312010000.zip",
+      "url": "",
+      "sha256": "be5c34b38e15bc4ee16b6f1587cda743ccfb58bd32d398efa185a22e905d1897",
+      "bytes": 1211893,
+      "role": "mmsdm:2023_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202312010000.zip",
+      "url": "",
+      "sha256": "5a4de77562ad3a1abed5e94f2faf101ba69a19fe769674890fa0e2486d352a8d",
+      "bytes": 89759,
+      "role": "mmsdm:2023_12"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202312010000.zip",
+      "url": "",
+      "sha256": "009afd314ab49fcbef7ac5b145ba06e7d7bb16f4766ed87473360e3742ec578e",
+      "bytes": 1192,
+      "role": "mmsdm:2023_12"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202401010000.zip",
+      "url": "",
+      "sha256": "a9a09cc1250169e7360ae5a3ce1ba9a9fabfb19186514231dbc2a08444e5a2d1",
+      "bytes": 177913,
+      "role": "mmsdm:2024_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202401010000.zip",
+      "url": "",
+      "sha256": "0f45dbe36b82753fb5cbc19e1e398e76c0dac2eafcdb877edca024c52216d77b",
+      "bytes": 955599,
+      "role": "mmsdm:2024_01"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202401010000.zip",
+      "url": "",
+      "sha256": "83c27c35697b211067df68304a43e6d0017f684d9acaccc8086d8a92cc5c9ddc",
+      "bytes": 81587,
+      "role": "mmsdm:2024_01"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202402010000.zip",
+      "url": "",
+      "sha256": "655399c1f48d1aba9a0b0b3a58a46065cf8090023cc4af4262beacf52e346e88",
+      "bytes": 118855,
+      "role": "mmsdm:2024_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202402010000.zip",
+      "url": "",
+      "sha256": "b50839baa34d96c94187ad1dbbbdcec3c9797087e931d9dc5611a54a3eda5dc1",
+      "bytes": 424156,
+      "role": "mmsdm:2024_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202402010000.zip",
+      "url": "",
+      "sha256": "feaf7abb8a50409bbb3724236af0a3f70538ebc50f0c78521adf35976db98790",
+      "bytes": 63965,
+      "role": "mmsdm:2024_02"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202402010000.zip",
+      "url": "",
+      "sha256": "467383110a01884ec2e3fbcf5766404c05f65d454405ab7d83c24783d9ec147d",
+      "bytes": 1106,
+      "role": "mmsdm:2024_02"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202403010000.zip",
+      "url": "",
+      "sha256": "f3fb3ee28cfa549c912e66bfa2eadb9b2e73d3478374b8c248feb234068bf320",
+      "bytes": 58757,
+      "role": "mmsdm:2024_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202403010000.zip",
+      "url": "",
+      "sha256": "58b665bd1617ecc48cd18b42209dd3f665f42f23928e1827e0859d6ca80081b4",
+      "bytes": 190472,
+      "role": "mmsdm:2024_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202403010000.zip",
+      "url": "",
+      "sha256": "526985cbcd80877e3efb2fab52707e725a63998c75b6ec4fe43c800bcc936f4f",
+      "bytes": 9004,
+      "role": "mmsdm:2024_03"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202403010000.zip",
+      "url": "",
+      "sha256": "4c23b21fd0d4eb0862462d1f4e781412ea14d18167db8c38b103f563f8b9436b",
+      "bytes": 884,
+      "role": "mmsdm:2024_03"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202404010000.zip",
+      "url": "",
+      "sha256": "4010227c0fce444b132409ea69c14868b8c8f725bf790028a8f4ba7c98b58fdc",
+      "bytes": 72958,
+      "role": "mmsdm:2024_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202404010000.zip",
+      "url": "",
+      "sha256": "3909dad79ea4959e6d1b64d0766daca3b613846d0b2b916e590c95e26ed88e01",
+      "bytes": 571508,
+      "role": "mmsdm:2024_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202404010000.zip",
+      "url": "",
+      "sha256": "1498c76409dc9cde29c4bd797fc299b3364547b2b6d322db2ac13ef1fe0999cd",
+      "bytes": 25632,
+      "role": "mmsdm:2024_04"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202404010000.zip",
+      "url": "",
+      "sha256": "175fb7ec66629d42c1f2519b7b0bbaeec24f76d09531c4f0415ac3f5a5cc1751",
+      "bytes": 3140,
+      "role": "mmsdm:2024_04"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202405010000.zip",
+      "url": "",
+      "sha256": "069447bca2c3ed1fc8601fbb53d357489e47ebf4e4c945444641cef5ddfff6d3",
+      "bytes": 206247,
+      "role": "mmsdm:2024_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202405010000.zip",
+      "url": "",
+      "sha256": "3c3c87c1b680b960346d0ce30e70bfe8ba9e57a3532fc0a946dd0b63d5f51ad0",
+      "bytes": 999997,
+      "role": "mmsdm:2024_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202405010000.zip",
+      "url": "",
+      "sha256": "3ac03df35ae0ebc296aa39f08ccaec76b6d127655b231da6afbc0a54c589b8ec",
+      "bytes": 56213,
+      "role": "mmsdm:2024_05"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202405010000.zip",
+      "url": "",
+      "sha256": "aa35105ba34085ec82152d1fecd51d98e4bf74e32e25f79012ded5a7ab8c155b",
+      "bytes": 3312,
+      "role": "mmsdm:2024_05"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202406010000.zip",
+      "url": "",
+      "sha256": "f1e48fb044ab611578325a8d60ece8660604d7f09c55e19f46ffa921e3b16c11",
+      "bytes": 97015,
+      "role": "mmsdm:2024_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202406010000.zip",
+      "url": "",
+      "sha256": "275be10084db597689d72bb453d295fc4ed7e15e0658f5fbe0d8dc96c8e65430",
+      "bytes": 606996,
+      "role": "mmsdm:2024_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202406010000.zip",
+      "url": "",
+      "sha256": "4fa273297dd1ebd72d7db9f2bf76b88b68e5d18522cb976b7a3573e97e8f6b94",
+      "bytes": 32336,
+      "role": "mmsdm:2024_06"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202406010000.zip",
+      "url": "",
+      "sha256": "9760365f5272533b6afc283f3ee41453f10d9fb56012f18aa5025dee0e96cac0",
+      "bytes": 1463,
+      "role": "mmsdm:2024_06"
+    },
+    {
+      "file": "PUBLIC_DVD_GENCONDATA_202407010000.zip",
+      "url": "",
+      "sha256": "1c1816934ff5b9fcafe5eeb80237f79ec1a2718b2bfbe0148c872b0c3b371da9",
+      "bytes": 101565,
+      "role": "mmsdm:2024_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDCONNECTIONPOINTCONSTRAINT_202407010000.zip",
+      "url": "",
+      "sha256": "f2b09bb227a59664d684902487c97d0a2595b2cdcb7a2545fdedfa8520edb732",
+      "bytes": 834340,
+      "role": "mmsdm:2024_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDINTERCONNECTORCONSTRAINT_202407010000.zip",
+      "url": "",
+      "sha256": "2e8fc6106549556f5c7baabc5b854656e8c10871a93c96e30a4cc2b7535912e2",
+      "bytes": 33698,
+      "role": "mmsdm:2024_07"
+    },
+    {
+      "file": "PUBLIC_DVD_SPDREGIONCONSTRAINT_202407010000.zip",
+      "url": "",
+      "sha256": "0be9a6897db27453b00eb2b4b50f72d8a9daab5e08a71a5af594cad53dea3b1a",
+      "bytes": 2625,
+      "role": "mmsdm:2024_07"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202408010000.zip",
+      "url": "",
+      "sha256": "db75d0c6b6a743f6c11c0087d5606d02a2a31b38ea0e1748f023bac56c2e3448",
+      "bytes": 99937,
+      "role": "mmsdm:2024_08"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202408010000.zip",
+      "url": "",
+      "sha256": "ee14be6a3f7a870c0a671de4a6b68f11460ef7eec3764baa7c1793755ebaebb2",
+      "bytes": 644226,
+      "role": "mmsdm:2024_08"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202408010000.zip",
+      "url": "",
+      "sha256": "555d5b0b2e60ccd1c7ef9a7012fbcd53538a96ad2eb51e09f220a2d7bfa5c9e5",
+      "bytes": 28691,
+      "role": "mmsdm:2024_08"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202409010000.zip",
+      "url": "",
+      "sha256": "2b146ad4b57e520b8fbfa425af10457f86ea6cc1e8d6ba3c05cfea401b0a0c80",
+      "bytes": 179499,
+      "role": "mmsdm:2024_09"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202409010000.zip",
+      "url": "",
+      "sha256": "5d110efab6484ef3cafa1916cbd3807a07a01c662e6fa2aa283d49d778b738a3",
+      "bytes": 1191833,
+      "role": "mmsdm:2024_09"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202409010000.zip",
+      "url": "",
+      "sha256": "27c0cee41203d89ea3f5b71cb95ffd285e5d63eea59c839d7aea97ec74e2f237",
+      "bytes": 59659,
+      "role": "mmsdm:2024_09"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202409010000.zip",
+      "url": "",
+      "sha256": "6ef70fc69e4d8e6ff5ef9ee1ab1d88cd8c2b2dc6b2adc674aca60903c047dcf0",
+      "bytes": 571,
+      "role": "mmsdm:2024_09"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202410010000.zip",
+      "url": "",
+      "sha256": "833f4a4727aee1a8a16554d374b36112b43d4c8f601902fe5fde978860a61d85",
+      "bytes": 259915,
+      "role": "mmsdm:2024_10"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202410010000.zip",
+      "url": "",
+      "sha256": "6528477fa8ebdbf9ec95b26bfdf8ddcad7648596b5092ae50e7245dddff45c3c",
+      "bytes": 1745434,
+      "role": "mmsdm:2024_10"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202410010000.zip",
+      "url": "",
+      "sha256": "77f175190b8bcf9e828101d9f7d9f1fe2a0326527d7a887ab0ada69c20b7ef72",
+      "bytes": 80725,
+      "role": "mmsdm:2024_10"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202411010000.zip",
+      "url": "",
+      "sha256": "63adb68e2681ad153a51180973fc35bb04ee833ce66b1298b7eba91f544c2490",
+      "bytes": 128111,
+      "role": "mmsdm:2024_11"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202411010000.zip",
+      "url": "",
+      "sha256": "9e7b2485346c4a2eeae3f98cba0bfa83510369ed626d67f5c7a439f9fc5c256f",
+      "bytes": 720347,
+      "role": "mmsdm:2024_11"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202411010000.zip",
+      "url": "",
+      "sha256": "99481fd297e5d9bfe6a81a527bfbd04d4b3a0320b2bc0f60f5cfc133d134c4a1",
+      "bytes": 38803,
+      "role": "mmsdm:2024_11"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202411010000.zip",
+      "url": "",
+      "sha256": "8b306634b87d7eea0be5046bbc14e20f2dd516b456987c697649389e70fdb48b",
+      "bytes": 696,
+      "role": "mmsdm:2024_11"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202412010000.zip",
+      "url": "",
+      "sha256": "080dbdb783954306cf682de5d978e94e032ea17f608b10064a43495d15e1704c",
+      "bytes": 112558,
+      "role": "mmsdm:2024_12"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202412010000.zip",
+      "url": "",
+      "sha256": "0bd3fa63f3ecdf81ca653199cc41d3e6a77e39a4f589f6a691bedf9278a28a24",
+      "bytes": 470434,
+      "role": "mmsdm:2024_12"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202412010000.zip",
+      "url": "",
+      "sha256": "22b9647273aa38e07fa19558a7c07cbef6fe83790938d2bf88a613f790d100cf",
+      "bytes": 23661,
+      "role": "mmsdm:2024_12"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202412010000.zip",
+      "url": "",
+      "sha256": "b46a2e602bd7035932255b1a43ed68a6866a9c497b1c2f5680d532e3a29e9a2d",
+      "bytes": 1236,
+      "role": "mmsdm:2024_12"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202501010000.zip",
+      "url": "",
+      "sha256": "b2d759e99d4b4b7be707751c71dfbb867187349b4d28d8a408865ca7e61ffd92",
+      "bytes": 70391,
+      "role": "mmsdm:2025_01"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202501010000.zip",
+      "url": "",
+      "sha256": "9bdbcc9c74453b9475743c884924a365f12e75b874ecd5891a8da03b18a15b49",
+      "bytes": 397916,
+      "role": "mmsdm:2025_01"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202501010000.zip",
+      "url": "",
+      "sha256": "7df21ad978bc971b31f64f7a060501a0026eaad4de3c7c91a7016168fddc648b",
+      "bytes": 22744,
+      "role": "mmsdm:2025_01"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202501010000.zip",
+      "url": "",
+      "sha256": "b6110c0c5b5bb14971a88b2c546314997af39e7864cedb8bd06a2db97baf4bb6",
+      "bytes": 1116,
+      "role": "mmsdm:2025_01"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202502010000.zip",
+      "url": "",
+      "sha256": "5d0b411dc77c6ef302c4c43e5584f54956e7f596d5a56e2f45747db173134d9f",
+      "bytes": 86992,
+      "role": "mmsdm:2025_02"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202502010000.zip",
+      "url": "",
+      "sha256": "80f2df8703ec0567c10c3cba52ba517ff9c65a4c88cb98d5578041ff82afa9a1",
+      "bytes": 631473,
+      "role": "mmsdm:2025_02"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202502010000.zip",
+      "url": "",
+      "sha256": "9a2a011c150174cc4ecc0da6a4765a8a12ebf43b38d539b20dfbf85a48a14486",
+      "bytes": 29767,
+      "role": "mmsdm:2025_02"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDREGIONCONSTRAINT#FILE01#202502010000.zip",
+      "url": "",
+      "sha256": "15833146f34ebdf44b0530ef771c099c1a20d1f48966bd63978fa64ff719e6f1",
+      "bytes": 727,
+      "role": "mmsdm:2025_02"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202503010000.zip",
+      "url": "",
+      "sha256": "509664d21b438b40a2ecb3aa20d4dd48470b1bbbc82c15362997e2bef5b1d184",
+      "bytes": 112300,
+      "role": "mmsdm:2025_03"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202503010000.zip",
+      "url": "",
+      "sha256": "68d29c17da5ea971354680add9a743efa5f3e9dd9054b67e77a6eb94cee2a373",
+      "bytes": 617674,
+      "role": "mmsdm:2025_03"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202503010000.zip",
+      "url": "",
+      "sha256": "2fe4be95a3dfd02457395dc621f0597cb18b410a204fcf0c165d05d2bb87d5c1",
+      "bytes": 28852,
+      "role": "mmsdm:2025_03"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENCONDATA#FILE01#202504010000.zip",
+      "url": "",
+      "sha256": "c39feec495202713f8c8623da349fb350df5e1d296d2a713f43658bd1ed6b871",
+      "bytes": 88598,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDCONNECTIONPOINTCONSTRAINT#FILE01#202504010000.zip",
+      "url": "",
+      "sha256": "532ed3417d957242df825f24486847c8820c9a5b2f14ea00e6aaa446454f8110",
+      "bytes": 523724,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#SPDINTERCONNECTORCONSTRAINT#FILE01#202504010000.zip",
+      "url": "",
+      "sha256": "8b3be422301c14ca6531b97a453ee69bf3e5e7988498768c9f4644c17520d0b8",
+      "bytes": 26892,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#INTERCONNECTORCONSTRAINT#FILE01#202504010000.zip",
+      "url": "",
+      "sha256": "3cfbab12043b809c751651ce86fea64f9e66014f98d3fbd10a22f9e3045a1faa",
+      "bytes": 5819,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#DUDETAILSUMMARY#FILE01#202504010000.zip",
+      "url": "",
+      "sha256": "cb902fa79ac5c6721493e37a563ee8b3a7166322d8ff5d561e248de6e1fc51b3",
+      "bytes": 259471,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#DUALLOC#FILE01#202504010000.zip",
+      "url": "",
+      "sha256": "98bcfee0d7bbef90d687c610fb366bd57452d0dcd8effd1ab3d75309861e8893",
+      "bytes": 25206,
+      "role": "mmsdm:2025_04"
+    },
+    {
+      "file": "PUBLIC_ARCHIVE#GENUNITS#FILE01#202504010000.zip",
+      "url": "",
+      "sha256": "0749af6b7e3d52380beebad4c82d441fda6b2a02c513d54b641765a8e5fdc71f",
+      "bytes": 13545,
+      "role": "mmsdm:2025_04"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "dispatch_price.parquet",
+      "table": "DISPATCH_PRICE",
+      "rows": 205,
+      "sha256": "b0663c6546c770790c5902166a01e91295cee4370a6844a9416fd0ee8e729a13"
+    },
+    {
+      "file": "dispatch_regionsum.parquet",
+      "table": "DISPATCH_REGIONSUM",
+      "rows": 205,
+      "sha256": "0fa65246b5de894becc1a427c2e8910a3669425e2d8f6c9259f99cd1b3558ecb"
+    },
+    {
+      "file": "dispatch_constraint.parquet",
+      "table": "DISPATCH_CONSTRAINT",
+      "rows": 49941,
+      "sha256": "ee637c35f322d499d3a8057968a33db16a04641dacf590cd0d27901a29850358"
+    },
+    {
+      "file": "dispatch_interconnectorres.parquet",
+      "table": "DISPATCH_INTERCONNECTORRES",
+      "rows": 246,
+      "sha256": "2b86534bad4485d68d18e4bced1661a2fe6289d51782aeaa50b05a8dd99a91e8"
+    },
+    {
+      "file": "unit_dispatch.parquet",
+      "table": "UNIT_DISPATCH",
+      "rows": 20746,
+      "sha256": "41484396f974ccfd646770bb679846e58d47e00802d8c673177bb322757c0fdd"
+    },
+    {
+      "file": "offer_trk.parquet",
+      "table": "OFFER_TRK",
+      "rows": 72570,
+      "sha256": "3ed608e615d7963b9fa21e911541c3e9a9eff53e40b31982833f1c758075680d"
+    },
+    {
+      "file": "bids_dayoffer.parquet",
+      "table": "BIDS_DAYOFFER",
+      "rows": 187121,
+      "sha256": "2899cfd09eac6259f27ec72e033b1accac5b13825e171b7c67f0ac2a190bf9b5"
+    },
+    {
+      "file": "bids_offerperiod.parquet",
+      "table": "BIDS_OFFERPERIOD",
+      "rows": 75932,
+      "sha256": "5f9379fffd4256222e55536a6ed6cde54f03a8941f27441796f983bb86296be1"
+    },
+    {
+      "file": "market_notices.json",
+      "table": "MARKET_NOTICE_MARKETNOTICEDATA",
+      "rows": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "static_gencondata.parquet",
+      "table": "GENCONDATA_NULL",
+      "rows": 10549,
+      "sha256": "9919fd52115699766c4b76852f6aa7948bf06686930bdbf393503ad5e96c9e63"
+    },
+    {
+      "file": "static_spdconnectionpointconstraint.parquet",
+      "table": "SPDCPC_NULL",
+      "rows": 306819,
+      "sha256": "ca5b53eb761f1fbc06c34336f515c48cea37969388077863d8d22d556ddbcdeb"
+    },
+    {
+      "file": "static_spdinterconnectorconstraint.parquet",
+      "table": "SPDICC_NULL",
+      "rows": 10800,
+      "sha256": "cf1cb82ccfcc12653b9e7c3bcbcdd39507148c5ab2699d4a961b5b14ac61cc11"
+    },
+    {
+      "file": "static_spdregionconstraint.parquet",
+      "table": "SPDRC_NULL",
+      "rows": 1750,
+      "sha256": "ce58b084c2a2c8e1ccb96e00c42caf988dda1737bd201300d7e3dfd3b1774c78"
+    },
+    {
+      "file": "static_interconnectorconstraint.parquet",
+      "table": "MARKET_CONFIG_INTERCONNECTORCONSTRAINT",
+      "rows": 186,
+      "sha256": "f6241d357a1e6721cbf7387bcf3c3fe3bd9c7e85ea8293d4e3de411ab703e9a0"
+    },
+    {
+      "file": "static_dudetailsummary.parquet",
+      "table": "PARTICIPANT_REGISTRATION_DUDETAILSUMMARY",
+      "rows": 506,
+      "sha256": "e8d1b8a92a0e88dbcb8473ade0ac8aadc556827d6cde736e70aa65690fd225cd"
+    },
+    {
+      "file": "static_dualloc.parquet",
+      "table": "PARTICIPANT_REGISTRATION_DUALLOC",
+      "rows": 1301,
+      "sha256": "0f35fef9cff65fa9f1a36c4c05beb22a3d3fdad76cbbb54ac05910e6c41909d4"
+    },
+    {
+      "file": "static_genunits.parquet",
+      "table": "PARTICIPANT_REGISTRATION_GENUNITS",
+      "rows": 463,
+      "sha256": "021c5b94818ba403563254570f6c584c49e14e2fb57f05cef9c7aac148e7178a"
+    }
+  ],
+  "next_day": {
+    "status": "added",
+    "trading_days": [
+      "2025-04-09"
+    ],
+    "note": "from the MMSDM archive"
+  },
+  "notes": "Built from AEMO's MMSDM monthly archive.",
+  "static_data": {
+    "months": [
+      "2016_01",
+      "2016_02",
+      "2016_03",
+      "2016_04",
+      "2016_05",
+      "2016_06",
+      "2016_07",
+      "2016_08",
+      "2016_09",
+      "2016_10",
+      "2016_11",
+      "2016_12",
+      "2017_01",
+      "2017_02",
+      "2017_03",
+      "2017_04",
+      "2017_05",
+      "2017_06",
+      "2017_07",
+      "2017_08",
+      "2017_09",
+      "2017_10",
+      "2017_11",
+      "2017_12",
+      "2018_01",
+      "2018_02",
+      "2018_03",
+      "2018_04",
+      "2018_05",
+      "2018_06",
+      "2018_07",
+      "2018_08",
+      "2018_09",
+      "2018_10",
+      "2018_11",
+      "2018_12",
+      "2019_01",
+      "2019_02",
+      "2019_03",
+      "2019_04",
+      "2019_05",
+      "2019_06",
+      "2019_07",
+      "2019_08",
+      "2019_09",
+      "2019_10",
+      "2019_11",
+      "2019_12",
+      "2020_01",
+      "2020_02",
+      "2020_03",
+      "2020_04",
+      "2020_05",
+      "2020_06",
+      "2020_07",
+      "2020_08",
+      "2020_09",
+      "2020_10",
+      "2020_11",
+      "2020_12",
+      "2021_01",
+      "2021_02",
+      "2021_03",
+      "2021_04",
+      "2021_05",
+      "2021_06",
+      "2021_07",
+      "2021_08",
+      "2021_09",
+      "2021_10",
+      "2021_11",
+      "2021_12",
+      "2022_01",
+      "2022_02",
+      "2022_03",
+      "2022_04",
+      "2022_05",
+      "2022_06",
+      "2022_07",
+      "2022_08",
+      "2022_09",
+      "2022_10",
+      "2022_11",
+      "2022_12",
+      "2023_01",
+      "2023_02",
+      "2023_03",
+      "2023_04",
+      "2023_05",
+      "2023_06",
+      "2023_07",
+      "2023_08",
+      "2023_09",
+      "2023_10",
+      "2023_11",
+      "2023_12",
+      "2024_01",
+      "2024_02",
+      "2024_03",
+      "2024_04",
+      "2024_05",
+      "2024_06",
+      "2024_07",
+      "2024_08",
+      "2024_09",
+      "2024_10",
+      "2024_11",
+      "2024_12",
+      "2025_01",
+      "2025_02",
+      "2025_03",
+      "2025_04"
+    ],
+    "invoked_versions": 1268,
+    "equations_found": 1219,
+    "other_versions": 9330,
+    "ids_without_any_version": [
+      "DATASNAP_DFS_Q_BCCP",
+      "DATASNAP_DFS_Q_BCRG",
+      "DATASNAP_DFS_Q_CLST",
+      "DATASNAP_DFS_Q_CLWU",
+      "DATASNAP_DFS_Q_LCCP",
+      "DATASNAP_DFS_Q_TAMR",
+      "DATASNAP_DFS_T_SHGT",
+      "DATASNAP_DFS_T_TATU",
+      "DATASNAP_DFS_V_BABE",
+      "DATA_MMS_ALERT1",
+      "DSNAP_DFS_V_BAML",
+      "DSNAP_DFS_V_DDMB",
+      "DSNAP_DFS_V_DDSM",
+      "DSNAP_DFS_V_ROYP",
+      "F_MAIN++NIL_BL_L5",
+      "F_MAIN++NIL_BL_L6",
+      "F_MAIN++NIL_BL_L60",
+      "F_MAIN++NIL_BL_R5",
+      "F_MAIN++NIL_BL_R6",
+      "F_MAIN++NIL_BL_R60",
+      "F_MAIN++NIL_MG_R5",
+      "F_MAIN++NIL_MG_R6",
+      "F_MAIN++NIL_MG_R60",
+      "F_MAIN+NIL_MG_R5",
+      "F_MAIN+NIL_MG_R6",
+      "F_MAIN+NIL_MG_R60",
+      "N_BDKV",
+      "N_BDKV_PUMP",
+      "N_NIL_TE_A",
+      "N_NIL_TE_B",
+      "N_V_HV1700_OSC_AUTO",
+      "Q>N-NIL_8L_8M",
+      "SVML_233",
+      "S_LB2WF_CONF",
+      "T>T_NIL_NCSPS5_1B",
+      "T^V_NIL_9",
+      "T^V_NIL_BL_6",
+      "T_GO_250",
+      "T_MRWF_QLIM_1",
+      "T_MRWF_QLIM_1A",
+      "T_MRWF_QLIM_1B",
+      "T_MRWF_QLIM_2",
+      "T_MRWF_QLIM_3",
+      "T_MRWF_QLIM_4",
+      "T_MRWF_QLIM_5",
+      "T_MRWF_QLIM_6",
+      "T_MRWF_QLIM_7",
+      "VSML_220",
+      "V_MTMERCER_ZERO"
+    ],
+    "missing_equations": [
+      {
+        "constraint_id": "DATASNAP_DFS_Q_BCCP",
+        "effective_date": "2015-12-16T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_Q_BCRG",
+        "effective_date": "2015-12-16T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_Q_CLST",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_Q_CLWU",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_Q_LCCP",
+        "effective_date": "2015-12-16T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_Q_TAMR",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_T_SHGT",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_T_TATU",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATASNAP_DFS_V_BABE",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DATA_MMS_ALERT1",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_V_BAML",
+        "effective_date": "2014-05-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_V_DDMB",
+        "effective_date": "2014-05-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_V_DDSM",
+        "effective_date": "2014-05-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "DSNAP_DFS_V_ROYP",
+        "effective_date": "2014-05-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_BL_L5",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_BL_L6",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_BL_L60",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_BL_R5",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_BL_R6",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_BL_R60",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_MG_R5",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_MG_R6",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN++NIL_MG_R60",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+NIL_MG_R5",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+NIL_MG_R6",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "F_MAIN+NIL_MG_R60",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_BDKV",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_BDKV_PUMP",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_NIL_TE_A",
+        "effective_date": "2012-07-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_NIL_TE_B",
+        "effective_date": "2012-07-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "N_V_HV1700_OSC_AUTO",
+        "effective_date": "2013-07-19T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "Q>N-NIL_8L_8M",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "SVML_233",
+        "effective_date": "2014-10-01T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "S_LB2WF_CONF",
+        "effective_date": "2015-08-07T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T>T_NIL_NCSPS5_1B",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T^V_NIL_9",
+        "effective_date": "2015-09-29T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T^V_NIL_BL_6",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T_GO_250",
+        "effective_date": "2013-08-21T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T_MRWF_QLIM_1",
+        "effective_date": "2014-12-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T_MRWF_QLIM_1A",
+        "effective_date": "2014-12-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T_MRWF_QLIM_1B",
+        "effective_date": "2014-12-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T_MRWF_QLIM_2",
+        "effective_date": "2014-12-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T_MRWF_QLIM_3",
+        "effective_date": "2014-12-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T_MRWF_QLIM_4",
+        "effective_date": "2015-04-29T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T_MRWF_QLIM_5",
+        "effective_date": "2014-12-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T_MRWF_QLIM_6",
+        "effective_date": "2014-12-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "T_MRWF_QLIM_7",
+        "effective_date": "2014-12-08T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "VSML_220",
+        "effective_date": "2012-07-04T00:00:00+10:00",
+        "version_no": 1
+      },
+      {
+        "constraint_id": "V_MTMERCER_ZERO",
+        "effective_date": "2013-10-22T00:00:00+10:00",
+        "version_no": 1
+      }
+    ],
+    "dudetail_month": "2025_04",
+    "interconnector_month": "2025_04",
+    "fuel_month": "2025_04"
+  }
+}

@@ -1,0 +1,824 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2024-02-29T13:10:00+10:00",
+    "2024-02-29T13:15:00+10:00",
+    "2024-02-29T13:20:00+10:00",
+    "2024-02-29T13:25:00+10:00",
+    "2024-02-29T13:30:00+10:00",
+    "2024-02-29T13:35:00+10:00",
+    "2024-02-29T13:40:00+10:00",
+    "2024-02-29T13:45:00+10:00",
+    "2024-02-29T13:50:00+10:00",
+    "2024-02-29T13:55:00+10:00",
+    "2024-02-29T14:00:00+10:00",
+    "2024-02-29T14:05:00+10:00",
+    "2024-02-29T14:10:00+10:00",
+    "2024-02-29T14:15:00+10:00",
+    "2024-02-29T14:20:00+10:00",
+    "2024-02-29T14:25:00+10:00",
+    "2024-02-29T14:30:00+10:00",
+    "2024-02-29T14:35:00+10:00",
+    "2024-02-29T14:40:00+10:00",
+    "2024-02-29T14:45:00+10:00",
+    "2024-02-29T14:50:00+10:00",
+    "2024-02-29T14:55:00+10:00",
+    "2024-02-29T15:00:00+10:00",
+    "2024-02-29T15:05:00+10:00",
+    "2024-02-29T15:10:00+10:00",
+    "2024-02-29T15:15:00+10:00",
+    "2024-02-29T15:20:00+10:00",
+    "2024-02-29T15:25:00+10:00",
+    "2024-02-29T15:30:00+10:00",
+    "2024-02-29T15:35:00+10:00",
+    "2024-02-29T15:40:00+10:00",
+    "2024-02-29T15:45:00+10:00",
+    "2024-02-29T15:50:00+10:00",
+    "2024-02-29T15:55:00+10:00",
+    "2024-02-29T16:00:00+10:00",
+    "2024-02-29T16:05:00+10:00",
+    "2024-02-29T16:10:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "TALWB1",
+      "region": "NSW1",
+      "fuel": "gas",
+      "capacity_mw": 320.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2024-01-24T10:14:59+10:00",
+          "explanation": "Default Offer"
+        }
+      ]
+    },
+    {
+      "duid": "ER04",
+      "region": "NSW1",
+      "fuel": "coal",
+      "capacity_mw": 750.0,
+      "availability": [
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        360.0,
+        510.0,
+        360.0,
+        360.0,
+        360.0,
+        510.0,
+        510.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        660.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-02-28T15:30:53+10:00",
+          "explanation": "Change in avail - limitation revised SL"
+        },
+        {
+          "offer_time": "2024-02-29T08:06:54+10:00",
+          "explanation": "Plant Conditions - Mill management SL"
+        },
+        {
+          "offer_time": "2024-02-29T13:34:27+10:00",
+          "explanation": "Change in avail - plant outages extended SL"
+        },
+        {
+          "offer_time": "2024-02-29T14:54:11+10:00",
+          "explanation": "Change in avail - mill limits SL"
+        },
+        {
+          "offer_time": "2024-02-29T15:34:08+10:00",
+          "explanation": "Change in avail - ID Fan limitation SL"
+        }
+      ]
+    },
+    {
+      "duid": "ER01",
+      "region": "NSW1",
+      "fuel": "coal",
+      "capacity_mw": 750.0,
+      "availability": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        550.0,
+        550.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0,
+        560.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-02-29T10:06:35+10:00",
+          "explanation": "Plant conditions - avoid short mill movement SL"
+        },
+        {
+          "offer_time": "2024-02-29T11:35:18+10:00",
+          "explanation": "MW Redistribution SL"
+        },
+        {
+          "offer_time": "2024-02-29T13:58:58+10:00",
+          "explanation": "Change in avail - Fabbric filter dP SL"
+        },
+        {
+          "offer_time": "2024-02-29T14:35:41+10:00",
+          "explanation": "Change in avail - mill trip SL"
+        },
+        {
+          "offer_time": "2024-02-29T14:45:00+10:00",
+          "explanation": "Change in avail - mill trip extended SL"
+        }
+      ]
+    },
+    {
+      "duid": "SITHE01",
+      "region": "NSW1",
+      "fuel": "gas",
+      "capacity_mw": 185.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        36.0,
+        106.0,
+        106.0,
+        106.0,
+        106.0,
+        106.0,
+        106.0,
+        106.0,
+        106.0,
+        106.0,
+        108.0,
+        108.0,
+        108.0,
+        108.0,
+        108.0,
+        108.0,
+        108.0,
+        108.0,
+        108.0,
+        108.0,
+        108.0,
+        108.0,
+        108.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-01-17T07:11:29+10:00",
+          "explanation": "Initial Bid"
+        },
+        {
+          "offer_time": "2024-02-29T09:04:15+10:00",
+          "explanation": "NSW1 RRP 30PD@9:01 for 18:00 is $708.32 higher than 30PD@8:31 ($16,599.89 vs $15,891.57) SL"
+        },
+        {
+          "offer_time": "2024-02-29T14:06:31+10:00",
+          "explanation": "NSW1 RRP 5PD@14:05 for 14:25 is $14.28 higher than 5PD@14:00 ($314.27 vs $299.99) SL"
+        },
+        {
+          "offer_time": "2024-02-29T15:02:51+10:00",
+          "explanation": "Plant output SL"
+        }
+      ]
+    },
+    {
+      "duid": "CAPBES1G",
+      "region": "NSW1",
+      "fuel": "battery",
+      "capacity_mw": 100.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2024-02-28T06:27:32+10:00",
+          "explanation": "A INITIAL OFFER"
+        }
+      ]
+    },
+    {
+      "duid": "ER03",
+      "region": "NSW1",
+      "fuel": "coal",
+      "capacity_mw": 750.0,
+      "availability": [
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        680.0,
+        650.0,
+        650.0,
+        650.0,
+        680.0,
+        660.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0,
+        650.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-02-29T11:35:18+10:00",
+          "explanation": "MW Redistribution SL"
+        },
+        {
+          "offer_time": "2024-02-29T12:01:28+10:00",
+          "explanation": "Change in avail -  milling limitation revised SL"
+        },
+        {
+          "offer_time": "2024-02-29T13:34:27+10:00",
+          "explanation": "Change in avail - plant outages extended SL"
+        },
+        {
+          "offer_time": "2024-02-29T13:50:39+10:00",
+          "explanation": "Change in avail - Fabric filter limitation revised SL"
+        },
+        {
+          "offer_time": "2024-02-29T13:56:27+10:00",
+          "explanation": "Change in avail - ID fan limit SL"
+        }
+      ]
+    },
+    {
+      "duid": "ER02",
+      "region": "NSW1",
+      "fuel": "coal",
+      "capacity_mw": 750.0,
+      "availability": [
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0,
+        660.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-02-29T09:55:17+10:00",
+          "explanation": "DEC NEM DEM 5PD 22064 MW < 30PD 22385 MW @1030 SL"
+        },
+        {
+          "offer_time": "2024-02-29T10:06:35+10:00",
+          "explanation": "Plant conditions - avoid short mill movement SL"
+        },
+        {
+          "offer_time": "2024-02-29T10:58:50+10:00",
+          "explanation": "INC NSW DEM 5PD 9504 MW > 30PD 9413 MW @ 1130 SL"
+        },
+        {
+          "offer_time": "2024-02-29T11:35:18+10:00",
+          "explanation": "MW Redistribution SL"
+        },
+        {
+          "offer_time": "2024-02-29T15:35:03+10:00",
+          "explanation": "Plant conditions - avoid short mill movement SL"
+        }
+      ]
+    },
+    {
+      "duid": "CG2",
+      "region": "NSW1",
+      "fuel": "gas",
+      "capacity_mw": 181.0,
+      "availability": [
+        164.0,
+        164.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        165.0,
+        165.0,
+        165.0,
+        165.0,
+        165.0,
+        165.0,
+        165.0,
+        165.0,
+        166.0,
+        166.0,
+        166.0,
+        166.0,
+        166.0,
+        166.0,
+        166.0,
+        166.0,
+        166.0,
+        167.0,
+        167.0,
+        167.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-02-27T15:18:47+10:00",
+          "explanation": "15:18:46 F INITIAL BID"
+        },
+        {
+          "offer_time": "2024-02-28T11:08:50+10:00",
+          "explanation": "11:08:49 F INITIAL BID"
+        },
+        {
+          "offer_time": "2024-02-28T11:36:20+10:00",
+          "explanation": "11:36:19 F INITIAL BID"
+        },
+        {
+          "offer_time": "2024-02-29T13:13:16+10:00",
+          "explanation": "13:13:00 P UPDATE CAPABILITY PARAMETERS FOR CHANGE TO OUTAGE PLAN/PLANT CONDITIONS - SL"
+        },
+        {
+          "offer_time": "2024-02-29T14:44:44+10:00",
+          "explanation": "14:44:30 P UPDATE CAPABILITY PARAMETERS FOR CHANGE TO OUTAGE PLAN/PLANT CONDITIONS - SL"
+        }
+      ]
+    },
+    {
+      "duid": "TALWA1",
+      "region": "NSW1",
+      "fuel": "gas",
+      "capacity_mw": 440.0,
+      "availability": [
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0,
+        370.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-02-29T10:46:06+10:00",
+          "explanation": "Adj bands - NSW 1800 P30 et al $13k @ 1100 vs $16 @ 0930 - SL"
+        },
+        {
+          "offer_time": "2024-02-29T11:44:39+10:00",
+          "explanation": "Adj bands - NSW 0300 P30 $107 @ 1200 vs $95 @ 1130 - SL"
+        },
+        {
+          "offer_time": "2024-02-29T12:29:10+10:00",
+          "explanation": "Adj bands - NSW 1800 P30 et al $4k @ 1230 vs $776 @ 1200 - SL"
+        },
+        {
+          "offer_time": "2024-02-29T13:53:34+10:00",
+          "explanation": "Adj avail & bands - Conjoined rebid with NSW D+1 PD response - SL"
+        },
+        {
+          "offer_time": "2024-02-29T15:43:56+10:00",
+          "explanation": "Adj bands roc avail 5min PD price tracking above forecast 103 vs 34 @1630, ROC =3 for unit RTS SL"
+        }
+      ]
+    },
+    {
+      "duid": "BHBG1",
+      "region": "NSW1",
+      "fuel": "battery",
+      "capacity_mw": 50.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2024-02-14T01:01:00+10:00",
+          "explanation": "01:01~A~Initial Bid"
+        },
+        {
+          "offer_time": "2024-02-26T22:15:25+10:00",
+          "explanation": "00 Initial Bid"
+        },
+        {
+          "offer_time": "2024-02-28T21:39:04+10:00",
+          "explanation": "040 Chg in testing requ~401 stable load reqd for testing"
+        },
+        {
+          "offer_time": "2024-02-29T09:41:26+10:00",
+          "explanation": "040 Chg in testing requ~401 updated testing profile per Ops"
+        },
+        {
+          "offer_time": "2024-02-29T12:06:56+10:00",
+          "explanation": "040 Chg in testing requ~401 testing complete per Ops"
+        }
+      ]
+    },
+    {
+      "duid": "BLOWERNG",
+      "region": "NSW1",
+      "fuel": "hydro",
+      "capacity_mw": 80.0,
+      "availability": [
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        38.0,
+        28.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        33.0,
+        31.0,
+        31.0,
+        31.0,
+        31.0,
+        31.0,
+        31.0,
+        32.0,
+        32.0,
+        32.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-02-29T12:08:47+10:00",
+          "explanation": "12:08:47 P STATE WATER REQUESTED RELEASE CHANGE - BLOWERING OUTPUT INFLEXIBLE TO DISPATCH PROCESS - SL"
+        },
+        {
+          "offer_time": "2024-02-29T14:19:25+10:00",
+          "explanation": "14:19:24 P STATE WATER REQUESTED RELEASE CHANGE - BLOWERING OUTPUT INFLEXIBLE TO DISPATCH PROCESS - SL"
+        },
+        {
+          "offer_time": "2024-02-29T14:19:49+10:00",
+          "explanation": "14:19:49 P STATE WATER REQUESTED RELEASE CHANGE - BLOWERING OUTPUT INFLEXIBLE TO DISPATCH PROCESS - SL"
+        },
+        {
+          "offer_time": "2024-02-29T15:19:55+10:00",
+          "explanation": "15:19:55 P STATE WATER REQUESTED RELEASE CHANGE - BLOWERING OUTPUT INFLEXIBLE TO DISPATCH PROCESS - SL"
+        },
+        {
+          "offer_time": "2024-02-29T15:54:22+10:00",
+          "explanation": "15:54:22 P STATE WATER REQUESTED RELEASE CHANGE - BLOWERING OUTPUT INFLEXIBLE TO DISPATCH PROCESS - SL"
+        }
+      ]
+    },
+    {
+      "duid": "SHGEN",
+      "region": "NSW1",
+      "fuel": "hydro",
+      "capacity_mw": 246.0,
+      "availability": [
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        160.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        240.0,
+        80.0,
+        80.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-02-28T22:56:04+10:00",
+          "explanation": "DEC NSW DEM 5PD 8114MW < 30PD 8249MW @2330 SL"
+        },
+        {
+          "offer_time": "2024-02-29T06:18:15+10:00",
+          "explanation": "INC NEM DEM 5PD 23704MW > 30PD 23500MW @ 0630 SL"
+        },
+        {
+          "offer_time": "2024-02-29T14:09:32+10:00",
+          "explanation": "Change in avail - kv3 rts SL"
+        },
+        {
+          "offer_time": "2024-02-29T15:00:14+10:00",
+          "explanation": "Constraint management - N>>NIL_970_051 N>>NIL_5_3P_N SL"
+        },
+        {
+          "offer_time": "2024-02-29T15:59:42+10:00",
+          "explanation": "Change in avail - 2xUnit trip - Pipeline guard gate issue SL"
+        }
+      ]
+    }
+  ]
+}

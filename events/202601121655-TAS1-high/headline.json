@@ -1,0 +1,23 @@
+{
+  "schema": 2,
+  "event_id": "202601121655-TAS1-high",
+  "region": "TAS1",
+  "trading_day": "2026-01-12",
+  "start": "2026-01-12T16:55:00+10:00",
+  "end": "2026-01-12T17:00:00+10:00",
+  "duration_minutes": 10,
+  "peak_price": 20300.0,
+  "peak_at": "2026-01-12T16:55:00+10:00",
+  "mean_price": 20300.0,
+  "intervals_above_5000": 2,
+  "cost_to_load": 3616496.0,
+  "max_demand_mw": 1075.5,
+  "tags": [
+    "year:2026",
+    "season:summer",
+    "region:TAS1",
+    "severity:cap",
+    "price:at-cap",
+    "settlement:5-minute"
+  ]
+}

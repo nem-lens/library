@@ -1,0 +1,23 @@
+{
+  "schema": 2,
+  "event_id": "202401211800-NSW1-high",
+  "region": "NSW1",
+  "trading_day": "2024-01-21",
+  "start": "2024-01-21T18:00:00+10:00",
+  "end": "2024-01-21T19:40:00+10:00",
+  "duration_minutes": 105,
+  "peak_price": 9569.76,
+  "peak_at": "2024-01-21T18:55:00+10:00",
+  "mean_price": 4711.48,
+  "intervals_above_5000": 12,
+  "cost_to_load": 100966182.0,
+  "max_demand_mw": 12494.6,
+  "tags": [
+    "year:2024",
+    "season:summer",
+    "region:NSW1",
+    "severity:high",
+    "settlement:5-minute",
+    "bids:no-band-availability"
+  ]
+}

@@ -1,0 +1,1047 @@
+{
+  "schema": 2,
+  "intervals": [
+    "2024-07-19T20:30:00+10:00",
+    "2024-07-19T20:35:00+10:00",
+    "2024-07-19T20:40:00+10:00",
+    "2024-07-19T20:45:00+10:00",
+    "2024-07-19T20:50:00+10:00",
+    "2024-07-19T20:55:00+10:00",
+    "2024-07-19T21:00:00+10:00",
+    "2024-07-19T21:05:00+10:00",
+    "2024-07-19T21:10:00+10:00",
+    "2024-07-19T21:15:00+10:00",
+    "2024-07-19T21:20:00+10:00",
+    "2024-07-19T21:25:00+10:00",
+    "2024-07-19T21:30:00+10:00",
+    "2024-07-19T21:35:00+10:00",
+    "2024-07-19T21:40:00+10:00",
+    "2024-07-19T21:45:00+10:00",
+    "2024-07-19T21:50:00+10:00",
+    "2024-07-19T21:55:00+10:00",
+    "2024-07-19T22:00:00+10:00",
+    "2024-07-19T22:05:00+10:00",
+    "2024-07-19T22:10:00+10:00",
+    "2024-07-19T22:15:00+10:00",
+    "2024-07-19T22:20:00+10:00",
+    "2024-07-19T22:25:00+10:00",
+    "2024-07-19T22:30:00+10:00",
+    "2024-07-19T22:35:00+10:00",
+    "2024-07-19T22:40:00+10:00",
+    "2024-07-19T22:45:00+10:00",
+    "2024-07-19T22:50:00+10:00",
+    "2024-07-19T22:55:00+10:00",
+    "2024-07-19T23:00:00+10:00",
+    "2024-07-19T23:05:00+10:00",
+    "2024-07-19T23:10:00+10:00",
+    "2024-07-19T23:15:00+10:00",
+    "2024-07-19T23:20:00+10:00",
+    "2024-07-19T23:25:00+10:00",
+    "2024-07-19T23:30:00+10:00"
+  ],
+  "units": [
+    {
+      "duid": "PPCCGT",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 522.0,
+      "availability": [
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        249.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-07-18T13:27:48+10:00",
+          "explanation": "Update Shutdown Profile - ROC for unit shutdown - SL"
+        },
+        {
+          "offer_time": "2024-07-19T13:09:46+10:00",
+          "explanation": "AEMO 5MPD vs 30MPD - SA 5MPD Price of $436.40 for DI1405 vs 30MPD Price of $175.98 for PE1430 - SL"
+        },
+        {
+          "offer_time": "2024-07-19T13:29:11+10:00",
+          "explanation": "Change SRMC: VIC Gas Price - SL"
+        },
+        {
+          "offer_time": "2024-07-19T16:49:02+10:00",
+          "explanation": "Constraint Management: V>>NIL_MLGT_MLGT_R2. SL."
+        },
+        {
+          "offer_time": "2024-07-19T18:40:10+10:00",
+          "explanation": "Unexpected Plant Limits - Redistribute Across Portfolio. SL."
+        }
+      ]
+    },
+    {
+      "duid": "TIBG1",
+      "region": "SA1",
+      "fuel": "battery",
+      "capacity_mw": 250.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2024-07-19T02:38:08+10:00",
+          "explanation": "Capability Change (PD) ENERGY, LOWERREG, RAISE1SEC, RAISE5MIN, RAISE60SEC, RAISE6SEC, RAISEREG"
+        },
+        {
+          "offer_time": "2024-07-19T14:07:49+10:00",
+          "explanation": "001 Primary Response to D+1 Predispatch~P30 Published"
+        },
+        {
+          "offer_time": "2024-07-19T15:38:09+10:00",
+          "explanation": "Capability Change (PD) ENERGY, LOWERREG, RAISE1SEC, RAISE5MIN, RAISE60SEC, RAISE6SEC, RAISEREG"
+        },
+        {
+          "offer_time": "2024-07-19T16:13:10+10:00",
+          "explanation": "Data corrupt or stale for current and previous bid intervals"
+        },
+        {
+          "offer_time": "2024-07-19T17:26:34+10:00",
+          "explanation": "Management of SoC"
+        }
+      ]
+    },
+    {
+      "duid": "TORRB1",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 210.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2024-07-04T01:37:06+10:00",
+          "explanation": "01:37~A~Initial Bid~OPT_R24"
+        },
+        {
+          "offer_time": "2024-07-18T10:41:01+10:00",
+          "explanation": "10:39~F~00 Initial Bid~"
+        }
+      ]
+    },
+    {
+      "duid": "TORRB3",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 210.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2024-07-04T01:39:03+10:00",
+          "explanation": "01:39~A~Initial Bid~OPT_NR"
+        },
+        {
+          "offer_time": "2024-07-04T13:55:08+10:00",
+          "explanation": "00 Initial Bid"
+        },
+        {
+          "offer_time": "2024-07-18T10:41:01+10:00",
+          "explanation": "10:39~F~00 Initial Bid~"
+        },
+        {
+          "offer_time": "2024-07-19T13:34:30+10:00",
+          "explanation": "020 Reduction in avail cap~208 RTS later than exp"
+        }
+      ]
+    },
+    {
+      "duid": "HPRG1",
+      "region": "SA1",
+      "fuel": "battery",
+      "capacity_mw": 150.0,
+      "availability": [
+        80.0,
+        80.0,
+        80.0,
+        58.0,
+        50.0,
+        49.0,
+        49.0,
+        51.0,
+        51.0,
+        46.0,
+        43.0,
+        40.0,
+        40.0,
+        45.0,
+        43.0,
+        46.0,
+        46.0,
+        45.0,
+        48.0,
+        55.0,
+        58.0,
+        59.0,
+        56.0,
+        33.0,
+        11.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0,
+        20.0,
+        30.0,
+        42.0,
+        41.0,
+        41.0,
+        39.0,
+        37.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-07-19T23:07:16+10:00",
+          "explanation": "Difference in forecasted enablement at time 2024-07-19 23:15:00 AEST, SL"
+        },
+        {
+          "offer_time": "2024-07-19T23:13:09+10:00",
+          "explanation": "Difference in forecasted enablement at time 2024-07-19 23:20:00 AEST, SL"
+        },
+        {
+          "offer_time": "2024-07-19T23:17:21+10:00",
+          "explanation": "Difference in forecasted enablement at time 2024-07-20 00:05:00 AEST, SL"
+        },
+        {
+          "offer_time": "2024-07-19T23:22:16+10:00",
+          "explanation": "Difference in forecasted enablement at time 2024-07-19 23:30:00 AEST, SL"
+        },
+        {
+          "offer_time": "2024-07-19T23:28:24+10:00",
+          "explanation": "Difference in forecasted enablement at time 2024-07-19 23:55:00 AEST, SL"
+        }
+      ]
+    },
+    {
+      "duid": "OSB-AG",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 204.0,
+      "availability": [
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        188.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-07-11T21:34:30+10:00",
+          "explanation": "Daily Bid SL"
+        },
+        {
+          "offer_time": "2024-07-18T12:50:58+10:00",
+          "explanation": "Constraint management - V::N_HWSM_Q1 - unit RTS ROC 2mw/min req SL"
+        },
+        {
+          "offer_time": "2024-07-19T15:26:21+10:00",
+          "explanation": "Change in avail - Unit RTS profile Revised SL"
+        },
+        {
+          "offer_time": "2024-07-19T16:01:32+10:00",
+          "explanation": "Plant conditions - network connection issues SL"
+        },
+        {
+          "offer_time": "2024-07-19T16:40:23+10:00",
+          "explanation": "Change in avail - ambient conditions SL"
+        }
+      ]
+    },
+    {
+      "duid": "BOLIVPS1",
+      "region": "SA1",
+      "fuel": "liquid",
+      "capacity_mw": 127.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        32.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0,
+        64.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-06-19T01:01:30+10:00",
+          "explanation": "Initial Bid"
+        },
+        {
+          "offer_time": "2024-07-19T22:26:23+10:00",
+          "explanation": "SA1 RRP SA+100 sensitivity 5PD@22:25 for 22:30 is $17,119.05 higher than 5PD@22:20 ($17,499.00 vs $379.95) SL"
+        },
+        {
+          "offer_time": "2024-07-19T22:33:50+10:00",
+          "explanation": "SA1 RRP SA+100 sensitivity DP@22:35 for 22:35 is $16,500.57 higher than 5PD@22:25 ($17,500.00 vs $999.43) SL"
+        },
+        {
+          "offer_time": "2024-07-19T22:52:39+10:00",
+          "explanation": "SA1 RRP SA+200 sensitivity DP@22:55 for 22:55 is $12,556.00 higher than 5PD@22:50 ($12,935.95 vs $379.95) SL"
+        },
+        {
+          "offer_time": "2024-07-19T23:21:22+10:00",
+          "explanation": "SA1 RRP SA+200 sensitivity 5PD@23:20 for 23:35 is $906.10 higher than 5PD@23:10 ($999.43 vs $93.33) SL"
+        }
+      ]
+    },
+    {
+      "duid": "AGLHAL",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 255.0,
+      "availability": [
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0,
+        177.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-06-25T14:42:55+10:00",
+          "explanation": "Default Offer"
+        },
+        {
+          "offer_time": "2024-07-19T09:08:31+10:00",
+          "explanation": "Adjust FSIP due to plant operational requirements SL"
+        },
+        {
+          "offer_time": "2024-07-19T19:06:14+10:00",
+          "explanation": "Adj FSIP due to plant operational requirements SL"
+        },
+        {
+          "offer_time": "2024-07-19T22:40:56+10:00",
+          "explanation": "Adj bands and fsip - price spiked to MPC at DI 22:30 SL"
+        },
+        {
+          "offer_time": "2024-07-19T23:18:53+10:00",
+          "explanation": "Adj bands and fsip - mat chg in SA gen wind at DI 23:55, 1330 vs 1513 MW at DI 23:20 P5 run SL"
+        }
+      ]
+    },
+    {
+      "duid": "SNUG1",
+      "region": "SA1",
+      "fuel": "liquid",
+      "capacity_mw": 69.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2024-06-11T10:24:18+10:00",
+          "explanation": "Initial Offer"
+        }
+      ]
+    },
+    {
+      "duid": "PTSTAN1",
+      "region": "SA1",
+      "fuel": "liquid",
+      "capacity_mw": 97.0,
+      "availability": [
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0,
+        34.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-07-17T17:03:33+10:00",
+          "explanation": "17:03:33 F INITIAL BID"
+        },
+        {
+          "offer_time": "2024-07-18T07:03:30+10:00",
+          "explanation": "07:03:28 F INITIAL BID"
+        },
+        {
+          "offer_time": "2024-07-18T10:53:43+10:00",
+          "explanation": "10:53:41 F INITIAL BID"
+        },
+        {
+          "offer_time": "2024-07-18T12:19:01+10:00",
+          "explanation": "12:19:00 F INITIAL BID"
+        },
+        {
+          "offer_time": "2024-07-18T17:40:18+10:00",
+          "explanation": "17:39:49 P UPDATE TO PORTFOLIO STRATEGY - SL"
+        }
+      ]
+    },
+    {
+      "duid": "TORRB2",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 210.0,
+      "availability": [
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        200.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-07-19T07:23:21+10:00",
+          "explanation": "010 Unexpected/plant limits~101 Switch off time limit - SL"
+        },
+        {
+          "offer_time": "2024-07-19T15:41:50+10:00",
+          "explanation": "010 AEMO direction~PN #117369"
+        },
+        {
+          "offer_time": "2024-07-19T15:46:30+10:00",
+          "explanation": "010 Unexpected/plant limits~112 redist across portfolio - TIPS directions"
+        },
+        {
+          "offer_time": "2024-07-19T17:50:48+10:00",
+          "explanation": "010 Unexpected/plant limits~106 Aux/Plant failure"
+        },
+        {
+          "offer_time": "2024-07-19T18:12:23+10:00",
+          "explanation": "080 Chg in pipeline cond~gas limitations"
+        }
+      ]
+    },
+    {
+      "duid": "DRYCGT2",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 57.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2024-06-11T09:56:41+10:00",
+          "explanation": "Initial Offer"
+        }
+      ]
+    },
+    {
+      "duid": "POR01",
+      "region": "SA1",
+      "fuel": "liquid",
+      "capacity_mw": 55.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": [
+        {
+          "offer_time": "2024-06-11T10:24:18+10:00",
+          "explanation": "Initial Offer"
+        }
+      ]
+    },
+    {
+      "duid": "BARKIPS1",
+      "region": "SA1",
+      "fuel": "gas",
+      "capacity_mw": 210.0,
+      "availability": [
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0,
+        157.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-07-19T14:04:22+10:00",
+          "explanation": "001 Primary Response to D+1 Predispatch~P30 Published"
+        },
+        {
+          "offer_time": "2024-07-19T14:20:31+10:00",
+          "explanation": "010 Unexpected/plant limits~106 Aux/Plant failure"
+        },
+        {
+          "offer_time": "2024-07-19T14:35:33+10:00",
+          "explanation": "010 Unexpected/plant limits~ENG trip to LFO"
+        },
+        {
+          "offer_time": "2024-07-19T18:12:23+10:00",
+          "explanation": "080 Chg in pipeline cond~gas limitations"
+        },
+        {
+          "offer_time": "2024-07-19T22:29:07+10:00",
+          "explanation": "040 Chg in AEMO DISP~45 Price change vs PD SA $17,500 DISP PE 22:30 vs $58.39 30MPD PE 22:30"
+        }
+      ]
+    },
+    {
+      "duid": "TB2BG1",
+      "region": "SA1",
+      "fuel": "battery",
+      "capacity_mw": 41.0,
+      "availability": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "outage",
+      "rebids": []
+    },
+    {
+      "duid": "SNAPPER1",
+      "region": "SA1",
+      "fuel": "liquid",
+      "capacity_mw": 150.0,
+      "availability": [
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        148.0,
+        149.0,
+        149.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        150.0,
+        148.0,
+        148.0
+      ],
+      "kind": "derated",
+      "rebids": [
+        {
+          "offer_time": "2024-07-19T08:08:59+10:00",
+          "explanation": "AVAILABILTY CHANGE DUE TO UPDATED GENERATOR STATUS"
+        },
+        {
+          "offer_time": "2024-07-19T22:15:52+10:00",
+          "explanation": "AVAILABILTY CHANGE DUE TO 5 MIN PD"
+        },
+        {
+          "offer_time": "2024-07-19T22:29:08+10:00",
+          "explanation": "AVAILABILITY CHANGE DUE TO 5 MIN DP"
+        },
+        {
+          "offer_time": "2024-07-19T22:43:37+10:00",
+          "explanation": "AVAILABILTY CHANGE DUE TO 5 MIN PD"
+        },
+        {
+          "offer_time": "2024-07-19T23:15:58+10:00",
+          "explanation": "AVAILABILITY CHANGE DUE TO 5 MIN DP"
+        }
+      ]
+    }
+  ]
+}

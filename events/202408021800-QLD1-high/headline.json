@@ -1,0 +1,22 @@
+{
+  "schema": 2,
+  "event_id": "202408021800-QLD1-high",
+  "region": "QLD1",
+  "trading_day": "2024-08-02",
+  "start": "2024-08-02T18:00:00+10:00",
+  "end": "2024-08-02T18:05:00+10:00",
+  "duration_minutes": 10,
+  "peak_price": 15500.01,
+  "peak_at": "2024-08-02T18:00:00+10:00",
+  "mean_price": 8350.37,
+  "intervals_above_5000": 1,
+  "cost_to_load": 10893949.0,
+  "max_demand_mw": 7833.6,
+  "tags": [
+    "year:2024",
+    "season:winter",
+    "region:QLD1",
+    "severity:extreme",
+    "settlement:5-minute"
+  ]
+}

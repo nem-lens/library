@@ -1,0 +1,22 @@
+{
+  "schema": 2,
+  "event_id": "202506261650-TAS1-high",
+  "region": "TAS1",
+  "trading_day": "2025-06-26",
+  "start": "2025-06-26T16:50:00+10:00",
+  "end": "2025-06-26T18:30:00+10:00",
+  "duration_minutes": 105,
+  "peak_price": 9715.08,
+  "peak_at": "2025-06-26T18:00:00+10:00",
+  "mean_price": 6652.17,
+  "intervals_above_5000": 15,
+  "cost_to_load": 15843858.0,
+  "max_demand_mw": 1387.6,
+  "tags": [
+    "year:2025",
+    "season:winter",
+    "region:TAS1",
+    "severity:high",
+    "settlement:5-minute"
+  ]
+}
