@@ -2403,8 +2403,8 @@
     {
       "file": "bids_dayoffer.parquet",
       "table": "BIDS_DAYOFFER",
-      "rows": 157408,
-      "sha256": "2e465927b375c01db4e15798b79a2473a23ef085322e386774b2ba975fe07e63"
+      "rows": 4409,
+      "sha256": "0726d8db2d5014e9fa67fd9bf36e2f78fb0e0e8481146aeaedd444ba24da6dd5"
     },
     {
       "file": "market_notices.json",
@@ -2415,26 +2415,26 @@
     {
       "file": "static_gencondata.parquet",
       "table": "GENCONDATA_NULL",
-      "rows": 7722,
-      "sha256": "b6ff816de3068dc4303a91a758923b96b33e1f8553943fe07c8c6387a78c903a"
+      "rows": 971,
+      "sha256": "3d1b2b9164388865130cb124984927af8892ced2f250277cd0c0771be870dd50"
     },
     {
       "file": "static_spdconnectionpointconstraint.parquet",
       "table": "SPDCPC_NULL",
-      "rows": 186418,
-      "sha256": "2eb3dc2bf56c55fcb6b48cdae7fd1c1355edee6f6ff90f86a6ca939d959dce4a"
+      "rows": 16529,
+      "sha256": "09003adccd5f911bcba414c3784f9f6ed2263f41aac78a0d8d6a684b3bc0607f"
     },
     {
       "file": "static_spdinterconnectorconstraint.parquet",
       "table": "SPDICC_NULL",
-      "rows": 6942,
-      "sha256": "492241644facb369877eccd409ae4b05b5a6d85d758854222e3ff59a5dde1bae"
+      "rows": 719,
+      "sha256": "0d6af297fb58e0e0a605f3ba7a6d850b5112519231d0ae5fb27725200e1818e2"
     },
     {
       "file": "static_spdregionconstraint.parquet",
       "table": "SPDRC_NULL",
-      "rows": 1281,
-      "sha256": "a7e63e27653ecc780695ef34cbd8360d5add909142e6ab32d7d1b72c00ed7be2"
+      "rows": 407,
+      "sha256": "1ac8f5430dc974ffb99d15c6a651b827b3cad1597aa7635b94fd0c05fb93c5b5"
     },
     {
       "file": "static_interconnectorconstraint.parquet",
@@ -3082,5 +3082,35 @@
     "dudetail_month": "2024_06",
     "interconnector_month": "2024_06",
     "fuel_month": "2024_06"
+  },
+  "slimmed": {
+    "generator": "nem-monitor 0.1.0",
+    "tables": [
+      {
+        "file": "static_gencondata.parquet",
+        "rows_before": 7722,
+        "rows_after": 971
+      },
+      {
+        "file": "static_spdconnectionpointconstraint.parquet",
+        "rows_before": 186418,
+        "rows_after": 16529
+      },
+      {
+        "file": "static_spdinterconnectorconstraint.parquet",
+        "rows_before": 6942,
+        "rows_after": 719
+      },
+      {
+        "file": "static_spdregionconstraint.parquet",
+        "rows_before": 1281,
+        "rows_after": 407
+      },
+      {
+        "file": "bids_dayoffer.parquet",
+        "rows_before": 157408,
+        "rows_after": 4409
+      }
+    ]
   }
 }
