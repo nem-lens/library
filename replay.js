@@ -164,6 +164,7 @@ async function showEvent(id) {
   const region = h.region;
 
   document.title = `${region} ${h.trading_day} · NEM Lens Replays`;
+  $("ev-tags").replaceChildren(...(h.tags || []).filter((t) => !t.startsWith("region:") && !t.startsWith("year:")).map((t) => el("span", { class: "tag-chip" }, tagLabel(t))));
   $("ev-title").textContent = `${region.replace(/1$/, "")} price event, ${day(h.start)}`;
   $("ev-sub").textContent = `${hhmm(h.start)} to ${hhmm(h.end)} market time (AEST), ${h.duration_minutes} minutes. Shaded on each chart; the window runs from two hours before to one hour after.`;
   const card = (label, v, n) => el("div", { class: "card" }, el("h3", {}, label), el("div", { class: "v" }, v), el("div", { class: "n" }, n));
@@ -259,12 +260,80 @@ async function showEvent(id) {
 
 // ------------------------------------------------------------- index view
 
+// Tags are key:value facets from AEMO data (event schema TAG_KEYS).
+const TAG_LABELS = {
+  "price:at-cap": "price at the cap",
+  "price:negative": "negative prices",
+  "price:floor": "price at the floor",
+  "pricing:administered": "administered pricing",
+  "pricing:suspended": "market suspended",
+  "intervention:yes": "intervention",
+  "settlement:5-minute": "5-minute settlement",
+  "settlement:30-minute": "30-minute settlement",
+  "bids:missing": "bids not archived",
+  "bids:no-band-availability": "bid bands not archived",
+};
+const tagOf = (e, key) => (e.tags || []).find((t) => t.startsWith(key + ":"))?.slice(key.length + 1);
+const tagLabel = (t) => TAG_LABELS[t] || t.split(":")[1];
+
+function eventItem(e) {
+  return el("li", {}, el("a", { href: `?id=${encodeURIComponent(e.event_id)}` },
+    el("span", { class: "when" }, `${e.region} · ${day(e.start)}`),
+    el("span", { class: "facts" }, `${hhmm(e.start)}–${hhmm(e.end)}, ${e.duration_minutes} min · peak ${money(e.peak_price)}/MWh · average ${money(e.mean_price)}/MWh · ${e.intervals_above_5000} intervals ≥ $5,000`),
+    el("span", { class: "tags" }, (e.tags || []).filter((t) => TAG_LABELS[t] || t.startsWith("severity:") || t.startsWith("season:")).map((t) => el("span", { class: "tag-chip" }, tagLabel(t))))));
+}
+
 async function showIndex() {
   const index = await getJSON("index.json");
-  $("events").replaceChildren(...index.events.map((e) => el("li", {}, el("a", { href: `?id=${encodeURIComponent(e.event_id)}` },
-    el("span", { class: "when" }, `${e.region} · ${day(e.start)}`),
-    el("span", { class: "facts" }, `${hhmm(e.start)}–${hhmm(e.end)}, ${e.duration_minutes} min · peak ${money(e.peak_price)}/MWh · average ${money(e.mean_price)}/MWh · ${e.intervals_above_5000} intervals ≥ $5,000`)))));
-  $("events-status").textContent = index.events.length ? `${index.events.length} event${index.events.length > 1 ? "s" : ""}, newest first.` : "No events yet.";
+  const events = index.events;
+  const state = { region: params.get("region") || "", season: params.get("season") || "", severity: params.get("severity") || "", tags: new Set((params.get("tags") || "").split(",").filter(Boolean)) };
+  const values = (key) => [...new Set(events.map((e) => tagOf(e, key)).filter(Boolean))].sort();
+  const select = (label, key, options) => {
+    const s = el("select", { "aria-label": label }, el("option", { value: "" }, "All"), options.map((o) => el("option", { value: o, selected: state[key] === o }, o)));
+    s.addEventListener("change", () => { state[key] = s.value; render(); });
+    return el("label", {}, label, s);
+  };
+  const flagTags = Object.keys(TAG_LABELS).filter((t) => events.some((e) => (e.tags || []).includes(t)));
+  const chips = el("div", { class: "chips", "aria-label": "Conditions" }, flagTags.map((t) => {
+    const b = el("button", { type: "button", class: "chip", "aria-pressed": String(state.tags.has(t)) }, tagLabel(t));
+    b.addEventListener("click", () => {
+      state.tags.has(t) ? state.tags.delete(t) : state.tags.add(t);
+      b.setAttribute("aria-pressed", String(state.tags.has(t)));
+      render();
+    });
+    return b;
+  }));
+  $("filters").replaceChildren(
+    select("Region", "region", values("region")),
+    select("Season", "season", ["summer", "autumn", "winter", "spring"].filter((s) => values("season").includes(s))),
+    select("Severity", "severity", ["cap", "extreme", "high"].filter((s) => values("severity").includes(s))),
+    chips);
+
+  function render() {
+    const shown = events.filter((e) =>
+      (!state.region || tagOf(e, "region") === state.region || e.region === state.region) &&
+      (!state.season || tagOf(e, "season") === state.season) &&
+      (!state.severity || tagOf(e, "severity") === state.severity) &&
+      [...state.tags].every((t) => (e.tags || []).includes(t)));
+    const byYear = new Map();
+    for (const e of shown) {
+      const y = tagOf(e, "year") || e.start.slice(0, 4);
+      if (!byYear.has(y)) byYear.set(y, []);
+      byYear.get(y).push(e);
+    }
+    const years = [...byYear.keys()].sort().reverse();
+    $("years").replaceChildren(...years.map((y, i) => el("details", { class: "year", open: i === 0 || shown.length <= 40 },
+      el("summary", {}, y, " ", el("span", { class: "muted" }, `${byYear.get(y).length} event${byYear.get(y).length > 1 ? "s" : ""}`)),
+      el("ul", { class: "events" }, byYear.get(y).map(eventItem)))));
+    $("events-status").textContent = events.length
+      ? `${shown.length} of ${events.length} events, newest first, by year.`
+      : "No events yet.";
+    const p = new URLSearchParams();
+    for (const k of ["region", "season", "severity"]) if (state[k]) p.set(k, state[k]);
+    if (state.tags.size) p.set("tags", [...state.tags].join(","));
+    history.replaceState(null, "", p.toString() ? `?${p}` : location.pathname);
+  }
+  render();
 }
 
 (params.get("id") ? showEvent(params.get("id")) : showIndex()).catch((e) => {

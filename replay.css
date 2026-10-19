@@ -65,7 +65,18 @@ a { color: var(--accent); }
 .small { font-size: 0.85rem; }
 .foot { padding: 2rem 16px 3rem; }
 
-.events { list-style: none; padding: 0; margin: 1rem 0; display: grid; gap: 0.6rem; }
+.events { list-style: none; padding: 0; margin: 0.5rem 0 1rem; display: grid; gap: 0.5rem; }
+.filters { display: flex; flex-wrap: wrap; gap: 0.4rem 0.6rem; align-items: center; margin: 0.5rem 0; }
+.filters label { display: grid; gap: 0.1rem; font-size: 0.78rem; color: var(--muted); }
+.filters select { font: inherit; font-size: 0.85rem; padding: 0.2rem; background: var(--panel); color: var(--fg); border: 1px solid var(--line); border-radius: 6px; max-width: 100%; }
+.chips { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.chip { font-size: 0.75rem; padding: 0.1rem 0.5rem; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); color: var(--muted); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+.tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.3rem 0; }
+.tag-chip { font-size: 0.72rem; padding: 0 0.45rem; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+details.year { border-top: 1px solid var(--line); padding: 0.4rem 0; }
+details.year summary { cursor: pointer; font-weight: 650; font-size: 1.05rem; }
+details.year summary .muted { font-weight: 400; font-size: 0.85rem; }
 .events a {
   display: grid; gap: 0.15rem; padding: 0.8rem 1rem; text-decoration: none; color: var(--fg);
   background: var(--panel); border: 1px solid var(--line); border-radius: 8px;

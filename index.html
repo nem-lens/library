@@ -17,14 +17,16 @@
 <main id="main">
   <section id="events-view">
     <h1>Events</h1>
+    <div id="filters" class="filters" role="search" aria-label="Filter events"></div>
     <p id="events-status" class="muted">Loading the event library…</p>
-    <ul id="events" class="events"></ul>
+    <div id="years"></div>
   </section>
 
   <section id="event-view" hidden>
     <p><a href="./" class="back">← All events</a></p>
     <h1 id="ev-title"></h1>
     <p id="ev-sub" class="muted"></p>
+    <p id="ev-tags" class="tags"></p>
     <div id="cards" class="cards"></div>
     <div id="panels" class="panels"></div>
   </section>
