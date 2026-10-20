@@ -2431,7 +2431,47 @@
         null,
         null
       ],
-      "intervals_binding": 1
+      "intervals_binding": 1,
+      "violation": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0.0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ]
 }

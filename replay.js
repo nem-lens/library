@@ -242,11 +242,12 @@ async function showEvent(id) {
     note: `MW. Dashed lines are AEMO's limits; the table shows ${hhmm(times[cursor])} and the constraint AEMO reports as setting each limit.`,
   })));
 
+  const notMet = (c) => (c.violation || []).some((v) => v != null && Math.abs(v) >= 1);
   const top = cons.constraints.slice(0, 40);
   panels.push(panel("Network constraints that bound", () => ({
     table: table(["Constraint", "What it represents", "Intervals binding", `Marginal at ${hhmm(times[cursor])}`, "Largest marginal"],
-      top.map((c) => [c.id, el("span", {}, c.outage ? el("span", { class: "tag out" }, "outage") : null, " ", c.description || ""), num(c.intervals_binding), c.marginal[cursor] ? num(c.marginal[cursor]) : "", num(Math.max(...c.marginal.map((m) => Math.abs(m || 0))))]), [1]),
-    note: `Generic constraints with a non-zero marginal value in the window (${cons.constraints.length}; the first ${top.length} shown), most often binding first. "Outage": AEMO's description names a network element out of service. Marginal values are AEMO's, $/MWh per MW.`,
+      top.map((c) => [c.id, el("span", {}, c.outage ? el("span", { class: "tag out" }, "outage") : null, " ", notMet(c) ? el("span", { class: "tag out" }, "not met") : null, " ", c.description || ""), num(c.intervals_binding), c.marginal[cursor] ? num(c.marginal[cursor]) : "", num(Math.max(...c.marginal.map((m) => Math.abs(m || 0))))]), [1]),
+    note: `Generic constraints with a non-zero marginal value or a violation in the window (${cons.constraints.length}; the first ${top.length} shown), most often binding first. "Outage": AEMO's description names a network element out of service. "Not met": AEMO's dispatch could not meet it in at least one interval (AEMO's violation degree); a constraint's penalty can then set prices, up to the market price cap. Marginal values are AEMO's, $/MWh per MW.`,
   }), true));
 
   panels.push(panel("Plant unavailable", () => ({
