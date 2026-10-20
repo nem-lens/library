@@ -5,6 +5,12 @@
 // events/<id>/{headline,series,dispatch,interconnectors,constraints,
 // unavailability,notices,manifest}.json. Nothing here is modelled: every
 // figure is AEMO's (dispatch pricing run) or arithmetic on it.
+//
+// The event map (map.js) leads the page and owns the playhead: every chart's
+// cursor follows it, and clicking a chart moves it. ?id=<event>&t=HH:MM
+// opens an event at an interval, and #<panel> at a panel.
+
+import { mountMap } from "./map.js";
 
 const params = new URLSearchParams(location.search);
 const $ = (id) => document.getElementById(id);
@@ -47,6 +53,19 @@ const day = (t) => new Date(t).toLocaleDateString("en-AU", { weekday: "short", d
 // Charts are drawn narrower on phones so their text stays legible.
 const chartWidth = () => (window.innerWidth < 600 ? 380 : 640);
 
+// Each chart's cursor is a function of fractional time, collected by the panel
+// drawing it, so the map's playhead can move every cursor on each frame.
+let collecting = null;
+let playhead = null;
+function cursorLine(g, x, T, H, B, cursor) {
+  if (cursor == null) return;
+  const line = svg("line", { class: "cursor", y1: T, y2: H - B });
+  const place = (t) => { const v = x(t).toFixed(1); line.setAttribute("x1", v); line.setAttribute("x2", v); };
+  place(playhead ?? cursor);
+  g.append(line);
+  collecting?.push(place);
+}
+
 /** Lines over intervals, with the event span shaded and a click cursor. */
 function lineChart({ times, series, span, height = 220, yfmt = (v) => num(v), cursor, onPick, marks = [] }) {
   const W = chartWidth(), H = height, L = 54, R = 8, T = 8, B = 22;
@@ -78,7 +97,7 @@ function lineChart({ times, series, span, height = 220, yfmt = (v) => num(v), cu
     });
     if (d) g.append(svg("path", { class: s.cls || "line", d, stroke: s.colour, ...(s.width ? { "stroke-width": s.width } : {}) }, svg("title", {}, s.name)));
   }
-  if (cursor != null) g.append(svg("line", { class: "cursor", x1: x(cursor), x2: x(cursor), y1: T, y2: H - B }));
+  cursorLine(g, x, T, H, B, cursor);
   if (onPick) {
     const hit = svg("rect", { class: "hit", x: L, y: T, width: W - L - R, height: H - T - B });
     hit.addEventListener("click", (ev) => {
@@ -91,7 +110,7 @@ function lineChart({ times, series, span, height = 220, yfmt = (v) => num(v), cu
   return g;
 }
 
-function stackChart({ times, layers, span, cursor, height = 220 }) {
+function stackChart({ times, layers, span, cursor, onPick, height = 220 }) {
   const W = chartWidth(), H = height, L = 54, R = 8, T = 8, B = 22;
   const n = times.length;
   const pos = layers.map((l) => l.values.map((v) => Math.max(0, v || 0)));
@@ -117,7 +136,15 @@ function stackChart({ times, layers, span, cursor, height = 220 }) {
     g.append(svg("path", { d: d + "Z", fill: `var(--${l.name})`, opacity: 0.9 }, svg("title", {}, l.name)));
     top.forEach((v, i) => (base[i] = v));
   });
-  if (cursor != null) g.append(svg("line", { class: "cursor", x1: x(cursor), x2: x(cursor), y1: T, y2: H - B }));
+  cursorLine(g, x, T, H, B, cursor);
+  if (onPick) {
+    const hit = svg("rect", { class: "hit", x: L, y: T, width: W - L - R, height: H - T - B });
+    hit.addEventListener("click", (ev) => {
+      const r = g.getBoundingClientRect();
+      onPick(Math.max(0, Math.min(n - 1, Math.round(((((ev.clientX - r.left) / r.width) * W - L) / (W - L - R)) * (n - 1)))));
+    });
+    g.append(hit);
+  }
   return g;
 }
 
@@ -127,14 +154,17 @@ function table(head, rows, textCols = []) {
     el("tbody", {}, rows.map((r) => el("tr", {}, r.map((c, i) => el("td", { class: textCols.includes(i) ? "text" : null }, c)))))));
 }
 
-/** A panel with a chart-or-table toggle; render() returns {chart, table, note}. */
-function panel(title, render, wide = false) {
+/** A panel with a chart-or-table toggle; render() returns {chart, table, note}. `id` is its anchor. */
+function panel(title, render, wide = false, id = null) {
   const body = el("div", { class: "body" });
   const note = el("p", { class: "note" });
   let asTable = false;
   const toggle = el("button", { type: "button" }, "Table");
   const draw = () => {
+    p.cursors = [];
+    collecting = p.cursors;
     const out = render();
+    collecting = null;
     body.replaceChildren((asTable ? out.table : out.chart) || out.table || el("p", { class: "muted" }, "Not in this event's data."));
     note.textContent = out.note || "";
     toggle.hidden = !out.chart || !out.table;
@@ -144,9 +174,82 @@ function panel(title, render, wide = false) {
     toggle.textContent = asTable ? "Chart" : "Table";
     draw();
   });
-  const p = el("section", { class: `panel${wide ? " wide" : ""}` }, el("header", {}, el("h2", {}, title), toggle), body, note);
+  const p = el("section", { class: `panel${wide ? " wide" : ""}`, id }, el("header", {}, el("h2", {}, title), toggle), body, note);
   p.redraw = draw;
   return p;
+}
+
+// ------------------------------------------------------------- map links
+
+const reducedMotion = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/** Scroll to a panel and outline it briefly. */
+function revealPanel(anchor) {
+  const p = document.getElementById(anchor);
+  if (!p) return;
+  p.scrollIntoView({ behavior: reducedMotion() ? "auto" : "smooth", block: "start" });
+  p.classList.remove("flash");
+  void p.offsetWidth;
+  p.classList.add("flash");
+}
+
+/**
+ * The chart under the map for a clicked link, constraint or unit. Regions and
+ * the plant card go to their own panels instead (prices, contingency reserve).
+ */
+function mapDetail({ times, span, ics, cons, unav, region, pick, cursorAt, reveal }) {
+  const box = $("emap-detail");
+  const self = { cursors: [], key: null };
+  const go = (anchor, label) => el("a", { href: `#${anchor}`, onclick: (e) => { e.preventDefault(); reveal(anchor); } }, `${label} panel ↓`);
+  const close = el("button", { type: "button", "aria-label": "Close" }, "Close");
+  close.addEventListener("click", () => { self.key = null; box.hidden = true; self.cursors = []; });
+  const draw = () => {
+    const k = self.key;
+    if (!k) return;
+    const [kind, id] = [k.slice(0, 1), k.slice(2)], i = cursorAt();
+    let title = id, body = [], note = "", link = null;
+    self.cursors = [];
+    collecting = self.cursors;
+    if (kind === "l") {
+      const c = ics.interconnectors.find((x) => x.id === id);
+      title = `${id}: flow and AEMO's limits`;
+      body = [el("div", { class: "legend" }, [["Flow", "#0b5cad"], ["Limits", "var(--limit)"]].map(([n, col]) => el("span", {}, el("i", { style: `background:${col}` }), n))),
+        lineChart({ times, span, cursor: i, onPick: pick, height: 170, series: [{ name: "Flow", values: c.flow, colour: "#0b5cad" }, { name: "Export limit", values: c.export_limit, cls: "limit" }, { name: "Import limit", values: c.import_limit, cls: "limit" }] })];
+      note = `MW, positive from ${c.from_region} to ${c.to_region}. At ${hhmm(times[i])} the import limit was set by ${c.import_set_by[i] || "–"} and the export limit by ${c.export_set_by[i] || "–"}.`;
+      if (c.from_region === region || c.to_region === region) link = go("interconnectors", "Interconnectors");
+    } else if (kind === "c") {
+      const c = cons.constraints.find((x) => x.id === id);
+      if (!c) return;
+      const marks = c.marginal.map((m, j) => (m ? j : -1)).filter((j) => j >= 0);
+      const viol = (c.violation || []).some((v) => v != null && Math.abs(v) >= 1);
+      body = [el("p", { class: "note" }, c.description || ""),
+        lineChart({ times, span, cursor: i, onPick: pick, height: 150, marks, series: viol
+          ? [{ name: "Not met by (MW)", values: c.violation.map((v) => (v == null ? 0 : Math.abs(v))), colour: "#c62828" }]
+          : [{ name: "Binding", values: c.marginal.map((m) => (m ? 1 : 0)), cls: "limit" }] })];
+      note = viol ? "MW by which AEMO's dispatch could not meet it (violation degree); orange ticks: binding." : "1 when binding (non-zero marginal value); orange ticks mark the same.";
+      link = go("constraints", "Network constraints");
+    } else if (kind === "u") {
+      const u = unav.units.find((x) => x.duid === id);
+      if (!u) { collecting = null; return reveal("reserve"); }
+      title = `${u.duid} (${u.fuel || "unit"}, ${num(u.capacity_mw)} MW): availability`;
+      body = [lineChart({ times, span, cursor: i, onPick: pick, height: 150, series: [{ name: "Available", values: u.availability, colour: "#0b5cad" }, { name: "Capacity", values: times.map(() => u.capacity_mw), cls: "limit" }] })];
+      note = `MW AEMO had available from the unit; dashed: its registered capacity. At ${hhmm(times[i])}: ${num(u.availability[i])} MW.`;
+      link = go("plant", "Plant unavailable");
+    }
+    collecting = null;
+    box.replaceChildren(el("header", {}, el("h2", {}, title), link, close), ...body, el("p", { class: "note" }, note, " Click the chart to move the map there."));
+    box.hidden = false;
+  };
+  self.show = (k) => {
+    if (!k) return;
+    if (k.startsWith("r:")) return reveal("prices");
+    if (k === "plant") return reveal("reserve");
+    self.key = k;
+    draw();
+    if (!box.hidden) box.scrollIntoView({ behavior: reducedMotion() ? "auto" : "smooth", block: "nearest" });
+  };
+  self.redraw = draw;
+  return self;
 }
 
 // ------------------------------------------------------------- event view
@@ -161,6 +264,10 @@ async function showEvent(id) {
   const span = [inSpan.indexOf(true), inSpan.lastIndexOf(true)];
   let cursor = times.indexOf(h.peak_at);
   if (cursor < 0) cursor = span[0];
+  // ?t=HH:MM (or HHMM) opens at that interval instead of the peak.
+  const tParam = (params.get("t") || "").replace(":", "");
+  const tIndex = tParam ? times.findIndex((t) => hhmm(t).replace(":", "") === tParam) : -1;
+  if (tIndex >= 0) cursor = tIndex;
   const region = h.region;
 
   document.title = `${region} ${h.trading_day} · NEM Lens Replays`;
@@ -177,8 +284,10 @@ async function showEvent(id) {
   );
 
   const panels = [];
-  const redraw = () => panels.forEach((p) => p.redraw());
-  const pick = (i) => { cursor = i; redraw(); };
+  const redraw = () => { panels.forEach((p) => p.redraw()); detail?.redraw(); };
+  let map = null, detail = null;
+  // Clicking a chart moves the map, whose playhead then moves every panel.
+  const pick = (i) => { if (map) map.goTo(i); else { cursor = i; redraw(); } };
   const regions = Object.keys(series.regions);
 
   panels.push(panel("Prices", () => ({
@@ -222,7 +331,7 @@ async function showEvent(id) {
   panels.push(panel(`${region} dispatch by fuel`, () => ({
     chart: el("div", {},
       el("div", { class: "legend" }, fuels.map((f) => el("span", {}, el("i", { style: `background:var(--${f})` }), f))),
-      stackChart({ times, span, cursor, layers: fuels.map((f) => ({ name: f, values: dispatch.fuels[f] })) })),
+      stackChart({ times, span, cursor, onPick: pick, layers: fuels.map((f) => ({ name: f, values: dispatch.fuels[f] })) })),
     table: table(["Fuel", `At ${hhmm(times[cursor])}`, "Peak in window"], fuels.map((f) => [f, num(dispatch.fuels[f][cursor]), num(Math.max(...dispatch.fuels[f]))])),
     note: "MW dispatched by scheduled and semi-scheduled plant; batteries net of charging. Rooftop solar and other non-scheduled plant are not in AEMO's dispatch.",
   })));
@@ -269,10 +378,35 @@ async function showEvent(id) {
       el("a", { href: base + "manifest.json" }, "manifest.json"), " lists each source file with its URL and SHA-256."),
   }), true));
 
+  // Anchors, so a link can open a panel: ?id=<event>&t=14:35#interconnectors.
+  const anchors = { "Prices": "prices", "demand and supply": "demand", "contingency reserve": "reserve", "dispatch by fuel": "fuel", "Interconnectors": "interconnectors", "Network constraints": "constraints", "Plant unavailable": "plant", "AEMO market notices": "notices", "Sources": "sources" };
+  for (const p of panels) {
+    const title = p.querySelector("h2").textContent;
+    p.id = Object.entries(anchors).find(([k]) => title.includes(k))?.[1] || null;
+  }
   $("panels").replaceChildren(...panels);
+
+  // The map, and a chart for whatever is clicked on it that has no panel of its own.
+  let startAt = cursor;
+  detail = mapDetail({ times, span, ics, cons, unav, region, pick, cursorAt: () => cursor, reveal: revealPanel });
+  map = mountMap($("emap"), { h, series, dispatch, ics, cons, unav, span }, cursor, {
+    onTime: (t) => { playhead = t; for (const p of [...panels, detail]) for (const f of p.cursors || []) f(t); },
+    onInterval: (i, playing) => {
+      cursor = i;
+      // While playing only the cursors move; tables and notes catch up when it stops.
+      if (playing) return;
+      redraw();
+      // Keep the address on the interval shown, so it can be shared.
+      if (i !== startAt) history.replaceState(null, "", `?id=${encodeURIComponent(id)}&t=${hhmm(times[i])}${location.hash}`);
+      startAt = -1;
+    },
+    onStop: (i) => { cursor = i; redraw(); },
+    onReveal: (k) => detail.show(k),
+  });
   redraw();
   $("events-view").hidden = true;
   $("event-view").hidden = false;
+  if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
 }
 
 // ------------------------------------------------------------- index view
