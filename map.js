@@ -322,12 +322,19 @@ export function mountMap(box, files, start, hooks) {
   setRate(1.5);
 
   function buildStrip() {
-    const W = 640, H = 64, L = 4, Rm = 4, n = E.times.length, ev = E.regions[E.h.region].price;
+    const W = 640, H = 104, L = 34, Rm = 4, n = E.times.length, ev = E.regions[E.h.region].price;
     const all = E.regionIds.flatMap((r) => E.regions[r].price).filter((v) => v != null);
-    const hi = Math.max(...all, 100), lo = Math.min(...all, 0);
-    const x = (i) => L + ((W - L - Rm) * i) / Math.max(n - 1, 1), y = (v) => 6 + (H - 22) * (1 - Math.sqrt(Math.max(0, v - lo)) / Math.sqrt(hi - lo));
+    // Log scale, as the map's colours: tf is linear within ±$10 so negative prices still plot.
+    const hi = tf(Math.max(...all, 100)), lo = tf(Math.min(...all, 0));
+    const x = (i) => L + ((W - L - Rm) * i) / Math.max(n - 1, 1), y = (v) => 6 + (H - 22) * (1 - (tf(v) - lo) / (hi - lo));
     const g = svg("svg", { viewBox: `0 0 ${W} ${H}`, role: "slider", tabindex: 0, "aria-label": "Interval", "aria-valuemin": 0, "aria-valuemax": n - 1 });
     g.append(svg("rect", { x: x(E.span[0]), y: 4, width: Math.max(2, x(E.span[1]) - x(E.span[0])), height: H - 18, fill: "var(--span)" }));
+    for (const v of [-1000, -100, 0, 100, 1000, 10000]) {
+      if (tf(v) < lo || tf(v) > hi) continue;
+      const yy = y(v).toFixed(1);
+      g.append(svg("line", { x1: L, x2: W - Rm, y1: yy, y2: yy, stroke: "var(--grid)", "stroke-width": 0.6 }),
+        svg("text", { x: L - 3, y: +yy + 3, "text-anchor": "end" }, v === 0 ? "$0" : `${v < 0 ? "−" : ""}$${Math.abs(v) >= 1000 ? Math.abs(v) / 1000 + "k" : Math.abs(v)}`));
+    }
     for (const r of E.regionIds) if (r !== E.h.region) g.append(svg("path", { d: E.regions[r].price.map((v, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(v ?? 0).toFixed(1)}`).join(""), fill: "none", stroke: "var(--muted)", "stroke-width": 0.8, opacity: 0.6 }));
     g.append(svg("path", { d: ev.map((v, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(v ?? 0).toFixed(1)}`).join(""), fill: "none", stroke: "var(--accent)", "stroke-width": 2 }));
     const step = Math.max(1, Math.ceil(n / 8));
@@ -343,7 +350,7 @@ export function mountMap(box, files, start, hooks) {
     g.addEventListener("keydown", (e) => {
       if (e.key === "ArrowLeft" || e.key === "ArrowRight") { stop(); goTo(Math.round(target) + (e.key === "ArrowLeft" ? -1 : 1)); e.preventDefault(); }
     });
-    strip.replaceChildren(g, el("p", { class: "note" }, `${SHORT[E.h.region]} price on a square-root scale, other regions grey, the event shaded. Drag to move through the event.`));
+    strip.replaceChildren(g, el("p", { class: "note" }, `${SHORT[E.h.region]} price on a log scale, other regions grey, the event shaded. Drag to move through the event.`));
     S.slider = g;
     return (t) => { const xx = x(t).toFixed(1); set(line, { x1: xx, x2: xx }); set(dot, { cx: xx, cy: y(at(ev, t) ?? 0).toFixed(1) }); };
   }
