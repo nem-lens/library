@@ -202,6 +202,22 @@ async function showEvent(id) {
     note: "MW. Available generation is what scheduled and semi-scheduled plant offered; net interchange is positive when the region exports.",
   })));
 
+  const hasCrr = (ev.crr || []).some((v) => v != null);
+  const ratio = (v) => (v == null ? "" : v.toFixed(2));
+  panels.push(panel(`${region} contingency reserve`, () => hasCrr ? ({
+    chart: el("div", {},
+      el("div", { class: "legend" }, [["Reserve ÷ largest contingency", "#0b5cad"], ["1: just enough", "var(--limit)"]].map(([k, c]) => el("span", {}, el("i", { style: `background:${c}` }), k))),
+      lineChart({ times, span, cursor, onPick: pick, yfmt: ratio, series: [
+        { name: "Contingency reserve ratio", values: ev.crr, colour: "#0b5cad" },
+        { name: "1", values: times.map(() => 1), cls: "limit" },
+      ] })),
+    table: table(["Interval end", "Largest contingency", "MW", "Reserve MW", "Reserve − contingency", "Ratio"],
+      times.map((t, i) => [hhmm(t), ev.contingency[i] || "", num(ev.contingency_mw[i]), num(ev.reserve_mw[i]),
+        ev.reserve_mw[i] == null ? "" : num(ev.reserve_mw[i] - ev.contingency_mw[i]), ratio(ev.crr[i])]), [1]),
+    note: `At ${hhmm(times[cursor])} the largest single loss was ${ev.contingency[cursor] || "–"} (${num(ev.contingency_mw[cursor])} MW); reserve to replace it ${num(ev.reserve_mw[cursor])} MW, ratio ${ratio(ev.crr[cursor])}. ` +
+      "The largest contingency is the biggest unit's output or DC link's inflow (Basslink, Murraylink, Directlink). Reserve is every other unit's available headroom plus room to raise imports to AEMO's limits. Below 1, the region could not replace that loss. Plant only: network outages are not counted, and neighbours are assumed to have the spare to send.",
+  }) : {}));
+
   const fuels = FUEL_ORDER.filter((f) => dispatch.fuels[f] && dispatch.fuels[f].some((v) => Math.abs(v) > 0.5));
   panels.push(panel(`${region} dispatch by fuel`, () => ({
     chart: el("div", {},
