@@ -324,7 +324,8 @@ async function showEvent(id) {
       times.map((t, i) => [hhmm(t), ev.contingency[i] || "", num(ev.contingency_mw[i]), num(ev.reserve_mw[i]),
         ev.reserve_mw[i] == null ? "" : num(ev.reserve_mw[i] - ev.contingency_mw[i]), ratio(ev.crr[i])]), [1]),
     note: `At ${hhmm(times[cursor])} the largest single loss was ${ev.contingency[cursor] || "–"} (${num(ev.contingency_mw[cursor])} MW); reserve to replace it ${num(ev.reserve_mw[cursor])} MW, ratio ${ratio(ev.crr[cursor])}. ` +
-      "The largest contingency is the biggest unit's output or DC link's inflow (Basslink, Murraylink, Directlink). Reserve is every other unit's available headroom plus room to raise imports to AEMO's limits. Below 1, the region could not replace that loss. Plant only: network outages are not counted, and neighbours are assumed to have the spare to send.",
+      "The largest contingency is the biggest unit's output or DC link's inflow (Basslink, Murraylink, Directlink). Reserve is every other unit's available headroom plus room to raise imports to AEMO's limits. Below 1, the region could not replace that loss. Plant only: network outages are not counted, and neighbours are assumed to have the spare to send. " +
+      "Inspired by WattClarity's IRPM (surplus available generation over demand); the library README (github.com/nem-lens/library) says how it differs and why.",
   }) : {}));
 
   const fuels = FUEL_ORDER.filter((f) => dispatch.fuels[f] && dispatch.fuels[f].some((v) => Math.abs(v) > 0.5));
